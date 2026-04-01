@@ -1,0 +1,1024 @@
+[
+  {
+    "id": "npl_policy_jobs",
+    "country_code": "NPL",
+    "policy_name": "Nepal jobs and productivity compact",
+    "period": "2025-2027",
+    "lead_agency": "National Planning Commission and line ministries",
+    "policy_type": "growth-and-jobs",
+    "growth_channels": [
+      "quality jobs",
+      "productivity",
+      "formalization"
+    ],
+    "direct_sdgs": [
+      "SDG8"
+    ],
+    "indirect_sdgs": [
+      "SDG5",
+      "SDG10"
+    ],
+    "implementation_status": "Priority reform track",
+    "source_ids": [
+      "npc-nepal",
+      "undp-insights"
+    ]
+  },
+  {
+    "id": "npl_policy_finance",
+    "country_code": "NPL",
+    "policy_name": "Nepal SDG financing and public investment package",
+    "period": "2025-2027",
+    "lead_agency": "Finance ministry",
+    "policy_type": "fiscal-and-financing",
+    "growth_channels": [
+      "fiscal space",
+      "public investment",
+      "crowding-in private capital"
+    ],
+    "direct_sdgs": [
+      "SDG17"
+    ],
+    "indirect_sdgs": [
+      "SDG8",
+      "SDG9",
+      "SDG16"
+    ],
+    "implementation_status": "Active policy agenda",
+    "source_ids": [
+      "npc-nepal",
+      "imf-weo"
+    ]
+  },
+  {
+    "id": "bgd_policy_jobs",
+    "country_code": "BGD",
+    "policy_name": "Bangladesh jobs and productivity compact",
+    "period": "2025-2027",
+    "lead_agency": "National planning and economic institutions",
+    "policy_type": "growth-and-jobs",
+    "growth_channels": [
+      "quality jobs",
+      "productivity",
+      "formalization"
+    ],
+    "direct_sdgs": [
+      "SDG8"
+    ],
+    "indirect_sdgs": [
+      "SDG5",
+      "SDG10"
+    ],
+    "implementation_status": "Priority reform track",
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "bgd_policy_finance",
+    "country_code": "BGD",
+    "policy_name": "Bangladesh SDG financing and public investment package",
+    "period": "2025-2027",
+    "lead_agency": "Finance ministry",
+    "policy_type": "fiscal-and-financing",
+    "growth_channels": [
+      "fiscal space",
+      "public investment",
+      "crowding-in private capital"
+    ],
+    "direct_sdgs": [
+      "SDG17"
+    ],
+    "indirect_sdgs": [
+      "SDG8",
+      "SDG9",
+      "SDG16"
+    ],
+    "implementation_status": "Active policy agenda",
+    "source_ids": [
+      "imf-weo",
+      "worldbank"
+    ]
+  },
+  {
+    "id": "btn_policy_jobs",
+    "country_code": "BTN",
+    "policy_name": "Bhutan jobs and productivity compact",
+    "period": "2025-2027",
+    "lead_agency": "National planning and economic institutions",
+    "policy_type": "growth-and-jobs",
+    "growth_channels": [
+      "quality jobs",
+      "productivity",
+      "formalization"
+    ],
+    "direct_sdgs": [
+      "SDG8"
+    ],
+    "indirect_sdgs": [
+      "SDG5",
+      "SDG10"
+    ],
+    "implementation_status": "Priority reform track",
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "btn_policy_finance",
+    "country_code": "BTN",
+    "policy_name": "Bhutan SDG financing and public investment package",
+    "period": "2025-2027",
+    "lead_agency": "Finance ministry",
+    "policy_type": "fiscal-and-financing",
+    "growth_channels": [
+      "fiscal space",
+      "public investment",
+      "crowding-in private capital"
+    ],
+    "direct_sdgs": [
+      "SDG17"
+    ],
+    "indirect_sdgs": [
+      "SDG8",
+      "SDG9",
+      "SDG16"
+    ],
+    "implementation_status": "Active policy agenda",
+    "source_ids": [
+      "imf-weo",
+      "worldbank"
+    ]
+  },
+  {
+    "id": "ind_policy_jobs",
+    "country_code": "IND",
+    "policy_name": "India jobs and productivity compact",
+    "period": "2025-2027",
+    "lead_agency": "National planning and economic institutions",
+    "policy_type": "growth-and-jobs",
+    "growth_channels": [
+      "quality jobs",
+      "productivity",
+      "formalization"
+    ],
+    "direct_sdgs": [
+      "SDG8"
+    ],
+    "indirect_sdgs": [
+      "SDG5",
+      "SDG10"
+    ],
+    "implementation_status": "Priority reform track",
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "ind_policy_finance",
+    "country_code": "IND",
+    "policy_name": "India SDG financing and public investment package",
+    "period": "2025-2027",
+    "lead_agency": "Finance ministry",
+    "policy_type": "fiscal-and-financing",
+    "growth_channels": [
+      "fiscal space",
+      "public investment",
+      "crowding-in private capital"
+    ],
+    "direct_sdgs": [
+      "SDG17"
+    ],
+    "indirect_sdgs": [
+      "SDG8",
+      "SDG9",
+      "SDG16"
+    ],
+    "implementation_status": "Active policy agenda",
+    "source_ids": [
+      "imf-weo",
+      "worldbank"
+    ]
+  },
+  {
+    "id": "mdv_policy_jobs",
+    "country_code": "MDV",
+    "policy_name": "Maldives jobs and productivity compact",
+    "period": "2025-2027",
+    "lead_agency": "National planning and economic institutions",
+    "policy_type": "growth-and-jobs",
+    "growth_channels": [
+      "quality jobs",
+      "productivity",
+      "formalization"
+    ],
+    "direct_sdgs": [
+      "SDG8"
+    ],
+    "indirect_sdgs": [
+      "SDG5",
+      "SDG10"
+    ],
+    "implementation_status": "Priority reform track",
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "mdv_policy_finance",
+    "country_code": "MDV",
+    "policy_name": "Maldives SDG financing and public investment package",
+    "period": "2025-2027",
+    "lead_agency": "Finance ministry",
+    "policy_type": "fiscal-and-financing",
+    "growth_channels": [
+      "fiscal space",
+      "public investment",
+      "crowding-in private capital"
+    ],
+    "direct_sdgs": [
+      "SDG17"
+    ],
+    "indirect_sdgs": [
+      "SDG8",
+      "SDG9",
+      "SDG16"
+    ],
+    "implementation_status": "Active policy agenda",
+    "source_ids": [
+      "imf-weo",
+      "worldbank"
+    ]
+  },
+  {
+    "id": "pak_policy_jobs",
+    "country_code": "PAK",
+    "policy_name": "Pakistan jobs and productivity compact",
+    "period": "2025-2027",
+    "lead_agency": "National planning and economic institutions",
+    "policy_type": "growth-and-jobs",
+    "growth_channels": [
+      "quality jobs",
+      "productivity",
+      "formalization"
+    ],
+    "direct_sdgs": [
+      "SDG8"
+    ],
+    "indirect_sdgs": [
+      "SDG5",
+      "SDG10"
+    ],
+    "implementation_status": "Priority reform track",
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "pak_policy_finance",
+    "country_code": "PAK",
+    "policy_name": "Pakistan SDG financing and public investment package",
+    "period": "2025-2027",
+    "lead_agency": "Finance ministry",
+    "policy_type": "fiscal-and-financing",
+    "growth_channels": [
+      "fiscal space",
+      "public investment",
+      "crowding-in private capital"
+    ],
+    "direct_sdgs": [
+      "SDG17"
+    ],
+    "indirect_sdgs": [
+      "SDG8",
+      "SDG9",
+      "SDG16"
+    ],
+    "implementation_status": "Active policy agenda",
+    "source_ids": [
+      "imf-weo",
+      "worldbank"
+    ]
+  },
+  {
+    "id": "lka_policy_jobs",
+    "country_code": "LKA",
+    "policy_name": "Sri Lanka jobs and productivity compact",
+    "period": "2025-2027",
+    "lead_agency": "National planning and economic institutions",
+    "policy_type": "growth-and-jobs",
+    "growth_channels": [
+      "quality jobs",
+      "productivity",
+      "formalization"
+    ],
+    "direct_sdgs": [
+      "SDG8"
+    ],
+    "indirect_sdgs": [
+      "SDG5",
+      "SDG10"
+    ],
+    "implementation_status": "Priority reform track",
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "lka_policy_finance",
+    "country_code": "LKA",
+    "policy_name": "Sri Lanka SDG financing and public investment package",
+    "period": "2025-2027",
+    "lead_agency": "Finance ministry",
+    "policy_type": "fiscal-and-financing",
+    "growth_channels": [
+      "fiscal space",
+      "public investment",
+      "crowding-in private capital"
+    ],
+    "direct_sdgs": [
+      "SDG17"
+    ],
+    "indirect_sdgs": [
+      "SDG8",
+      "SDG9",
+      "SDG16"
+    ],
+    "implementation_status": "Active policy agenda",
+    "source_ids": [
+      "imf-weo",
+      "worldbank"
+    ]
+  },
+  {
+    "id": "idn_policy_jobs",
+    "country_code": "IDN",
+    "policy_name": "Indonesia jobs and productivity compact",
+    "period": "2025-2027",
+    "lead_agency": "National planning and economic institutions",
+    "policy_type": "growth-and-jobs",
+    "growth_channels": [
+      "quality jobs",
+      "productivity",
+      "formalization"
+    ],
+    "direct_sdgs": [
+      "SDG8"
+    ],
+    "indirect_sdgs": [
+      "SDG5",
+      "SDG10"
+    ],
+    "implementation_status": "Priority reform track",
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "idn_policy_finance",
+    "country_code": "IDN",
+    "policy_name": "Indonesia SDG financing and public investment package",
+    "period": "2025-2027",
+    "lead_agency": "Finance ministry",
+    "policy_type": "fiscal-and-financing",
+    "growth_channels": [
+      "fiscal space",
+      "public investment",
+      "crowding-in private capital"
+    ],
+    "direct_sdgs": [
+      "SDG17"
+    ],
+    "indirect_sdgs": [
+      "SDG8",
+      "SDG9",
+      "SDG16"
+    ],
+    "implementation_status": "Active policy agenda",
+    "source_ids": [
+      "imf-weo",
+      "worldbank"
+    ]
+  },
+  {
+    "id": "vnm_policy_jobs",
+    "country_code": "VNM",
+    "policy_name": "Vietnam jobs and productivity compact",
+    "period": "2025-2027",
+    "lead_agency": "National planning and economic institutions",
+    "policy_type": "growth-and-jobs",
+    "growth_channels": [
+      "quality jobs",
+      "productivity",
+      "formalization"
+    ],
+    "direct_sdgs": [
+      "SDG8"
+    ],
+    "indirect_sdgs": [
+      "SDG5",
+      "SDG10"
+    ],
+    "implementation_status": "Priority reform track",
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "vnm_policy_finance",
+    "country_code": "VNM",
+    "policy_name": "Vietnam SDG financing and public investment package",
+    "period": "2025-2027",
+    "lead_agency": "Finance ministry",
+    "policy_type": "fiscal-and-financing",
+    "growth_channels": [
+      "fiscal space",
+      "public investment",
+      "crowding-in private capital"
+    ],
+    "direct_sdgs": [
+      "SDG17"
+    ],
+    "indirect_sdgs": [
+      "SDG8",
+      "SDG9",
+      "SDG16"
+    ],
+    "implementation_status": "Active policy agenda",
+    "source_ids": [
+      "imf-weo",
+      "worldbank"
+    ]
+  },
+  {
+    "id": "phl_policy_jobs",
+    "country_code": "PHL",
+    "policy_name": "Philippines jobs and productivity compact",
+    "period": "2025-2027",
+    "lead_agency": "National planning and economic institutions",
+    "policy_type": "growth-and-jobs",
+    "growth_channels": [
+      "quality jobs",
+      "productivity",
+      "formalization"
+    ],
+    "direct_sdgs": [
+      "SDG8"
+    ],
+    "indirect_sdgs": [
+      "SDG5",
+      "SDG10"
+    ],
+    "implementation_status": "Priority reform track",
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "phl_policy_finance",
+    "country_code": "PHL",
+    "policy_name": "Philippines SDG financing and public investment package",
+    "period": "2025-2027",
+    "lead_agency": "Finance ministry",
+    "policy_type": "fiscal-and-financing",
+    "growth_channels": [
+      "fiscal space",
+      "public investment",
+      "crowding-in private capital"
+    ],
+    "direct_sdgs": [
+      "SDG17"
+    ],
+    "indirect_sdgs": [
+      "SDG8",
+      "SDG9",
+      "SDG16"
+    ],
+    "implementation_status": "Active policy agenda",
+    "source_ids": [
+      "imf-weo",
+      "worldbank"
+    ]
+  },
+  {
+    "id": "tha_policy_jobs",
+    "country_code": "THA",
+    "policy_name": "Thailand jobs and productivity compact",
+    "period": "2025-2027",
+    "lead_agency": "National planning and economic institutions",
+    "policy_type": "growth-and-jobs",
+    "growth_channels": [
+      "quality jobs",
+      "productivity",
+      "formalization"
+    ],
+    "direct_sdgs": [
+      "SDG8"
+    ],
+    "indirect_sdgs": [
+      "SDG5",
+      "SDG10"
+    ],
+    "implementation_status": "Priority reform track",
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "tha_policy_finance",
+    "country_code": "THA",
+    "policy_name": "Thailand SDG financing and public investment package",
+    "period": "2025-2027",
+    "lead_agency": "Finance ministry",
+    "policy_type": "fiscal-and-financing",
+    "growth_channels": [
+      "fiscal space",
+      "public investment",
+      "crowding-in private capital"
+    ],
+    "direct_sdgs": [
+      "SDG17"
+    ],
+    "indirect_sdgs": [
+      "SDG8",
+      "SDG9",
+      "SDG16"
+    ],
+    "implementation_status": "Active policy agenda",
+    "source_ids": [
+      "imf-weo",
+      "worldbank"
+    ]
+  },
+  {
+    "id": "khm_policy_jobs",
+    "country_code": "KHM",
+    "policy_name": "Cambodia jobs and productivity compact",
+    "period": "2025-2027",
+    "lead_agency": "National planning and economic institutions",
+    "policy_type": "growth-and-jobs",
+    "growth_channels": [
+      "quality jobs",
+      "productivity",
+      "formalization"
+    ],
+    "direct_sdgs": [
+      "SDG8"
+    ],
+    "indirect_sdgs": [
+      "SDG5",
+      "SDG10"
+    ],
+    "implementation_status": "Priority reform track",
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "khm_policy_finance",
+    "country_code": "KHM",
+    "policy_name": "Cambodia SDG financing and public investment package",
+    "period": "2025-2027",
+    "lead_agency": "Finance ministry",
+    "policy_type": "fiscal-and-financing",
+    "growth_channels": [
+      "fiscal space",
+      "public investment",
+      "crowding-in private capital"
+    ],
+    "direct_sdgs": [
+      "SDG17"
+    ],
+    "indirect_sdgs": [
+      "SDG8",
+      "SDG9",
+      "SDG16"
+    ],
+    "implementation_status": "Active policy agenda",
+    "source_ids": [
+      "imf-weo",
+      "worldbank"
+    ]
+  },
+  {
+    "id": "lao_policy_jobs",
+    "country_code": "LAO",
+    "policy_name": "Lao PDR jobs and productivity compact",
+    "period": "2025-2027",
+    "lead_agency": "National planning and economic institutions",
+    "policy_type": "growth-and-jobs",
+    "growth_channels": [
+      "quality jobs",
+      "productivity",
+      "formalization"
+    ],
+    "direct_sdgs": [
+      "SDG8"
+    ],
+    "indirect_sdgs": [
+      "SDG5",
+      "SDG10"
+    ],
+    "implementation_status": "Priority reform track",
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "lao_policy_finance",
+    "country_code": "LAO",
+    "policy_name": "Lao PDR SDG financing and public investment package",
+    "period": "2025-2027",
+    "lead_agency": "Finance ministry",
+    "policy_type": "fiscal-and-financing",
+    "growth_channels": [
+      "fiscal space",
+      "public investment",
+      "crowding-in private capital"
+    ],
+    "direct_sdgs": [
+      "SDG17"
+    ],
+    "indirect_sdgs": [
+      "SDG8",
+      "SDG9",
+      "SDG16"
+    ],
+    "implementation_status": "Active policy agenda",
+    "source_ids": [
+      "imf-weo",
+      "worldbank"
+    ]
+  },
+  {
+    "id": "rwa_policy_jobs",
+    "country_code": "RWA",
+    "policy_name": "Rwanda jobs and productivity compact",
+    "period": "2025-2027",
+    "lead_agency": "National planning and economic institutions",
+    "policy_type": "growth-and-jobs",
+    "growth_channels": [
+      "quality jobs",
+      "productivity",
+      "formalization"
+    ],
+    "direct_sdgs": [
+      "SDG8"
+    ],
+    "indirect_sdgs": [
+      "SDG5",
+      "SDG10"
+    ],
+    "implementation_status": "Priority reform track",
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "rwa_policy_finance",
+    "country_code": "RWA",
+    "policy_name": "Rwanda SDG financing and public investment package",
+    "period": "2025-2027",
+    "lead_agency": "Finance ministry",
+    "policy_type": "fiscal-and-financing",
+    "growth_channels": [
+      "fiscal space",
+      "public investment",
+      "crowding-in private capital"
+    ],
+    "direct_sdgs": [
+      "SDG17"
+    ],
+    "indirect_sdgs": [
+      "SDG8",
+      "SDG9",
+      "SDG16"
+    ],
+    "implementation_status": "Active policy agenda",
+    "source_ids": [
+      "imf-weo",
+      "worldbank"
+    ]
+  },
+  {
+    "id": "eth_policy_jobs",
+    "country_code": "ETH",
+    "policy_name": "Ethiopia jobs and productivity compact",
+    "period": "2025-2027",
+    "lead_agency": "National planning and economic institutions",
+    "policy_type": "growth-and-jobs",
+    "growth_channels": [
+      "quality jobs",
+      "productivity",
+      "formalization"
+    ],
+    "direct_sdgs": [
+      "SDG8"
+    ],
+    "indirect_sdgs": [
+      "SDG5",
+      "SDG10"
+    ],
+    "implementation_status": "Priority reform track",
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "eth_policy_finance",
+    "country_code": "ETH",
+    "policy_name": "Ethiopia SDG financing and public investment package",
+    "period": "2025-2027",
+    "lead_agency": "Finance ministry",
+    "policy_type": "fiscal-and-financing",
+    "growth_channels": [
+      "fiscal space",
+      "public investment",
+      "crowding-in private capital"
+    ],
+    "direct_sdgs": [
+      "SDG17"
+    ],
+    "indirect_sdgs": [
+      "SDG8",
+      "SDG9",
+      "SDG16"
+    ],
+    "implementation_status": "Active policy agenda",
+    "source_ids": [
+      "imf-weo",
+      "worldbank"
+    ]
+  },
+  {
+    "id": "ken_policy_jobs",
+    "country_code": "KEN",
+    "policy_name": "Kenya jobs and productivity compact",
+    "period": "2025-2027",
+    "lead_agency": "National planning and economic institutions",
+    "policy_type": "growth-and-jobs",
+    "growth_channels": [
+      "quality jobs",
+      "productivity",
+      "formalization"
+    ],
+    "direct_sdgs": [
+      "SDG8"
+    ],
+    "indirect_sdgs": [
+      "SDG5",
+      "SDG10"
+    ],
+    "implementation_status": "Priority reform track",
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "ken_policy_finance",
+    "country_code": "KEN",
+    "policy_name": "Kenya SDG financing and public investment package",
+    "period": "2025-2027",
+    "lead_agency": "Finance ministry",
+    "policy_type": "fiscal-and-financing",
+    "growth_channels": [
+      "fiscal space",
+      "public investment",
+      "crowding-in private capital"
+    ],
+    "direct_sdgs": [
+      "SDG17"
+    ],
+    "indirect_sdgs": [
+      "SDG8",
+      "SDG9",
+      "SDG16"
+    ],
+    "implementation_status": "Active policy agenda",
+    "source_ids": [
+      "imf-weo",
+      "worldbank"
+    ]
+  },
+  {
+    "id": "mar_policy_jobs",
+    "country_code": "MAR",
+    "policy_name": "Morocco jobs and productivity compact",
+    "period": "2025-2027",
+    "lead_agency": "National planning and economic institutions",
+    "policy_type": "growth-and-jobs",
+    "growth_channels": [
+      "quality jobs",
+      "productivity",
+      "formalization"
+    ],
+    "direct_sdgs": [
+      "SDG8"
+    ],
+    "indirect_sdgs": [
+      "SDG5",
+      "SDG10"
+    ],
+    "implementation_status": "Priority reform track",
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "mar_policy_finance",
+    "country_code": "MAR",
+    "policy_name": "Morocco SDG financing and public investment package",
+    "period": "2025-2027",
+    "lead_agency": "Finance ministry",
+    "policy_type": "fiscal-and-financing",
+    "growth_channels": [
+      "fiscal space",
+      "public investment",
+      "crowding-in private capital"
+    ],
+    "direct_sdgs": [
+      "SDG17"
+    ],
+    "indirect_sdgs": [
+      "SDG8",
+      "SDG9",
+      "SDG16"
+    ],
+    "implementation_status": "Active policy agenda",
+    "source_ids": [
+      "imf-weo",
+      "worldbank"
+    ]
+  },
+  {
+    "id": "mng_policy_jobs",
+    "country_code": "MNG",
+    "policy_name": "Mongolia jobs and productivity compact",
+    "period": "2025-2027",
+    "lead_agency": "National planning and economic institutions",
+    "policy_type": "growth-and-jobs",
+    "growth_channels": [
+      "quality jobs",
+      "productivity",
+      "formalization"
+    ],
+    "direct_sdgs": [
+      "SDG8"
+    ],
+    "indirect_sdgs": [
+      "SDG5",
+      "SDG10"
+    ],
+    "implementation_status": "Priority reform track",
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "mng_policy_finance",
+    "country_code": "MNG",
+    "policy_name": "Mongolia SDG financing and public investment package",
+    "period": "2025-2027",
+    "lead_agency": "Finance ministry",
+    "policy_type": "fiscal-and-financing",
+    "growth_channels": [
+      "fiscal space",
+      "public investment",
+      "crowding-in private capital"
+    ],
+    "direct_sdgs": [
+      "SDG17"
+    ],
+    "indirect_sdgs": [
+      "SDG8",
+      "SDG9",
+      "SDG16"
+    ],
+    "implementation_status": "Active policy agenda",
+    "source_ids": [
+      "imf-weo",
+      "worldbank"
+    ]
+  },
+  {
+    "id": "geo_policy_jobs",
+    "country_code": "GEO",
+    "policy_name": "Georgia jobs and productivity compact",
+    "period": "2025-2027",
+    "lead_agency": "National planning and economic institutions",
+    "policy_type": "growth-and-jobs",
+    "growth_channels": [
+      "quality jobs",
+      "productivity",
+      "formalization"
+    ],
+    "direct_sdgs": [
+      "SDG8"
+    ],
+    "indirect_sdgs": [
+      "SDG5",
+      "SDG10"
+    ],
+    "implementation_status": "Priority reform track",
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "geo_policy_finance",
+    "country_code": "GEO",
+    "policy_name": "Georgia SDG financing and public investment package",
+    "period": "2025-2027",
+    "lead_agency": "Finance ministry",
+    "policy_type": "fiscal-and-financing",
+    "growth_channels": [
+      "fiscal space",
+      "public investment",
+      "crowding-in private capital"
+    ],
+    "direct_sdgs": [
+      "SDG17"
+    ],
+    "indirect_sdgs": [
+      "SDG8",
+      "SDG9",
+      "SDG16"
+    ],
+    "implementation_status": "Active policy agenda",
+    "source_ids": [
+      "imf-weo",
+      "worldbank"
+    ]
+  },
+  {
+    "id": "npl_policy_ldc",
+    "country_code": "NPL",
+    "policy_name": "Smooth transition and export competitiveness package",
+    "period": "2025-2027",
+    "lead_agency": "National Planning Commission",
+    "policy_type": "LDC transition",
+    "growth_channels": [
+      "exports",
+      "firm capability",
+      "transition risk management"
+    ],
+    "direct_sdgs": [
+      "SDG17"
+    ],
+    "indirect_sdgs": [
+      "SDG8",
+      "SDG9",
+      "SDG10"
+    ],
+    "implementation_status": "Transition-critical",
+    "source_ids": [
+      "npc-nepal",
+      "undp-insights"
+    ]
+  },
+  {
+    "id": "npl_policy_local",
+    "country_code": "NPL",
+    "policy_name": "Subnational execution and service delivery reform",
+    "period": "2025-2027",
+    "lead_agency": "Ministry of Federal Affairs and General Administration",
+    "policy_type": "implementation",
+    "growth_channels": [
+      "budget execution",
+      "local delivery",
+      "territorial inclusion"
+    ],
+    "direct_sdgs": [
+      "SDG16"
+    ],
+    "indirect_sdgs": [
+      "SDG3",
+      "SDG4",
+      "SDG6",
+      "SDG10"
+    ],
+    "implementation_status": "Priority reform track",
+    "source_ids": [
+      "npc-nepal",
+      "undp-diagnostics"
+    ]
+  }
+]

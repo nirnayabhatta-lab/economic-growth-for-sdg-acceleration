@@ -1,0 +1,15 @@
+{
+  "title": "Economic Growth for SDG Acceleration",
+  "version": "0.1.0",
+  "built_on": "2026-04-01",
+  "default_country": "NPL",
+  "comparison_indicator_ids": [
+    "sdg_index",
+    "gdp_growth",
+    "quality_jobs_index",
+    "tax_gdp",
+    "resilience_readiness",
+    "implementation_capacity"
+  ],
+  "method_note": "This v1 platform uses curated country snapshots from public sources and structured policy mappings. It is designed for analytical orientation and decision support, not live statistical reporting."
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "cca",
+    "title": "CCA",
+    "role": "UN system diagnostic",
+    "what_it_does": "Pulls together development risks, inequalities, bottlenecks, and emerging pressures into one country analysis base.",
+    "when_to_use": "Use when deciding which constraints matter most before programming or policy sequencing."
+  },
+  {
+    "id": "unsdcf",
+    "title": "UNSDCF",
+    "role": "Strategic cooperation framework",
+    "what_it_does": "Translates country analysis into shared UN priorities, results, and coordination structures.",
+    "when_to_use": "Use when connecting evidence to UN programming and results groups."
+  },
+  {
+    "id": "inff",
+    "title": "INFF",
+    "role": "SDG financing framework",
+    "what_it_does": "Links development priorities to financing sources, sequencing, governance, and monitoring.",
+    "when_to_use": "Use when policy priorities are credible but financing pathways remain fragmented."
+  },
+  {
+    "id": "dfa",
+    "title": "DFA",
+    "role": "Finance diagnostic",
+    "what_it_does": "Maps finance flows, bottlenecks, and gaps to support financing choices.",
+    "when_to_use": "Use when the financing picture is unclear or fragmented."
+  },
+  {
+    "id": "growth_diagnostics",
+    "title": "Growth diagnostics",
+    "role": "Prioritization tool",
+    "what_it_does": "Identifies the most binding constraints to growth and transformation.",
+    "when_to_use": "Use when long lists of problems need to become a realistic sequence."
+  },
+  {
+    "id": "cge",
+    "title": "CGE",
+    "role": "Scenario model",
+    "what_it_does": "Tests economy-wide effects of shocks and policy changes across sectors and agents.",
+    "when_to_use": "Use after the strategic question is clear and a scenario lens is needed."
+  },
+  {
+    "id": "sam",
+    "title": "SAM",
+    "role": "Data architecture",
+    "what_it_does": "Provides the accounting backbone for economy-wide scenario work.",
+    "when_to_use": "Use when linking macro choices to sectoral and household effects."
+  },
+  {
+    "id": "survey_analytics",
+    "title": "Survey analytics",
+    "role": "Applied evidence tool",
+    "what_it_does": "Turns household, firm, labor, or perception surveys into practical policy insights.",
+    "when_to_use": "Use when grounded evidence on behavior or constraints is needed."
+  },
+  {
+    "id": "disaggregation",
+    "title": "Data disaggregation",
+    "role": "LNOB lens",
+    "what_it_does": "Shows who and where is being left behind beyond national averages.",
+    "when_to_use": "Use whenever a national trend risks hiding exclusion."
+  },
+  {
+    "id": "early_warning",
+    "title": "Early-warning indicators",
+    "role": "Risk-monitoring tool",
+    "what_it_does": "Flags when shocks or implementation failures may derail SDG delivery.",
+    "when_to_use": "Use when country teams need timely risk signals rather than retrospective diagnosis."
+  }
+]

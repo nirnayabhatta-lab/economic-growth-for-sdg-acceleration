@@ -1,0 +1,73 @@
+[
+  {
+    "id": "macro_productivity",
+    "title": "Macroeconomic structure, productivity, and diversification",
+    "summary": "Track whether the growth model is moving toward more productive sectors, deeper export capability, and stronger value creation.",
+    "indicator_ids": [
+      "sdg_index",
+      "gdp_growth",
+      "manufacturing_share",
+      "export_readiness"
+    ]
+  },
+  {
+    "id": "jobs_quality",
+    "title": "Employment, informality, and quality jobs",
+    "summary": "Focus on whether growth is translating into better jobs, lower informality, and stronger labor-market absorption.",
+    "indicator_ids": [
+      "youth_unemployment",
+      "informality",
+      "quality_jobs_index"
+    ]
+  },
+  {
+    "id": "gender_lnob",
+    "title": "Gender, LNOB, and territorial inequality",
+    "summary": "Assess whether progress reaches women, lagging geographies, and groups at risk of being left behind.",
+    "indicator_ids": [
+      "female_lfp",
+      "territorial_gap",
+      "inclusion_readiness"
+    ]
+  },
+  {
+    "id": "ldc_transition",
+    "title": "LDC graduation and smooth transition risk",
+    "summary": "Measure the exposure and readiness of countries that must sustain momentum after preference changes and transition pressures.",
+    "indicator_ids": [
+      "transition_risk",
+      "preference_exposure",
+      "readiness_index"
+    ]
+  },
+  {
+    "id": "financing_fiscal",
+    "title": "SDG financing, fiscal space, and private capital",
+    "summary": "Look at how public finance and private capital combine to support SDG-aligned investment and implementation.",
+    "indicator_ids": [
+      "tax_gdp",
+      "public_investment",
+      "private_capital"
+    ]
+  },
+  {
+    "id": "climate_resilience",
+    "title": "Climate, disaster risk, and resilience",
+    "summary": "Track whether countries can translate growth into resilience rather than letting repeated shocks erase gains.",
+    "indicator_ids": [
+      "disaster_risk",
+      "clean_energy",
+      "resilience_readiness"
+    ]
+  },
+  {
+    "id": "governance_capacity",
+    "title": "Governance, coordination, and implementation capacity",
+    "summary": "Follow the systems that turn plans and budgets into results: execution, coordination, and data capability.",
+    "indicator_ids": [
+      "implementation_capacity",
+      "budget_execution",
+      "data_readiness"
+    ]
+  }
+]

@@ -1,0 +1,7944 @@
+[
+  {
+    "id": "sdg_index",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "SDG index",
+    "value": 68.6,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG1",
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "sdsn2025"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "gdp_growth",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "GDP growth",
+    "value": 4.5,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "manufacturing_share",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Manufacturing share of GDP",
+    "value": 5.6,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "export_readiness",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Export readiness index",
+    "value": 41,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "youth_unemployment",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Youth unemployment",
+    "value": 19.8,
+    "unit": "%",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "informality",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Informal employment",
+    "value": 83,
+    "unit": "% of employment",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "quality_jobs_index",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Quality jobs index",
+    "value": 38,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "female_lfp",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Female labor force participation",
+    "value": 29,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "territorial_gap",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Territorial inequality gap",
+    "value": 62,
+    "unit": "0-100",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG10"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "inclusion_readiness",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Inclusive delivery readiness",
+    "value": 48,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG5",
+      "SDG10",
+      "SDG16"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "transition_risk",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "LDC transition risk",
+    "value": 71,
+    "unit": "0-100 risk",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "npc-nepal",
+      "undp-insights"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "preference_exposure",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Trade preference exposure",
+    "value": 36,
+    "unit": "% of exports",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "npc-nepal",
+      "undp-insights"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "readiness_index",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Transition readiness index",
+    "value": 44,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "npc-nepal",
+      "undp-insights"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "tax_gdp",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Tax to GDP",
+    "value": 21.2,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "public_investment",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Public investment",
+    "value": 5.8,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "private_capital",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Private capital mobilization index",
+    "value": 39,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "disaster_risk",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Disaster and climate risk",
+    "value": 78,
+    "unit": "0-100 risk",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "clean_energy",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Clean energy share",
+    "value": 61,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG7",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "resilience_readiness",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Resilience readiness",
+    "value": 46,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "implementation_capacity",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Implementation capacity",
+    "value": 42,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "budget_execution",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Capital budget execution",
+    "value": 74,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "data_readiness",
+    "country_code": "NPL",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Data readiness",
+    "value": 55,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated Nepal-centered analytical snapshot."
+  },
+  {
+    "id": "sdg_index",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "SDG index",
+    "value": 65.9,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG1",
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "sdsn2025"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "gdp_growth",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "GDP growth",
+    "value": 5.3,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "manufacturing_share",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Manufacturing share of GDP",
+    "value": 17.4,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "export_readiness",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Export readiness index",
+    "value": 63,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "youth_unemployment",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Youth unemployment",
+    "value": 12.7,
+    "unit": "%",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "informality",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Informal employment",
+    "value": 72,
+    "unit": "% of employment",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "quality_jobs_index",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Quality jobs index",
+    "value": 46,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "female_lfp",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Female labor force participation",
+    "value": 36,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "territorial_gap",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Territorial inequality gap",
+    "value": 54,
+    "unit": "0-100",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG10"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "inclusion_readiness",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Inclusive delivery readiness",
+    "value": 53,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG5",
+      "SDG10",
+      "SDG16"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "transition_risk",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "LDC transition risk",
+    "value": 59,
+    "unit": "0-100 risk",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "preference_exposure",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Trade preference exposure",
+    "value": 41,
+    "unit": "% of exports",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "readiness_index",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Transition readiness index",
+    "value": 52,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "tax_gdp",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Tax to GDP",
+    "value": 9.2,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "public_investment",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Public investment",
+    "value": 6.4,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "private_capital",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Private capital mobilization index",
+    "value": 44,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "disaster_risk",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Disaster and climate risk",
+    "value": 82,
+    "unit": "0-100 risk",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "clean_energy",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Clean energy share",
+    "value": 17,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG7",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "resilience_readiness",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Resilience readiness",
+    "value": 58,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "implementation_capacity",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Implementation capacity",
+    "value": 51,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "budget_execution",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Capital budget execution",
+    "value": 81,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "data_readiness",
+    "country_code": "BGD",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Data readiness",
+    "value": 58,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "sdg_index",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "SDG index",
+    "value": 70.3,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG1",
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "sdsn2025"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "gdp_growth",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "GDP growth",
+    "value": 4.2,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "manufacturing_share",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Manufacturing share of GDP",
+    "value": 6.3,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "export_readiness",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Export readiness index",
+    "value": 47,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "youth_unemployment",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Youth unemployment",
+    "value": 16.1,
+    "unit": "%",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "informality",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Informal employment",
+    "value": 67,
+    "unit": "% of employment",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "quality_jobs_index",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Quality jobs index",
+    "value": 43,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "female_lfp",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Female labor force participation",
+    "value": 52,
+    "unit": "%",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "territorial_gap",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Territorial inequality gap",
+    "value": 41,
+    "unit": "0-100",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG10"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "inclusion_readiness",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Inclusive delivery readiness",
+    "value": 57,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG5",
+      "SDG10",
+      "SDG16"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "transition_risk",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "LDC transition risk",
+    "value": 46,
+    "unit": "0-100 risk",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "preference_exposure",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Trade preference exposure",
+    "value": 20,
+    "unit": "% of exports",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "readiness_index",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Transition readiness index",
+    "value": 58,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "tax_gdp",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Tax to GDP",
+    "value": 15.8,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "public_investment",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Public investment",
+    "value": 11.1,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "private_capital",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Private capital mobilization index",
+    "value": 34,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "disaster_risk",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Disaster and climate risk",
+    "value": 55,
+    "unit": "0-100 risk",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "clean_energy",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Clean energy share",
+    "value": 93,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG7",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "resilience_readiness",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Resilience readiness",
+    "value": 61,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "implementation_capacity",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Implementation capacity",
+    "value": 56,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "budget_execution",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Capital budget execution",
+    "value": 82,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "data_readiness",
+    "country_code": "BTN",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Data readiness",
+    "value": 59,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "sdg_index",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "SDG index",
+    "value": 63.8,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG1",
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "sdsn2025"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "gdp_growth",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "GDP growth",
+    "value": 6.4,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "manufacturing_share",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Manufacturing share of GDP",
+    "value": 13.1,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "export_readiness",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Export readiness index",
+    "value": 58,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "youth_unemployment",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Youth unemployment",
+    "value": 17.1,
+    "unit": "%",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "informality",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Informal employment",
+    "value": 77,
+    "unit": "% of employment",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "quality_jobs_index",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Quality jobs index",
+    "value": 49,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "female_lfp",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Female labor force participation",
+    "value": 32,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "territorial_gap",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Territorial inequality gap",
+    "value": 67,
+    "unit": "0-100",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG10"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "inclusion_readiness",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Inclusive delivery readiness",
+    "value": 50,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG5",
+      "SDG10",
+      "SDG16"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "transition_risk",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "LDC transition risk",
+    "value": 39,
+    "unit": "0-100 risk",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "preference_exposure",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Trade preference exposure",
+    "value": 9,
+    "unit": "% of exports",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "readiness_index",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Transition readiness index",
+    "value": 61,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "tax_gdp",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Tax to GDP",
+    "value": 18.0,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "public_investment",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Public investment",
+    "value": 6.1,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "private_capital",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Private capital mobilization index",
+    "value": 57,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "disaster_risk",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Disaster and climate risk",
+    "value": 66,
+    "unit": "0-100 risk",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "clean_energy",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Clean energy share",
+    "value": 29,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG7",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "resilience_readiness",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Resilience readiness",
+    "value": 54,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "implementation_capacity",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Implementation capacity",
+    "value": 57,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "budget_execution",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Capital budget execution",
+    "value": 79,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "data_readiness",
+    "country_code": "IND",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Data readiness",
+    "value": 63,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "sdg_index",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "SDG index",
+    "value": 70.1,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG1",
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "sdsn2025"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "gdp_growth",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "GDP growth",
+    "value": 5.6,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "manufacturing_share",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Manufacturing share of GDP",
+    "value": 4.2,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "export_readiness",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Export readiness index",
+    "value": 45,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "youth_unemployment",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Youth unemployment",
+    "value": 10.2,
+    "unit": "%",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "informality",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Informal employment",
+    "value": 48,
+    "unit": "% of employment",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "quality_jobs_index",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Quality jobs index",
+    "value": 56,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "female_lfp",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Female labor force participation",
+    "value": 44,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "territorial_gap",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Territorial inequality gap",
+    "value": 38,
+    "unit": "0-100",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG10"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "inclusion_readiness",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Inclusive delivery readiness",
+    "value": 60,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG5",
+      "SDG10",
+      "SDG16"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "transition_risk",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "LDC transition risk",
+    "value": 43,
+    "unit": "0-100 risk",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "preference_exposure",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Trade preference exposure",
+    "value": 5,
+    "unit": "% of exports",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "readiness_index",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Transition readiness index",
+    "value": 62,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "tax_gdp",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Tax to GDP",
+    "value": 15.3,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "public_investment",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Public investment",
+    "value": 9.5,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "private_capital",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Private capital mobilization index",
+    "value": 52,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "disaster_risk",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Disaster and climate risk",
+    "value": 84,
+    "unit": "0-100 risk",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "clean_energy",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Clean energy share",
+    "value": 12,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG7",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "resilience_readiness",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Resilience readiness",
+    "value": 57,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "implementation_capacity",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Implementation capacity",
+    "value": 59,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "budget_execution",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Capital budget execution",
+    "value": 80,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "data_readiness",
+    "country_code": "MDV",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Data readiness",
+    "value": 61,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "sdg_index",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "SDG index",
+    "value": 57.0,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG1",
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "sdsn2025"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "gdp_growth",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "GDP growth",
+    "value": 2.7,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "manufacturing_share",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Manufacturing share of GDP",
+    "value": 12.0,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "export_readiness",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Export readiness index",
+    "value": 42,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "youth_unemployment",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Youth unemployment",
+    "value": 16.4,
+    "unit": "%",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "informality",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Informal employment",
+    "value": 73,
+    "unit": "% of employment",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "quality_jobs_index",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Quality jobs index",
+    "value": 35,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "female_lfp",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Female labor force participation",
+    "value": 24,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "territorial_gap",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Territorial inequality gap",
+    "value": 69,
+    "unit": "0-100",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG10"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "inclusion_readiness",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Inclusive delivery readiness",
+    "value": 39,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG5",
+      "SDG10",
+      "SDG16"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "transition_risk",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "LDC transition risk",
+    "value": 75,
+    "unit": "0-100 risk",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "preference_exposure",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Trade preference exposure",
+    "value": 18,
+    "unit": "% of exports",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "readiness_index",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Transition readiness index",
+    "value": 37,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "tax_gdp",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Tax to GDP",
+    "value": 9.8,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "public_investment",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Public investment",
+    "value": 3.5,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "private_capital",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Private capital mobilization index",
+    "value": 29,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "disaster_risk",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Disaster and climate risk",
+    "value": 79,
+    "unit": "0-100 risk",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "clean_energy",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Clean energy share",
+    "value": 21,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG7",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "resilience_readiness",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Resilience readiness",
+    "value": 38,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "implementation_capacity",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Implementation capacity",
+    "value": 33,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "budget_execution",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Capital budget execution",
+    "value": 65,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "data_readiness",
+    "country_code": "PAK",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Data readiness",
+    "value": 47,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "sdg_index",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "SDG index",
+    "value": 69.2,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG1",
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "sdsn2025"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "gdp_growth",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "GDP growth",
+    "value": 3.1,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "manufacturing_share",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Manufacturing share of GDP",
+    "value": 15.2,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "export_readiness",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Export readiness index",
+    "value": 56,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "youth_unemployment",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Youth unemployment",
+    "value": 20.1,
+    "unit": "%",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "informality",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Informal employment",
+    "value": 64,
+    "unit": "% of employment",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "quality_jobs_index",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Quality jobs index",
+    "value": 51,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "female_lfp",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Female labor force participation",
+    "value": 34,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "territorial_gap",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Territorial inequality gap",
+    "value": 45,
+    "unit": "0-100",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG10"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "inclusion_readiness",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Inclusive delivery readiness",
+    "value": 58,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG5",
+      "SDG10",
+      "SDG16"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "transition_risk",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "LDC transition risk",
+    "value": 63,
+    "unit": "0-100 risk",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "preference_exposure",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Trade preference exposure",
+    "value": 12,
+    "unit": "% of exports",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "readiness_index",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Transition readiness index",
+    "value": 54,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "tax_gdp",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Tax to GDP",
+    "value": 11.5,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "public_investment",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Public investment",
+    "value": 4.1,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "private_capital",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Private capital mobilization index",
+    "value": 41,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "disaster_risk",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Disaster and climate risk",
+    "value": 61,
+    "unit": "0-100 risk",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "clean_energy",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Clean energy share",
+    "value": 38,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG7",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "resilience_readiness",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Resilience readiness",
+    "value": 55,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "implementation_capacity",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Implementation capacity",
+    "value": 48,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "budget_execution",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Capital budget execution",
+    "value": 72,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "data_readiness",
+    "country_code": "LKA",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Data readiness",
+    "value": 67,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "sdg_index",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "SDG index",
+    "value": 69.5,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG1",
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "sdsn2025"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "gdp_growth",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "GDP growth",
+    "value": 5.0,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "manufacturing_share",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Manufacturing share of GDP",
+    "value": 19.0,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "export_readiness",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Export readiness index",
+    "value": 61,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "youth_unemployment",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Youth unemployment",
+    "value": 13.2,
+    "unit": "%",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "informality",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Informal employment",
+    "value": 59,
+    "unit": "% of employment",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "quality_jobs_index",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Quality jobs index",
+    "value": 54,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "female_lfp",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Female labor force participation",
+    "value": 54,
+    "unit": "%",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "territorial_gap",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Territorial inequality gap",
+    "value": 57,
+    "unit": "0-100",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG10"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "inclusion_readiness",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Inclusive delivery readiness",
+    "value": 56,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG5",
+      "SDG10",
+      "SDG16"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "transition_risk",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "LDC transition risk",
+    "value": 36,
+    "unit": "0-100 risk",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "preference_exposure",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Trade preference exposure",
+    "value": 7,
+    "unit": "% of exports",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "readiness_index",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Transition readiness index",
+    "value": 64,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "tax_gdp",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Tax to GDP",
+    "value": 11.9,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "public_investment",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Public investment",
+    "value": 4.8,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "private_capital",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Private capital mobilization index",
+    "value": 55,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "disaster_risk",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Disaster and climate risk",
+    "value": 71,
+    "unit": "0-100 risk",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "clean_energy",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Clean energy share",
+    "value": 19,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG7",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "resilience_readiness",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Resilience readiness",
+    "value": 57,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "implementation_capacity",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Implementation capacity",
+    "value": 59,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "budget_execution",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Capital budget execution",
+    "value": 84,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "data_readiness",
+    "country_code": "IDN",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Data readiness",
+    "value": 68,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "sdg_index",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "SDG index",
+    "value": 73.1,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG1",
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "sdsn2025"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "gdp_growth",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "GDP growth",
+    "value": 6.2,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "manufacturing_share",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Manufacturing share of GDP",
+    "value": 24.6,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "export_readiness",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Export readiness index",
+    "value": 78,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "youth_unemployment",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Youth unemployment",
+    "value": 7.9,
+    "unit": "%",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "informality",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Informal employment",
+    "value": 52,
+    "unit": "% of employment",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "quality_jobs_index",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Quality jobs index",
+    "value": 67,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "female_lfp",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Female labor force participation",
+    "value": 69,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "territorial_gap",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Territorial inequality gap",
+    "value": 36,
+    "unit": "0-100",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG10"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "inclusion_readiness",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Inclusive delivery readiness",
+    "value": 67,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG5",
+      "SDG10",
+      "SDG16"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "transition_risk",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "LDC transition risk",
+    "value": 24,
+    "unit": "0-100 risk",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "preference_exposure",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Trade preference exposure",
+    "value": 11,
+    "unit": "% of exports",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "readiness_index",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Transition readiness index",
+    "value": 74,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "tax_gdp",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Tax to GDP",
+    "value": 18.5,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "public_investment",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Public investment",
+    "value": 5.9,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "private_capital",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Private capital mobilization index",
+    "value": 68,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "disaster_risk",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Disaster and climate risk",
+    "value": 63,
+    "unit": "0-100 risk",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "clean_energy",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Clean energy share",
+    "value": 27,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG7",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "resilience_readiness",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Resilience readiness",
+    "value": 66,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "implementation_capacity",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Implementation capacity",
+    "value": 68,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "budget_execution",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Capital budget execution",
+    "value": 87,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "data_readiness",
+    "country_code": "VNM",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Data readiness",
+    "value": 73,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "sdg_index",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "SDG index",
+    "value": 68.9,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG1",
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "sdsn2025"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "gdp_growth",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "GDP growth",
+    "value": 5.7,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "manufacturing_share",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Manufacturing share of GDP",
+    "value": 17.8,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "export_readiness",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Export readiness index",
+    "value": 54,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "youth_unemployment",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Youth unemployment",
+    "value": 10.5,
+    "unit": "%",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "informality",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Informal employment",
+    "value": 63,
+    "unit": "% of employment",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "quality_jobs_index",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Quality jobs index",
+    "value": 49,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "female_lfp",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Female labor force participation",
+    "value": 47,
+    "unit": "%",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "territorial_gap",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Territorial inequality gap",
+    "value": 58,
+    "unit": "0-100",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG10"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "inclusion_readiness",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Inclusive delivery readiness",
+    "value": 54,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG5",
+      "SDG10",
+      "SDG16"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "transition_risk",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "LDC transition risk",
+    "value": 34,
+    "unit": "0-100 risk",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "preference_exposure",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Trade preference exposure",
+    "value": 9,
+    "unit": "% of exports",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "readiness_index",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Transition readiness index",
+    "value": 58,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "tax_gdp",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Tax to GDP",
+    "value": 14.1,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "public_investment",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Public investment",
+    "value": 5.2,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "private_capital",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Private capital mobilization index",
+    "value": 50,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "disaster_risk",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Disaster and climate risk",
+    "value": 80,
+    "unit": "0-100 risk",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "clean_energy",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Clean energy share",
+    "value": 24,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG7",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "resilience_readiness",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Resilience readiness",
+    "value": 53,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "implementation_capacity",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Implementation capacity",
+    "value": 50,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "budget_execution",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Capital budget execution",
+    "value": 77,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "data_readiness",
+    "country_code": "PHL",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Data readiness",
+    "value": 66,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "sdg_index",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "SDG index",
+    "value": 74.7,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG1",
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "sdsn2025"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "gdp_growth",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "GDP growth",
+    "value": 3.4,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "manufacturing_share",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Manufacturing share of GDP",
+    "value": 26.9,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "export_readiness",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Export readiness index",
+    "value": 72,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "youth_unemployment",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Youth unemployment",
+    "value": 5.8,
+    "unit": "%",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "informality",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Informal employment",
+    "value": 44,
+    "unit": "% of employment",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "quality_jobs_index",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Quality jobs index",
+    "value": 70,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "female_lfp",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Female labor force participation",
+    "value": 60,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "territorial_gap",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Territorial inequality gap",
+    "value": 34,
+    "unit": "0-100",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG10"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "inclusion_readiness",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Inclusive delivery readiness",
+    "value": 72,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG5",
+      "SDG10",
+      "SDG16"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "transition_risk",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "LDC transition risk",
+    "value": 20,
+    "unit": "0-100 risk",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "preference_exposure",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Trade preference exposure",
+    "value": 4,
+    "unit": "% of exports",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "readiness_index",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Transition readiness index",
+    "value": 76,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "tax_gdp",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Tax to GDP",
+    "value": 16.4,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "public_investment",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Public investment",
+    "value": 6.3,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "private_capital",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Private capital mobilization index",
+    "value": 63,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "disaster_risk",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Disaster and climate risk",
+    "value": 57,
+    "unit": "0-100 risk",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "clean_energy",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Clean energy share",
+    "value": 23,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG7",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "resilience_readiness",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Resilience readiness",
+    "value": 70,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "implementation_capacity",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Implementation capacity",
+    "value": 71,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "budget_execution",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Capital budget execution",
+    "value": 89,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "data_readiness",
+    "country_code": "THA",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Data readiness",
+    "value": 74,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "sdg_index",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "SDG index",
+    "value": 67.1,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG1",
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "sdsn2025"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "gdp_growth",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "GDP growth",
+    "value": 5.1,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "manufacturing_share",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Manufacturing share of GDP",
+    "value": 15.3,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "export_readiness",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Export readiness index",
+    "value": 60,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "youth_unemployment",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Youth unemployment",
+    "value": 6.9,
+    "unit": "%",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "informality",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Informal employment",
+    "value": 70,
+    "unit": "% of employment",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "quality_jobs_index",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Quality jobs index",
+    "value": 44,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "female_lfp",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Female labor force participation",
+    "value": 72,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "territorial_gap",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Territorial inequality gap",
+    "value": 52,
+    "unit": "0-100",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG10"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "inclusion_readiness",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Inclusive delivery readiness",
+    "value": 50,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG5",
+      "SDG10",
+      "SDG16"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "transition_risk",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "LDC transition risk",
+    "value": 47,
+    "unit": "0-100 risk",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "preference_exposure",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Trade preference exposure",
+    "value": 28,
+    "unit": "% of exports",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "readiness_index",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Transition readiness index",
+    "value": 49,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "tax_gdp",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Tax to GDP",
+    "value": 18.2,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "public_investment",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Public investment",
+    "value": 7.1,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "private_capital",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Private capital mobilization index",
+    "value": 46,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "disaster_risk",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Disaster and climate risk",
+    "value": 59,
+    "unit": "0-100 risk",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "clean_energy",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Clean energy share",
+    "value": 31,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG7",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "resilience_readiness",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Resilience readiness",
+    "value": 48,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "implementation_capacity",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Implementation capacity",
+    "value": 49,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "budget_execution",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Capital budget execution",
+    "value": 80,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "data_readiness",
+    "country_code": "KHM",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Data readiness",
+    "value": 56,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "sdg_index",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "SDG index",
+    "value": 64.3,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG1",
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "sdsn2025"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "gdp_growth",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "GDP growth",
+    "value": 4.1,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "manufacturing_share",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Manufacturing share of GDP",
+    "value": 7.3,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "export_readiness",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Export readiness index",
+    "value": 43,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "youth_unemployment",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Youth unemployment",
+    "value": 8.6,
+    "unit": "%",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "informality",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Informal employment",
+    "value": 76,
+    "unit": "% of employment",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "quality_jobs_index",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Quality jobs index",
+    "value": 36,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "female_lfp",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Female labor force participation",
+    "value": 61,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "territorial_gap",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Territorial inequality gap",
+    "value": 60,
+    "unit": "0-100",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG10"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "inclusion_readiness",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Inclusive delivery readiness",
+    "value": 44,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG5",
+      "SDG10",
+      "SDG16"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "transition_risk",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "LDC transition risk",
+    "value": 62,
+    "unit": "0-100 risk",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "preference_exposure",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Trade preference exposure",
+    "value": 22,
+    "unit": "% of exports",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "readiness_index",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Transition readiness index",
+    "value": 41,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "tax_gdp",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Tax to GDP",
+    "value": 12.1,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "public_investment",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Public investment",
+    "value": 7.6,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "private_capital",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Private capital mobilization index",
+    "value": 31,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "disaster_risk",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Disaster and climate risk",
+    "value": 58,
+    "unit": "0-100 risk",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "clean_energy",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Clean energy share",
+    "value": 69,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG7",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "resilience_readiness",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Resilience readiness",
+    "value": 42,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "implementation_capacity",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Implementation capacity",
+    "value": 38,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "budget_execution",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Capital budget execution",
+    "value": 68,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "data_readiness",
+    "country_code": "LAO",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Data readiness",
+    "value": 49,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "sdg_index",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "SDG index",
+    "value": 67.5,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG1",
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "sdsn2025"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "gdp_growth",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "GDP growth",
+    "value": 7.1,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "manufacturing_share",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Manufacturing share of GDP",
+    "value": 10.2,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "export_readiness",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Export readiness index",
+    "value": 46,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "youth_unemployment",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Youth unemployment",
+    "value": 17.2,
+    "unit": "%",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "informality",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Informal employment",
+    "value": 76,
+    "unit": "% of employment",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "quality_jobs_index",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Quality jobs index",
+    "value": 45,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "female_lfp",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Female labor force participation",
+    "value": 55,
+    "unit": "%",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "territorial_gap",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Territorial inequality gap",
+    "value": 39,
+    "unit": "0-100",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG10"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "inclusion_readiness",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Inclusive delivery readiness",
+    "value": 61,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG5",
+      "SDG10",
+      "SDG16"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "transition_risk",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "LDC transition risk",
+    "value": 48,
+    "unit": "0-100 risk",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "preference_exposure",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Trade preference exposure",
+    "value": 17,
+    "unit": "% of exports",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "readiness_index",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Transition readiness index",
+    "value": 63,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "tax_gdp",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Tax to GDP",
+    "value": 16.9,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "public_investment",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Public investment",
+    "value": 9.4,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "private_capital",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Private capital mobilization index",
+    "value": 40,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "disaster_risk",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Disaster and climate risk",
+    "value": 49,
+    "unit": "0-100 risk",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "clean_energy",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Clean energy share",
+    "value": 52,
+    "unit": "%",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG7",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "resilience_readiness",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Resilience readiness",
+    "value": 63,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "implementation_capacity",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Implementation capacity",
+    "value": 71,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "budget_execution",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Capital budget execution",
+    "value": 88,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "data_readiness",
+    "country_code": "RWA",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Data readiness",
+    "value": 67,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "sdg_index",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "SDG index",
+    "value": 58.2,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG1",
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "sdsn2025"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "gdp_growth",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "GDP growth",
+    "value": 6.1,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "manufacturing_share",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Manufacturing share of GDP",
+    "value": 6.8,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "export_readiness",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Export readiness index",
+    "value": 36,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "youth_unemployment",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Youth unemployment",
+    "value": 8.3,
+    "unit": "%",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "informality",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Informal employment",
+    "value": 83,
+    "unit": "% of employment",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "quality_jobs_index",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Quality jobs index",
+    "value": 33,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "female_lfp",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Female labor force participation",
+    "value": 77,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "territorial_gap",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Territorial inequality gap",
+    "value": 65,
+    "unit": "0-100",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG10"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "inclusion_readiness",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Inclusive delivery readiness",
+    "value": 42,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG5",
+      "SDG10",
+      "SDG16"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "transition_risk",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "LDC transition risk",
+    "value": 68,
+    "unit": "0-100 risk",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "preference_exposure",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Trade preference exposure",
+    "value": 31,
+    "unit": "% of exports",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "readiness_index",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Transition readiness index",
+    "value": 35,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "tax_gdp",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Tax to GDP",
+    "value": 8.1,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "public_investment",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Public investment",
+    "value": 11.2,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "private_capital",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Private capital mobilization index",
+    "value": 24,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "disaster_risk",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Disaster and climate risk",
+    "value": 69,
+    "unit": "0-100 risk",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "clean_energy",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Clean energy share",
+    "value": 91,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG7",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "resilience_readiness",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Resilience readiness",
+    "value": 39,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "implementation_capacity",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Implementation capacity",
+    "value": 35,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "budget_execution",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Capital budget execution",
+    "value": 63,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "data_readiness",
+    "country_code": "ETH",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Data readiness",
+    "value": 46,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "sdg_index",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "SDG index",
+    "value": 63.4,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG1",
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "sdsn2025"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "gdp_growth",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "GDP growth",
+    "value": 5.0,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "manufacturing_share",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Manufacturing share of GDP",
+    "value": 8.1,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "export_readiness",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Export readiness index",
+    "value": 44,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "youth_unemployment",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Youth unemployment",
+    "value": 13.5,
+    "unit": "%",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "informality",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Informal employment",
+    "value": 79,
+    "unit": "% of employment",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "quality_jobs_index",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Quality jobs index",
+    "value": 41,
+    "unit": "0-100",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "female_lfp",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Female labor force participation",
+    "value": 63,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "territorial_gap",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Territorial inequality gap",
+    "value": 53,
+    "unit": "0-100",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG10"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "inclusion_readiness",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Inclusive delivery readiness",
+    "value": 49,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG5",
+      "SDG10",
+      "SDG16"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "transition_risk",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "LDC transition risk",
+    "value": 54,
+    "unit": "0-100 risk",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "preference_exposure",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Trade preference exposure",
+    "value": 16,
+    "unit": "% of exports",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "readiness_index",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Transition readiness index",
+    "value": 47,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "tax_gdp",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Tax to GDP",
+    "value": 14.0,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "public_investment",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Public investment",
+    "value": 6.5,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "private_capital",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Private capital mobilization index",
+    "value": 47,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "disaster_risk",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Disaster and climate risk",
+    "value": 61,
+    "unit": "0-100 risk",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "clean_energy",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Clean energy share",
+    "value": 73,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG7",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "resilience_readiness",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Resilience readiness",
+    "value": 51,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "implementation_capacity",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Implementation capacity",
+    "value": 46,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "budget_execution",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Capital budget execution",
+    "value": 75,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "data_readiness",
+    "country_code": "KEN",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Data readiness",
+    "value": 60,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "sdg_index",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "SDG index",
+    "value": 70.4,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG1",
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "sdsn2025"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "gdp_growth",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "GDP growth",
+    "value": 3.5,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "manufacturing_share",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Manufacturing share of GDP",
+    "value": 16.9,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "export_readiness",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Export readiness index",
+    "value": 66,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "youth_unemployment",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Youth unemployment",
+    "value": 22.1,
+    "unit": "%",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "informality",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Informal employment",
+    "value": 67,
+    "unit": "% of employment",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "quality_jobs_index",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Quality jobs index",
+    "value": 50,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "female_lfp",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Female labor force participation",
+    "value": 21,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "territorial_gap",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Territorial inequality gap",
+    "value": 50,
+    "unit": "0-100",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG10"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "inclusion_readiness",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Inclusive delivery readiness",
+    "value": 57,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG5",
+      "SDG10",
+      "SDG16"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "transition_risk",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "LDC transition risk",
+    "value": 29,
+    "unit": "0-100 risk",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "preference_exposure",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Trade preference exposure",
+    "value": 8,
+    "unit": "% of exports",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "readiness_index",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Transition readiness index",
+    "value": 64,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "tax_gdp",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Tax to GDP",
+    "value": 21.4,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "public_investment",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Public investment",
+    "value": 6.0,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "private_capital",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Private capital mobilization index",
+    "value": 51,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "disaster_risk",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Disaster and climate risk",
+    "value": 46,
+    "unit": "0-100 risk",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "clean_energy",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Clean energy share",
+    "value": 38,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG7",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "resilience_readiness",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Resilience readiness",
+    "value": 65,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "implementation_capacity",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Implementation capacity",
+    "value": 58,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "budget_execution",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Capital budget execution",
+    "value": 84,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "data_readiness",
+    "country_code": "MAR",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Data readiness",
+    "value": 65,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "sdg_index",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "SDG index",
+    "value": 68.1,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG1",
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "sdsn2025"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "gdp_growth",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "GDP growth",
+    "value": 5.4,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "manufacturing_share",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Manufacturing share of GDP",
+    "value": 9.1,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "export_readiness",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Export readiness index",
+    "value": 52,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "youth_unemployment",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Youth unemployment",
+    "value": 11.3,
+    "unit": "%",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "informality",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Informal employment",
+    "value": 56,
+    "unit": "% of employment",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "quality_jobs_index",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Quality jobs index",
+    "value": 52,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "female_lfp",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Female labor force participation",
+    "value": 54,
+    "unit": "%",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "territorial_gap",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Territorial inequality gap",
+    "value": 59,
+    "unit": "0-100",
+    "trend": "High concern",
+    "sdg_links": [
+      "SDG10"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "inclusion_readiness",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Inclusive delivery readiness",
+    "value": 55,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG5",
+      "SDG10",
+      "SDG16"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "transition_risk",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "LDC transition risk",
+    "value": 41,
+    "unit": "0-100 risk",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "preference_exposure",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Trade preference exposure",
+    "value": 6,
+    "unit": "% of exports",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "readiness_index",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Transition readiness index",
+    "value": 57,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "tax_gdp",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Tax to GDP",
+    "value": 24.1,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "public_investment",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Public investment",
+    "value": 7.4,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "private_capital",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Private capital mobilization index",
+    "value": 45,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "disaster_risk",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Disaster and climate risk",
+    "value": 44,
+    "unit": "0-100 risk",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "clean_energy",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Clean energy share",
+    "value": 23,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG7",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "resilience_readiness",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Resilience readiness",
+    "value": 52,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "implementation_capacity",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Implementation capacity",
+    "value": 52,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "budget_execution",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Capital budget execution",
+    "value": 79,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "data_readiness",
+    "country_code": "MNG",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Data readiness",
+    "value": 64,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "sdg_index",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "SDG index",
+    "value": 72.2,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG1",
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "sdsn2025"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "gdp_growth",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "GDP growth",
+    "value": 5.5,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "manufacturing_share",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Manufacturing share of GDP",
+    "value": 11.2,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG8",
+      "SDG9"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "export_readiness",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "macro_productivity",
+    "label": "Export readiness index",
+    "value": 62,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "youth_unemployment",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Youth unemployment",
+    "value": 15.7,
+    "unit": "%",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "informality",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Informal employment",
+    "value": 43,
+    "unit": "% of employment",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "quality_jobs_index",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "jobs_quality",
+    "label": "Quality jobs index",
+    "value": 60,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG8"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "female_lfp",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Female labor force participation",
+    "value": 57,
+    "unit": "%",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "source_ids": [
+      "ilostat",
+      "worldbank"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "territorial_gap",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Territorial inequality gap",
+    "value": 33,
+    "unit": "0-100",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG10"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "inclusion_readiness",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "gender_lnob",
+    "label": "Inclusive delivery readiness",
+    "value": 68,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG5",
+      "SDG10",
+      "SDG16"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "transition_risk",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "LDC transition risk",
+    "value": 22,
+    "unit": "0-100 risk",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "preference_exposure",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Trade preference exposure",
+    "value": 3,
+    "unit": "% of exports",
+    "trend": "Contained",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "readiness_index",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "ldc_transition",
+    "label": "Transition readiness index",
+    "value": 72,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "tax_gdp",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Tax to GDP",
+    "value": 22.0,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "public_investment",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Public investment",
+    "value": 6.2,
+    "unit": "% of GDP",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG9",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "private_capital",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "financing_fiscal",
+    "label": "Private capital mobilization index",
+    "value": 58,
+    "unit": "0-100",
+    "trend": "Mixed progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG17"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "disaster_risk",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Disaster and climate risk",
+    "value": 32,
+    "unit": "0-100 risk",
+    "trend": "Watchlist",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "clean_energy",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Clean energy share",
+    "value": 32,
+    "unit": "%",
+    "trend": "Needs acceleration",
+    "sdg_links": [
+      "SDG7",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "resilience_readiness",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "climate_resilience",
+    "label": "Resilience readiness",
+    "value": 69,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG11",
+      "SDG13"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "implementation_capacity",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Implementation capacity",
+    "value": 73,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "budget_execution",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Capital budget execution",
+    "value": 91,
+    "unit": "%",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  },
+  {
+    "id": "data_readiness",
+    "country_code": "GEO",
+    "year": 2025,
+    "lens": "governance_capacity",
+    "label": "Data readiness",
+    "value": 76,
+    "unit": "0-100",
+    "trend": "Strengthening",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "source_ids": [
+      "undp-diagnostics",
+      "adb-key"
+    ],
+    "note": "Curated comparator snapshot for cross-country perspective."
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "sdsn2025",
+    "label": "Sustainable Development Report 2025 country profiles",
+    "url": "https://dashboards.sdgindex.org/",
+    "quality": "high",
+    "coverage": "SDG performance and dashboard context",
+    "last_updated": "2025"
+  },
+  {
+    "id": "worldbank",
+    "label": "World Bank World Development Indicators",
+    "url": "https://databank.worldbank.org/source/world-development-indicators",
+    "quality": "high",
+    "coverage": "Macro, jobs, infrastructure, and social indicators",
+    "last_updated": "2025"
+  },
+  {
+    "id": "ilostat",
+    "label": "ILOSTAT",
+    "url": "https://ilostat.ilo.org/data/",
+    "quality": "high",
+    "coverage": "Labor market and informality indicators",
+    "last_updated": "2025"
+  },
+  {
+    "id": "undp-insights",
+    "label": "UNDP Integrated SDG Insights",
+    "url": "https://sdgpush-insights.undp.org/",
+    "quality": "high",
+    "coverage": "Country interlinkages and accelerators",
+    "last_updated": "2025"
+  },
+  {
+    "id": "undp-diagnostics",
+    "label": "UNDP SDG Diagnostics",
+    "url": "https://sdgdiagnostics.data.undp.org/",
+    "quality": "high",
+    "coverage": "Trend diagnostics and country SDG context",
+    "last_updated": "2025"
+  },
+  {
+    "id": "npc-nepal",
+    "label": "National Planning Commission Nepal SDG and policy documents",
+    "url": "https://www.npc.gov.np/",
+    "quality": "high",
+    "coverage": "Nepal SDG roadmaps, plans, financing, and transition framing",
+    "last_updated": "2025"
+  },
+  {
+    "id": "adb-key",
+    "label": "ADB Key Indicators",
+    "url": "https://www.adb.org/publications/key-indicators-asia-and-pacific-2024",
+    "quality": "medium",
+    "coverage": "Regional comparison benchmarks",
+    "last_updated": "2024"
+  },
+  {
+    "id": "imf-weo",
+    "label": "IMF World Economic Outlook",
+    "url": "https://www.imf.org/en/Publications/WEO",
+    "quality": "medium",
+    "coverage": "Growth, fiscal, and macro context",
+    "last_updated": "2025"
+  }
+]

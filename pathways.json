@@ -1,0 +1,211 @@
+[
+  {
+    "id": "npl_hydro",
+    "country_scope": "NPL",
+    "driver": "Hydropower and energy reliability",
+    "channel": "Industrial power availability",
+    "outcome": "Higher-value jobs and SDG 7, 8, 9 outcomes",
+    "sdg_links": [
+      "SDG7",
+      "SDG8",
+      "SDG9"
+    ],
+    "directness": "direct",
+    "evidence_strength": "strong",
+    "policy_relevance": "Requires grid quality, industrial policy, and subnational delivery."
+  },
+  {
+    "id": "npl_agri",
+    "country_scope": "NPL",
+    "driver": "Agrifood productivity",
+    "channel": "Rural incomes and nutrition",
+    "outcome": "Poverty reduction and SDG 1, 2, 8 gains",
+    "sdg_links": [
+      "SDG1",
+      "SDG2",
+      "SDG8"
+    ],
+    "directness": "direct",
+    "evidence_strength": "strong",
+    "policy_relevance": "Most effective when market access and climate resilience improve together."
+  },
+  {
+    "id": "npl_women",
+    "country_scope": "NPL",
+    "driver": "Care, skills, and women's enterprise support",
+    "channel": "Female labor participation",
+    "outcome": "SDG 5, 8, and 10 gains through quality jobs",
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "directness": "direct",
+    "evidence_strength": "strong",
+    "policy_relevance": "Requires childcare, finance, transport, and social norm shifts."
+  },
+  {
+    "id": "npl_exports",
+    "country_scope": "NPL",
+    "driver": "Trade logistics and export upgrading",
+    "channel": "Foreign exchange and firm productivity",
+    "outcome": "Fiscal space and SDG financing resilience",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG17"
+    ],
+    "directness": "indirect",
+    "evidence_strength": "strong",
+    "policy_relevance": "Especially important post-LDC graduation."
+  },
+  {
+    "id": "npl_localgov",
+    "country_scope": "NPL",
+    "driver": "Local capital execution",
+    "channel": "Service delivery quality",
+    "outcome": "Direct SDG gains in health, education, and water",
+    "sdg_links": [
+      "SDG3",
+      "SDG4",
+      "SDG6",
+      "SDG16"
+    ],
+    "directness": "direct",
+    "evidence_strength": "strong",
+    "policy_relevance": "Execution quality matters as much as budget allocation."
+  },
+  {
+    "id": "npl_msmes",
+    "country_scope": "NPL",
+    "driver": "MSME finance and digitalization",
+    "channel": "Productivity and formalization",
+    "outcome": "Better jobs and more inclusive growth",
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10"
+    ],
+    "directness": "indirect",
+    "evidence_strength": "medium",
+    "policy_relevance": "Works best with targeted business development support."
+  },
+  {
+    "id": "npl_roads",
+    "country_scope": "NPL",
+    "driver": "Climate-resilient local roads",
+    "channel": "Market access and territorial inclusion",
+    "outcome": "SDG 8, 10, 11, and 13 spillovers",
+    "sdg_links": [
+      "SDG8",
+      "SDG10",
+      "SDG11",
+      "SDG13"
+    ],
+    "directness": "indirect",
+    "evidence_strength": "strong",
+    "policy_relevance": "Most valuable in lagging provinces and high-exposure districts."
+  },
+  {
+    "id": "npl_dpf",
+    "country_scope": "NPL",
+    "driver": "Digital public finance and procurement",
+    "channel": "Budget execution and accountability",
+    "outcome": "Higher implementation quality and SDG 16, 17 outcomes",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "directness": "direct",
+    "evidence_strength": "medium",
+    "policy_relevance": "Reduces leakage and improves financing credibility."
+  },
+  {
+    "id": "npl_tourism",
+    "country_scope": "NPL",
+    "driver": "Tourism quality upgrading",
+    "channel": "Local nonfarm employment",
+    "outcome": "Jobs, local revenue, and resilience co-benefits",
+    "sdg_links": [
+      "SDG8",
+      "SDG11",
+      "SDG12"
+    ],
+    "directness": "indirect",
+    "evidence_strength": "medium",
+    "policy_relevance": "Needs local capacity and sustainability safeguards."
+  },
+  {
+    "id": "npl_remit",
+    "country_scope": "NPL",
+    "driver": "Remittance-to-investment conversion",
+    "channel": "Household enterprise and local capital",
+    "outcome": "Inclusive growth and reduced vulnerability",
+    "sdg_links": [
+      "SDG1",
+      "SDG8",
+      "SDG10"
+    ],
+    "directness": "indirect",
+    "evidence_strength": "medium",
+    "policy_relevance": "Requires financial products and credible local investment channels."
+  },
+  {
+    "id": "regional_jobs",
+    "country_scope": "cross-country",
+    "driver": "Export diversification",
+    "channel": "Quality jobs and wage growth",
+    "outcome": "SDG 8 and 10 progress",
+    "sdg_links": [
+      "SDG8",
+      "SDG10"
+    ],
+    "directness": "indirect",
+    "evidence_strength": "strong",
+    "policy_relevance": "Seen most clearly in structural transformation success cases such as Vietnam."
+  },
+  {
+    "id": "regional_fiscal",
+    "country_scope": "cross-country",
+    "driver": "Tax effort and budget credibility",
+    "channel": "Public investment quality",
+    "outcome": "SDG delivery capacity",
+    "sdg_links": [
+      "SDG16",
+      "SDG17"
+    ],
+    "directness": "direct",
+    "evidence_strength": "strong",
+    "policy_relevance": "Fiscal capacity amplifies all other SDG pathways."
+  },
+  {
+    "id": "regional_resilience",
+    "country_scope": "cross-country",
+    "driver": "Resilience-sensitive infrastructure",
+    "channel": "Shock absorption",
+    "outcome": "Lower losses and more stable development gains",
+    "sdg_links": [
+      "SDG9",
+      "SDG11",
+      "SDG13"
+    ],
+    "directness": "indirect",
+    "evidence_strength": "strong",
+    "policy_relevance": "Countries with stronger resilience systems retain more growth gains."
+  },
+  {
+    "id": "regional_gender",
+    "country_scope": "cross-country",
+    "driver": "Women's economic inclusion",
+    "channel": "Labor supply and firm productivity",
+    "outcome": "Broad-based SDG acceleration",
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "directness": "indirect",
+    "evidence_strength": "strong",
+    "policy_relevance": "One of the clearest multi-SDG accelerators across regions."
+  }
+]
