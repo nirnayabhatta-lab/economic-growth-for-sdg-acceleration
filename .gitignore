@@ -1,0 +1,12 @@
+.DS_Store
+.python-version
+__pycache__/
+*.pyc
+.coverage
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+.idea/
+.vscode/
+

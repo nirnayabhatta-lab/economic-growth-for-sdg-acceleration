@@ -1,0 +1,1103 @@
+[
+  {
+    "country_code": "NPL",
+    "year": 2025,
+    "ministry_or_sector": "Transport and connectivity",
+    "program_area": "Logistics, roads, and market access",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "connectivity",
+      "trade",
+      "territorial inclusion"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10",
+      "SDG11"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "NPL",
+    "year": 2025,
+    "ministry_or_sector": "Education and skills",
+    "program_area": "Skills, employability, and inclusion",
+    "budget_type": "Recurrent and capital",
+    "growth_channels": [
+      "human capital",
+      "quality jobs",
+      "women and youth inclusion"
+    ],
+    "sdg_links": [
+      "SDG4",
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "NPL",
+    "year": 2025,
+    "ministry_or_sector": "Climate and local resilience",
+    "program_area": "Resilient infrastructure and local risk reduction",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "resilience",
+      "service continuity",
+      "asset protection"
+    ],
+    "sdg_links": [
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "BGD",
+    "year": 2025,
+    "ministry_or_sector": "Transport and connectivity",
+    "program_area": "Logistics, roads, and market access",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "connectivity",
+      "trade",
+      "territorial inclusion"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10",
+      "SDG11"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "BGD",
+    "year": 2025,
+    "ministry_or_sector": "Education and skills",
+    "program_area": "Skills, employability, and inclusion",
+    "budget_type": "Recurrent and capital",
+    "growth_channels": [
+      "human capital",
+      "quality jobs",
+      "women and youth inclusion"
+    ],
+    "sdg_links": [
+      "SDG4",
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "BGD",
+    "year": 2025,
+    "ministry_or_sector": "Climate and local resilience",
+    "program_area": "Resilient infrastructure and local risk reduction",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "resilience",
+      "service continuity",
+      "asset protection"
+    ],
+    "sdg_links": [
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "BTN",
+    "year": 2025,
+    "ministry_or_sector": "Transport and connectivity",
+    "program_area": "Logistics, roads, and market access",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "connectivity",
+      "trade",
+      "territorial inclusion"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10",
+      "SDG11"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "BTN",
+    "year": 2025,
+    "ministry_or_sector": "Education and skills",
+    "program_area": "Skills, employability, and inclusion",
+    "budget_type": "Recurrent and capital",
+    "growth_channels": [
+      "human capital",
+      "quality jobs",
+      "women and youth inclusion"
+    ],
+    "sdg_links": [
+      "SDG4",
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "BTN",
+    "year": 2025,
+    "ministry_or_sector": "Climate and local resilience",
+    "program_area": "Resilient infrastructure and local risk reduction",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "resilience",
+      "service continuity",
+      "asset protection"
+    ],
+    "sdg_links": [
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "IND",
+    "year": 2025,
+    "ministry_or_sector": "Transport and connectivity",
+    "program_area": "Logistics, roads, and market access",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "connectivity",
+      "trade",
+      "territorial inclusion"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10",
+      "SDG11"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "IND",
+    "year": 2025,
+    "ministry_or_sector": "Education and skills",
+    "program_area": "Skills, employability, and inclusion",
+    "budget_type": "Recurrent and capital",
+    "growth_channels": [
+      "human capital",
+      "quality jobs",
+      "women and youth inclusion"
+    ],
+    "sdg_links": [
+      "SDG4",
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "IND",
+    "year": 2025,
+    "ministry_or_sector": "Climate and local resilience",
+    "program_area": "Resilient infrastructure and local risk reduction",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "resilience",
+      "service continuity",
+      "asset protection"
+    ],
+    "sdg_links": [
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "MDV",
+    "year": 2025,
+    "ministry_or_sector": "Transport and connectivity",
+    "program_area": "Logistics, roads, and market access",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "connectivity",
+      "trade",
+      "territorial inclusion"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10",
+      "SDG11"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "MDV",
+    "year": 2025,
+    "ministry_or_sector": "Education and skills",
+    "program_area": "Skills, employability, and inclusion",
+    "budget_type": "Recurrent and capital",
+    "growth_channels": [
+      "human capital",
+      "quality jobs",
+      "women and youth inclusion"
+    ],
+    "sdg_links": [
+      "SDG4",
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "MDV",
+    "year": 2025,
+    "ministry_or_sector": "Climate and local resilience",
+    "program_area": "Resilient infrastructure and local risk reduction",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "resilience",
+      "service continuity",
+      "asset protection"
+    ],
+    "sdg_links": [
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "PAK",
+    "year": 2025,
+    "ministry_or_sector": "Transport and connectivity",
+    "program_area": "Logistics, roads, and market access",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "connectivity",
+      "trade",
+      "territorial inclusion"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10",
+      "SDG11"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "PAK",
+    "year": 2025,
+    "ministry_or_sector": "Education and skills",
+    "program_area": "Skills, employability, and inclusion",
+    "budget_type": "Recurrent and capital",
+    "growth_channels": [
+      "human capital",
+      "quality jobs",
+      "women and youth inclusion"
+    ],
+    "sdg_links": [
+      "SDG4",
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "PAK",
+    "year": 2025,
+    "ministry_or_sector": "Climate and local resilience",
+    "program_area": "Resilient infrastructure and local risk reduction",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "resilience",
+      "service continuity",
+      "asset protection"
+    ],
+    "sdg_links": [
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "LKA",
+    "year": 2025,
+    "ministry_or_sector": "Transport and connectivity",
+    "program_area": "Logistics, roads, and market access",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "connectivity",
+      "trade",
+      "territorial inclusion"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10",
+      "SDG11"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "LKA",
+    "year": 2025,
+    "ministry_or_sector": "Education and skills",
+    "program_area": "Skills, employability, and inclusion",
+    "budget_type": "Recurrent and capital",
+    "growth_channels": [
+      "human capital",
+      "quality jobs",
+      "women and youth inclusion"
+    ],
+    "sdg_links": [
+      "SDG4",
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "LKA",
+    "year": 2025,
+    "ministry_or_sector": "Climate and local resilience",
+    "program_area": "Resilient infrastructure and local risk reduction",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "resilience",
+      "service continuity",
+      "asset protection"
+    ],
+    "sdg_links": [
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "IDN",
+    "year": 2025,
+    "ministry_or_sector": "Transport and connectivity",
+    "program_area": "Logistics, roads, and market access",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "connectivity",
+      "trade",
+      "territorial inclusion"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10",
+      "SDG11"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "IDN",
+    "year": 2025,
+    "ministry_or_sector": "Education and skills",
+    "program_area": "Skills, employability, and inclusion",
+    "budget_type": "Recurrent and capital",
+    "growth_channels": [
+      "human capital",
+      "quality jobs",
+      "women and youth inclusion"
+    ],
+    "sdg_links": [
+      "SDG4",
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "IDN",
+    "year": 2025,
+    "ministry_or_sector": "Climate and local resilience",
+    "program_area": "Resilient infrastructure and local risk reduction",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "resilience",
+      "service continuity",
+      "asset protection"
+    ],
+    "sdg_links": [
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "VNM",
+    "year": 2025,
+    "ministry_or_sector": "Transport and connectivity",
+    "program_area": "Logistics, roads, and market access",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "connectivity",
+      "trade",
+      "territorial inclusion"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10",
+      "SDG11"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "VNM",
+    "year": 2025,
+    "ministry_or_sector": "Education and skills",
+    "program_area": "Skills, employability, and inclusion",
+    "budget_type": "Recurrent and capital",
+    "growth_channels": [
+      "human capital",
+      "quality jobs",
+      "women and youth inclusion"
+    ],
+    "sdg_links": [
+      "SDG4",
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "VNM",
+    "year": 2025,
+    "ministry_or_sector": "Climate and local resilience",
+    "program_area": "Resilient infrastructure and local risk reduction",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "resilience",
+      "service continuity",
+      "asset protection"
+    ],
+    "sdg_links": [
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "PHL",
+    "year": 2025,
+    "ministry_or_sector": "Transport and connectivity",
+    "program_area": "Logistics, roads, and market access",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "connectivity",
+      "trade",
+      "territorial inclusion"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10",
+      "SDG11"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "PHL",
+    "year": 2025,
+    "ministry_or_sector": "Education and skills",
+    "program_area": "Skills, employability, and inclusion",
+    "budget_type": "Recurrent and capital",
+    "growth_channels": [
+      "human capital",
+      "quality jobs",
+      "women and youth inclusion"
+    ],
+    "sdg_links": [
+      "SDG4",
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "PHL",
+    "year": 2025,
+    "ministry_or_sector": "Climate and local resilience",
+    "program_area": "Resilient infrastructure and local risk reduction",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "resilience",
+      "service continuity",
+      "asset protection"
+    ],
+    "sdg_links": [
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "THA",
+    "year": 2025,
+    "ministry_or_sector": "Transport and connectivity",
+    "program_area": "Logistics, roads, and market access",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "connectivity",
+      "trade",
+      "territorial inclusion"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10",
+      "SDG11"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "THA",
+    "year": 2025,
+    "ministry_or_sector": "Education and skills",
+    "program_area": "Skills, employability, and inclusion",
+    "budget_type": "Recurrent and capital",
+    "growth_channels": [
+      "human capital",
+      "quality jobs",
+      "women and youth inclusion"
+    ],
+    "sdg_links": [
+      "SDG4",
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "THA",
+    "year": 2025,
+    "ministry_or_sector": "Climate and local resilience",
+    "program_area": "Resilient infrastructure and local risk reduction",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "resilience",
+      "service continuity",
+      "asset protection"
+    ],
+    "sdg_links": [
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "KHM",
+    "year": 2025,
+    "ministry_or_sector": "Transport and connectivity",
+    "program_area": "Logistics, roads, and market access",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "connectivity",
+      "trade",
+      "territorial inclusion"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10",
+      "SDG11"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "KHM",
+    "year": 2025,
+    "ministry_or_sector": "Education and skills",
+    "program_area": "Skills, employability, and inclusion",
+    "budget_type": "Recurrent and capital",
+    "growth_channels": [
+      "human capital",
+      "quality jobs",
+      "women and youth inclusion"
+    ],
+    "sdg_links": [
+      "SDG4",
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "KHM",
+    "year": 2025,
+    "ministry_or_sector": "Climate and local resilience",
+    "program_area": "Resilient infrastructure and local risk reduction",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "resilience",
+      "service continuity",
+      "asset protection"
+    ],
+    "sdg_links": [
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "LAO",
+    "year": 2025,
+    "ministry_or_sector": "Transport and connectivity",
+    "program_area": "Logistics, roads, and market access",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "connectivity",
+      "trade",
+      "territorial inclusion"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10",
+      "SDG11"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "LAO",
+    "year": 2025,
+    "ministry_or_sector": "Education and skills",
+    "program_area": "Skills, employability, and inclusion",
+    "budget_type": "Recurrent and capital",
+    "growth_channels": [
+      "human capital",
+      "quality jobs",
+      "women and youth inclusion"
+    ],
+    "sdg_links": [
+      "SDG4",
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "LAO",
+    "year": 2025,
+    "ministry_or_sector": "Climate and local resilience",
+    "program_area": "Resilient infrastructure and local risk reduction",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "resilience",
+      "service continuity",
+      "asset protection"
+    ],
+    "sdg_links": [
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "RWA",
+    "year": 2025,
+    "ministry_or_sector": "Transport and connectivity",
+    "program_area": "Logistics, roads, and market access",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "connectivity",
+      "trade",
+      "territorial inclusion"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10",
+      "SDG11"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "RWA",
+    "year": 2025,
+    "ministry_or_sector": "Education and skills",
+    "program_area": "Skills, employability, and inclusion",
+    "budget_type": "Recurrent and capital",
+    "growth_channels": [
+      "human capital",
+      "quality jobs",
+      "women and youth inclusion"
+    ],
+    "sdg_links": [
+      "SDG4",
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "RWA",
+    "year": 2025,
+    "ministry_or_sector": "Climate and local resilience",
+    "program_area": "Resilient infrastructure and local risk reduction",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "resilience",
+      "service continuity",
+      "asset protection"
+    ],
+    "sdg_links": [
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "ETH",
+    "year": 2025,
+    "ministry_or_sector": "Transport and connectivity",
+    "program_area": "Logistics, roads, and market access",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "connectivity",
+      "trade",
+      "territorial inclusion"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10",
+      "SDG11"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "ETH",
+    "year": 2025,
+    "ministry_or_sector": "Education and skills",
+    "program_area": "Skills, employability, and inclusion",
+    "budget_type": "Recurrent and capital",
+    "growth_channels": [
+      "human capital",
+      "quality jobs",
+      "women and youth inclusion"
+    ],
+    "sdg_links": [
+      "SDG4",
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "ETH",
+    "year": 2025,
+    "ministry_or_sector": "Climate and local resilience",
+    "program_area": "Resilient infrastructure and local risk reduction",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "resilience",
+      "service continuity",
+      "asset protection"
+    ],
+    "sdg_links": [
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "KEN",
+    "year": 2025,
+    "ministry_or_sector": "Transport and connectivity",
+    "program_area": "Logistics, roads, and market access",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "connectivity",
+      "trade",
+      "territorial inclusion"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10",
+      "SDG11"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "KEN",
+    "year": 2025,
+    "ministry_or_sector": "Education and skills",
+    "program_area": "Skills, employability, and inclusion",
+    "budget_type": "Recurrent and capital",
+    "growth_channels": [
+      "human capital",
+      "quality jobs",
+      "women and youth inclusion"
+    ],
+    "sdg_links": [
+      "SDG4",
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "KEN",
+    "year": 2025,
+    "ministry_or_sector": "Climate and local resilience",
+    "program_area": "Resilient infrastructure and local risk reduction",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "resilience",
+      "service continuity",
+      "asset protection"
+    ],
+    "sdg_links": [
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "MAR",
+    "year": 2025,
+    "ministry_or_sector": "Transport and connectivity",
+    "program_area": "Logistics, roads, and market access",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "connectivity",
+      "trade",
+      "territorial inclusion"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10",
+      "SDG11"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "MAR",
+    "year": 2025,
+    "ministry_or_sector": "Education and skills",
+    "program_area": "Skills, employability, and inclusion",
+    "budget_type": "Recurrent and capital",
+    "growth_channels": [
+      "human capital",
+      "quality jobs",
+      "women and youth inclusion"
+    ],
+    "sdg_links": [
+      "SDG4",
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "MAR",
+    "year": 2025,
+    "ministry_or_sector": "Climate and local resilience",
+    "program_area": "Resilient infrastructure and local risk reduction",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "resilience",
+      "service continuity",
+      "asset protection"
+    ],
+    "sdg_links": [
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "MNG",
+    "year": 2025,
+    "ministry_or_sector": "Transport and connectivity",
+    "program_area": "Logistics, roads, and market access",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "connectivity",
+      "trade",
+      "territorial inclusion"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10",
+      "SDG11"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "MNG",
+    "year": 2025,
+    "ministry_or_sector": "Education and skills",
+    "program_area": "Skills, employability, and inclusion",
+    "budget_type": "Recurrent and capital",
+    "growth_channels": [
+      "human capital",
+      "quality jobs",
+      "women and youth inclusion"
+    ],
+    "sdg_links": [
+      "SDG4",
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "MNG",
+    "year": 2025,
+    "ministry_or_sector": "Climate and local resilience",
+    "program_area": "Resilient infrastructure and local risk reduction",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "resilience",
+      "service continuity",
+      "asset protection"
+    ],
+    "sdg_links": [
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "GEO",
+    "year": 2025,
+    "ministry_or_sector": "Transport and connectivity",
+    "program_area": "Logistics, roads, and market access",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "connectivity",
+      "trade",
+      "territorial inclusion"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10",
+      "SDG11"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "GEO",
+    "year": 2025,
+    "ministry_or_sector": "Education and skills",
+    "program_area": "Skills, employability, and inclusion",
+    "budget_type": "Recurrent and capital",
+    "growth_channels": [
+      "human capital",
+      "quality jobs",
+      "women and youth inclusion"
+    ],
+    "sdg_links": [
+      "SDG4",
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "GEO",
+    "year": 2025,
+    "ministry_or_sector": "Climate and local resilience",
+    "program_area": "Resilient infrastructure and local risk reduction",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "resilience",
+      "service continuity",
+      "asset protection"
+    ],
+    "sdg_links": [
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "country_code": "NPL",
+    "year": 2025,
+    "ministry_or_sector": "Energy",
+    "program_area": "Grid reliability and productive electricity use",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "industrial power",
+      "firm competitiveness",
+      "clean energy"
+    ],
+    "sdg_links": [
+      "SDG7",
+      "SDG8",
+      "SDG9",
+      "SDG13"
+    ],
+    "confidence": "High"
+  },
+  {
+    "country_code": "NPL",
+    "year": 2025,
+    "ministry_or_sector": "Federal and local development",
+    "program_area": "Local capital execution and maintenance",
+    "budget_type": "Capital",
+    "growth_channels": [
+      "service delivery",
+      "territorial inclusion",
+      "implementation quality"
+    ],
+    "sdg_links": [
+      "SDG10",
+      "SDG11",
+      "SDG16"
+    ],
+    "confidence": "High"
+  }
+]

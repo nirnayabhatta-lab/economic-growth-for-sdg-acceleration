@@ -1,0 +1,1464 @@
+[
+  {
+    "id": "npl_accel_jobs",
+    "country_code": "NPL",
+    "title": "Quality jobs and firm upgrading platform",
+    "mechanism": "Links skills, enterprise support, logistics, and sector prioritization to raise productivity and labor absorption.",
+    "why_now": "High relevance because Nepal still faces quality-jobs constraints and uneven structural transformation.",
+    "prerequisites": [
+      "sector prioritization",
+      "delivery coordination",
+      "private sector engagement"
+    ],
+    "lead_actors": [
+      "finance ministry",
+      "planning institutions",
+      "private sector",
+      "development partners"
+    ],
+    "expected_channels": [
+      "jobs",
+      "productivity",
+      "formalization",
+      "fiscal space"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10"
+    ],
+    "risk_flags": [
+      "weak implementation",
+      "fragmented coordination"
+    ],
+    "source_ids": [
+      "undp-insights",
+      "npc-nepal"
+    ]
+  },
+  {
+    "id": "npl_accel_resilience",
+    "country_code": "NPL",
+    "title": "Resilience-sensitive infrastructure and public finance package",
+    "mechanism": "Improves infrastructure and public spending quality so shocks do not erase growth gains.",
+    "why_now": "Important because Nepal faces meaningful resilience and implementation pressures.",
+    "prerequisites": [
+      "budget discipline",
+      "subnational capacity",
+      "risk-informed planning"
+    ],
+    "lead_actors": [
+      "line ministries",
+      "local governments",
+      "finance ministry"
+    ],
+    "expected_channels": [
+      "resilience",
+      "service delivery",
+      "investment quality"
+    ],
+    "sdg_links": [
+      "SDG9",
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "risk_flags": [
+      "capital underspending",
+      "maintenance gaps"
+    ],
+    "source_ids": [
+      "npc-nepal",
+      "undp-diagnostics"
+    ]
+  },
+  {
+    "id": "bgd_accel_jobs",
+    "country_code": "BGD",
+    "title": "Quality jobs and firm upgrading platform",
+    "mechanism": "Links skills, enterprise support, logistics, and sector prioritization to raise productivity and labor absorption.",
+    "why_now": "High relevance because Bangladesh still faces quality-jobs constraints and uneven structural transformation.",
+    "prerequisites": [
+      "sector prioritization",
+      "delivery coordination",
+      "private sector engagement"
+    ],
+    "lead_actors": [
+      "finance ministry",
+      "planning institutions",
+      "private sector",
+      "development partners"
+    ],
+    "expected_channels": [
+      "jobs",
+      "productivity",
+      "formalization",
+      "fiscal space"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10"
+    ],
+    "risk_flags": [
+      "weak implementation",
+      "fragmented coordination"
+    ],
+    "source_ids": [
+      "worldbank",
+      "undp-insights"
+    ]
+  },
+  {
+    "id": "bgd_accel_resilience",
+    "country_code": "BGD",
+    "title": "Resilience-sensitive infrastructure and public finance package",
+    "mechanism": "Improves infrastructure and public spending quality so shocks do not erase growth gains.",
+    "why_now": "Important because Bangladesh faces meaningful resilience and implementation pressures.",
+    "prerequisites": [
+      "budget discipline",
+      "subnational capacity",
+      "risk-informed planning"
+    ],
+    "lead_actors": [
+      "line ministries",
+      "local governments",
+      "finance ministry"
+    ],
+    "expected_channels": [
+      "resilience",
+      "service delivery",
+      "investment quality"
+    ],
+    "sdg_links": [
+      "SDG9",
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "risk_flags": [
+      "capital underspending",
+      "maintenance gaps"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "btn_accel_jobs",
+    "country_code": "BTN",
+    "title": "Quality jobs and firm upgrading platform",
+    "mechanism": "Links skills, enterprise support, logistics, and sector prioritization to raise productivity and labor absorption.",
+    "why_now": "High relevance because Bhutan still faces quality-jobs constraints and uneven structural transformation.",
+    "prerequisites": [
+      "sector prioritization",
+      "delivery coordination",
+      "private sector engagement"
+    ],
+    "lead_actors": [
+      "finance ministry",
+      "planning institutions",
+      "private sector",
+      "development partners"
+    ],
+    "expected_channels": [
+      "jobs",
+      "productivity",
+      "formalization",
+      "fiscal space"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10"
+    ],
+    "risk_flags": [
+      "weak implementation",
+      "fragmented coordination"
+    ],
+    "source_ids": [
+      "worldbank",
+      "undp-insights"
+    ]
+  },
+  {
+    "id": "btn_accel_resilience",
+    "country_code": "BTN",
+    "title": "Resilience-sensitive infrastructure and public finance package",
+    "mechanism": "Improves infrastructure and public spending quality so shocks do not erase growth gains.",
+    "why_now": "Important because Bhutan faces meaningful resilience and implementation pressures.",
+    "prerequisites": [
+      "budget discipline",
+      "subnational capacity",
+      "risk-informed planning"
+    ],
+    "lead_actors": [
+      "line ministries",
+      "local governments",
+      "finance ministry"
+    ],
+    "expected_channels": [
+      "resilience",
+      "service delivery",
+      "investment quality"
+    ],
+    "sdg_links": [
+      "SDG9",
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "risk_flags": [
+      "capital underspending",
+      "maintenance gaps"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "ind_accel_jobs",
+    "country_code": "IND",
+    "title": "Quality jobs and firm upgrading platform",
+    "mechanism": "Links skills, enterprise support, logistics, and sector prioritization to raise productivity and labor absorption.",
+    "why_now": "High relevance because India still faces quality-jobs constraints and uneven structural transformation.",
+    "prerequisites": [
+      "sector prioritization",
+      "delivery coordination",
+      "private sector engagement"
+    ],
+    "lead_actors": [
+      "finance ministry",
+      "planning institutions",
+      "private sector",
+      "development partners"
+    ],
+    "expected_channels": [
+      "jobs",
+      "productivity",
+      "formalization",
+      "fiscal space"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10"
+    ],
+    "risk_flags": [
+      "weak implementation",
+      "fragmented coordination"
+    ],
+    "source_ids": [
+      "worldbank",
+      "undp-insights"
+    ]
+  },
+  {
+    "id": "ind_accel_resilience",
+    "country_code": "IND",
+    "title": "Resilience-sensitive infrastructure and public finance package",
+    "mechanism": "Improves infrastructure and public spending quality so shocks do not erase growth gains.",
+    "why_now": "Important because India faces meaningful resilience and implementation pressures.",
+    "prerequisites": [
+      "budget discipline",
+      "subnational capacity",
+      "risk-informed planning"
+    ],
+    "lead_actors": [
+      "line ministries",
+      "local governments",
+      "finance ministry"
+    ],
+    "expected_channels": [
+      "resilience",
+      "service delivery",
+      "investment quality"
+    ],
+    "sdg_links": [
+      "SDG9",
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "risk_flags": [
+      "capital underspending",
+      "maintenance gaps"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "mdv_accel_jobs",
+    "country_code": "MDV",
+    "title": "Quality jobs and firm upgrading platform",
+    "mechanism": "Links skills, enterprise support, logistics, and sector prioritization to raise productivity and labor absorption.",
+    "why_now": "High relevance because Maldives still faces quality-jobs constraints and uneven structural transformation.",
+    "prerequisites": [
+      "sector prioritization",
+      "delivery coordination",
+      "private sector engagement"
+    ],
+    "lead_actors": [
+      "finance ministry",
+      "planning institutions",
+      "private sector",
+      "development partners"
+    ],
+    "expected_channels": [
+      "jobs",
+      "productivity",
+      "formalization",
+      "fiscal space"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10"
+    ],
+    "risk_flags": [
+      "weak implementation",
+      "fragmented coordination"
+    ],
+    "source_ids": [
+      "worldbank",
+      "undp-insights"
+    ]
+  },
+  {
+    "id": "mdv_accel_resilience",
+    "country_code": "MDV",
+    "title": "Resilience-sensitive infrastructure and public finance package",
+    "mechanism": "Improves infrastructure and public spending quality so shocks do not erase growth gains.",
+    "why_now": "Important because Maldives faces meaningful resilience and implementation pressures.",
+    "prerequisites": [
+      "budget discipline",
+      "subnational capacity",
+      "risk-informed planning"
+    ],
+    "lead_actors": [
+      "line ministries",
+      "local governments",
+      "finance ministry"
+    ],
+    "expected_channels": [
+      "resilience",
+      "service delivery",
+      "investment quality"
+    ],
+    "sdg_links": [
+      "SDG9",
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "risk_flags": [
+      "capital underspending",
+      "maintenance gaps"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "pak_accel_jobs",
+    "country_code": "PAK",
+    "title": "Quality jobs and firm upgrading platform",
+    "mechanism": "Links skills, enterprise support, logistics, and sector prioritization to raise productivity and labor absorption.",
+    "why_now": "High relevance because Pakistan still faces quality-jobs constraints and uneven structural transformation.",
+    "prerequisites": [
+      "sector prioritization",
+      "delivery coordination",
+      "private sector engagement"
+    ],
+    "lead_actors": [
+      "finance ministry",
+      "planning institutions",
+      "private sector",
+      "development partners"
+    ],
+    "expected_channels": [
+      "jobs",
+      "productivity",
+      "formalization",
+      "fiscal space"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10"
+    ],
+    "risk_flags": [
+      "weak implementation",
+      "fragmented coordination"
+    ],
+    "source_ids": [
+      "worldbank",
+      "undp-insights"
+    ]
+  },
+  {
+    "id": "pak_accel_resilience",
+    "country_code": "PAK",
+    "title": "Resilience-sensitive infrastructure and public finance package",
+    "mechanism": "Improves infrastructure and public spending quality so shocks do not erase growth gains.",
+    "why_now": "Important because Pakistan faces meaningful resilience and implementation pressures.",
+    "prerequisites": [
+      "budget discipline",
+      "subnational capacity",
+      "risk-informed planning"
+    ],
+    "lead_actors": [
+      "line ministries",
+      "local governments",
+      "finance ministry"
+    ],
+    "expected_channels": [
+      "resilience",
+      "service delivery",
+      "investment quality"
+    ],
+    "sdg_links": [
+      "SDG9",
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "risk_flags": [
+      "capital underspending",
+      "maintenance gaps"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "lka_accel_jobs",
+    "country_code": "LKA",
+    "title": "Quality jobs and firm upgrading platform",
+    "mechanism": "Links skills, enterprise support, logistics, and sector prioritization to raise productivity and labor absorption.",
+    "why_now": "High relevance because Sri Lanka still faces quality-jobs constraints and uneven structural transformation.",
+    "prerequisites": [
+      "sector prioritization",
+      "delivery coordination",
+      "private sector engagement"
+    ],
+    "lead_actors": [
+      "finance ministry",
+      "planning institutions",
+      "private sector",
+      "development partners"
+    ],
+    "expected_channels": [
+      "jobs",
+      "productivity",
+      "formalization",
+      "fiscal space"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10"
+    ],
+    "risk_flags": [
+      "weak implementation",
+      "fragmented coordination"
+    ],
+    "source_ids": [
+      "worldbank",
+      "undp-insights"
+    ]
+  },
+  {
+    "id": "lka_accel_resilience",
+    "country_code": "LKA",
+    "title": "Resilience-sensitive infrastructure and public finance package",
+    "mechanism": "Improves infrastructure and public spending quality so shocks do not erase growth gains.",
+    "why_now": "Important because Sri Lanka faces meaningful resilience and implementation pressures.",
+    "prerequisites": [
+      "budget discipline",
+      "subnational capacity",
+      "risk-informed planning"
+    ],
+    "lead_actors": [
+      "line ministries",
+      "local governments",
+      "finance ministry"
+    ],
+    "expected_channels": [
+      "resilience",
+      "service delivery",
+      "investment quality"
+    ],
+    "sdg_links": [
+      "SDG9",
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "risk_flags": [
+      "capital underspending",
+      "maintenance gaps"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "idn_accel_jobs",
+    "country_code": "IDN",
+    "title": "Quality jobs and firm upgrading platform",
+    "mechanism": "Links skills, enterprise support, logistics, and sector prioritization to raise productivity and labor absorption.",
+    "why_now": "High relevance because Indonesia still faces quality-jobs constraints and uneven structural transformation.",
+    "prerequisites": [
+      "sector prioritization",
+      "delivery coordination",
+      "private sector engagement"
+    ],
+    "lead_actors": [
+      "finance ministry",
+      "planning institutions",
+      "private sector",
+      "development partners"
+    ],
+    "expected_channels": [
+      "jobs",
+      "productivity",
+      "formalization",
+      "fiscal space"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10"
+    ],
+    "risk_flags": [
+      "weak implementation",
+      "fragmented coordination"
+    ],
+    "source_ids": [
+      "worldbank",
+      "undp-insights"
+    ]
+  },
+  {
+    "id": "idn_accel_resilience",
+    "country_code": "IDN",
+    "title": "Resilience-sensitive infrastructure and public finance package",
+    "mechanism": "Improves infrastructure and public spending quality so shocks do not erase growth gains.",
+    "why_now": "Important because Indonesia faces meaningful resilience and implementation pressures.",
+    "prerequisites": [
+      "budget discipline",
+      "subnational capacity",
+      "risk-informed planning"
+    ],
+    "lead_actors": [
+      "line ministries",
+      "local governments",
+      "finance ministry"
+    ],
+    "expected_channels": [
+      "resilience",
+      "service delivery",
+      "investment quality"
+    ],
+    "sdg_links": [
+      "SDG9",
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "risk_flags": [
+      "capital underspending",
+      "maintenance gaps"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "vnm_accel_jobs",
+    "country_code": "VNM",
+    "title": "Quality jobs and firm upgrading platform",
+    "mechanism": "Links skills, enterprise support, logistics, and sector prioritization to raise productivity and labor absorption.",
+    "why_now": "High relevance because Vietnam still faces quality-jobs constraints and uneven structural transformation.",
+    "prerequisites": [
+      "sector prioritization",
+      "delivery coordination",
+      "private sector engagement"
+    ],
+    "lead_actors": [
+      "finance ministry",
+      "planning institutions",
+      "private sector",
+      "development partners"
+    ],
+    "expected_channels": [
+      "jobs",
+      "productivity",
+      "formalization",
+      "fiscal space"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10"
+    ],
+    "risk_flags": [
+      "weak implementation",
+      "fragmented coordination"
+    ],
+    "source_ids": [
+      "worldbank",
+      "undp-insights"
+    ]
+  },
+  {
+    "id": "vnm_accel_resilience",
+    "country_code": "VNM",
+    "title": "Resilience-sensitive infrastructure and public finance package",
+    "mechanism": "Improves infrastructure and public spending quality so shocks do not erase growth gains.",
+    "why_now": "Important because Vietnam faces meaningful resilience and implementation pressures.",
+    "prerequisites": [
+      "budget discipline",
+      "subnational capacity",
+      "risk-informed planning"
+    ],
+    "lead_actors": [
+      "line ministries",
+      "local governments",
+      "finance ministry"
+    ],
+    "expected_channels": [
+      "resilience",
+      "service delivery",
+      "investment quality"
+    ],
+    "sdg_links": [
+      "SDG9",
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "risk_flags": [
+      "capital underspending",
+      "maintenance gaps"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "phl_accel_jobs",
+    "country_code": "PHL",
+    "title": "Quality jobs and firm upgrading platform",
+    "mechanism": "Links skills, enterprise support, logistics, and sector prioritization to raise productivity and labor absorption.",
+    "why_now": "High relevance because Philippines still faces quality-jobs constraints and uneven structural transformation.",
+    "prerequisites": [
+      "sector prioritization",
+      "delivery coordination",
+      "private sector engagement"
+    ],
+    "lead_actors": [
+      "finance ministry",
+      "planning institutions",
+      "private sector",
+      "development partners"
+    ],
+    "expected_channels": [
+      "jobs",
+      "productivity",
+      "formalization",
+      "fiscal space"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10"
+    ],
+    "risk_flags": [
+      "weak implementation",
+      "fragmented coordination"
+    ],
+    "source_ids": [
+      "worldbank",
+      "undp-insights"
+    ]
+  },
+  {
+    "id": "phl_accel_resilience",
+    "country_code": "PHL",
+    "title": "Resilience-sensitive infrastructure and public finance package",
+    "mechanism": "Improves infrastructure and public spending quality so shocks do not erase growth gains.",
+    "why_now": "Important because Philippines faces meaningful resilience and implementation pressures.",
+    "prerequisites": [
+      "budget discipline",
+      "subnational capacity",
+      "risk-informed planning"
+    ],
+    "lead_actors": [
+      "line ministries",
+      "local governments",
+      "finance ministry"
+    ],
+    "expected_channels": [
+      "resilience",
+      "service delivery",
+      "investment quality"
+    ],
+    "sdg_links": [
+      "SDG9",
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "risk_flags": [
+      "capital underspending",
+      "maintenance gaps"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "tha_accel_jobs",
+    "country_code": "THA",
+    "title": "Quality jobs and firm upgrading platform",
+    "mechanism": "Links skills, enterprise support, logistics, and sector prioritization to raise productivity and labor absorption.",
+    "why_now": "High relevance because Thailand still faces quality-jobs constraints and uneven structural transformation.",
+    "prerequisites": [
+      "sector prioritization",
+      "delivery coordination",
+      "private sector engagement"
+    ],
+    "lead_actors": [
+      "finance ministry",
+      "planning institutions",
+      "private sector",
+      "development partners"
+    ],
+    "expected_channels": [
+      "jobs",
+      "productivity",
+      "formalization",
+      "fiscal space"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10"
+    ],
+    "risk_flags": [
+      "weak implementation",
+      "fragmented coordination"
+    ],
+    "source_ids": [
+      "worldbank",
+      "undp-insights"
+    ]
+  },
+  {
+    "id": "tha_accel_resilience",
+    "country_code": "THA",
+    "title": "Resilience-sensitive infrastructure and public finance package",
+    "mechanism": "Improves infrastructure and public spending quality so shocks do not erase growth gains.",
+    "why_now": "Important because Thailand faces meaningful resilience and implementation pressures.",
+    "prerequisites": [
+      "budget discipline",
+      "subnational capacity",
+      "risk-informed planning"
+    ],
+    "lead_actors": [
+      "line ministries",
+      "local governments",
+      "finance ministry"
+    ],
+    "expected_channels": [
+      "resilience",
+      "service delivery",
+      "investment quality"
+    ],
+    "sdg_links": [
+      "SDG9",
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "risk_flags": [
+      "capital underspending",
+      "maintenance gaps"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "khm_accel_jobs",
+    "country_code": "KHM",
+    "title": "Quality jobs and firm upgrading platform",
+    "mechanism": "Links skills, enterprise support, logistics, and sector prioritization to raise productivity and labor absorption.",
+    "why_now": "High relevance because Cambodia still faces quality-jobs constraints and uneven structural transformation.",
+    "prerequisites": [
+      "sector prioritization",
+      "delivery coordination",
+      "private sector engagement"
+    ],
+    "lead_actors": [
+      "finance ministry",
+      "planning institutions",
+      "private sector",
+      "development partners"
+    ],
+    "expected_channels": [
+      "jobs",
+      "productivity",
+      "formalization",
+      "fiscal space"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10"
+    ],
+    "risk_flags": [
+      "weak implementation",
+      "fragmented coordination"
+    ],
+    "source_ids": [
+      "worldbank",
+      "undp-insights"
+    ]
+  },
+  {
+    "id": "khm_accel_resilience",
+    "country_code": "KHM",
+    "title": "Resilience-sensitive infrastructure and public finance package",
+    "mechanism": "Improves infrastructure and public spending quality so shocks do not erase growth gains.",
+    "why_now": "Important because Cambodia faces meaningful resilience and implementation pressures.",
+    "prerequisites": [
+      "budget discipline",
+      "subnational capacity",
+      "risk-informed planning"
+    ],
+    "lead_actors": [
+      "line ministries",
+      "local governments",
+      "finance ministry"
+    ],
+    "expected_channels": [
+      "resilience",
+      "service delivery",
+      "investment quality"
+    ],
+    "sdg_links": [
+      "SDG9",
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "risk_flags": [
+      "capital underspending",
+      "maintenance gaps"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "lao_accel_jobs",
+    "country_code": "LAO",
+    "title": "Quality jobs and firm upgrading platform",
+    "mechanism": "Links skills, enterprise support, logistics, and sector prioritization to raise productivity and labor absorption.",
+    "why_now": "High relevance because Lao PDR still faces quality-jobs constraints and uneven structural transformation.",
+    "prerequisites": [
+      "sector prioritization",
+      "delivery coordination",
+      "private sector engagement"
+    ],
+    "lead_actors": [
+      "finance ministry",
+      "planning institutions",
+      "private sector",
+      "development partners"
+    ],
+    "expected_channels": [
+      "jobs",
+      "productivity",
+      "formalization",
+      "fiscal space"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10"
+    ],
+    "risk_flags": [
+      "weak implementation",
+      "fragmented coordination"
+    ],
+    "source_ids": [
+      "worldbank",
+      "undp-insights"
+    ]
+  },
+  {
+    "id": "lao_accel_resilience",
+    "country_code": "LAO",
+    "title": "Resilience-sensitive infrastructure and public finance package",
+    "mechanism": "Improves infrastructure and public spending quality so shocks do not erase growth gains.",
+    "why_now": "Important because Lao PDR faces meaningful resilience and implementation pressures.",
+    "prerequisites": [
+      "budget discipline",
+      "subnational capacity",
+      "risk-informed planning"
+    ],
+    "lead_actors": [
+      "line ministries",
+      "local governments",
+      "finance ministry"
+    ],
+    "expected_channels": [
+      "resilience",
+      "service delivery",
+      "investment quality"
+    ],
+    "sdg_links": [
+      "SDG9",
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "risk_flags": [
+      "capital underspending",
+      "maintenance gaps"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "rwa_accel_jobs",
+    "country_code": "RWA",
+    "title": "Quality jobs and firm upgrading platform",
+    "mechanism": "Links skills, enterprise support, logistics, and sector prioritization to raise productivity and labor absorption.",
+    "why_now": "High relevance because Rwanda still faces quality-jobs constraints and uneven structural transformation.",
+    "prerequisites": [
+      "sector prioritization",
+      "delivery coordination",
+      "private sector engagement"
+    ],
+    "lead_actors": [
+      "finance ministry",
+      "planning institutions",
+      "private sector",
+      "development partners"
+    ],
+    "expected_channels": [
+      "jobs",
+      "productivity",
+      "formalization",
+      "fiscal space"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10"
+    ],
+    "risk_flags": [
+      "weak implementation",
+      "fragmented coordination"
+    ],
+    "source_ids": [
+      "worldbank",
+      "undp-insights"
+    ]
+  },
+  {
+    "id": "rwa_accel_resilience",
+    "country_code": "RWA",
+    "title": "Resilience-sensitive infrastructure and public finance package",
+    "mechanism": "Improves infrastructure and public spending quality so shocks do not erase growth gains.",
+    "why_now": "Important because Rwanda faces meaningful resilience and implementation pressures.",
+    "prerequisites": [
+      "budget discipline",
+      "subnational capacity",
+      "risk-informed planning"
+    ],
+    "lead_actors": [
+      "line ministries",
+      "local governments",
+      "finance ministry"
+    ],
+    "expected_channels": [
+      "resilience",
+      "service delivery",
+      "investment quality"
+    ],
+    "sdg_links": [
+      "SDG9",
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "risk_flags": [
+      "capital underspending",
+      "maintenance gaps"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "eth_accel_jobs",
+    "country_code": "ETH",
+    "title": "Quality jobs and firm upgrading platform",
+    "mechanism": "Links skills, enterprise support, logistics, and sector prioritization to raise productivity and labor absorption.",
+    "why_now": "High relevance because Ethiopia still faces quality-jobs constraints and uneven structural transformation.",
+    "prerequisites": [
+      "sector prioritization",
+      "delivery coordination",
+      "private sector engagement"
+    ],
+    "lead_actors": [
+      "finance ministry",
+      "planning institutions",
+      "private sector",
+      "development partners"
+    ],
+    "expected_channels": [
+      "jobs",
+      "productivity",
+      "formalization",
+      "fiscal space"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10"
+    ],
+    "risk_flags": [
+      "weak implementation",
+      "fragmented coordination"
+    ],
+    "source_ids": [
+      "worldbank",
+      "undp-insights"
+    ]
+  },
+  {
+    "id": "eth_accel_resilience",
+    "country_code": "ETH",
+    "title": "Resilience-sensitive infrastructure and public finance package",
+    "mechanism": "Improves infrastructure and public spending quality so shocks do not erase growth gains.",
+    "why_now": "Important because Ethiopia faces meaningful resilience and implementation pressures.",
+    "prerequisites": [
+      "budget discipline",
+      "subnational capacity",
+      "risk-informed planning"
+    ],
+    "lead_actors": [
+      "line ministries",
+      "local governments",
+      "finance ministry"
+    ],
+    "expected_channels": [
+      "resilience",
+      "service delivery",
+      "investment quality"
+    ],
+    "sdg_links": [
+      "SDG9",
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "risk_flags": [
+      "capital underspending",
+      "maintenance gaps"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "ken_accel_jobs",
+    "country_code": "KEN",
+    "title": "Quality jobs and firm upgrading platform",
+    "mechanism": "Links skills, enterprise support, logistics, and sector prioritization to raise productivity and labor absorption.",
+    "why_now": "High relevance because Kenya still faces quality-jobs constraints and uneven structural transformation.",
+    "prerequisites": [
+      "sector prioritization",
+      "delivery coordination",
+      "private sector engagement"
+    ],
+    "lead_actors": [
+      "finance ministry",
+      "planning institutions",
+      "private sector",
+      "development partners"
+    ],
+    "expected_channels": [
+      "jobs",
+      "productivity",
+      "formalization",
+      "fiscal space"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10"
+    ],
+    "risk_flags": [
+      "weak implementation",
+      "fragmented coordination"
+    ],
+    "source_ids": [
+      "worldbank",
+      "undp-insights"
+    ]
+  },
+  {
+    "id": "ken_accel_resilience",
+    "country_code": "KEN",
+    "title": "Resilience-sensitive infrastructure and public finance package",
+    "mechanism": "Improves infrastructure and public spending quality so shocks do not erase growth gains.",
+    "why_now": "Important because Kenya faces meaningful resilience and implementation pressures.",
+    "prerequisites": [
+      "budget discipline",
+      "subnational capacity",
+      "risk-informed planning"
+    ],
+    "lead_actors": [
+      "line ministries",
+      "local governments",
+      "finance ministry"
+    ],
+    "expected_channels": [
+      "resilience",
+      "service delivery",
+      "investment quality"
+    ],
+    "sdg_links": [
+      "SDG9",
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "risk_flags": [
+      "capital underspending",
+      "maintenance gaps"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "mar_accel_jobs",
+    "country_code": "MAR",
+    "title": "Quality jobs and firm upgrading platform",
+    "mechanism": "Links skills, enterprise support, logistics, and sector prioritization to raise productivity and labor absorption.",
+    "why_now": "High relevance because Morocco still faces quality-jobs constraints and uneven structural transformation.",
+    "prerequisites": [
+      "sector prioritization",
+      "delivery coordination",
+      "private sector engagement"
+    ],
+    "lead_actors": [
+      "finance ministry",
+      "planning institutions",
+      "private sector",
+      "development partners"
+    ],
+    "expected_channels": [
+      "jobs",
+      "productivity",
+      "formalization",
+      "fiscal space"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10"
+    ],
+    "risk_flags": [
+      "weak implementation",
+      "fragmented coordination"
+    ],
+    "source_ids": [
+      "worldbank",
+      "undp-insights"
+    ]
+  },
+  {
+    "id": "mar_accel_resilience",
+    "country_code": "MAR",
+    "title": "Resilience-sensitive infrastructure and public finance package",
+    "mechanism": "Improves infrastructure and public spending quality so shocks do not erase growth gains.",
+    "why_now": "Important because Morocco faces meaningful resilience and implementation pressures.",
+    "prerequisites": [
+      "budget discipline",
+      "subnational capacity",
+      "risk-informed planning"
+    ],
+    "lead_actors": [
+      "line ministries",
+      "local governments",
+      "finance ministry"
+    ],
+    "expected_channels": [
+      "resilience",
+      "service delivery",
+      "investment quality"
+    ],
+    "sdg_links": [
+      "SDG9",
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "risk_flags": [
+      "capital underspending",
+      "maintenance gaps"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "mng_accel_jobs",
+    "country_code": "MNG",
+    "title": "Quality jobs and firm upgrading platform",
+    "mechanism": "Links skills, enterprise support, logistics, and sector prioritization to raise productivity and labor absorption.",
+    "why_now": "High relevance because Mongolia still faces quality-jobs constraints and uneven structural transformation.",
+    "prerequisites": [
+      "sector prioritization",
+      "delivery coordination",
+      "private sector engagement"
+    ],
+    "lead_actors": [
+      "finance ministry",
+      "planning institutions",
+      "private sector",
+      "development partners"
+    ],
+    "expected_channels": [
+      "jobs",
+      "productivity",
+      "formalization",
+      "fiscal space"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10"
+    ],
+    "risk_flags": [
+      "weak implementation",
+      "fragmented coordination"
+    ],
+    "source_ids": [
+      "worldbank",
+      "undp-insights"
+    ]
+  },
+  {
+    "id": "mng_accel_resilience",
+    "country_code": "MNG",
+    "title": "Resilience-sensitive infrastructure and public finance package",
+    "mechanism": "Improves infrastructure and public spending quality so shocks do not erase growth gains.",
+    "why_now": "Important because Mongolia faces meaningful resilience and implementation pressures.",
+    "prerequisites": [
+      "budget discipline",
+      "subnational capacity",
+      "risk-informed planning"
+    ],
+    "lead_actors": [
+      "line ministries",
+      "local governments",
+      "finance ministry"
+    ],
+    "expected_channels": [
+      "resilience",
+      "service delivery",
+      "investment quality"
+    ],
+    "sdg_links": [
+      "SDG9",
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "risk_flags": [
+      "capital underspending",
+      "maintenance gaps"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "geo_accel_jobs",
+    "country_code": "GEO",
+    "title": "Quality jobs and firm upgrading platform",
+    "mechanism": "Links skills, enterprise support, logistics, and sector prioritization to raise productivity and labor absorption.",
+    "why_now": "High relevance because Georgia still faces quality-jobs constraints and uneven structural transformation.",
+    "prerequisites": [
+      "sector prioritization",
+      "delivery coordination",
+      "private sector engagement"
+    ],
+    "lead_actors": [
+      "finance ministry",
+      "planning institutions",
+      "private sector",
+      "development partners"
+    ],
+    "expected_channels": [
+      "jobs",
+      "productivity",
+      "formalization",
+      "fiscal space"
+    ],
+    "sdg_links": [
+      "SDG8",
+      "SDG9",
+      "SDG10"
+    ],
+    "risk_flags": [
+      "weak implementation",
+      "fragmented coordination"
+    ],
+    "source_ids": [
+      "worldbank",
+      "undp-insights"
+    ]
+  },
+  {
+    "id": "geo_accel_resilience",
+    "country_code": "GEO",
+    "title": "Resilience-sensitive infrastructure and public finance package",
+    "mechanism": "Improves infrastructure and public spending quality so shocks do not erase growth gains.",
+    "why_now": "Important because Georgia faces meaningful resilience and implementation pressures.",
+    "prerequisites": [
+      "budget discipline",
+      "subnational capacity",
+      "risk-informed planning"
+    ],
+    "lead_actors": [
+      "line ministries",
+      "local governments",
+      "finance ministry"
+    ],
+    "expected_channels": [
+      "resilience",
+      "service delivery",
+      "investment quality"
+    ],
+    "sdg_links": [
+      "SDG9",
+      "SDG11",
+      "SDG13",
+      "SDG16"
+    ],
+    "risk_flags": [
+      "capital underspending",
+      "maintenance gaps"
+    ],
+    "source_ids": [
+      "worldbank",
+      "adb-key"
+    ]
+  },
+  {
+    "id": "npl_accel_women",
+    "country_code": "NPL",
+    "title": "Women's economic participation accelerator",
+    "mechanism": "Combines care support, mobility, finance, and skills so more women move into productive work.",
+    "why_now": "Nepal's SDG acceleration case is weakened when growth does not translate into stronger female labor participation.",
+    "prerequisites": [
+      "care economy support",
+      "safe transport",
+      "credit access",
+      "provincial tailoring"
+    ],
+    "lead_actors": [
+      "labor ministry",
+      "private sector",
+      "local governments",
+      "development partners"
+    ],
+    "expected_channels": [
+      "female employment",
+      "household incomes",
+      "inclusive growth"
+    ],
+    "sdg_links": [
+      "SDG5",
+      "SDG8",
+      "SDG10"
+    ],
+    "risk_flags": [
+      "fragmented design",
+      "weak local implementation"
+    ],
+    "source_ids": [
+      "npc-nepal",
+      "ilostat",
+      "undp-insights"
+    ]
+  },
+  {
+    "id": "npl_accel_hydro",
+    "country_code": "NPL",
+    "title": "Hydropower-to-productivity conversion platform",
+    "mechanism": "Moves beyond generation alone by connecting reliable electricity to firms, logistics, and local productive use.",
+    "why_now": "Nepal's energy story becomes transformational only when it feeds productive jobs and exports.",
+    "prerequisites": [
+      "grid quality",
+      "industrial policy",
+      "investment coordination"
+    ],
+    "lead_actors": [
+      "energy ministry",
+      "planning institutions",
+      "private sector"
+    ],
+    "expected_channels": [
+      "productivity",
+      "jobs",
+      "exports",
+      "fiscal space"
+    ],
+    "sdg_links": [
+      "SDG7",
+      "SDG8",
+      "SDG9",
+      "SDG13"
+    ],
+    "risk_flags": [
+      "weak downstream industrial linkages",
+      "grid bottlenecks"
+    ],
+    "source_ids": [
+      "npc-nepal",
+      "worldbank"
+    ]
+  }
+]

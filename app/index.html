@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#153f5b" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Economic Growth for SDG Acceleration</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icon-192.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Policy Atlas | Growth, Finance, and SDGs</p>
+          <h1>Economic Growth for SDG Acceleration</h1>
+          <p class="hero-text" id="heroText">
+            Nepal-centered, regionally benchmarked pathways from growth and public action to SDG delivery.
+          </p>
+          <div class="hero-actions">
+            <button id="installAppBtn" class="button-primary hidden">Install app</button>
+            <button id="exportSnapshotBtn" class="button-secondary">Export snapshot</button>
+            <button id="printBriefBtn" class="button-secondary">Print brief</button>
+          </div>
+        </div>
+        <aside class="hero-panel">
+          <span class="panel-label">Selected country</span>
+          <strong id="heroCountry">Nepal</strong>
+          <span class="panel-sub" id="heroPeerNote">Comparing Nepal against South Asia and Southeast Asia benchmarks.</span>
+        </aside>
+      </header>
+
+      <section class="toolbar card">
+        <div class="toolbar-grid">
+          <label>
+            <span>Anchor country</span>
+            <select id="countrySelect"></select>
+          </label>
+          <label>
+            <span>Comparator country</span>
+            <select id="peerSelect"></select>
+          </label>
+          <label>
+            <span>Benchmark group</span>
+            <select id="groupSelect"></select>
+          </label>
+          <label>
+            <span>Lens</span>
+            <select id="lensSelect"></select>
+          </label>
+        </div>
+        <nav class="section-nav">
+          <a href="#overview">Overview</a>
+          <a href="#lenses">Lenses</a>
+          <a href="#pathways">Pathways</a>
+          <a href="#policy-budget">Policies & Budget</a>
+          <a href="#accelerators">Accelerators</a>
+          <a href="#comparisons">Comparisons</a>
+          <a href="#toolkit">Toolkit</a>
+          <a href="#sources">Sources</a>
+        </nav>
+      </section>
+
+      <main class="main-stack">
+        <section id="overview" class="card section-card">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">Home</p>
+              <h2>Country overview</h2>
+            </div>
+            <p class="section-note" id="asOfNote"></p>
+          </div>
+          <div class="metric-grid" id="heroMetrics"></div>
+          <div class="story-grid">
+            <article class="story-card">
+              <h3>Growth story</h3>
+              <p id="growthStory"></p>
+            </article>
+            <article class="story-card">
+              <h3>Fiscal and financing context</h3>
+              <p id="financingStory"></p>
+            </article>
+            <article class="story-card">
+              <h3>Transition and resilience context</h3>
+              <p id="transitionStory"></p>
+            </article>
+          </div>
+          <div class="dual-grid">
+            <article class="subsection-card">
+              <div class="subsection-head">
+                <h3>Top risks</h3>
+                <span class="mini-badge">Early warning signals</span>
+              </div>
+              <div id="riskList" class="stack-list"></div>
+            </article>
+            <article class="subsection-card">
+              <div class="subsection-head">
+                <h3>Top accelerators</h3>
+                <span class="mini-badge">Catalytic interventions</span>
+              </div>
+              <div id="topAccelerators" class="stack-list"></div>
+            </article>
+          </div>
+        </section>
+
+        <section id="lenses" class="card section-card">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">Country lenses</p>
+              <h2>Growth-to-SDG diagnostic lenses</h2>
+            </div>
+            <div class="chip-row" id="lensChips"></div>
+          </div>
+          <div id="lensIntro" class="lens-intro"></div>
+          <div id="lensIndicatorGrid" class="indicator-grid"></div>
+        </section>
+
+        <section id="pathways" class="card section-card">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">Pathways</p>
+              <h2>Growth to SDG transmission channels</h2>
+            </div>
+            <div class="chip-row" id="pathwayFilters"></div>
+          </div>
+          <div id="pathwayExplorer" class="pathway-grid"></div>
+        </section>
+
+        <section id="policy-budget" class="card section-card">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">Public action</p>
+              <h2>Policies and budget channels</h2>
+            </div>
+            <p class="section-note">Direct and indirect SDG support are shown through growth channels and implementation status.</p>
+          </div>
+          <div class="dual-grid">
+            <article class="subsection-card">
+              <h3>Policy map</h3>
+              <div id="policyList" class="stack-list"></div>
+            </article>
+            <article class="subsection-card">
+              <h3>Budget map</h3>
+              <div id="budgetList" class="stack-list"></div>
+            </article>
+          </div>
+        </section>
+
+        <section id="accelerators" class="card section-card">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">Interventions</p>
+              <h2>Accelerator portfolio</h2>
+            </div>
+            <p class="section-note">Prioritized actions with mechanisms, spillovers, and implementation risks.</p>
+          </div>
+          <div id="acceleratorGrid" class="card-grid"></div>
+        </section>
+
+        <section id="comparisons" class="card section-card">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">Comparisons</p>
+              <h2>Regional and peer benchmarking</h2>
+            </div>
+            <p class="section-note">South Asia core, Southeast Asia benchmark set, and selected peers.</p>
+          </div>
+          <div id="comparisonGrid" class="comparison-grid"></div>
+        </section>
+
+        <section id="toolkit" class="card section-card">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">Toolkit</p>
+              <h2>Country analysis instruments</h2>
+            </div>
+            <p class="section-note">What each tool does, when it matters, and how it supports policy advice.</p>
+          </div>
+          <div id="toolkitGrid" class="card-grid"></div>
+        </section>
+
+        <section id="sources" class="card section-card">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">Sources and methods</p>
+              <h2>Traceability and caveats</h2>
+            </div>
+            <p class="section-note" id="methodNote"></p>
+          </div>
+          <div class="dual-grid">
+            <article class="subsection-card">
+              <h3>Source registry</h3>
+              <div id="sourceList" class="stack-list"></div>
+            </article>
+            <article class="subsection-card">
+              <h3>Methods documents</h3>
+              <ul class="doc-links">
+                <li><a href="../docs/framework.md">Framework note</a></li>
+                <li><a href="../docs/methods.md">Methods note</a></li>
+                <li><a href="../docs/source-note.md">Source note</a></li>
+                <li><a href="../docs/nepal-policy-mapping.md">Nepal policy mapping note</a></li>
+              </ul>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>

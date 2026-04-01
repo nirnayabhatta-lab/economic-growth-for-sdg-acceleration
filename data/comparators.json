@@ -1,0 +1,42 @@
+{
+  "default_country": "NPL",
+  "country_groups": [
+    {
+      "id": "south_asia_core",
+      "label": "South Asia core",
+      "country_codes": [
+        "NPL",
+        "BGD",
+        "BTN",
+        "IND",
+        "MDV",
+        "PAK",
+        "LKA"
+      ]
+    },
+    {
+      "id": "southeast_asia_benchmark",
+      "label": "Southeast Asia benchmark set",
+      "country_codes": [
+        "IDN",
+        "VNM",
+        "PHL",
+        "THA",
+        "KHM",
+        "LAO"
+      ]
+    },
+    {
+      "id": "additional_peers",
+      "label": "Additional comparator peers",
+      "country_codes": [
+        "RWA",
+        "ETH",
+        "KEN",
+        "MAR",
+        "MNG",
+        "GEO"
+      ]
+    }
+  ]
+}

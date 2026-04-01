@@ -1,0 +1,28 @@
+name: Atlas Module
+description: Track one feature, lens, or data improvement for the growth-SDG atlas
+title: "[Module] "
+labels: ["data"]
+body:
+  - type: input
+    id: module
+    attributes:
+      label: Module or lens
+      placeholder: comparisons / financing_fiscal / nepal policy map
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Requested change
+      description: Describe the feature, data addition, or refinement.
+    validations:
+      required: true
+  - type: checkboxes
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      options:
+        - label: UI updated
+        - label: Data updated
+        - label: Sources linked
+        - label: Validation passes
