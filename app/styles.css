@@ -823,6 +823,8 @@ select {
   display: grid;
   gap: 0.25rem;
   justify-items: end;
+  max-width: 22rem;
+  text-align: right;
 }
 
 .pulse-delta {
@@ -854,6 +856,10 @@ select {
   margin-top: 0.35rem;
   font-size: 1.28rem;
   color: var(--navy);
+}
+
+.pulse-helper-copy {
+  margin-top: 0.18rem;
 }
 
 .channel-strip {
@@ -1138,6 +1144,12 @@ select {
   .pulse-score-row {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .pulse-delta-block {
+    justify-items: start;
+    max-width: none;
+    text-align: left;
   }
 
   .hero-copy h1 {

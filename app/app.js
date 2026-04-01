@@ -116,11 +116,16 @@ const elements = {
   pulseScore: document.getElementById("pulseScore"),
   pulseBenchmarkLabel: document.getElementById("pulseBenchmarkLabel"),
   pulseDelta: document.getElementById("pulseDelta"),
+  pulseDeltaExplanation: document.getElementById("pulseDeltaExplanation"),
   pulseSummaryText: document.getElementById("pulseSummaryText"),
   pulseChangeSinceLast: document.getElementById("pulseChangeSinceLast"),
+  pulseChangeExplanation: document.getElementById("pulseChangeExplanation"),
   pulse30Day: document.getElementById("pulse30Day"),
+  pulse30DayExplanation: document.getElementById("pulse30DayExplanation"),
   pulse90Day: document.getElementById("pulse90Day"),
+  pulse90DayExplanation: document.getElementById("pulse90DayExplanation"),
   pulseConfidence: document.getElementById("pulseConfidence"),
+  pulseConfidenceExplanation: document.getElementById("pulseConfidenceExplanation"),
   pulseNextRefresh: document.getElementById("pulseNextRefresh"),
   pulseChannels: document.getElementById("pulseChannels"),
   scoreExplainer: document.getElementById("scoreExplainer"),
@@ -340,8 +345,10 @@ function renderPulse() {
   const benchmarkPulse = averagePulseForGroup(state.selectedGroup);
   const delta = pulse.score - benchmarkPulse;
   const deltaSinceLast = latestHistory?.delta_since_last ?? 0;
-  const rolling30 = rollingDirection(history, 4);
-  const rolling90 = rollingDirection(history, history.length);
+  const rolling30Window = rollingWindow(history, 30);
+  const rolling90Window = rollingWindow(history, 90);
+  const rolling30 = rollingDirection(rolling30Window);
+  const rolling90 = rollingDirection(rolling90Window);
   const strongest = pulse.channels.slice().sort((a, b) => b.score - a.score)[0];
   const weakest = pulse.channels.slice().sort((a, b) => a.score - b.score)[0];
   const drivers = pulseDrivers(country.country_code);
@@ -357,11 +364,16 @@ function renderPulse() {
   elements.pulseBenchmarkLabel.textContent = `vs ${benchmarkLabel}`;
   elements.pulseDelta.textContent = `${delta >= 0 ? "+" : ""}${formatNumber(delta)} pts`;
   elements.pulseDelta.className = `pulse-delta ${delta > 1 ? "positive" : delta < -1 ? "negative" : "neutral"}`;
-  elements.pulseSummaryText.textContent = `${country.country_name}'s internal pulse is ${pulse.status.label.toLowerCase()} relative to ${benchmarkLabel}. ${strongest.title} is the strongest live channel, while ${weakest.title} is the main drag on near-term momentum.`;
+  elements.pulseDeltaExplanation.textContent = benchmarkDeltaExplanation(country.country_name, pulse.score, benchmarkPulse, delta, benchmarkLabel);
+  elements.pulseSummaryText.textContent = `${country.country_name}'s internal pulse is ${pulse.status.label.toLowerCase()} relative to ${benchmarkLabel}. ${strongest.title} is currently the strongest live channel, while ${weakest.title} is the clearest drag on near-term momentum.`;
   elements.pulseChangeSinceLast.textContent = `${deltaSinceLast >= 0 ? "+" : ""}${formatNumber(deltaSinceLast)} pts`;
+  elements.pulseChangeExplanation.textContent = sinceLastExplanation(deltaSinceLast, latestHistory?.timestamp);
   elements.pulse30Day.textContent = rolling30;
+  elements.pulse30DayExplanation.textContent = rollingWindowExplanation(rolling30Window, 30);
   elements.pulse90Day.textContent = rolling90;
+  elements.pulse90DayExplanation.textContent = rollingWindowExplanation(rolling90Window, 90);
   elements.pulseConfidence.textContent = latestHistory?.confidence || "Medium";
+  elements.pulseConfidenceExplanation.textContent = confidenceExplanation(latestHistory?.confidence || "Medium");
   elements.pulseNextRefresh.textContent = "Tuesday + Friday (Nepal time)";
   elements.pulseChannels.innerHTML = pulse.channels.map(channelCard).join("");
   elements.scoreExplainer.innerHTML = scoreExplainerCards().join("");
@@ -594,11 +606,13 @@ function acceleratorMiniCard(item) {
 }
 
 function channelCard(item) {
+  const benchmarkMidpointGap = item.score - 50;
   return `
     <article class="channel-card card-surface soft-card">
       <span class="metric-label">${escapeHtml(item.title)}</span>
       <strong>${escapeHtml(formatNumber(item.score))}</strong>
       <p class="indicator-note">${escapeHtml(channelStatus(item.score))}</p>
+      <p class="indicator-note">${escapeHtml(channelExplanation(item.title, item.score, benchmarkMidpointGap))}</p>
     </article>
   `;
 }
@@ -995,14 +1009,33 @@ function historyForCountry(countryCode) {
   return state.data.pulseHistory.filter((item) => item.country_code === countryCode).sort((a, b) => a.timestamp.localeCompare(b.timestamp));
 }
 
-function rollingDirection(history, windowSize) {
+function rollingWindow(history, days) {
   if (!history.length) {
+    return { delta: 0, first: null, last: null, complete: false, days };
+  }
+  const last = history[history.length - 1];
+  const lastDate = new Date(last.timestamp);
+  const cutoff = new Date(lastDate);
+  cutoff.setDate(cutoff.getDate() - days);
+  const windowItems = history.filter((item) => new Date(item.timestamp) >= cutoff);
+  const first = windowItems[0] || history[0];
+  const firstDate = new Date(first.timestamp);
+  const spanDays = Math.max(0, Math.round((lastDate - firstDate) / 86400000));
+  return {
+    delta: last.pulse_score - first.pulse_score,
+    first,
+    last,
+    complete: spanDays >= Math.max(21, days - 7),
+    days,
+    spanDays
+  };
+}
+
+function rollingDirection(window) {
+  if (!window.first || !window.last) {
     return "No history yet";
   }
-  const recent = history.slice(-Math.max(2, Math.min(windowSize, history.length)));
-  const first = recent[0].pulse_score;
-  const last = recent[recent.length - 1].pulse_score;
-  const delta = last - first;
+  const delta = window.delta;
   if (delta > 1.2) {
     return `Improving (${delta >= 0 ? "+" : ""}${formatNumber(delta)} pts)`;
   }
@@ -1089,6 +1122,59 @@ function channelStatus(score) {
   if (score >= 58) return "Above benchmark momentum";
   if (score >= 47) return "Near benchmark momentum";
   return "Below benchmark momentum";
+}
+
+function benchmarkDeltaExplanation(countryName, pulseScore, benchmarkPulse, delta, benchmarkLabel) {
+  if (Math.abs(delta) < 0.8) {
+    return `${countryName}'s internal pulse is broadly in line with the ${benchmarkLabel} average on the same 0-100 internal scale (${formatNumber(pulseScore)} vs ${formatNumber(benchmarkPulse)}).`;
+  }
+  return `${countryName}'s internal pulse is ${delta > 0 ? "above" : "below"} the ${benchmarkLabel} average by ${formatNumber(Math.abs(delta))} points on the same 0-100 internal scale (${formatNumber(pulseScore)} vs ${formatNumber(benchmarkPulse)}).`;
+}
+
+function sinceLastExplanation(delta, timestamp) {
+  if (!timestamp) {
+    return "This will compare the pulse with the previous Tuesday or Friday refresh once a new update is logged.";
+  }
+  if (Math.abs(delta) < 0.3) {
+    return `At the latest refresh on ${formatDate(timestamp)}, the pulse was essentially unchanged relative to the previous update.`;
+  }
+  return `At the latest refresh on ${formatDate(timestamp)}, the pulse had ${delta > 0 ? "strengthened" : "softened"} by ${formatNumber(Math.abs(delta))} points relative to the prior update.`;
+}
+
+function rollingWindowExplanation(window, days) {
+  if (!window.first || !window.last) {
+    return "A fuller update history will appear here as twice-weekly observations accumulate.";
+  }
+  const startDate = formatDate(window.first.timestamp);
+  const endDate = formatDate(window.last.timestamp);
+  if (!window.complete) {
+    return `A full ${days}-day window is not yet available, so this currently summarizes the available series from ${startDate} to ${endDate}.`;
+  }
+  if (Math.abs(window.delta) < 0.3) {
+    return `Across the ${days}-day window from ${startDate} to ${endDate}, the pulse has been effectively flat.`;
+  }
+  return `Across the ${days}-day window from ${startDate} to ${endDate}, the pulse has ${window.delta > 0 ? "strengthened" : "softened"} by ${formatNumber(Math.abs(window.delta))} points.`;
+}
+
+function confidenceExplanation(level) {
+  const normalized = String(level).toLowerCase();
+  if (normalized === "high") {
+    return "High confidence means recent signals are fresh and broadly consistent across the main channels.";
+  }
+  if (normalized === "low") {
+    return "Low confidence means the signal is thin, mixed, or based on sparse updates, so it should be read cautiously.";
+  }
+  return "Medium confidence means the signal is directionally useful, but should still be read alongside the underlying channels and source updates.";
+}
+
+function channelExplanation(title, score, benchmarkMidpointGap) {
+  if (score >= 58) {
+    return `${title} is ${formatNumber(Math.abs(benchmarkMidpointGap))} points above the benchmark midpoint of 50, so it is currently supporting the pulse.`;
+  }
+  if (score >= 47) {
+    return `${title} is sitting close to the benchmark midpoint of 50, so it is neither strongly lifting nor dragging the pulse right now.`;
+  }
+  return `${title} is ${formatNumber(Math.abs(benchmarkMidpointGap))} points below the benchmark midpoint of 50, so it is currently dragging the pulse.`;
 }
 
 function channelTitleById(id) {
