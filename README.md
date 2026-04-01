@@ -1,4 +1,4 @@
-# Economic Growth for SDG Acceleration (EG4SDGA)
+# Economic Growth for SDG Acceleration (Growth4SDGs)
 
 A Nepal-centered, regionally benchmarked policy atlas that shows how growth, fiscal space, implementation quality, and accelerator interventions connect to SDG outcomes.
 
