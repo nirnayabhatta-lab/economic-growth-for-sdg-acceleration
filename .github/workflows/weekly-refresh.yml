@@ -1,0 +1,54 @@
+name: weekly-refresh
+
+on:
+  schedule:
+    - cron: "15 2 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "weekly-refresh"
+  cancel-in-progress: true
+
+jobs:
+  refresh-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build baseline data
+        run: python3 scripts/build_seed_data.py
+
+      - name: Refresh weekly news and signals
+        run: python3 scripts/refresh_weekly_signals.py
+
+      - name: Validate refreshed data
+        run: python3 scripts/validate_data.py
+
+      - name: Commit refreshed files if changed
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news_signals.json data/site_meta.json
+          git commit -m "Weekly refresh of news signals"
+          git push
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - uses: actions/deploy-pages@v4

@@ -10,6 +10,7 @@ const DATA_FILES = [
   "../data/budget_map.json",
   "../data/accelerators.json",
   "../data/signals.json",
+  "../data/news_signals.json",
   "../data/toolkit.json"
 ];
 
@@ -129,6 +130,8 @@ const elements = {
   positiveDrivers: document.getElementById("positiveDrivers"),
   negativeDrivers: document.getElementById("negativeDrivers"),
   interventionPriority: document.getElementById("interventionPriority"),
+  newsRefreshNote: document.getElementById("newsRefreshNote"),
+  newsSignalBoard: document.getElementById("newsSignalBoard"),
   riskList: document.getElementById("riskList"),
   topAccelerators: document.getElementById("topAccelerators"),
   lensChips: document.getElementById("lensChips"),
@@ -142,7 +145,8 @@ const elements = {
   comparisonGrid: document.getElementById("comparisonGrid"),
   toolkitGrid: document.getElementById("toolkitGrid"),
   sourceList: document.getElementById("sourceList"),
-  methodNote: document.getElementById("methodNote")
+  methodNote: document.getElementById("methodNote"),
+  footerCredit: document.getElementById("footerCredit")
 };
 
 init();
@@ -160,6 +164,7 @@ async function init() {
     budgetMap,
     accelerators,
     signals,
+    newsSignals,
     toolkit
   ] = await Promise.all(DATA_FILES.map((file) => fetch(file).then((response) => response.json())));
 
@@ -178,6 +183,7 @@ async function init() {
     budgetMap,
     accelerators,
     signals,
+    newsSignals,
     toolkit
   };
 
@@ -236,6 +242,7 @@ function render() {
   renderComparisons();
   renderToolkit();
   renderSources();
+  renderFooter();
 }
 
 function renderOverview() {
@@ -293,6 +300,7 @@ function renderPulse() {
   renderList(elements.positiveDrivers, positives.map(driverCard), "No strengthening drivers identified yet.");
   renderList(elements.negativeDrivers, negatives.map(driverCard), "No weakening drivers identified yet.");
   renderList(elements.interventionPriority, interventions.map(simulatorCard), "No intervention ranking available yet.");
+  renderNewsSignals();
 }
 
 function renderLenses() {
@@ -447,6 +455,23 @@ function renderSources() {
     .join("");
 }
 
+function renderNewsSignals() {
+  const countryCode = currentCountry().country_code;
+  const newsItems = state.data.newsSignals
+    .filter((item) => item.country_code === countryCode)
+    .sort((a, b) => b.impact_score - a.impact_score)
+    .slice(0, 6);
+
+  elements.newsRefreshNote.textContent =
+    state.data.siteMeta.weekly_refresh_note ||
+    "Weekly automation can refresh this feed with tagged headlines mapped to channels like jobs, gender, industry, resilience, and fiscal space.";
+  renderList(elements.newsSignalBoard, newsItems.map(newsSignalCard), "No linked news signals are available for this country yet.");
+}
+
+function renderFooter() {
+  elements.footerCredit.textContent = state.data.siteMeta.developer_credit || "Developer - Applied Economist NIRNAYA BHATTA";
+}
+
 function analysisModeCard(item) {
   return `
     <article class="analysis-card">
@@ -488,6 +513,24 @@ function simulatorCard(item) {
       </div>
       <p class="indicator-note">${escapeHtml(item.channelSummary)}</p>
       <p>${escapeHtml(item.reason)}</p>
+    </article>
+  `;
+}
+
+function newsSignalCard(item) {
+  return `
+    <article class="news-card">
+      <div class="subsection-head">
+        <h3>${escapeHtml(item.headline)}</h3>
+        <span class="status-badge ${escapeHtml(item.direction)}">${escapeHtml(item.direction)}</span>
+      </div>
+      <p>${escapeHtml(item.summary)}</p>
+      <div class="chip-set">
+        ${item.channels.map((channel) => `<span class="sdg-chip channel-chip">${escapeHtml(channel)}</span>`).join("")}
+        ${item.linked_indicator_ids.map((indicatorId) => `<span class="mini-badge">${escapeHtml(labelForIndicator(indicatorId))}</span>`).join("")}
+      </div>
+      <p class="meta-line">Impact score ${escapeHtml(formatNumber(item.impact_score))} | ${escapeHtml(item.date)} | ${escapeHtml(item.source_label)}</p>
+      <a href="${escapeHtml(item.source_url)}" target="_blank" rel="noreferrer">Open source</a>
     </article>
   `;
 }
@@ -845,6 +888,7 @@ function exportSnapshot() {
     pulse,
     pulse_drivers: pulseDrivers(currentCountry().country_code).slice(0, 8),
     intervention_priority: rankedInterventions(currentCountry().country_code).slice(0, 3),
+    weekly_news_signals: state.data.newsSignals.filter((item) => item.country_code === currentCountry().country_code).slice(0, 6),
     top_risks: topSignals(currentCountry().country_code),
     top_accelerators: acceleratorsFor(currentCountry().country_code).slice(0, 3)
   };

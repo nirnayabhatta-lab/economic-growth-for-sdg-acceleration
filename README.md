@@ -31,6 +31,12 @@ This means the platform is designed to answer not just `where is Nepal now?`, bu
 - `through which economic channels?`
 - `which policy or investment lever is most likely to change the trajectory?`
 
+## Visual and interaction layer
+- animated SDG wheel to signal continuous motion across goals and policy channels
+- richer gradients and layered color so the atlas feels more dynamic in the browser
+- a copyright footer crediting `Developer - Applied Economist NIRNAYA BHATTA`
+- weekly news-and-signals cards that connect updates to channels such as jobs, gender, industry, trade, resilience, and fiscal space
+
 ## Weekly update path
 Yes, this architecture can support weekly auto-updating analysis.
 
@@ -46,6 +52,11 @@ In practice, this can be automated through GitHub Actions:
 4. redeploy the static site through GitHub Pages
 
 That lets the site stay static to host, but dynamic in content.
+
+## Weekly automation in this repo
+- `.github/workflows/weekly-refresh.yml`: scheduled Monday refresh and deploy workflow
+- `scripts/refresh_weekly_signals.py`: lightweight headline fetch and heuristic tagging into channels and linked indicators
+- `data/news_signals.json`: public-facing news-and-signals layer used by the site
 
 ## What this repo contains
 - `app/`: static PWA for GitHub Pages

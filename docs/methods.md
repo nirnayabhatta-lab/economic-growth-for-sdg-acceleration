@@ -24,6 +24,7 @@ Weekly updates:
 - v1 does not claim an official weekly SDG score
 - a weekly updating layer can be added by linking higher-frequency data and tagged news/event signals to the pulse channels
 - the most suitable channels for weekly updates are jobs, prices, trade, implementation, resilience, tourism, energy, and local disruptions
+- this repo now includes a prototype weekly news-and-signals layer that can be refreshed through scheduled automation and heuristically linked to indicator families
 
 Why this approach is realistic:
 - easy to deploy on GitHub Pages

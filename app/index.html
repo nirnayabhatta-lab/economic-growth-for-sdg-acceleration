@@ -27,6 +27,14 @@
             <button id="printBriefBtn" class="button-secondary">Print brief</button>
           </div>
         </div>
+        <div class="hero-visual">
+          <div class="wheel-halo"></div>
+          <img class="sdg-wheel" src="./sdg-wheel.png" alt="Animated Sustainable Development Goals wheel" />
+          <div class="wheel-caption">
+            <span class="panel-label">Dynamic analytical view</span>
+            <p>The wheel rotates slowly to signal continuous motion across goals, sectors, and policy channels.</p>
+          </div>
+        </div>
         <aside class="hero-panel">
           <span class="panel-label">Selected country</span>
           <strong id="heroCountry">Nepal</strong>
@@ -158,6 +166,14 @@
               <div id="interventionPriority" class="stack-list compact-list"></div>
             </article>
           </div>
+          <article class="subsection-card news-board-card">
+            <div class="subsection-head">
+              <h3>Weekly news and signals</h3>
+              <span class="mini-badge">News linked to channels and indicators</span>
+            </div>
+            <p class="indicator-note" id="newsRefreshNote"></p>
+            <div id="newsSignalBoard" class="news-signal-grid"></div>
+          </article>
         </section>
 
         <section id="lenses" class="card section-card">
@@ -261,6 +277,16 @@
           </div>
         </section>
       </main>
+
+      <footer class="site-footer">
+        <div>
+          <strong>Economic Growth for SDG Acceleration</strong>
+          <p id="footerCredit">Developer - Applied Economist NIRNAYA BHATTA</p>
+        </div>
+        <div>
+          <span class="metric-label">Built for policy intelligence, comparative analysis, and public communication.</span>
+        </div>
+      </footer>
     </div>
 
     <script src="./app.js" type="module"></script>

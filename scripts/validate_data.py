@@ -19,6 +19,7 @@ REQUIRED_FILES = [
     "budget_map.json",
     "accelerators.json",
     "signals.json",
+    "news_signals.json",
     "toolkit.json",
 ]
 
@@ -30,6 +31,7 @@ SCHEMAS = {
     "budget_map": ["country_code", "year", "ministry_or_sector", "program_area", "budget_type", "growth_channels", "sdg_links", "confidence"],
     "accelerators": ["id", "country_code", "title", "mechanism", "why_now", "prerequisites", "lead_actors", "expected_channels", "sdg_links", "risk_flags", "source_ids"],
     "signals": ["id", "country_code", "theme", "label", "value", "direction", "threshold_note", "source_ids", "last_updated"],
+    "news_signals": ["id", "country_code", "date", "headline", "summary", "channels", "linked_indicator_ids", "direction", "impact_score", "source_label", "source_url"],
     "lenses": ["id", "title", "summary", "indicator_ids"],
     "toolkit": ["id", "title", "role", "what_it_does", "when_to_use"],
 }
@@ -49,6 +51,7 @@ def main():
     budget_map = load("budget_map.json")
     accelerators = load("accelerators.json")
     signals = load("signals.json")
+    news_signals = load("news_signals.json")
     lenses = load("lenses.json")
     toolkit = load("toolkit.json")
     comparators = load("comparators.json")
@@ -60,12 +63,14 @@ def main():
     assert_shape("budget_map", budget_map, SCHEMAS["budget_map"])
     assert_shape("accelerators", accelerators, SCHEMAS["accelerators"])
     assert_shape("signals", signals, SCHEMAS["signals"])
+    assert_shape("news_signals", news_signals, SCHEMAS["news_signals"])
     assert_shape("lenses", lenses, SCHEMAS["lenses"])
     assert_shape("toolkit", toolkit, SCHEMAS["toolkit"])
 
     country_codes = {country["country_code"] for country in countries}
     source_ids = {source["id"] for source in sources}
     lens_ids = {lens["id"] for lens in lenses}
+    indicator_ids = {indicator["id"] for indicator in indicators}
 
     if comparators["default_country"] not in country_codes:
         raise SystemExit("comparators.json default_country must point to a valid country")
@@ -82,6 +87,13 @@ def main():
             if item["country_code"] not in country_codes:
                 raise SystemExit(f"Invalid country code in {collection_name}: {item['country_code']}")
             assert_source_ids(item["source_ids"], source_ids, item.get("id", item.get("label", collection_name)))
+
+    for item in news_signals:
+        if item["country_code"] not in country_codes:
+            raise SystemExit(f"Invalid country code in news_signals: {item['country_code']}")
+        for indicator_id in item["linked_indicator_ids"]:
+            if indicator_id not in indicator_ids:
+                raise SystemExit(f"Unknown linked indicator {indicator_id} in news signal {item['id']}")
 
     for pathway in pathways:
         if pathway["country_scope"] != "cross-country" and pathway["country_scope"] not in country_codes:

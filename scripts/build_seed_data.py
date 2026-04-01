@@ -385,17 +385,127 @@ def extra_nepal_accelerators():
     ]
 
 
+def build_news_signals(country_obj):
+    code = country_obj["country_code"]
+    name = country_obj["country_name"]
+    p = country_obj["profile"]
+
+    export_direction = "steady" if p["export_readiness"] >= 55 else "warning"
+    gender_direction = "steady" if p["female_lfp"] >= 45 else "warning"
+    resilience_direction = "steady" if p["resilience_readiness"] >= 58 and p["disaster_risk"] <= 50 else "watch"
+
+    items = [
+        {
+            "id": f"{code.lower()}_news_trade",
+            "country_code": code,
+            "date": "2026-04-01",
+            "headline": f"{name} trade and competitiveness signal",
+            "summary": (
+                f"{name}'s export and competitiveness environment is showing {'strengthening' if export_direction == 'steady' else 'pressure on'} "
+                f"transition readiness, with implications for jobs, foreign exchange, and fiscal space."
+            ),
+            "channels": ["industry", "trade", "exports"],
+            "linked_indicator_ids": ["export_readiness", "readiness_index", "quality_jobs_index"],
+            "direction": export_direction,
+            "impact_score": 7.4 if export_direction == "steady" else 6.8,
+            "source_label": "Curated weekly signal baseline",
+            "source_url": "https://www.worldbank.org/",
+        },
+        {
+            "id": f"{code.lower()}_news_gender",
+            "country_code": code,
+            "date": "2026-04-01",
+            "headline": f"{name} women and inclusion signal",
+            "summary": (
+                f"Current labor and inclusion conditions suggest {'improving' if gender_direction == 'steady' else 'uneven'} translation "
+                f"from growth into women's economic participation and broader left-behind outcomes."
+            ),
+            "channels": ["gender", "jobs", "inclusion"],
+            "linked_indicator_ids": ["female_lfp", "quality_jobs_index", "inclusion_readiness"],
+            "direction": gender_direction,
+            "impact_score": 6.9 if gender_direction == "steady" else 6.5,
+            "source_label": "Curated weekly signal baseline",
+            "source_url": "https://ilostat.ilo.org/",
+        },
+        {
+            "id": f"{code.lower()}_news_resilience",
+            "country_code": code,
+            "date": "2026-04-01",
+            "headline": f"{name} resilience and continuity signal",
+            "summary": (
+                f"Resilience-sensitive infrastructure and delivery systems are {'helping protect' if resilience_direction == 'steady' else 'still exposing'} "
+                f"development gains against climate and implementation shocks."
+            ),
+            "channels": ["resilience", "infrastructure", "implementation"],
+            "linked_indicator_ids": ["resilience_readiness", "disaster_risk", "implementation_capacity"],
+            "direction": resilience_direction,
+            "impact_score": 7.1 if resilience_direction == "steady" else 6.2,
+            "source_label": "Curated weekly signal baseline",
+            "source_url": "https://sdgdiagnostics.data.undp.org/",
+        },
+    ]
+
+    if code == "NPL":
+        items.extend(
+            [
+                {
+                    "id": "npl_news_energy",
+                    "country_code": "NPL",
+                    "date": "2026-04-01",
+                    "headline": "Hydropower reliability and productive electricity use are shaping industrial confidence",
+                    "summary": "Energy reliability is one of Nepal's clearest routes from infrastructure to jobs, exports, and stronger SDG momentum.",
+                    "channels": ["energy", "industry", "jobs"],
+                    "linked_indicator_ids": ["clean_energy", "export_readiness", "quality_jobs_index"],
+                    "direction": "steady",
+                    "impact_score": 8.3,
+                    "source_label": "National Planning Commission Nepal",
+                    "source_url": "https://www.npc.gov.np/",
+                },
+                {
+                    "id": "npl_news_local_execution",
+                    "country_code": "NPL",
+                    "date": "2026-04-01",
+                    "headline": "Local capital execution remains decisive for whether public spending turns into SDG delivery",
+                    "summary": "Budget allocations matter less if procurement, maintenance, and local execution bottlenecks slow actual service and infrastructure outcomes.",
+                    "channels": ["budget", "implementation", "service delivery"],
+                    "linked_indicator_ids": ["budget_execution", "implementation_capacity", "data_readiness"],
+                    "direction": "watch",
+                    "impact_score": 7.9,
+                    "source_label": "UNDP SDG Diagnostics",
+                    "source_url": "https://sdgdiagnostics.data.undp.org/",
+                },
+                {
+                    "id": "npl_news_women_jobs",
+                    "country_code": "NPL",
+                    "date": "2026-04-01",
+                    "headline": "Women's economic participation remains a major accelerator rather than a side issue",
+                    "summary": "Nepal's growth story strengthens substantially when care, mobility, credit, and skills policies move more women into productive work.",
+                    "channels": ["gender", "jobs", "household welfare"],
+                    "linked_indicator_ids": ["female_lfp", "quality_jobs_index", "inclusion_readiness"],
+                    "direction": "watch",
+                    "impact_score": 7.7,
+                    "source_label": "ILOSTAT",
+                    "source_url": "https://ilostat.ilo.org/",
+                },
+            ]
+        )
+
+    return items
+
+
 def write(file_name, payload):
     (DATA_DIR / file_name).write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
 
 
 SITE_META = {
     "title": "Economic Growth for SDG Acceleration",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "built_on": "2026-04-01",
     "default_country": "NPL",
+    "developer_credit": "Developer - Applied Economist NIRNAYA BHATTA",
     "comparison_indicator_ids": ["sdg_index", "gdp_growth", "quality_jobs_index", "tax_gdp", "resilience_readiness", "implementation_capacity"],
-    "method_note": "This v1 platform uses curated country snapshots from public sources and structured policy mappings. It is designed for analytical orientation and decision support, not live statistical reporting.",
+    "method_note": "This v1 platform uses curated country snapshots from public sources and structured policy mappings. It is designed for analytical orientation, driver decomposition, and decision support rather than official live statistical reporting.",
+    "weekly_refresh_note": "Weekly signal cards can be refreshed through scheduled automation, with headlines linked to channels such as jobs, gender, industry, exports, resilience, and fiscal space.",
 }
 
 SOURCES = [
@@ -512,6 +622,7 @@ def main():
     budget_map = [item for c in COUNTRIES for item in default_budgets(c)] + extra_nepal_budgets()
     accelerators = [item for c in COUNTRIES for item in default_accelerators(c)] + extra_nepal_accelerators()
     signals = [item for c in COUNTRIES for item in build_signals(c)]
+    news_signals = [item for c in COUNTRIES for item in build_news_signals(c)]
 
     write("site_meta.json", SITE_META)
     write("sources.json", SOURCES)
@@ -525,6 +636,7 @@ def main():
     write("budget_map.json", budget_map)
     write("accelerators.json", accelerators)
     write("signals.json", signals)
+    write("news_signals.json", news_signals)
 
 
 if __name__ == "__main__":
