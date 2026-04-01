@@ -1,4 +1,4 @@
-# Economic Growth for SDG Acceleration
+# Economic Growth for SDG Acceleration (EG4SDGA)
 
 A Nepal-centered, regionally benchmarked policy atlas that shows how growth, fiscal space, implementation quality, and accelerator interventions connect to SDG outcomes.
 
@@ -34,7 +34,7 @@ This means the platform is designed to answer not just `where is Nepal now?`, bu
 ## Visual and interaction layer
 - animated SDG wheel to signal continuous motion across goals and policy channels
 - richer gradients and layered color so the atlas feels more dynamic in the browser
-- a copyright footer crediting `Developer - Applied Economist NIRNAYA BHATTA`
+- a copyright footer crediting `Developer - Policy Economist NIRNAYA BHATTA`
 - weekly news-and-signals cards that connect updates to channels such as jobs, gender, industry, trade, resilience, and fiscal space
 
 ## Weekly update path

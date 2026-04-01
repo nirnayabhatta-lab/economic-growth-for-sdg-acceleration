@@ -1,6 +1,6 @@
 {
-  "name": "Economic Growth for SDG Acceleration",
-  "short_name": "Growth SDGs",
+  "name": "Economic Growth for SDG Acceleration (EG4SDGA)",
+  "short_name": "EG4SDGA",
   "description": "Nepal-centered policy atlas linking growth, fiscal space, public action, and SDG acceleration.",
   "start_url": "./index.html",
   "scope": "./",
