@@ -1105,8 +1105,23 @@ select {
   }
 
   .left-rail {
-    top: 0.4rem;
-    padding: 0.55rem 0.7rem;
+    position: static;
+    top: auto;
+    gap: 0.6rem;
+    padding: 0.65rem 0.7rem;
+    border-radius: 18px;
+  }
+
+  .rail-brand {
+    width: 68px;
+    min-width: 68px;
+    font-size: 0.88rem;
+    letter-spacing: 0.03em;
+  }
+
+  .rail-link {
+    padding: 0.72rem 0.92rem;
+    font-size: 0.94rem;
   }
 
   .hero {
@@ -1126,7 +1141,8 @@ select {
   }
 
   .hero-copy h1 {
-    font-size: 2.25rem;
+    font-size: 2.12rem;
+    line-height: 1;
   }
 
   .control-grid,
@@ -1138,12 +1154,26 @@ select {
     grid-template-columns: 1fr;
   }
 
+  .hero-description,
+  .gap-statement,
+  .control-note,
+  .section-note,
+  .indicator-note {
+    font-size: 0.98rem;
+    line-height: 1.65;
+  }
+
+  .button-secondary,
+  select {
+    min-height: 50px;
+  }
+
   .hero-wheel-wrap {
-    min-height: 175px;
+    min-height: 205px;
   }
 
   .sdg-wheel-logo {
-    width: min(100%, 185px);
+    width: min(100%, 215px);
   }
 
   .section-card {
@@ -1204,19 +1234,19 @@ select {
   }
 
   .left-rail {
-    padding: 0.45rem 0.55rem;
+    padding: 0.55rem 0.55rem;
     border-radius: 18px;
   }
 
   .rail-brand {
-    width: 54px;
-    min-width: 54px;
-    font-size: 0.82rem;
+    width: 62px;
+    min-width: 62px;
+    font-size: 0.76rem;
   }
 
   .rail-link {
-    padding: 0.58rem 0.72rem;
-    font-size: 0.86rem;
+    padding: 0.66rem 0.82rem;
+    font-size: 0.9rem;
   }
 
   .hero,
@@ -1225,17 +1255,21 @@ select {
   }
 
   .hero-copy h1 {
-    font-size: 1.95rem;
+    font-size: 2rem;
   }
 
   .hero-description,
   .gap-statement,
   .control-note {
-    font-size: 0.9rem;
+    font-size: 0.96rem;
+  }
+
+  .hero-wheel-wrap {
+    min-height: 185px;
   }
 
   .sdg-wheel-logo {
-    width: min(100%, 150px);
+    width: min(100%, 190px);
   }
 
   .metric-grid {
