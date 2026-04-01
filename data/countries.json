@@ -8,6 +8,14 @@
     "is_default": true,
     "aspirational_peer_code": "VNM",
     "structural_peer_code": "BGD",
+    "regional_anchor_code": "IND",
+    "peer_rationale": {
+      "aspirational": "Vietnam is treated as an aspirational peer because it converts growth into jobs, diversification, and SDG progress more effectively than many peers.",
+      "structural": "Bangladesh is used as a structural peer because it faces comparable income, production-structure, and fiscal or export constraints.",
+      "regional_anchor": "India is used as a regional anchor because it shapes trade, logistics, investment, and policy reference points around the selected country.",
+      "transition_sensitive": "Nepal is treated as transition-sensitive when graduation, competitiveness, labor-market, climate, or implementation risks can materially alter the pace of SDG acceleration.",
+      "peer_type_note": "The comparison basket tags this country primarily as a default case within the regional benchmark set."
+    },
     "growth_story": "Hydropower, services, remittances, and unfinished structural transformation define Nepal's growth story.",
     "financing_story": "Fiscal space is workable but tight; the challenge is turning public spending and private capital into SDG-aligned investment quality.",
     "transition_story": "LDC graduation raises urgency around exports, jobs, resilience, and smooth transition planning.",
@@ -45,6 +53,14 @@
     "is_default": false,
     "aspirational_peer_code": "VNM",
     "structural_peer_code": "NPL",
+    "regional_anchor_code": "IND",
+    "peer_rationale": {
+      "aspirational": "Vietnam is treated as an aspirational peer because it converts growth into jobs, diversification, and SDG progress more effectively than many peers.",
+      "structural": "Nepal is used as a structural peer because it faces comparable income, production-structure, and fiscal or export constraints.",
+      "regional_anchor": "India is used as a regional anchor because it shapes trade, logistics, investment, and policy reference points around the selected country.",
+      "transition_sensitive": "Bangladesh is treated as transition-sensitive when graduation, competitiveness, labor-market, climate, or implementation risks can materially alter the pace of SDG acceleration.",
+      "peer_type_note": "The comparison basket tags this country primarily as a structural case within the regional benchmark set."
+    },
     "growth_story": "Export manufacturing depth and social progress are key strengths, with competitiveness and climate risks growing.",
     "financing_story": "Public investment and export-led growth have mattered, though tax effort and financial depth remain uneven.",
     "transition_story": "Transition management depends on sustaining export dynamism and resilience.",
@@ -82,6 +98,14 @@
     "is_default": false,
     "aspirational_peer_code": "VNM",
     "structural_peer_code": "NPL",
+    "regional_anchor_code": "IND",
+    "peer_rationale": {
+      "aspirational": "Vietnam is treated as an aspirational peer because it converts growth into jobs, diversification, and SDG progress more effectively than many peers.",
+      "structural": "Nepal is used as a structural peer because it faces comparable income, production-structure, and fiscal or export constraints.",
+      "regional_anchor": "India is used as a regional anchor because it shapes trade, logistics, investment, and policy reference points around the selected country.",
+      "transition_sensitive": "Bhutan is treated as transition-sensitive when graduation, competitiveness, labor-market, climate, or implementation risks can materially alter the pace of SDG acceleration.",
+      "peer_type_note": "The comparison basket tags this country primarily as a resilience peer case within the regional benchmark set."
+    },
     "growth_story": "Bhutan's model is shaped by hydropower, public investment, and environmental stewardship.",
     "financing_story": "Power-sector concentration and partnership finance create both opportunity and risk.",
     "transition_story": "Diversification and quality employment remain core transition issues.",
@@ -119,6 +143,14 @@
     "is_default": false,
     "aspirational_peer_code": "VNM",
     "structural_peer_code": "IDN",
+    "regional_anchor_code": "IND",
+    "peer_rationale": {
+      "aspirational": "Vietnam is treated as an aspirational peer because it converts growth into jobs, diversification, and SDG progress more effectively than many peers.",
+      "structural": "Indonesia is used as a structural peer because it faces comparable income, production-structure, and fiscal or export constraints.",
+      "regional_anchor": "India itself acts as a regional anchor in the comparison set.",
+      "transition_sensitive": "India is treated as transition-sensitive when graduation, competitiveness, labor-market, climate, or implementation risks can materially alter the pace of SDG acceleration.",
+      "peer_type_note": "The comparison basket tags this country primarily as a regional anchor case within the regional benchmark set."
+    },
     "growth_story": "India combines scale, services, manufacturing ambition, and digital public infrastructure.",
     "financing_story": "A broader tax base supports larger investment ambition, but federal delivery quality still matters.",
     "transition_story": "Structural transformation continues, but jobs quality and territorial divergence constrain inclusion.",
@@ -156,6 +188,14 @@
     "is_default": false,
     "aspirational_peer_code": "THA",
     "structural_peer_code": "LKA",
+    "regional_anchor_code": "IND",
+    "peer_rationale": {
+      "aspirational": "Thailand is treated as an aspirational peer because it converts growth into jobs, diversification, and SDG progress more effectively than many peers.",
+      "structural": "Sri Lanka is used as a structural peer because it faces comparable income, production-structure, and fiscal or export constraints.",
+      "regional_anchor": "India is used as a regional anchor because it shapes trade, logistics, investment, and policy reference points around the selected country.",
+      "transition_sensitive": "Maldives is treated as transition-sensitive when graduation, competitiveness, labor-market, climate, or implementation risks can materially alter the pace of SDG acceleration.",
+      "peer_type_note": "The comparison basket tags this country primarily as a tourism peer case within the regional benchmark set."
+    },
     "growth_story": "Tourism dependence generates income but also concentration and climate exposure.",
     "financing_story": "Public finance is sensitive to tourism cycles, debt dynamics, and infrastructure commitments.",
     "transition_story": "Climate resilience and diversification are central to sustaining gains.",
@@ -193,6 +233,14 @@
     "is_default": false,
     "aspirational_peer_code": "VNM",
     "structural_peer_code": "NPL",
+    "regional_anchor_code": "IND",
+    "peer_rationale": {
+      "aspirational": "Vietnam is treated as an aspirational peer because it converts growth into jobs, diversification, and SDG progress more effectively than many peers.",
+      "structural": "Nepal is used as a structural peer because it faces comparable income, production-structure, and fiscal or export constraints.",
+      "regional_anchor": "India is used as a regional anchor because it shapes trade, logistics, investment, and policy reference points around the selected country.",
+      "transition_sensitive": "Pakistan is treated as transition-sensitive when graduation, competitiveness, labor-market, climate, or implementation risks can materially alter the pace of SDG acceleration.",
+      "peer_type_note": "The comparison basket tags this country primarily as a structural case within the regional benchmark set."
+    },
     "growth_story": "Large productive potential is constrained by macro instability and weak structural transformation.",
     "financing_story": "Fiscal and external constraints sharply affect investment quality and SDG delivery consistency.",
     "transition_story": "The challenge is turning stabilization into durable inclusive growth.",
@@ -230,6 +278,14 @@
     "is_default": false,
     "aspirational_peer_code": "THA",
     "structural_peer_code": "MDV",
+    "regional_anchor_code": "IND",
+    "peer_rationale": {
+      "aspirational": "Thailand is treated as an aspirational peer because it converts growth into jobs, diversification, and SDG progress more effectively than many peers.",
+      "structural": "Maldives is used as a structural peer because it faces comparable income, production-structure, and fiscal or export constraints.",
+      "regional_anchor": "India is used as a regional anchor because it shapes trade, logistics, investment, and policy reference points around the selected country.",
+      "transition_sensitive": "Sri Lanka is treated as transition-sensitive when graduation, competitiveness, labor-market, climate, or implementation risks can materially alter the pace of SDG acceleration.",
+      "peer_type_note": "The comparison basket tags this country primarily as a transition-sensitive case within the regional benchmark set."
+    },
     "growth_story": "Human-development strengths coexist with debt stress and uneven recovery.",
     "financing_story": "Fiscal consolidation shapes room for SDG-supporting investment.",
     "transition_story": "Recovery quality, exports, and governance credibility matter most.",
@@ -267,6 +323,14 @@
     "is_default": false,
     "aspirational_peer_code": "VNM",
     "structural_peer_code": "IND",
+    "regional_anchor_code": "THA",
+    "peer_rationale": {
+      "aspirational": "Vietnam is treated as an aspirational peer because it converts growth into jobs, diversification, and SDG progress more effectively than many peers.",
+      "structural": "India is used as a structural peer because it faces comparable income, production-structure, and fiscal or export constraints.",
+      "regional_anchor": "Thailand is used as a regional anchor because it shapes trade, logistics, investment, and policy reference points around the selected country.",
+      "transition_sensitive": "Indonesia is treated as transition-sensitive when graduation, competitiveness, labor-market, climate, or implementation risks can materially alter the pace of SDG acceleration.",
+      "peer_type_note": "The comparison basket tags this country primarily as a structural case within the regional benchmark set."
+    },
     "growth_story": "Indonesia mixes commodity strengths, industrial ambition, and domestic market scale.",
     "financing_story": "Fiscal and investment frameworks are stronger than many peers, though coordination remains critical.",
     "transition_story": "The challenge is deepening diversification without widening inequality.",
@@ -304,6 +368,14 @@
     "is_default": false,
     "aspirational_peer_code": "THA",
     "structural_peer_code": "BGD",
+    "regional_anchor_code": "THA",
+    "peer_rationale": {
+      "aspirational": "Thailand is treated as an aspirational peer because it converts growth into jobs, diversification, and SDG progress more effectively than many peers.",
+      "structural": "Bangladesh is used as a structural peer because it faces comparable income, production-structure, and fiscal or export constraints.",
+      "regional_anchor": "Thailand is used as a regional anchor because it shapes trade, logistics, investment, and policy reference points around the selected country.",
+      "transition_sensitive": "Vietnam is treated as transition-sensitive when graduation, competitiveness, labor-market, climate, or implementation risks can materially alter the pace of SDG acceleration.",
+      "peer_type_note": "The comparison basket tags this country primarily as a aspirational case within the regional benchmark set."
+    },
     "growth_story": "Vietnam's story is built on export manufacturing, productivity gains, and sustained coordination.",
     "financing_story": "Public direction and private investment work together more effectively than in many peers.",
     "transition_story": "The next challenge is moving toward innovation and greener upgrading.",
@@ -341,6 +413,14 @@
     "is_default": false,
     "aspirational_peer_code": "VNM",
     "structural_peer_code": "LKA",
+    "regional_anchor_code": "THA",
+    "peer_rationale": {
+      "aspirational": "Vietnam is treated as an aspirational peer because it converts growth into jobs, diversification, and SDG progress more effectively than many peers.",
+      "structural": "Sri Lanka is used as a structural peer because it faces comparable income, production-structure, and fiscal or export constraints.",
+      "regional_anchor": "Thailand is used as a regional anchor because it shapes trade, logistics, investment, and policy reference points around the selected country.",
+      "transition_sensitive": "Philippines is treated as transition-sensitive when graduation, competitiveness, labor-market, climate, or implementation risks can materially alter the pace of SDG acceleration.",
+      "peer_type_note": "The comparison basket tags this country primarily as a labor-market peer case within the regional benchmark set."
+    },
     "growth_story": "Services-led growth and remittances support dynamism, but productivity and resilience challenges remain.",
     "financing_story": "Tax reform and infrastructure ambition improved the toolkit, though execution matters.",
     "transition_story": "Future acceleration depends on productivity, jobs quality, and climate-smart delivery.",
@@ -378,6 +458,14 @@
     "is_default": false,
     "aspirational_peer_code": "VNM",
     "structural_peer_code": "IDN",
+    "regional_anchor_code": "THA",
+    "peer_rationale": {
+      "aspirational": "Vietnam is treated as an aspirational peer because it converts growth into jobs, diversification, and SDG progress more effectively than many peers.",
+      "structural": "Indonesia is used as a structural peer because it faces comparable income, production-structure, and fiscal or export constraints.",
+      "regional_anchor": "Thailand itself acts as a regional anchor in the comparison set.",
+      "transition_sensitive": "Thailand is treated as transition-sensitive when graduation, competitiveness, labor-market, climate, or implementation risks can materially alter the pace of SDG acceleration.",
+      "peer_type_note": "The comparison basket tags this country primarily as a aspirational case within the regional benchmark set."
+    },
     "growth_story": "Thailand offers a mature transformation model, though aging and productivity drift matter.",
     "financing_story": "Fiscal and industrial-policy capacity are stronger than many peers.",
     "transition_story": "The question is how to sustain innovation and inclusion.",
@@ -415,6 +503,14 @@
     "is_default": false,
     "aspirational_peer_code": "VNM",
     "structural_peer_code": "BGD",
+    "regional_anchor_code": "THA",
+    "peer_rationale": {
+      "aspirational": "Vietnam is treated as an aspirational peer because it converts growth into jobs, diversification, and SDG progress more effectively than many peers.",
+      "structural": "Bangladesh is used as a structural peer because it faces comparable income, production-structure, and fiscal or export constraints.",
+      "regional_anchor": "Thailand is used as a regional anchor because it shapes trade, logistics, investment, and policy reference points around the selected country.",
+      "transition_sensitive": "Cambodia is treated as transition-sensitive when graduation, competitiveness, labor-market, climate, or implementation risks can materially alter the pace of SDG acceleration.",
+      "peer_type_note": "The comparison basket tags this country primarily as a transition-sensitive case within the regional benchmark set."
+    },
     "growth_story": "Cambodia grew rapidly through garments and construction, but diversification and resilience remain unfinished.",
     "financing_story": "External demand, FDI, and public investment have mattered, but shock exposure is still high.",
     "transition_story": "The growth model must diversify to sustain jobs and SDG progress.",
@@ -452,6 +548,14 @@
     "is_default": false,
     "aspirational_peer_code": "VNM",
     "structural_peer_code": "NPL",
+    "regional_anchor_code": "THA",
+    "peer_rationale": {
+      "aspirational": "Vietnam is treated as an aspirational peer because it converts growth into jobs, diversification, and SDG progress more effectively than many peers.",
+      "structural": "Nepal is used as a structural peer because it faces comparable income, production-structure, and fiscal or export constraints.",
+      "regional_anchor": "Thailand is used as a regional anchor because it shapes trade, logistics, investment, and policy reference points around the selected country.",
+      "transition_sensitive": "Lao PDR is treated as transition-sensitive when graduation, competitiveness, labor-market, climate, or implementation risks can materially alter the pace of SDG acceleration.",
+      "peer_type_note": "The comparison basket tags this country primarily as a structural case within the regional benchmark set."
+    },
     "growth_story": "Energy and capital-intensive growth delivered less jobs broadening than expected.",
     "financing_story": "Debt and concentrated sectors shape the development-finance challenge.",
     "transition_story": "The issue is turning investment into productivity and employment.",
@@ -489,6 +593,14 @@
     "is_default": false,
     "aspirational_peer_code": "VNM",
     "structural_peer_code": "NPL",
+    "regional_anchor_code": "GEO",
+    "peer_rationale": {
+      "aspirational": "Vietnam is treated as an aspirational peer because it converts growth into jobs, diversification, and SDG progress more effectively than many peers.",
+      "structural": "Nepal is used as a structural peer because it faces comparable income, production-structure, and fiscal or export constraints.",
+      "regional_anchor": "Georgia is used as a regional anchor because it shapes trade, logistics, investment, and policy reference points around the selected country.",
+      "transition_sensitive": "Rwanda is treated as transition-sensitive when graduation, competitiveness, labor-market, climate, or implementation risks can materially alter the pace of SDG acceleration.",
+      "peer_type_note": "The comparison basket tags this country primarily as a aspirational case within the regional benchmark set."
+    },
     "growth_story": "Rwanda is an implementation and coordination peer with a still-narrow productive base.",
     "financing_story": "Public investment discipline matters strongly, though external dependence remains important.",
     "transition_story": "The challenge is broadening productive employment while sustaining delivery quality.",
@@ -526,6 +638,14 @@
     "is_default": false,
     "aspirational_peer_code": "RWA",
     "structural_peer_code": "NPL",
+    "regional_anchor_code": "GEO",
+    "peer_rationale": {
+      "aspirational": "Rwanda is treated as an aspirational peer because it converts growth into jobs, diversification, and SDG progress more effectively than many peers.",
+      "structural": "Nepal is used as a structural peer because it faces comparable income, production-structure, and fiscal or export constraints.",
+      "regional_anchor": "Georgia is used as a regional anchor because it shapes trade, logistics, investment, and policy reference points around the selected country.",
+      "transition_sensitive": "Ethiopia is treated as transition-sensitive when graduation, competitiveness, labor-market, climate, or implementation risks can materially alter the pace of SDG acceleration.",
+      "peer_type_note": "The comparison basket tags this country primarily as a structural case within the regional benchmark set."
+    },
     "growth_story": "Large-scale structural transformation efforts are complicated by macro and political stress.",
     "financing_story": "Public investment ambition has been high, but external constraints remain binding.",
     "transition_story": "Growth quality depends on stability, exports, and a resilient private sector base.",
@@ -563,6 +683,14 @@
     "is_default": false,
     "aspirational_peer_code": "RWA",
     "structural_peer_code": "PHL",
+    "regional_anchor_code": "GEO",
+    "peer_rationale": {
+      "aspirational": "Rwanda is treated as an aspirational peer because it converts growth into jobs, diversification, and SDG progress more effectively than many peers.",
+      "structural": "Philippines is used as a structural peer because it faces comparable income, production-structure, and fiscal or export constraints.",
+      "regional_anchor": "Georgia is used as a regional anchor because it shapes trade, logistics, investment, and policy reference points around the selected country.",
+      "transition_sensitive": "Kenya is treated as transition-sensitive when graduation, competitiveness, labor-market, climate, or implementation risks can materially alter the pace of SDG acceleration.",
+      "peer_type_note": "The comparison basket tags this country primarily as a innovation peer case within the regional benchmark set."
+    },
     "growth_story": "Kenya combines services and entrepreneurship strengths with uneven inclusion and resilience.",
     "financing_story": "Domestic revenue and capital mobilization are stronger than many peers, but fiscal pressure still matters.",
     "transition_story": "The next step is deeper productive jobs and lower climate vulnerability.",
@@ -600,6 +728,14 @@
     "is_default": false,
     "aspirational_peer_code": "THA",
     "structural_peer_code": "LKA",
+    "regional_anchor_code": "GEO",
+    "peer_rationale": {
+      "aspirational": "Thailand is treated as an aspirational peer because it converts growth into jobs, diversification, and SDG progress more effectively than many peers.",
+      "structural": "Sri Lanka is used as a structural peer because it faces comparable income, production-structure, and fiscal or export constraints.",
+      "regional_anchor": "Georgia is used as a regional anchor because it shapes trade, logistics, investment, and policy reference points around the selected country.",
+      "transition_sensitive": "Morocco is treated as transition-sensitive when graduation, competitiveness, labor-market, climate, or implementation risks can materially alter the pace of SDG acceleration.",
+      "peer_type_note": "The comparison basket tags this country primarily as a structural case within the regional benchmark set."
+    },
     "growth_story": "Morocco is a useful industrial and logistics upgrading comparator.",
     "financing_story": "Public investment and industrial coordination have supported logistics and manufacturing.",
     "transition_story": "The challenge is widening inclusion while sustaining competitiveness.",
@@ -637,6 +773,14 @@
     "is_default": false,
     "aspirational_peer_code": "THA",
     "structural_peer_code": "MDV",
+    "regional_anchor_code": "GEO",
+    "peer_rationale": {
+      "aspirational": "Thailand is treated as an aspirational peer because it converts growth into jobs, diversification, and SDG progress more effectively than many peers.",
+      "structural": "Maldives is used as a structural peer because it faces comparable income, production-structure, and fiscal or export constraints.",
+      "regional_anchor": "Georgia is used as a regional anchor because it shapes trade, logistics, investment, and policy reference points around the selected country.",
+      "transition_sensitive": "Mongolia is treated as transition-sensitive when graduation, competitiveness, labor-market, climate, or implementation risks can materially alter the pace of SDG acceleration.",
+      "peer_type_note": "The comparison basket tags this country primarily as a resource peer case within the regional benchmark set."
+    },
     "growth_story": "Mongolia shows that income gains alone do not solve diversification and resilience problems.",
     "financing_story": "Commodity-linked revenues shape both opportunity and volatility.",
     "transition_story": "Diversification and local resilience remain central despite higher income.",
@@ -674,6 +818,14 @@
     "is_default": false,
     "aspirational_peer_code": "THA",
     "structural_peer_code": "LKA",
+    "regional_anchor_code": "GEO",
+    "peer_rationale": {
+      "aspirational": "Thailand is treated as an aspirational peer because it converts growth into jobs, diversification, and SDG progress more effectively than many peers.",
+      "structural": "Sri Lanka is used as a structural peer because it faces comparable income, production-structure, and fiscal or export constraints.",
+      "regional_anchor": "Georgia itself acts as a regional anchor in the comparison set.",
+      "transition_sensitive": "Georgia is treated as transition-sensitive when graduation, competitiveness, labor-market, climate, or implementation risks can materially alter the pace of SDG acceleration.",
+      "peer_type_note": "The comparison basket tags this country primarily as a governance peer case within the regional benchmark set."
+    },
     "growth_story": "Georgia is a governance and business-environment peer with limited scale but strong state effectiveness.",
     "financing_story": "Reforms improved public-sector effectiveness and investment climate credibility.",
     "transition_story": "The lesson is how governance quality can amplify limited resources.",

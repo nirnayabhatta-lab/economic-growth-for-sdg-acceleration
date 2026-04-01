@@ -8,6 +8,22 @@
     "last_updated": "2025"
   },
   {
+    "id": "sdsn-nepal",
+    "label": "SDSN Nepal profile",
+    "url": "https://dashboards.sdgindex.org/profiles/nepal/",
+    "quality": "high",
+    "coverage": "Source-verified Nepal SDG Index, rank, and spillover score",
+    "last_updated": "2025"
+  },
+  {
+    "id": "escap-method",
+    "label": "ESCAP progress assessment methodology",
+    "url": "https://data.unescap.org/resources/progress-assessment-methodology",
+    "quality": "high",
+    "coverage": "Current status and anticipated progress methodology for Asia-Pacific SDG tracking",
+    "last_updated": "2026"
+  },
+  {
     "id": "worldbank",
     "label": "World Bank World Development Indicators",
     "url": "https://databank.worldbank.org/source/world-development-indicators",

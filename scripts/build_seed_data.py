@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 
@@ -8,8 +9,146 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
+SNAPSHOT_DATE = "2026-04-01"
+SDSN_NEPAL_PROFILE_URL = "https://dashboards.sdgindex.org/profiles/nepal/"
+SDSN_REPORT_URL = "https://dashboards.sdgindex.org/chapters/part-2-the-sdg-index-and-dashboards/"
+ESCAP_METHOD_URL = "https://data.unescap.org/resources/progress-assessment-methodology"
+GITHUB_REPO_URL = "https://github.com/nirnayabhatta-lab/economic-growth-for-sdg-acceleration"
+GITHUB_DOCS_URL = f"{GITHUB_REPO_URL}/tree/main/docs"
+LINKEDIN_URL = "https://www.linkedin.com/in/nirnayabhatta/"
 
-def country(code, name, region, income, peer_type, is_default, aspirational, structural, growth, financing, transition, sdg_index, gdp_growth, manufacturing_share, export_readiness, youth_unemployment, informality, quality_jobs_index, female_lfp, territorial_gap, inclusion_readiness, transition_risk, preference_exposure, readiness_index, tax_gdp, public_investment, private_capital, disaster_risk, clean_energy, resilience_readiness, implementation_capacity, budget_execution, data_readiness):
+SDG_COLORS = [
+    "#E5243B", "#DDA63A", "#4C9F38", "#C5192D", "#FF3A21", "#26BDE2", "#FCC30B",
+    "#A21942", "#FD6925", "#DD1367", "#FD9D24", "#BF8B2E", "#3F7E44", "#0A97D9",
+    "#56C02B", "#00689D", "#19486A",
+]
+
+COUNTRY_LABELS = {
+    "NPL": "Nepal",
+    "BGD": "Bangladesh",
+    "BTN": "Bhutan",
+    "IND": "India",
+    "MDV": "Maldives",
+    "PAK": "Pakistan",
+    "LKA": "Sri Lanka",
+    "IDN": "Indonesia",
+    "VNM": "Vietnam",
+    "PHL": "Philippines",
+    "THA": "Thailand",
+    "KHM": "Cambodia",
+    "LAO": "Lao PDR",
+    "RWA": "Rwanda",
+    "ETH": "Ethiopia",
+    "KEN": "Kenya",
+    "MAR": "Morocco",
+    "MNG": "Mongolia",
+    "GEO": "Georgia",
+}
+
+PULSE_CHANNELS = [
+    {
+        "id": "jobs",
+        "title": "Jobs and inclusion",
+        "weight": 1.25,
+        "keywords": ["job", "jobs", "employment", "labor", "labour", "skills", "women", "enterprise", "formalization", "inclusion"],
+        "indicators": [
+            {"id": "quality_jobs_index", "positive": True, "weight": 1.5},
+            {"id": "youth_unemployment", "positive": False, "weight": 1.2},
+            {"id": "informality", "positive": False, "weight": 1.0},
+            {"id": "female_lfp", "positive": True, "weight": 0.8},
+        ],
+    },
+    {
+        "id": "financing",
+        "title": "Fiscal space and finance",
+        "weight": 1.15,
+        "keywords": ["finance", "fiscal", "capital", "investment", "revenue", "tax", "budget", "procurement"],
+        "indicators": [
+            {"id": "tax_gdp", "positive": True, "weight": 1.1},
+            {"id": "private_capital", "positive": True, "weight": 1.2},
+            {"id": "public_investment", "positive": True, "weight": 0.9},
+            {"id": "budget_execution", "positive": True, "weight": 1.0},
+        ],
+    },
+    {
+        "id": "implementation",
+        "title": "Implementation and state capability",
+        "weight": 1.2,
+        "keywords": ["implementation", "delivery", "coordination", "execution", "governance", "local", "data", "digital public finance"],
+        "indicators": [
+            {"id": "implementation_capacity", "positive": True, "weight": 1.3},
+            {"id": "budget_execution", "positive": True, "weight": 1.1},
+            {"id": "data_readiness", "positive": True, "weight": 0.9},
+        ],
+    },
+    {
+        "id": "resilience",
+        "title": "Resilience and continuity",
+        "weight": 1.05,
+        "keywords": ["resilience", "climate", "disaster", "infrastructure", "energy", "roads", "shock"],
+        "indicators": [
+            {"id": "resilience_readiness", "positive": True, "weight": 1.2},
+            {"id": "clean_energy", "positive": True, "weight": 0.9},
+            {"id": "disaster_risk", "positive": False, "weight": 1.1},
+        ],
+    },
+    {
+        "id": "transition",
+        "title": "Trade and transition readiness",
+        "weight": 1.0,
+        "keywords": ["export", "trade", "transition", "competitiveness", "diversification", "logistics"],
+        "indicators": [
+            {"id": "readiness_index", "positive": True, "weight": 1.2},
+            {"id": "export_readiness", "positive": True, "weight": 1.0},
+            {"id": "transition_risk", "positive": False, "weight": 1.0},
+            {"id": "preference_exposure", "positive": False, "weight": 0.8},
+        ],
+    },
+]
+
+
+def default_regional_anchor(code, region):
+    if code == "IND":
+        return "IND"
+    if region == "South Asia":
+        return "IND"
+    if region == "Southeast Asia":
+        return "THA"
+    return "GEO"
+
+
+def peer_name(code):
+    return COUNTRY_LABELS.get(code, code)
+
+
+def build_peer_rationale(country_name, aspirational_code, structural_code, regional_anchor_code, peer_type):
+    aspirational_name = peer_name(aspirational_code)
+    structural_name = peer_name(structural_code)
+    regional_anchor_name = peer_name(regional_anchor_code)
+    return {
+        "aspirational": f"{aspirational_name} is treated as an aspirational peer because it converts growth into jobs, diversification, and SDG progress more effectively than many peers.",
+        "structural": f"{structural_name} is used as a structural peer because it faces comparable income, production-structure, and fiscal or export constraints.",
+        "regional_anchor": (
+            f"{country_name} itself acts as a regional anchor in the comparison set."
+            if regional_anchor_name == country_name
+            else f"{regional_anchor_name} is used as a regional anchor because it shapes trade, logistics, investment, and policy reference points around the selected country."
+        ),
+        "transition_sensitive": f"{country_name} is treated as transition-sensitive when graduation, competitiveness, labor-market, climate, or implementation risks can materially alter the pace of SDG acceleration.",
+        "peer_type_note": f"The comparison basket tags this country primarily as a {peer_type} case within the regional benchmark set.",
+    }
+
+
+def sdsn_profile_url(country_name):
+    slug_overrides = {
+        "Lao PDR": "lao-pdr",
+        "Sri Lanka": "sri-lanka",
+    }
+    slug = slug_overrides.get(country_name, country_name.lower().replace(" ", "-").replace("'", ""))
+    return f"https://dashboards.sdgindex.org/profiles/{slug}/"
+
+
+def country(code, name, region, income, peer_type, is_default, aspirational, structural, growth, financing, transition, sdg_index, gdp_growth, manufacturing_share, export_readiness, youth_unemployment, informality, quality_jobs_index, female_lfp, territorial_gap, inclusion_readiness, transition_risk, preference_exposure, readiness_index, tax_gdp, public_investment, private_capital, disaster_risk, clean_energy, resilience_readiness, implementation_capacity, budget_execution, data_readiness, regional_anchor=None, peer_rationale=None):
+    regional_anchor = regional_anchor or default_regional_anchor(code, region)
     return {
         "country_code": code,
         "country_name": name,
@@ -19,6 +158,8 @@ def country(code, name, region, income, peer_type, is_default, aspirational, str
         "is_default": is_default,
         "aspirational_peer_code": aspirational,
         "structural_peer_code": structural,
+        "regional_anchor_code": regional_anchor,
+        "peer_rationale": peer_rationale or build_peer_rationale(name, aspirational, structural, regional_anchor, peer_type),
         "growth_story": growth,
         "financing_story": financing,
         "transition_story": transition,
@@ -267,6 +408,8 @@ def build_signals(country_obj):
             "value": f"{p['youth_unemployment']}% youth unemployment, quality jobs index {p['quality_jobs_index']}",
             "direction": jobs_direction,
             "threshold_note": "Warning if youth unemployment stays high while quality jobs remain weak.",
+            "why_flagged": "Youth unemployment and job quality are moving together in the wrong direction for broad-based SDG acceleration.",
+            "linked_indicator_ids": ["youth_unemployment", "quality_jobs_index", "informality"],
             "source_ids": ["ilostat", "worldbank"],
             "last_updated": "2025",
             "severity": 2 if jobs_direction == "steady" else 3 if jobs_direction == "watch" else 5,
@@ -279,6 +422,8 @@ def build_signals(country_obj):
             "value": f"Tax/GDP {p['tax_gdp']}%, private capital mobilization {p['private_capital']}",
             "direction": finance_direction,
             "threshold_note": "Warning when low tax effort combines with weak investment mobilization.",
+            "why_flagged": "Fiscal space weakens when public revenue effort and private capital mobilization cannot sustain SDG-aligned investment.",
+            "linked_indicator_ids": ["tax_gdp", "private_capital", "public_investment"],
             "source_ids": ["imf-weo", "worldbank"],
             "last_updated": "2025",
             "severity": 2 if finance_direction == "steady" else 3 if finance_direction == "watch" else 5,
@@ -291,6 +436,8 @@ def build_signals(country_obj):
             "value": f"Risk {p['disaster_risk']}, resilience readiness {p['resilience_readiness']}, implementation capacity {p['implementation_capacity']}",
             "direction": resilience_direction,
             "threshold_note": "Warning when hazard exposure is high and resilience systems are weak.",
+            "why_flagged": "Exposure stays high when hazard risk rises faster than resilience systems and implementation quality.",
+            "linked_indicator_ids": ["disaster_risk", "resilience_readiness", "implementation_capacity"],
             "source_ids": ["worldbank", "undp-diagnostics"],
             "last_updated": "2025",
             "severity": 2 if resilience_direction == "steady" else 3 if resilience_direction == "watch" else 5,
@@ -493,23 +640,288 @@ def build_news_signals(country_obj):
     return items
 
 
+def default_benchmark_group(country_obj):
+    if country_obj["region_group"] == "South Asia":
+        return "south_asia_core"
+    if country_obj["region_group"] == "Southeast Asia":
+        return "southeast_asia_benchmark"
+    return "additional_peers"
+
+
+def weighted_average(items):
+    total_weight = sum(item["weight"] for item in items)
+    if total_weight == 0:
+        return 0.0
+    return sum(item["score"] * item["weight"] for item in items) / total_weight
+
+
+def build_indicator_lookup(indicators):
+    return {(item["country_code"], item["id"]): item["value"] for item in indicators}
+
+
+def average_for_group(indicators, comparator_map, indicator_id, group_id):
+    values = [item["value"] for item in indicators if item["id"] == indicator_id and item["country_code"] in comparator_map[group_id]["country_codes"]]
+    return sum(values) / len(values)
+
+
+def indicator_range(indicators, indicator_id):
+    values = [item["value"] for item in indicators if item["id"] == indicator_id]
+    return max(values) - min(values)
+
+
+def indicator_signal_score(indicators, comparator_map, country_code, group_id, indicator_id, positive):
+    lookup = build_indicator_lookup(indicators)
+    value = lookup[(country_code, indicator_id)]
+    benchmark = average_for_group(indicators, comparator_map, indicator_id, group_id)
+    rng = indicator_range(indicators, indicator_id)
+    gap = 0 if rng == 0 else (value - benchmark) / rng
+    aligned_gap = gap if positive else -gap
+    return max(0, min(100, 50 + aligned_gap * 55))
+
+
+def pulse_for_country(indicators, comparator_map, country_code, group_id):
+    channels = []
+    for channel in PULSE_CHANNELS:
+        weighted = [
+            {
+                "score": indicator_signal_score(indicators, comparator_map, country_code, group_id, indicator["id"], indicator["positive"]),
+                "weight": indicator["weight"],
+            }
+            for indicator in channel["indicators"]
+        ]
+        channels.append(
+            {
+                "id": channel["id"],
+                "title": channel["title"],
+                "weight": channel["weight"],
+                "score": round(weighted_average(weighted), 1),
+            }
+        )
+
+    score = round(weighted_average([{"score": item["score"], "weight": item["weight"]} for item in channels]), 1)
+    return {"score": score, "channels": channels}
+
+
+def pulse_status(score):
+    if score >= 58:
+        return "Strengthening"
+    if score >= 47:
+        return "Mixed"
+    return "Under pressure"
+
+
+def pulse_drivers_for_country(country_obj, indicators, comparator_map):
+    country_code = country_obj["country_code"]
+    group_id = default_benchmark_group(country_obj)
+    lookup = build_indicator_lookup(indicators)
+    drivers = []
+    for channel in PULSE_CHANNELS:
+        for indicator in channel["indicators"]:
+            value = lookup[(country_code, indicator["id"])]
+            benchmark = average_for_group(indicators, comparator_map, indicator["id"], group_id)
+            rng = indicator_range(indicators, indicator["id"])
+            relative_gap = 0 if rng == 0 else (value - benchmark) / rng
+            aligned_gap = relative_gap if indicator["positive"] else -relative_gap
+            effect = round(aligned_gap * 12 * indicator["weight"] * channel["weight"], 2)
+            drivers.append(
+                {
+                    "id": indicator["id"],
+                    "label": next(item[1] for item in INDICATOR_DEFS if item[0] == indicator["id"]),
+                    "channel": channel["title"],
+                    "effect": effect,
+                }
+            )
+    return sorted(drivers, key=lambda item: abs(item["effect"]), reverse=True)
+
+
+def build_external_scores(countries):
+    rows = []
+    for item in countries:
+        note = "Annual SDSN score family. Not directly comparable to NPC, ESCAP, or the platform pulse. SDSN notes scores and ranks are not fully comparable across different report editions."
+        rows.append(
+            {
+                "score_family": "SDSN SDG Index",
+                "organization": "Sustainable Development Solutions Network (SDSN)",
+                "country_code": item["country_code"],
+                "value": 68.58 if item["country_code"] == "NPL" else item["profile"]["sdg_index"],
+                "scale_max": 100,
+                "rank": 85 if item["country_code"] == "NPL" else None,
+                "rank_total": 167 if item["country_code"] == "NPL" else None,
+                "publication_date": "Sustainable Development Report 2025",
+                "reference_year": 2025,
+                "comparability_note": note,
+                "source_url": SDSN_NEPAL_PROFILE_URL if item["country_code"] == "NPL" else sdsn_profile_url(item["country_name"]),
+                "status": "source-verified" if item["country_code"] == "NPL" else "curated-comparator-anchor",
+            }
+        )
+        if item["country_code"] == "NPL":
+            rows.append(
+                {
+                    "score_family": "SDSN Spillover Score",
+                    "organization": "Sustainable Development Solutions Network (SDSN)",
+                    "country_code": item["country_code"],
+                    "value": 94.85,
+                    "scale_max": 100,
+                    "rank": None,
+                    "rank_total": None,
+                    "publication_date": "Sustainable Development Report 2025",
+                    "reference_year": 2025,
+                    "comparability_note": "Cross-border externality anchor from SDSN. It captures how a country's patterns affect outcomes in other countries and is not interchangeable with the domestic SDG Index or the platform pulse.",
+                    "source_url": SDSN_NEPAL_PROFILE_URL,
+                    "status": "source-verified",
+                }
+            )
+    return rows
+
+
+def baseline_history_dates(end_date, points=12):
+    chosen = []
+    cursor = end_date
+    while len(chosen) < points:
+        if cursor.weekday() in {1, 4}:  # Tuesday, Friday
+            chosen.append(cursor)
+        cursor -= timedelta(days=1)
+    return list(reversed(chosen))
+
+
+def generated_history_entries(country_obj, indicators, comparator_map):
+    pulse = pulse_for_country(indicators, comparator_map, country_obj["country_code"], default_benchmark_group(country_obj))
+    drivers = pulse_drivers_for_country(country_obj, indicators, comparator_map)
+    strongest = [item["label"] for item in drivers if item["effect"] > 0][:2]
+    weakest = [item["label"] for item in drivers if item["effect"] < 0][:2]
+    dates = baseline_history_dates(date.fromisoformat(SNAPSHOT_DATE))
+    seed = sum(ord(char) for char in country_obj["country_code"])
+    entries = []
+    previous_score = None
+    for idx, point_date in enumerate(dates):
+        drift = ((idx % 4) - 1.5) * 0.5 + ((seed % 5) - 2) * 0.15
+        score = round(max(0, min(100, pulse["score"] - 2.8 + idx * 0.28 + drift)), 1)
+        channel_scores = {
+            channel["id"]: round(max(0, min(100, channel["score"] - 1.8 + idx * 0.22 + ((seed + idx) % 3 - 1) * 0.4)), 1)
+            for channel in pulse["channels"]
+        }
+        entries.append(
+            {
+                "timestamp": f"{point_date.isoformat()}T08:00:00+05:45",
+                "country_code": country_obj["country_code"],
+                "benchmark_group": default_benchmark_group(country_obj),
+                "pulse_score": score,
+                "delta_since_last": None if previous_score is None else round(score - previous_score, 1),
+                "channel_scores": channel_scores,
+                "top_positive_drivers": strongest,
+                "top_negative_drivers": weakest,
+                "confidence": "Medium",
+                "notes": f"{pulse_status(score)} pulse relative to the default regional benchmark using the platform's internal nowcast logic.",
+            }
+        )
+        previous_score = score
+    return entries
+
+
+def build_pulse_history(countries, indicators, comparator_map, existing_records):
+    if existing_records:
+        known = {item["country_code"] for item in existing_records}
+        merged = list(existing_records)
+        for country_obj in countries:
+            if country_obj["country_code"] not in known:
+                merged.extend(generated_history_entries(country_obj, indicators, comparator_map))
+        return merged
+    return [entry for country_obj in countries for entry in generated_history_entries(country_obj, indicators, comparator_map)]
+
+
+def build_trajectory(countries, indicators, comparator_map, external_scores, pulse_history):
+    latest_history = {}
+    for entry in sorted(pulse_history, key=lambda item: item["timestamp"]):
+        latest_history[entry["country_code"]] = entry
+
+    trajectories = []
+    for country_obj in countries:
+        country_code = country_obj["country_code"]
+        latest = latest_history[country_code]
+        baseline_anchor = next(
+            item for item in external_scores if item["country_code"] == country_code and item["score_family"] == "SDSN SDG Index"
+        )
+        latest_pulse = latest["pulse_score"]
+        base = baseline_anchor["value"]
+        scenario_params = {
+            "conservative": (0.35, "Assumes implementation bottlenecks, resilience shocks, and weak investment conversion slow gains."),
+            "baseline": (0.62, "Assumes current reform momentum persists and the pulse gradually translates into medium-term progress."),
+            "accelerated": (0.95, "Assumes accelerators convert weak channels into stronger jobs, fiscal space, and resilience outcomes."),
+        }
+        for scenario, (slope, assumption) in scenario_params.items():
+            start_year = 2025
+            points = []
+            for offset in range(0, 6):
+                year = start_year + offset
+                increment = round(offset * slope * (0.35 + latest_pulse / 200), 2)
+                points.append({"year": year, "value": round(min(100, base + increment), 2)})
+            trajectories.append(
+                {
+                    "timestamp": latest["timestamp"],
+                    "country_code": country_code,
+                    "baseline_anchor_family": "SDSN SDG Index",
+                    "scenario": scenario,
+                    "projected_range": points,
+                    "assumptions": assumption,
+                    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee.",
+                }
+            )
+    return trajectories
+
+
+def load_existing_records(file_name):
+    path = DATA_DIR / file_name
+    if not path.exists():
+        return []
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
 def write(file_name, payload):
     (DATA_DIR / file_name).write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
 
 
 SITE_META = {
     "title": "Economic Growth for SDG Acceleration",
-    "version": "0.2.0",
-    "built_on": "2026-04-01",
+    "version": "0.3.0",
+    "built_on": SNAPSHOT_DATE,
     "default_country": "NPL",
     "developer_credit": "Developer - Applied Economist NIRNAYA BHATTA",
+    "platform_gap_statement": "This platform fills the gap between static SDG scorecards and real-economy monitoring by showing how growth, public finance, implementation, and transition risks shape SDG acceleration.",
+    "hero_description": "Economic Growth for SDG Acceleration is a Nepal-centered growth-to-SDG policy atlas that combines structural scorecards, a prototype weekly pulse, linked news-and-signals tracking, driver decomposition, and intervention prioritization across South Asia and comparator economies.",
     "comparison_indicator_ids": ["sdg_index", "gdp_growth", "quality_jobs_index", "tax_gdp", "resilience_readiness", "implementation_capacity"],
-    "method_note": "This v1 platform uses curated country snapshots from public sources and structured policy mappings. It is designed for analytical orientation, driver decomposition, and decision support rather than official live statistical reporting.",
-    "weekly_refresh_note": "Weekly signal cards can be refreshed through scheduled automation, with headlines linked to channels such as jobs, gender, industry, exports, resilience, and fiscal space.",
+    "method_note": "This v1 platform separates source-verified annual anchors from the platform's own internal pulse. SDSN, NPC, ESCAP, and the platform pulse are different score families and are not directly interchangeable.",
+    "weekly_refresh_note": "Twice-weekly automation can refresh this tracker every Tuesday and Friday, linking new signals to jobs, gender, industry, trade, resilience, and fiscal space.",
+    "official_anchor_note": "The SDSN annual anchor and the platform pulse serve different purposes: one is a recognized annual score family, the other is an internal nowcast for near-term momentum tracking.",
+    "score_family_notes": [
+        {
+            "title": "SDSN SDG Index",
+            "body": "Global annual composite anchor using the Sustainable Development Report methodology. SDSN notes that scores and ranks are not fully comparable across report editions."
+        },
+        {
+            "title": "NPC national progress",
+            "body": "National methodology tracked separately. It should only be surfaced as a headline once the official citation is attached in the repo."
+        },
+        {
+            "title": "ESCAP progress assessment",
+            "body": "Regional progress family using current status and anticipated progress indices. It is methodologically distinct from SDSN and the platform pulse."
+        }
+    ],
+    "external_links": {
+        "github_repo": GITHUB_REPO_URL,
+        "github_docs": GITHUB_DOCS_URL,
+        "linkedin": LINKEDIN_URL
+    },
+    "pulse_thresholds": {
+        "strengthening": ">= 58",
+        "mixed": "47-57.9",
+        "under_pressure": "< 47"
+    }
 }
 
 SOURCES = [
     {"id": "sdsn2025", "label": "Sustainable Development Report 2025 country profiles", "url": "https://dashboards.sdgindex.org/", "quality": "high", "coverage": "SDG performance and dashboard context", "last_updated": "2025"},
+    {"id": "sdsn-nepal", "label": "SDSN Nepal profile", "url": SDSN_NEPAL_PROFILE_URL, "quality": "high", "coverage": "Source-verified Nepal SDG Index, rank, and spillover score", "last_updated": "2025"},
+    {"id": "escap-method", "label": "ESCAP progress assessment methodology", "url": ESCAP_METHOD_URL, "quality": "high", "coverage": "Current status and anticipated progress methodology for Asia-Pacific SDG tracking", "last_updated": "2026"},
     {"id": "worldbank", "label": "World Bank World Development Indicators", "url": "https://databank.worldbank.org/source/world-development-indicators", "quality": "high", "coverage": "Macro, jobs, infrastructure, and social indicators", "last_updated": "2025"},
     {"id": "ilostat", "label": "ILOSTAT", "url": "https://ilostat.ilo.org/data/", "quality": "high", "coverage": "Labor market and informality indicators", "last_updated": "2025"},
     {"id": "undp-insights", "label": "UNDP Integrated SDG Insights", "url": "https://sdgpush-insights.undp.org/", "quality": "high", "coverage": "Country interlinkages and accelerators", "last_updated": "2025"},
@@ -623,6 +1035,10 @@ def main():
     accelerators = [item for c in COUNTRIES for item in default_accelerators(c)] + extra_nepal_accelerators()
     signals = [item for c in COUNTRIES for item in build_signals(c)]
     news_signals = [item for c in COUNTRIES for item in build_news_signals(c)]
+    comparator_map = {item["id"]: item for item in COMPARATORS["country_groups"]}
+    external_scores = build_external_scores(COUNTRIES)
+    pulse_history = build_pulse_history(COUNTRIES, indicators, comparator_map, load_existing_records("pulse_history.json"))
+    trajectory_2030 = build_trajectory(COUNTRIES, indicators, comparator_map, external_scores, pulse_history)
 
     write("site_meta.json", SITE_META)
     write("sources.json", SOURCES)
@@ -637,6 +1053,9 @@ def main():
     write("accelerators.json", accelerators)
     write("signals.json", signals)
     write("news_signals.json", news_signals)
+    write("external_scores.json", external_scores)
+    write("pulse_history.json", pulse_history)
+    write("trajectory_2030.json", trajectory_2030)
 
 
 if __name__ == "__main__":

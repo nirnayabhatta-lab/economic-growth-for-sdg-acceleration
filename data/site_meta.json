@@ -1,9 +1,11 @@
 {
   "title": "Economic Growth for SDG Acceleration",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "built_on": "2026-04-01",
   "default_country": "NPL",
   "developer_credit": "Developer - Applied Economist NIRNAYA BHATTA",
+  "platform_gap_statement": "This platform fills the gap between static SDG scorecards and real-economy monitoring by showing how growth, public finance, implementation, and transition risks shape SDG acceleration.",
+  "hero_description": "Economic Growth for SDG Acceleration is a Nepal-centered growth-to-SDG policy atlas that combines structural scorecards, a prototype weekly pulse, linked news-and-signals tracking, driver decomposition, and intervention prioritization across South Asia and comparator economies.",
   "comparison_indicator_ids": [
     "sdg_index",
     "gdp_growth",
@@ -12,7 +14,32 @@
     "resilience_readiness",
     "implementation_capacity"
   ],
-  "method_note": "This v1 platform uses curated country snapshots from public sources and structured policy mappings. It is designed for analytical orientation, driver decomposition, and decision support rather than official live statistical reporting.",
-  "weekly_refresh_note": "Automated weekly refresh last ran on 2026-04-01. Headlines are heuristically tagged into channels such as jobs, gender, industry, trade, resilience, and fiscal space.",
+  "method_note": "This v1 platform separates source-verified annual anchors from the platform's own internal pulse. SDSN, NPC, ESCAP, and the platform pulse are different score families and are not directly interchangeable.",
+  "weekly_refresh_note": "Automated twice-weekly refresh last ran on 2026-04-01. Headlines and the internal pulse are heuristically updated every Tuesday and Friday against channels such as jobs, gender, industry, trade, resilience, and fiscal space.",
+  "official_anchor_note": "Source-verified annual anchors remain separate from the platform's live pulse. SDSN, NPC, ESCAP, and the platform pulse are different score families and should not be read as the same metric.",
+  "score_family_notes": [
+    {
+      "title": "SDSN SDG Index",
+      "body": "Global annual composite anchor using the Sustainable Development Report methodology. SDSN notes that scores and ranks are not fully comparable across report editions."
+    },
+    {
+      "title": "NPC national progress",
+      "body": "National methodology tracked separately. It should only be surfaced as a headline once the official citation is attached in the repo."
+    },
+    {
+      "title": "ESCAP progress assessment",
+      "body": "Regional progress family using current status and anticipated progress indices. It is methodologically distinct from SDSN and the platform pulse."
+    }
+  ],
+  "external_links": {
+    "github_repo": "https://github.com/nirnayabhatta-lab/economic-growth-for-sdg-acceleration",
+    "github_docs": "https://github.com/nirnayabhatta-lab/economic-growth-for-sdg-acceleration/tree/main/docs",
+    "linkedin": "https://www.linkedin.com/in/nirnayabhatta/"
+  },
+  "pulse_thresholds": {
+    "strengthening": ">= 58",
+    "mixed": "47-57.9",
+    "under_pressure": "< 47"
+  },
   "weekly_refreshed_on": "2026-04-01"
 }

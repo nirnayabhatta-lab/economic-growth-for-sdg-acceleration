@@ -7,6 +7,12 @@
     "value": "19.8% youth unemployment, quality jobs index 38",
     "direction": "warning",
     "threshold_note": "Warning if youth unemployment stays high while quality jobs remain weak.",
+    "why_flagged": "Youth unemployment and job quality are moving together in the wrong direction for broad-based SDG acceleration.",
+    "linked_indicator_ids": [
+      "youth_unemployment",
+      "quality_jobs_index",
+      "informality"
+    ],
     "source_ids": [
       "ilostat",
       "worldbank"
@@ -22,6 +28,12 @@
     "value": "Tax/GDP 21.2%, private capital mobilization 39",
     "direction": "watch",
     "threshold_note": "Warning when low tax effort combines with weak investment mobilization.",
+    "why_flagged": "Fiscal space weakens when public revenue effort and private capital mobilization cannot sustain SDG-aligned investment.",
+    "linked_indicator_ids": [
+      "tax_gdp",
+      "private_capital",
+      "public_investment"
+    ],
     "source_ids": [
       "imf-weo",
       "worldbank"
@@ -37,6 +49,12 @@
     "value": "Risk 78, resilience readiness 46, implementation capacity 42",
     "direction": "warning",
     "threshold_note": "Warning when hazard exposure is high and resilience systems are weak.",
+    "why_flagged": "Exposure stays high when hazard risk rises faster than resilience systems and implementation quality.",
+    "linked_indicator_ids": [
+      "disaster_risk",
+      "resilience_readiness",
+      "implementation_capacity"
+    ],
     "source_ids": [
       "worldbank",
       "undp-diagnostics"
@@ -52,6 +70,12 @@
     "value": "12.7% youth unemployment, quality jobs index 46",
     "direction": "watch",
     "threshold_note": "Warning if youth unemployment stays high while quality jobs remain weak.",
+    "why_flagged": "Youth unemployment and job quality are moving together in the wrong direction for broad-based SDG acceleration.",
+    "linked_indicator_ids": [
+      "youth_unemployment",
+      "quality_jobs_index",
+      "informality"
+    ],
     "source_ids": [
       "ilostat",
       "worldbank"
@@ -67,6 +91,12 @@
     "value": "Tax/GDP 9.2%, private capital mobilization 44",
     "direction": "warning",
     "threshold_note": "Warning when low tax effort combines with weak investment mobilization.",
+    "why_flagged": "Fiscal space weakens when public revenue effort and private capital mobilization cannot sustain SDG-aligned investment.",
+    "linked_indicator_ids": [
+      "tax_gdp",
+      "private_capital",
+      "public_investment"
+    ],
     "source_ids": [
       "imf-weo",
       "worldbank"
@@ -82,6 +112,12 @@
     "value": "Risk 82, resilience readiness 58, implementation capacity 51",
     "direction": "watch",
     "threshold_note": "Warning when hazard exposure is high and resilience systems are weak.",
+    "why_flagged": "Exposure stays high when hazard risk rises faster than resilience systems and implementation quality.",
+    "linked_indicator_ids": [
+      "disaster_risk",
+      "resilience_readiness",
+      "implementation_capacity"
+    ],
     "source_ids": [
       "worldbank",
       "undp-diagnostics"
@@ -97,6 +133,12 @@
     "value": "16.1% youth unemployment, quality jobs index 43",
     "direction": "warning",
     "threshold_note": "Warning if youth unemployment stays high while quality jobs remain weak.",
+    "why_flagged": "Youth unemployment and job quality are moving together in the wrong direction for broad-based SDG acceleration.",
+    "linked_indicator_ids": [
+      "youth_unemployment",
+      "quality_jobs_index",
+      "informality"
+    ],
     "source_ids": [
       "ilostat",
       "worldbank"
@@ -112,6 +154,12 @@
     "value": "Tax/GDP 15.8%, private capital mobilization 34",
     "direction": "watch",
     "threshold_note": "Warning when low tax effort combines with weak investment mobilization.",
+    "why_flagged": "Fiscal space weakens when public revenue effort and private capital mobilization cannot sustain SDG-aligned investment.",
+    "linked_indicator_ids": [
+      "tax_gdp",
+      "private_capital",
+      "public_investment"
+    ],
     "source_ids": [
       "imf-weo",
       "worldbank"
@@ -127,6 +175,12 @@
     "value": "Risk 55, resilience readiness 61, implementation capacity 56",
     "direction": "watch",
     "threshold_note": "Warning when hazard exposure is high and resilience systems are weak.",
+    "why_flagged": "Exposure stays high when hazard risk rises faster than resilience systems and implementation quality.",
+    "linked_indicator_ids": [
+      "disaster_risk",
+      "resilience_readiness",
+      "implementation_capacity"
+    ],
     "source_ids": [
       "worldbank",
       "undp-diagnostics"
@@ -142,6 +196,12 @@
     "value": "17.1% youth unemployment, quality jobs index 49",
     "direction": "watch",
     "threshold_note": "Warning if youth unemployment stays high while quality jobs remain weak.",
+    "why_flagged": "Youth unemployment and job quality are moving together in the wrong direction for broad-based SDG acceleration.",
+    "linked_indicator_ids": [
+      "youth_unemployment",
+      "quality_jobs_index",
+      "informality"
+    ],
     "source_ids": [
       "ilostat",
       "worldbank"
@@ -157,6 +217,12 @@
     "value": "Tax/GDP 18.0%, private capital mobilization 57",
     "direction": "steady",
     "threshold_note": "Warning when low tax effort combines with weak investment mobilization.",
+    "why_flagged": "Fiscal space weakens when public revenue effort and private capital mobilization cannot sustain SDG-aligned investment.",
+    "linked_indicator_ids": [
+      "tax_gdp",
+      "private_capital",
+      "public_investment"
+    ],
     "source_ids": [
       "imf-weo",
       "worldbank"
@@ -172,6 +238,12 @@
     "value": "Risk 66, resilience readiness 54, implementation capacity 57",
     "direction": "watch",
     "threshold_note": "Warning when hazard exposure is high and resilience systems are weak.",
+    "why_flagged": "Exposure stays high when hazard risk rises faster than resilience systems and implementation quality.",
+    "linked_indicator_ids": [
+      "disaster_risk",
+      "resilience_readiness",
+      "implementation_capacity"
+    ],
     "source_ids": [
       "worldbank",
       "undp-diagnostics"
@@ -187,6 +259,12 @@
     "value": "10.2% youth unemployment, quality jobs index 56",
     "direction": "steady",
     "threshold_note": "Warning if youth unemployment stays high while quality jobs remain weak.",
+    "why_flagged": "Youth unemployment and job quality are moving together in the wrong direction for broad-based SDG acceleration.",
+    "linked_indicator_ids": [
+      "youth_unemployment",
+      "quality_jobs_index",
+      "informality"
+    ],
     "source_ids": [
       "ilostat",
       "worldbank"
@@ -202,6 +280,12 @@
     "value": "Tax/GDP 15.3%, private capital mobilization 52",
     "direction": "watch",
     "threshold_note": "Warning when low tax effort combines with weak investment mobilization.",
+    "why_flagged": "Fiscal space weakens when public revenue effort and private capital mobilization cannot sustain SDG-aligned investment.",
+    "linked_indicator_ids": [
+      "tax_gdp",
+      "private_capital",
+      "public_investment"
+    ],
     "source_ids": [
       "imf-weo",
       "worldbank"
@@ -217,6 +301,12 @@
     "value": "Risk 84, resilience readiness 57, implementation capacity 59",
     "direction": "watch",
     "threshold_note": "Warning when hazard exposure is high and resilience systems are weak.",
+    "why_flagged": "Exposure stays high when hazard risk rises faster than resilience systems and implementation quality.",
+    "linked_indicator_ids": [
+      "disaster_risk",
+      "resilience_readiness",
+      "implementation_capacity"
+    ],
     "source_ids": [
       "worldbank",
       "undp-diagnostics"
@@ -232,6 +322,12 @@
     "value": "16.4% youth unemployment, quality jobs index 35",
     "direction": "warning",
     "threshold_note": "Warning if youth unemployment stays high while quality jobs remain weak.",
+    "why_flagged": "Youth unemployment and job quality are moving together in the wrong direction for broad-based SDG acceleration.",
+    "linked_indicator_ids": [
+      "youth_unemployment",
+      "quality_jobs_index",
+      "informality"
+    ],
     "source_ids": [
       "ilostat",
       "worldbank"
@@ -247,6 +343,12 @@
     "value": "Tax/GDP 9.8%, private capital mobilization 29",
     "direction": "warning",
     "threshold_note": "Warning when low tax effort combines with weak investment mobilization.",
+    "why_flagged": "Fiscal space weakens when public revenue effort and private capital mobilization cannot sustain SDG-aligned investment.",
+    "linked_indicator_ids": [
+      "tax_gdp",
+      "private_capital",
+      "public_investment"
+    ],
     "source_ids": [
       "imf-weo",
       "worldbank"
@@ -262,6 +364,12 @@
     "value": "Risk 79, resilience readiness 38, implementation capacity 33",
     "direction": "warning",
     "threshold_note": "Warning when hazard exposure is high and resilience systems are weak.",
+    "why_flagged": "Exposure stays high when hazard risk rises faster than resilience systems and implementation quality.",
+    "linked_indicator_ids": [
+      "disaster_risk",
+      "resilience_readiness",
+      "implementation_capacity"
+    ],
     "source_ids": [
       "worldbank",
       "undp-diagnostics"
@@ -277,6 +385,12 @@
     "value": "20.1% youth unemployment, quality jobs index 51",
     "direction": "watch",
     "threshold_note": "Warning if youth unemployment stays high while quality jobs remain weak.",
+    "why_flagged": "Youth unemployment and job quality are moving together in the wrong direction for broad-based SDG acceleration.",
+    "linked_indicator_ids": [
+      "youth_unemployment",
+      "quality_jobs_index",
+      "informality"
+    ],
     "source_ids": [
       "ilostat",
       "worldbank"
@@ -292,6 +406,12 @@
     "value": "Tax/GDP 11.5%, private capital mobilization 41",
     "direction": "warning",
     "threshold_note": "Warning when low tax effort combines with weak investment mobilization.",
+    "why_flagged": "Fiscal space weakens when public revenue effort and private capital mobilization cannot sustain SDG-aligned investment.",
+    "linked_indicator_ids": [
+      "tax_gdp",
+      "private_capital",
+      "public_investment"
+    ],
     "source_ids": [
       "imf-weo",
       "worldbank"
@@ -307,6 +427,12 @@
     "value": "Risk 61, resilience readiness 55, implementation capacity 48",
     "direction": "watch",
     "threshold_note": "Warning when hazard exposure is high and resilience systems are weak.",
+    "why_flagged": "Exposure stays high when hazard risk rises faster than resilience systems and implementation quality.",
+    "linked_indicator_ids": [
+      "disaster_risk",
+      "resilience_readiness",
+      "implementation_capacity"
+    ],
     "source_ids": [
       "worldbank",
       "undp-diagnostics"
@@ -322,6 +448,12 @@
     "value": "13.2% youth unemployment, quality jobs index 54",
     "direction": "watch",
     "threshold_note": "Warning if youth unemployment stays high while quality jobs remain weak.",
+    "why_flagged": "Youth unemployment and job quality are moving together in the wrong direction for broad-based SDG acceleration.",
+    "linked_indicator_ids": [
+      "youth_unemployment",
+      "quality_jobs_index",
+      "informality"
+    ],
     "source_ids": [
       "ilostat",
       "worldbank"
@@ -337,6 +469,12 @@
     "value": "Tax/GDP 11.9%, private capital mobilization 55",
     "direction": "warning",
     "threshold_note": "Warning when low tax effort combines with weak investment mobilization.",
+    "why_flagged": "Fiscal space weakens when public revenue effort and private capital mobilization cannot sustain SDG-aligned investment.",
+    "linked_indicator_ids": [
+      "tax_gdp",
+      "private_capital",
+      "public_investment"
+    ],
     "source_ids": [
       "imf-weo",
       "worldbank"
@@ -352,6 +490,12 @@
     "value": "Risk 71, resilience readiness 57, implementation capacity 59",
     "direction": "watch",
     "threshold_note": "Warning when hazard exposure is high and resilience systems are weak.",
+    "why_flagged": "Exposure stays high when hazard risk rises faster than resilience systems and implementation quality.",
+    "linked_indicator_ids": [
+      "disaster_risk",
+      "resilience_readiness",
+      "implementation_capacity"
+    ],
     "source_ids": [
       "worldbank",
       "undp-diagnostics"
@@ -367,6 +511,12 @@
     "value": "7.9% youth unemployment, quality jobs index 67",
     "direction": "steady",
     "threshold_note": "Warning if youth unemployment stays high while quality jobs remain weak.",
+    "why_flagged": "Youth unemployment and job quality are moving together in the wrong direction for broad-based SDG acceleration.",
+    "linked_indicator_ids": [
+      "youth_unemployment",
+      "quality_jobs_index",
+      "informality"
+    ],
     "source_ids": [
       "ilostat",
       "worldbank"
@@ -382,6 +532,12 @@
     "value": "Tax/GDP 18.5%, private capital mobilization 68",
     "direction": "steady",
     "threshold_note": "Warning when low tax effort combines with weak investment mobilization.",
+    "why_flagged": "Fiscal space weakens when public revenue effort and private capital mobilization cannot sustain SDG-aligned investment.",
+    "linked_indicator_ids": [
+      "tax_gdp",
+      "private_capital",
+      "public_investment"
+    ],
     "source_ids": [
       "imf-weo",
       "worldbank"
@@ -397,6 +553,12 @@
     "value": "Risk 63, resilience readiness 66, implementation capacity 68",
     "direction": "watch",
     "threshold_note": "Warning when hazard exposure is high and resilience systems are weak.",
+    "why_flagged": "Exposure stays high when hazard risk rises faster than resilience systems and implementation quality.",
+    "linked_indicator_ids": [
+      "disaster_risk",
+      "resilience_readiness",
+      "implementation_capacity"
+    ],
     "source_ids": [
       "worldbank",
       "undp-diagnostics"
@@ -412,6 +574,12 @@
     "value": "10.5% youth unemployment, quality jobs index 49",
     "direction": "watch",
     "threshold_note": "Warning if youth unemployment stays high while quality jobs remain weak.",
+    "why_flagged": "Youth unemployment and job quality are moving together in the wrong direction for broad-based SDG acceleration.",
+    "linked_indicator_ids": [
+      "youth_unemployment",
+      "quality_jobs_index",
+      "informality"
+    ],
     "source_ids": [
       "ilostat",
       "worldbank"
@@ -427,6 +595,12 @@
     "value": "Tax/GDP 14.1%, private capital mobilization 50",
     "direction": "watch",
     "threshold_note": "Warning when low tax effort combines with weak investment mobilization.",
+    "why_flagged": "Fiscal space weakens when public revenue effort and private capital mobilization cannot sustain SDG-aligned investment.",
+    "linked_indicator_ids": [
+      "tax_gdp",
+      "private_capital",
+      "public_investment"
+    ],
     "source_ids": [
       "imf-weo",
       "worldbank"
@@ -442,6 +616,12 @@
     "value": "Risk 80, resilience readiness 53, implementation capacity 50",
     "direction": "watch",
     "threshold_note": "Warning when hazard exposure is high and resilience systems are weak.",
+    "why_flagged": "Exposure stays high when hazard risk rises faster than resilience systems and implementation quality.",
+    "linked_indicator_ids": [
+      "disaster_risk",
+      "resilience_readiness",
+      "implementation_capacity"
+    ],
     "source_ids": [
       "worldbank",
       "undp-diagnostics"
@@ -457,6 +637,12 @@
     "value": "5.8% youth unemployment, quality jobs index 70",
     "direction": "steady",
     "threshold_note": "Warning if youth unemployment stays high while quality jobs remain weak.",
+    "why_flagged": "Youth unemployment and job quality are moving together in the wrong direction for broad-based SDG acceleration.",
+    "linked_indicator_ids": [
+      "youth_unemployment",
+      "quality_jobs_index",
+      "informality"
+    ],
     "source_ids": [
       "ilostat",
       "worldbank"
@@ -472,6 +658,12 @@
     "value": "Tax/GDP 16.4%, private capital mobilization 63",
     "direction": "watch",
     "threshold_note": "Warning when low tax effort combines with weak investment mobilization.",
+    "why_flagged": "Fiscal space weakens when public revenue effort and private capital mobilization cannot sustain SDG-aligned investment.",
+    "linked_indicator_ids": [
+      "tax_gdp",
+      "private_capital",
+      "public_investment"
+    ],
     "source_ids": [
       "imf-weo",
       "worldbank"
@@ -487,6 +679,12 @@
     "value": "Risk 57, resilience readiness 70, implementation capacity 71",
     "direction": "watch",
     "threshold_note": "Warning when hazard exposure is high and resilience systems are weak.",
+    "why_flagged": "Exposure stays high when hazard risk rises faster than resilience systems and implementation quality.",
+    "linked_indicator_ids": [
+      "disaster_risk",
+      "resilience_readiness",
+      "implementation_capacity"
+    ],
     "source_ids": [
       "worldbank",
       "undp-diagnostics"
@@ -502,6 +700,12 @@
     "value": "6.9% youth unemployment, quality jobs index 44",
     "direction": "warning",
     "threshold_note": "Warning if youth unemployment stays high while quality jobs remain weak.",
+    "why_flagged": "Youth unemployment and job quality are moving together in the wrong direction for broad-based SDG acceleration.",
+    "linked_indicator_ids": [
+      "youth_unemployment",
+      "quality_jobs_index",
+      "informality"
+    ],
     "source_ids": [
       "ilostat",
       "worldbank"
@@ -517,6 +721,12 @@
     "value": "Tax/GDP 18.2%, private capital mobilization 46",
     "direction": "watch",
     "threshold_note": "Warning when low tax effort combines with weak investment mobilization.",
+    "why_flagged": "Fiscal space weakens when public revenue effort and private capital mobilization cannot sustain SDG-aligned investment.",
+    "linked_indicator_ids": [
+      "tax_gdp",
+      "private_capital",
+      "public_investment"
+    ],
     "source_ids": [
       "imf-weo",
       "worldbank"
@@ -532,6 +742,12 @@
     "value": "Risk 59, resilience readiness 48, implementation capacity 49",
     "direction": "warning",
     "threshold_note": "Warning when hazard exposure is high and resilience systems are weak.",
+    "why_flagged": "Exposure stays high when hazard risk rises faster than resilience systems and implementation quality.",
+    "linked_indicator_ids": [
+      "disaster_risk",
+      "resilience_readiness",
+      "implementation_capacity"
+    ],
     "source_ids": [
       "worldbank",
       "undp-diagnostics"
@@ -547,6 +763,12 @@
     "value": "8.6% youth unemployment, quality jobs index 36",
     "direction": "warning",
     "threshold_note": "Warning if youth unemployment stays high while quality jobs remain weak.",
+    "why_flagged": "Youth unemployment and job quality are moving together in the wrong direction for broad-based SDG acceleration.",
+    "linked_indicator_ids": [
+      "youth_unemployment",
+      "quality_jobs_index",
+      "informality"
+    ],
     "source_ids": [
       "ilostat",
       "worldbank"
@@ -562,6 +784,12 @@
     "value": "Tax/GDP 12.1%, private capital mobilization 31",
     "direction": "warning",
     "threshold_note": "Warning when low tax effort combines with weak investment mobilization.",
+    "why_flagged": "Fiscal space weakens when public revenue effort and private capital mobilization cannot sustain SDG-aligned investment.",
+    "linked_indicator_ids": [
+      "tax_gdp",
+      "private_capital",
+      "public_investment"
+    ],
     "source_ids": [
       "imf-weo",
       "worldbank"
@@ -577,6 +805,12 @@
     "value": "Risk 58, resilience readiness 42, implementation capacity 38",
     "direction": "warning",
     "threshold_note": "Warning when hazard exposure is high and resilience systems are weak.",
+    "why_flagged": "Exposure stays high when hazard risk rises faster than resilience systems and implementation quality.",
+    "linked_indicator_ids": [
+      "disaster_risk",
+      "resilience_readiness",
+      "implementation_capacity"
+    ],
     "source_ids": [
       "worldbank",
       "undp-diagnostics"
@@ -592,6 +826,12 @@
     "value": "17.2% youth unemployment, quality jobs index 45",
     "direction": "watch",
     "threshold_note": "Warning if youth unemployment stays high while quality jobs remain weak.",
+    "why_flagged": "Youth unemployment and job quality are moving together in the wrong direction for broad-based SDG acceleration.",
+    "linked_indicator_ids": [
+      "youth_unemployment",
+      "quality_jobs_index",
+      "informality"
+    ],
     "source_ids": [
       "ilostat",
       "worldbank"
@@ -607,6 +847,12 @@
     "value": "Tax/GDP 16.9%, private capital mobilization 40",
     "direction": "watch",
     "threshold_note": "Warning when low tax effort combines with weak investment mobilization.",
+    "why_flagged": "Fiscal space weakens when public revenue effort and private capital mobilization cannot sustain SDG-aligned investment.",
+    "linked_indicator_ids": [
+      "tax_gdp",
+      "private_capital",
+      "public_investment"
+    ],
     "source_ids": [
       "imf-weo",
       "worldbank"
@@ -622,6 +868,12 @@
     "value": "Risk 49, resilience readiness 63, implementation capacity 71",
     "direction": "watch",
     "threshold_note": "Warning when hazard exposure is high and resilience systems are weak.",
+    "why_flagged": "Exposure stays high when hazard risk rises faster than resilience systems and implementation quality.",
+    "linked_indicator_ids": [
+      "disaster_risk",
+      "resilience_readiness",
+      "implementation_capacity"
+    ],
     "source_ids": [
       "worldbank",
       "undp-diagnostics"
@@ -637,6 +889,12 @@
     "value": "8.3% youth unemployment, quality jobs index 33",
     "direction": "warning",
     "threshold_note": "Warning if youth unemployment stays high while quality jobs remain weak.",
+    "why_flagged": "Youth unemployment and job quality are moving together in the wrong direction for broad-based SDG acceleration.",
+    "linked_indicator_ids": [
+      "youth_unemployment",
+      "quality_jobs_index",
+      "informality"
+    ],
     "source_ids": [
       "ilostat",
       "worldbank"
@@ -652,6 +910,12 @@
     "value": "Tax/GDP 8.1%, private capital mobilization 24",
     "direction": "warning",
     "threshold_note": "Warning when low tax effort combines with weak investment mobilization.",
+    "why_flagged": "Fiscal space weakens when public revenue effort and private capital mobilization cannot sustain SDG-aligned investment.",
+    "linked_indicator_ids": [
+      "tax_gdp",
+      "private_capital",
+      "public_investment"
+    ],
     "source_ids": [
       "imf-weo",
       "worldbank"
@@ -667,6 +931,12 @@
     "value": "Risk 69, resilience readiness 39, implementation capacity 35",
     "direction": "warning",
     "threshold_note": "Warning when hazard exposure is high and resilience systems are weak.",
+    "why_flagged": "Exposure stays high when hazard risk rises faster than resilience systems and implementation quality.",
+    "linked_indicator_ids": [
+      "disaster_risk",
+      "resilience_readiness",
+      "implementation_capacity"
+    ],
     "source_ids": [
       "worldbank",
       "undp-diagnostics"
@@ -682,6 +952,12 @@
     "value": "13.5% youth unemployment, quality jobs index 41",
     "direction": "warning",
     "threshold_note": "Warning if youth unemployment stays high while quality jobs remain weak.",
+    "why_flagged": "Youth unemployment and job quality are moving together in the wrong direction for broad-based SDG acceleration.",
+    "linked_indicator_ids": [
+      "youth_unemployment",
+      "quality_jobs_index",
+      "informality"
+    ],
     "source_ids": [
       "ilostat",
       "worldbank"
@@ -697,6 +973,12 @@
     "value": "Tax/GDP 14.0%, private capital mobilization 47",
     "direction": "watch",
     "threshold_note": "Warning when low tax effort combines with weak investment mobilization.",
+    "why_flagged": "Fiscal space weakens when public revenue effort and private capital mobilization cannot sustain SDG-aligned investment.",
+    "linked_indicator_ids": [
+      "tax_gdp",
+      "private_capital",
+      "public_investment"
+    ],
     "source_ids": [
       "imf-weo",
       "worldbank"
@@ -712,6 +994,12 @@
     "value": "Risk 61, resilience readiness 51, implementation capacity 46",
     "direction": "watch",
     "threshold_note": "Warning when hazard exposure is high and resilience systems are weak.",
+    "why_flagged": "Exposure stays high when hazard risk rises faster than resilience systems and implementation quality.",
+    "linked_indicator_ids": [
+      "disaster_risk",
+      "resilience_readiness",
+      "implementation_capacity"
+    ],
     "source_ids": [
       "worldbank",
       "undp-diagnostics"
@@ -727,6 +1015,12 @@
     "value": "22.1% youth unemployment, quality jobs index 50",
     "direction": "watch",
     "threshold_note": "Warning if youth unemployment stays high while quality jobs remain weak.",
+    "why_flagged": "Youth unemployment and job quality are moving together in the wrong direction for broad-based SDG acceleration.",
+    "linked_indicator_ids": [
+      "youth_unemployment",
+      "quality_jobs_index",
+      "informality"
+    ],
     "source_ids": [
       "ilostat",
       "worldbank"
@@ -742,6 +1036,12 @@
     "value": "Tax/GDP 21.4%, private capital mobilization 51",
     "direction": "steady",
     "threshold_note": "Warning when low tax effort combines with weak investment mobilization.",
+    "why_flagged": "Fiscal space weakens when public revenue effort and private capital mobilization cannot sustain SDG-aligned investment.",
+    "linked_indicator_ids": [
+      "tax_gdp",
+      "private_capital",
+      "public_investment"
+    ],
     "source_ids": [
       "imf-weo",
       "worldbank"
@@ -757,6 +1057,12 @@
     "value": "Risk 46, resilience readiness 65, implementation capacity 58",
     "direction": "watch",
     "threshold_note": "Warning when hazard exposure is high and resilience systems are weak.",
+    "why_flagged": "Exposure stays high when hazard risk rises faster than resilience systems and implementation quality.",
+    "linked_indicator_ids": [
+      "disaster_risk",
+      "resilience_readiness",
+      "implementation_capacity"
+    ],
     "source_ids": [
       "worldbank",
       "undp-diagnostics"
@@ -772,6 +1078,12 @@
     "value": "11.3% youth unemployment, quality jobs index 52",
     "direction": "watch",
     "threshold_note": "Warning if youth unemployment stays high while quality jobs remain weak.",
+    "why_flagged": "Youth unemployment and job quality are moving together in the wrong direction for broad-based SDG acceleration.",
+    "linked_indicator_ids": [
+      "youth_unemployment",
+      "quality_jobs_index",
+      "informality"
+    ],
     "source_ids": [
       "ilostat",
       "worldbank"
@@ -787,6 +1099,12 @@
     "value": "Tax/GDP 24.1%, private capital mobilization 45",
     "direction": "watch",
     "threshold_note": "Warning when low tax effort combines with weak investment mobilization.",
+    "why_flagged": "Fiscal space weakens when public revenue effort and private capital mobilization cannot sustain SDG-aligned investment.",
+    "linked_indicator_ids": [
+      "tax_gdp",
+      "private_capital",
+      "public_investment"
+    ],
     "source_ids": [
       "imf-weo",
       "worldbank"
@@ -802,6 +1120,12 @@
     "value": "Risk 44, resilience readiness 52, implementation capacity 52",
     "direction": "watch",
     "threshold_note": "Warning when hazard exposure is high and resilience systems are weak.",
+    "why_flagged": "Exposure stays high when hazard risk rises faster than resilience systems and implementation quality.",
+    "linked_indicator_ids": [
+      "disaster_risk",
+      "resilience_readiness",
+      "implementation_capacity"
+    ],
     "source_ids": [
       "worldbank",
       "undp-diagnostics"
@@ -817,6 +1141,12 @@
     "value": "15.7% youth unemployment, quality jobs index 60",
     "direction": "steady",
     "threshold_note": "Warning if youth unemployment stays high while quality jobs remain weak.",
+    "why_flagged": "Youth unemployment and job quality are moving together in the wrong direction for broad-based SDG acceleration.",
+    "linked_indicator_ids": [
+      "youth_unemployment",
+      "quality_jobs_index",
+      "informality"
+    ],
     "source_ids": [
       "ilostat",
       "worldbank"
@@ -832,6 +1162,12 @@
     "value": "Tax/GDP 22.0%, private capital mobilization 58",
     "direction": "steady",
     "threshold_note": "Warning when low tax effort combines with weak investment mobilization.",
+    "why_flagged": "Fiscal space weakens when public revenue effort and private capital mobilization cannot sustain SDG-aligned investment.",
+    "linked_indicator_ids": [
+      "tax_gdp",
+      "private_capital",
+      "public_investment"
+    ],
     "source_ids": [
       "imf-weo",
       "worldbank"
@@ -847,6 +1183,12 @@
     "value": "Risk 32, resilience readiness 69, implementation capacity 73",
     "direction": "steady",
     "threshold_note": "Warning when hazard exposure is high and resilience systems are weak.",
+    "why_flagged": "Exposure stays high when hazard risk rises faster than resilience systems and implementation quality.",
+    "linked_indicator_ids": [
+      "disaster_risk",
+      "resilience_readiness",
+      "implementation_capacity"
+    ],
     "source_ids": [
       "worldbank",
       "undp-diagnostics"

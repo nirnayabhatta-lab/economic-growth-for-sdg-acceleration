@@ -20,18 +20,24 @@ REQUIRED_FILES = [
     "accelerators.json",
     "signals.json",
     "news_signals.json",
+    "external_scores.json",
+    "pulse_history.json",
+    "trajectory_2030.json",
     "toolkit.json",
 ]
 
 SCHEMAS = {
-    "countries": ["country_code", "country_name", "region_group", "income_group", "peer_type", "is_default"],
+    "countries": ["country_code", "country_name", "region_group", "income_group", "peer_type", "is_default", "aspirational_peer_code", "structural_peer_code", "regional_anchor_code", "peer_rationale"],
     "indicators": ["id", "country_code", "year", "lens", "label", "value", "unit", "trend", "sdg_links", "source_ids", "note"],
     "pathways": ["id", "country_scope", "driver", "channel", "outcome", "sdg_links", "directness", "evidence_strength", "policy_relevance"],
     "policies": ["id", "country_code", "policy_name", "period", "lead_agency", "policy_type", "growth_channels", "direct_sdgs", "indirect_sdgs", "implementation_status", "source_ids"],
     "budget_map": ["country_code", "year", "ministry_or_sector", "program_area", "budget_type", "growth_channels", "sdg_links", "confidence"],
     "accelerators": ["id", "country_code", "title", "mechanism", "why_now", "prerequisites", "lead_actors", "expected_channels", "sdg_links", "risk_flags", "source_ids"],
-    "signals": ["id", "country_code", "theme", "label", "value", "direction", "threshold_note", "source_ids", "last_updated"],
+    "signals": ["id", "country_code", "theme", "label", "value", "direction", "threshold_note", "why_flagged", "linked_indicator_ids", "source_ids", "last_updated"],
     "news_signals": ["id", "country_code", "date", "headline", "summary", "channels", "linked_indicator_ids", "direction", "impact_score", "source_label", "source_url"],
+    "external_scores": ["score_family", "organization", "country_code", "value", "scale_max", "rank", "rank_total", "publication_date", "reference_year", "comparability_note", "source_url", "status"],
+    "pulse_history": ["timestamp", "country_code", "benchmark_group", "pulse_score", "delta_since_last", "channel_scores", "top_positive_drivers", "top_negative_drivers", "confidence", "notes"],
+    "trajectory_2030": ["timestamp", "country_code", "baseline_anchor_family", "scenario", "projected_range", "assumptions", "distance_to_target_note"],
     "lenses": ["id", "title", "summary", "indicator_ids"],
     "toolkit": ["id", "title", "role", "what_it_does", "when_to_use"],
 }
@@ -52,6 +58,9 @@ def main():
     accelerators = load("accelerators.json")
     signals = load("signals.json")
     news_signals = load("news_signals.json")
+    external_scores = load("external_scores.json")
+    pulse_history = load("pulse_history.json")
+    trajectory_2030 = load("trajectory_2030.json")
     lenses = load("lenses.json")
     toolkit = load("toolkit.json")
     comparators = load("comparators.json")
@@ -64,6 +73,9 @@ def main():
     assert_shape("accelerators", accelerators, SCHEMAS["accelerators"])
     assert_shape("signals", signals, SCHEMAS["signals"])
     assert_shape("news_signals", news_signals, SCHEMAS["news_signals"])
+    assert_shape("external_scores", external_scores, SCHEMAS["external_scores"])
+    assert_shape("pulse_history", pulse_history, SCHEMAS["pulse_history"])
+    assert_shape("trajectory_2030", trajectory_2030, SCHEMAS["trajectory_2030"])
     assert_shape("lenses", lenses, SCHEMAS["lenses"])
     assert_shape("toolkit", toolkit, SCHEMAS["toolkit"])
 
@@ -88,12 +100,32 @@ def main():
                 raise SystemExit(f"Invalid country code in {collection_name}: {item['country_code']}")
             assert_source_ids(item["source_ids"], source_ids, item.get("id", item.get("label", collection_name)))
 
+    for item in signals:
+        for indicator_id in item["linked_indicator_ids"]:
+            if indicator_id not in indicator_ids:
+                raise SystemExit(f"Unknown linked indicator {indicator_id} in signal {item['id']}")
+
     for item in news_signals:
         if item["country_code"] not in country_codes:
             raise SystemExit(f"Invalid country code in news_signals: {item['country_code']}")
         for indicator_id in item["linked_indicator_ids"]:
             if indicator_id not in indicator_ids:
                 raise SystemExit(f"Unknown linked indicator {indicator_id} in news signal {item['id']}")
+
+    for item in external_scores:
+        if item["country_code"] not in country_codes:
+            raise SystemExit(f"Invalid country code in external_scores: {item['country_code']}")
+
+    valid_groups = {group["id"] for group in comparators["country_groups"]}
+    for item in pulse_history:
+        if item["country_code"] not in country_codes:
+            raise SystemExit(f"Invalid country code in pulse_history: {item['country_code']}")
+        if item["benchmark_group"] not in valid_groups:
+            raise SystemExit(f"Invalid benchmark group in pulse_history: {item['benchmark_group']}")
+
+    for item in trajectory_2030:
+        if item["country_code"] not in country_codes:
+            raise SystemExit(f"Invalid country code in trajectory_2030: {item['country_code']}")
 
     for pathway in pathways:
         if pathway["country_scope"] != "cross-country" and pathway["country_scope"] not in country_codes:

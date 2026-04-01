@@ -1,10 +1,11 @@
-const CACHE_NAME = "growth-sdg-atlas-v2";
+const CACHE_NAME = "growth-sdg-atlas-v3";
 const APP_ASSETS = [
   "./",
   "./index.html",
   "./styles.css",
   "./app.js",
   "./manifest.webmanifest",
+  "./sdg-wheel.svg",
   "./sdg-wheel.png",
   "./icon.svg",
   "./icon-192.png",
@@ -21,6 +22,9 @@ const APP_ASSETS = [
   "../data/accelerators.json",
   "../data/signals.json",
   "../data/news_signals.json",
+  "../data/external_scores.json",
+  "../data/pulse_history.json",
+  "../data/trajectory_2030.json",
   "../data/toolkit.json"
 ];
 

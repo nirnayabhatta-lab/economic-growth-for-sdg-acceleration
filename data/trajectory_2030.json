@@ -1,0 +1,1940 @@
+[
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "NPL",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "conservative",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 68.58
+      },
+      {
+        "year": 2026,
+        "value": 68.78
+      },
+      {
+        "year": 2027,
+        "value": 68.98
+      },
+      {
+        "year": 2028,
+        "value": 69.17
+      },
+      {
+        "year": 2029,
+        "value": 69.37
+      },
+      {
+        "year": 2030,
+        "value": 69.57
+      }
+    ],
+    "assumptions": "Assumes implementation bottlenecks, resilience shocks, and weak investment conversion slow gains.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "NPL",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "baseline",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 68.58
+      },
+      {
+        "year": 2026,
+        "value": 68.93
+      },
+      {
+        "year": 2027,
+        "value": 69.28
+      },
+      {
+        "year": 2028,
+        "value": 69.63
+      },
+      {
+        "year": 2029,
+        "value": 69.98
+      },
+      {
+        "year": 2030,
+        "value": 70.33
+      }
+    ],
+    "assumptions": "Assumes current reform momentum persists and the pulse gradually translates into medium-term progress.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "NPL",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "accelerated",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 68.58
+      },
+      {
+        "year": 2026,
+        "value": 69.12
+      },
+      {
+        "year": 2027,
+        "value": 69.66
+      },
+      {
+        "year": 2028,
+        "value": 70.19
+      },
+      {
+        "year": 2029,
+        "value": 70.73
+      },
+      {
+        "year": 2030,
+        "value": 71.27
+      }
+    ],
+    "assumptions": "Assumes accelerators convert weak channels into stronger jobs, fiscal space, and resilience outcomes.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "BGD",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "conservative",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 65.9
+      },
+      {
+        "year": 2026,
+        "value": 66.11
+      },
+      {
+        "year": 2027,
+        "value": 66.32
+      },
+      {
+        "year": 2028,
+        "value": 66.53
+      },
+      {
+        "year": 2029,
+        "value": 66.74
+      },
+      {
+        "year": 2030,
+        "value": 66.95
+      }
+    ],
+    "assumptions": "Assumes implementation bottlenecks, resilience shocks, and weak investment conversion slow gains.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "BGD",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "baseline",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 65.9
+      },
+      {
+        "year": 2026,
+        "value": 66.27
+      },
+      {
+        "year": 2027,
+        "value": 66.64
+      },
+      {
+        "year": 2028,
+        "value": 67.01
+      },
+      {
+        "year": 2029,
+        "value": 67.38
+      },
+      {
+        "year": 2030,
+        "value": 67.75
+      }
+    ],
+    "assumptions": "Assumes current reform momentum persists and the pulse gradually translates into medium-term progress.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "BGD",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "accelerated",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 65.9
+      },
+      {
+        "year": 2026,
+        "value": 66.47
+      },
+      {
+        "year": 2027,
+        "value": 67.04
+      },
+      {
+        "year": 2028,
+        "value": 67.6
+      },
+      {
+        "year": 2029,
+        "value": 68.17
+      },
+      {
+        "year": 2030,
+        "value": 68.74
+      }
+    ],
+    "assumptions": "Assumes accelerators convert weak channels into stronger jobs, fiscal space, and resilience outcomes.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "BTN",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "conservative",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 70.3
+      },
+      {
+        "year": 2026,
+        "value": 70.52
+      },
+      {
+        "year": 2027,
+        "value": 70.75
+      },
+      {
+        "year": 2028,
+        "value": 70.97
+      },
+      {
+        "year": 2029,
+        "value": 71.2
+      },
+      {
+        "year": 2030,
+        "value": 71.42
+      }
+    ],
+    "assumptions": "Assumes implementation bottlenecks, resilience shocks, and weak investment conversion slow gains.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "BTN",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "baseline",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 70.3
+      },
+      {
+        "year": 2026,
+        "value": 70.7
+      },
+      {
+        "year": 2027,
+        "value": 71.1
+      },
+      {
+        "year": 2028,
+        "value": 71.5
+      },
+      {
+        "year": 2029,
+        "value": 71.89
+      },
+      {
+        "year": 2030,
+        "value": 72.29
+      }
+    ],
+    "assumptions": "Assumes current reform momentum persists and the pulse gradually translates into medium-term progress.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "BTN",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "accelerated",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 70.3
+      },
+      {
+        "year": 2026,
+        "value": 70.91
+      },
+      {
+        "year": 2027,
+        "value": 71.52
+      },
+      {
+        "year": 2028,
+        "value": 72.13
+      },
+      {
+        "year": 2029,
+        "value": 72.74
+      },
+      {
+        "year": 2030,
+        "value": 73.35
+      }
+    ],
+    "assumptions": "Assumes accelerators convert weak channels into stronger jobs, fiscal space, and resilience outcomes.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "IND",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "conservative",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 63.8
+      },
+      {
+        "year": 2026,
+        "value": 64.02
+      },
+      {
+        "year": 2027,
+        "value": 64.24
+      },
+      {
+        "year": 2028,
+        "value": 64.46
+      },
+      {
+        "year": 2029,
+        "value": 64.68
+      },
+      {
+        "year": 2030,
+        "value": 64.9
+      }
+    ],
+    "assumptions": "Assumes implementation bottlenecks, resilience shocks, and weak investment conversion slow gains.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "IND",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "baseline",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 63.8
+      },
+      {
+        "year": 2026,
+        "value": 64.19
+      },
+      {
+        "year": 2027,
+        "value": 64.58
+      },
+      {
+        "year": 2028,
+        "value": 64.97
+      },
+      {
+        "year": 2029,
+        "value": 65.36
+      },
+      {
+        "year": 2030,
+        "value": 65.75
+      }
+    ],
+    "assumptions": "Assumes current reform momentum persists and the pulse gradually translates into medium-term progress.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "IND",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "accelerated",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 63.8
+      },
+      {
+        "year": 2026,
+        "value": 64.4
+      },
+      {
+        "year": 2027,
+        "value": 64.99
+      },
+      {
+        "year": 2028,
+        "value": 65.59
+      },
+      {
+        "year": 2029,
+        "value": 66.19
+      },
+      {
+        "year": 2030,
+        "value": 66.79
+      }
+    ],
+    "assumptions": "Assumes accelerators convert weak channels into stronger jobs, fiscal space, and resilience outcomes.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "MDV",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "conservative",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 70.1
+      },
+      {
+        "year": 2026,
+        "value": 70.33
+      },
+      {
+        "year": 2027,
+        "value": 70.55
+      },
+      {
+        "year": 2028,
+        "value": 70.78
+      },
+      {
+        "year": 2029,
+        "value": 71.0
+      },
+      {
+        "year": 2030,
+        "value": 71.23
+      }
+    ],
+    "assumptions": "Assumes implementation bottlenecks, resilience shocks, and weak investment conversion slow gains.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "MDV",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "baseline",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 70.1
+      },
+      {
+        "year": 2026,
+        "value": 70.5
+      },
+      {
+        "year": 2027,
+        "value": 70.9
+      },
+      {
+        "year": 2028,
+        "value": 71.3
+      },
+      {
+        "year": 2029,
+        "value": 71.69
+      },
+      {
+        "year": 2030,
+        "value": 72.09
+      }
+    ],
+    "assumptions": "Assumes current reform momentum persists and the pulse gradually translates into medium-term progress.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "MDV",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "accelerated",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 70.1
+      },
+      {
+        "year": 2026,
+        "value": 70.71
+      },
+      {
+        "year": 2027,
+        "value": 71.32
+      },
+      {
+        "year": 2028,
+        "value": 71.93
+      },
+      {
+        "year": 2029,
+        "value": 72.54
+      },
+      {
+        "year": 2030,
+        "value": 73.15
+      }
+    ],
+    "assumptions": "Assumes accelerators convert weak channels into stronger jobs, fiscal space, and resilience outcomes.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "PAK",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "conservative",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 57.0
+      },
+      {
+        "year": 2026,
+        "value": 57.18
+      },
+      {
+        "year": 2027,
+        "value": 57.37
+      },
+      {
+        "year": 2028,
+        "value": 57.55
+      },
+      {
+        "year": 2029,
+        "value": 57.73
+      },
+      {
+        "year": 2030,
+        "value": 57.91
+      }
+    ],
+    "assumptions": "Assumes implementation bottlenecks, resilience shocks, and weak investment conversion slow gains.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "PAK",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "baseline",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 57.0
+      },
+      {
+        "year": 2026,
+        "value": 57.32
+      },
+      {
+        "year": 2027,
+        "value": 57.65
+      },
+      {
+        "year": 2028,
+        "value": 57.97
+      },
+      {
+        "year": 2029,
+        "value": 58.29
+      },
+      {
+        "year": 2030,
+        "value": 58.62
+      }
+    ],
+    "assumptions": "Assumes current reform momentum persists and the pulse gradually translates into medium-term progress.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "PAK",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "accelerated",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 57.0
+      },
+      {
+        "year": 2026,
+        "value": 57.5
+      },
+      {
+        "year": 2027,
+        "value": 57.99
+      },
+      {
+        "year": 2028,
+        "value": 58.49
+      },
+      {
+        "year": 2029,
+        "value": 58.98
+      },
+      {
+        "year": 2030,
+        "value": 59.48
+      }
+    ],
+    "assumptions": "Assumes accelerators convert weak channels into stronger jobs, fiscal space, and resilience outcomes.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "LKA",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "conservative",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 69.2
+      },
+      {
+        "year": 2026,
+        "value": 69.41
+      },
+      {
+        "year": 2027,
+        "value": 69.62
+      },
+      {
+        "year": 2028,
+        "value": 69.83
+      },
+      {
+        "year": 2029,
+        "value": 70.04
+      },
+      {
+        "year": 2030,
+        "value": 70.25
+      }
+    ],
+    "assumptions": "Assumes implementation bottlenecks, resilience shocks, and weak investment conversion slow gains.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "LKA",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "baseline",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 69.2
+      },
+      {
+        "year": 2026,
+        "value": 69.57
+      },
+      {
+        "year": 2027,
+        "value": 69.94
+      },
+      {
+        "year": 2028,
+        "value": 70.32
+      },
+      {
+        "year": 2029,
+        "value": 70.69
+      },
+      {
+        "year": 2030,
+        "value": 71.06
+      }
+    ],
+    "assumptions": "Assumes current reform momentum persists and the pulse gradually translates into medium-term progress.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "LKA",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "accelerated",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 69.2
+      },
+      {
+        "year": 2026,
+        "value": 69.77
+      },
+      {
+        "year": 2027,
+        "value": 70.34
+      },
+      {
+        "year": 2028,
+        "value": 70.91
+      },
+      {
+        "year": 2029,
+        "value": 71.48
+      },
+      {
+        "year": 2030,
+        "value": 72.05
+      }
+    ],
+    "assumptions": "Assumes accelerators convert weak channels into stronger jobs, fiscal space, and resilience outcomes.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "IDN",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "conservative",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 69.5
+      },
+      {
+        "year": 2026,
+        "value": 69.71
+      },
+      {
+        "year": 2027,
+        "value": 69.92
+      },
+      {
+        "year": 2028,
+        "value": 70.13
+      },
+      {
+        "year": 2029,
+        "value": 70.34
+      },
+      {
+        "year": 2030,
+        "value": 70.55
+      }
+    ],
+    "assumptions": "Assumes implementation bottlenecks, resilience shocks, and weak investment conversion slow gains.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "IDN",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "baseline",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 69.5
+      },
+      {
+        "year": 2026,
+        "value": 69.87
+      },
+      {
+        "year": 2027,
+        "value": 70.24
+      },
+      {
+        "year": 2028,
+        "value": 70.61
+      },
+      {
+        "year": 2029,
+        "value": 70.98
+      },
+      {
+        "year": 2030,
+        "value": 71.35
+      }
+    ],
+    "assumptions": "Assumes current reform momentum persists and the pulse gradually translates into medium-term progress.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "IDN",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "accelerated",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 69.5
+      },
+      {
+        "year": 2026,
+        "value": 70.07
+      },
+      {
+        "year": 2027,
+        "value": 70.64
+      },
+      {
+        "year": 2028,
+        "value": 71.2
+      },
+      {
+        "year": 2029,
+        "value": 71.77
+      },
+      {
+        "year": 2030,
+        "value": 72.34
+      }
+    ],
+    "assumptions": "Assumes accelerators convert weak channels into stronger jobs, fiscal space, and resilience outcomes.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "VNM",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "conservative",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 73.1
+      },
+      {
+        "year": 2026,
+        "value": 73.33
+      },
+      {
+        "year": 2027,
+        "value": 73.56
+      },
+      {
+        "year": 2028,
+        "value": 73.79
+      },
+      {
+        "year": 2029,
+        "value": 74.02
+      },
+      {
+        "year": 2030,
+        "value": 74.25
+      }
+    ],
+    "assumptions": "Assumes implementation bottlenecks, resilience shocks, and weak investment conversion slow gains.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "VNM",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "baseline",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 73.1
+      },
+      {
+        "year": 2026,
+        "value": 73.51
+      },
+      {
+        "year": 2027,
+        "value": 73.92
+      },
+      {
+        "year": 2028,
+        "value": 74.33
+      },
+      {
+        "year": 2029,
+        "value": 74.73
+      },
+      {
+        "year": 2030,
+        "value": 75.14
+      }
+    ],
+    "assumptions": "Assumes current reform momentum persists and the pulse gradually translates into medium-term progress.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "VNM",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "accelerated",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 73.1
+      },
+      {
+        "year": 2026,
+        "value": 73.73
+      },
+      {
+        "year": 2027,
+        "value": 74.35
+      },
+      {
+        "year": 2028,
+        "value": 74.98
+      },
+      {
+        "year": 2029,
+        "value": 75.6
+      },
+      {
+        "year": 2030,
+        "value": 76.23
+      }
+    ],
+    "assumptions": "Assumes accelerators convert weak channels into stronger jobs, fiscal space, and resilience outcomes.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "PHL",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "conservative",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 68.9
+      },
+      {
+        "year": 2026,
+        "value": 69.1
+      },
+      {
+        "year": 2027,
+        "value": 69.3
+      },
+      {
+        "year": 2028,
+        "value": 69.5
+      },
+      {
+        "year": 2029,
+        "value": 69.7
+      },
+      {
+        "year": 2030,
+        "value": 69.9
+      }
+    ],
+    "assumptions": "Assumes implementation bottlenecks, resilience shocks, and weak investment conversion slow gains.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "PHL",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "baseline",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 68.9
+      },
+      {
+        "year": 2026,
+        "value": 69.26
+      },
+      {
+        "year": 2027,
+        "value": 69.61
+      },
+      {
+        "year": 2028,
+        "value": 69.97
+      },
+      {
+        "year": 2029,
+        "value": 70.32
+      },
+      {
+        "year": 2030,
+        "value": 70.68
+      }
+    ],
+    "assumptions": "Assumes current reform momentum persists and the pulse gradually translates into medium-term progress.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "PHL",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "accelerated",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 68.9
+      },
+      {
+        "year": 2026,
+        "value": 69.44
+      },
+      {
+        "year": 2027,
+        "value": 69.99
+      },
+      {
+        "year": 2028,
+        "value": 70.53
+      },
+      {
+        "year": 2029,
+        "value": 71.08
+      },
+      {
+        "year": 2030,
+        "value": 71.62
+      }
+    ],
+    "assumptions": "Assumes accelerators convert weak channels into stronger jobs, fiscal space, and resilience outcomes.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "THA",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "conservative",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 74.7
+      },
+      {
+        "year": 2026,
+        "value": 74.93
+      },
+      {
+        "year": 2027,
+        "value": 75.17
+      },
+      {
+        "year": 2028,
+        "value": 75.4
+      },
+      {
+        "year": 2029,
+        "value": 75.64
+      },
+      {
+        "year": 2030,
+        "value": 75.87
+      }
+    ],
+    "assumptions": "Assumes implementation bottlenecks, resilience shocks, and weak investment conversion slow gains.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "THA",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "baseline",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 74.7
+      },
+      {
+        "year": 2026,
+        "value": 75.12
+      },
+      {
+        "year": 2027,
+        "value": 75.53
+      },
+      {
+        "year": 2028,
+        "value": 75.95
+      },
+      {
+        "year": 2029,
+        "value": 76.36
+      },
+      {
+        "year": 2030,
+        "value": 76.78
+      }
+    ],
+    "assumptions": "Assumes current reform momentum persists and the pulse gradually translates into medium-term progress.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "THA",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "accelerated",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 74.7
+      },
+      {
+        "year": 2026,
+        "value": 75.34
+      },
+      {
+        "year": 2027,
+        "value": 75.97
+      },
+      {
+        "year": 2028,
+        "value": 76.61
+      },
+      {
+        "year": 2029,
+        "value": 77.25
+      },
+      {
+        "year": 2030,
+        "value": 77.88
+      }
+    ],
+    "assumptions": "Assumes accelerators convert weak channels into stronger jobs, fiscal space, and resilience outcomes.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "KHM",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "conservative",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 67.1
+      },
+      {
+        "year": 2026,
+        "value": 67.3
+      },
+      {
+        "year": 2027,
+        "value": 67.5
+      },
+      {
+        "year": 2028,
+        "value": 67.7
+      },
+      {
+        "year": 2029,
+        "value": 67.9
+      },
+      {
+        "year": 2030,
+        "value": 68.11
+      }
+    ],
+    "assumptions": "Assumes implementation bottlenecks, resilience shocks, and weak investment conversion slow gains.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "KHM",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "baseline",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 67.1
+      },
+      {
+        "year": 2026,
+        "value": 67.46
+      },
+      {
+        "year": 2027,
+        "value": 67.81
+      },
+      {
+        "year": 2028,
+        "value": 68.17
+      },
+      {
+        "year": 2029,
+        "value": 68.53
+      },
+      {
+        "year": 2030,
+        "value": 68.88
+      }
+    ],
+    "assumptions": "Assumes current reform momentum persists and the pulse gradually translates into medium-term progress.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "KHM",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "accelerated",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 67.1
+      },
+      {
+        "year": 2026,
+        "value": 67.65
+      },
+      {
+        "year": 2027,
+        "value": 68.19
+      },
+      {
+        "year": 2028,
+        "value": 68.74
+      },
+      {
+        "year": 2029,
+        "value": 69.28
+      },
+      {
+        "year": 2030,
+        "value": 69.83
+      }
+    ],
+    "assumptions": "Assumes accelerators convert weak channels into stronger jobs, fiscal space, and resilience outcomes.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "LAO",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "conservative",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 64.3
+      },
+      {
+        "year": 2026,
+        "value": 64.48
+      },
+      {
+        "year": 2027,
+        "value": 64.67
+      },
+      {
+        "year": 2028,
+        "value": 64.85
+      },
+      {
+        "year": 2029,
+        "value": 65.03
+      },
+      {
+        "year": 2030,
+        "value": 65.22
+      }
+    ],
+    "assumptions": "Assumes implementation bottlenecks, resilience shocks, and weak investment conversion slow gains.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "LAO",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "baseline",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 64.3
+      },
+      {
+        "year": 2026,
+        "value": 64.63
+      },
+      {
+        "year": 2027,
+        "value": 64.95
+      },
+      {
+        "year": 2028,
+        "value": 65.28
+      },
+      {
+        "year": 2029,
+        "value": 65.6
+      },
+      {
+        "year": 2030,
+        "value": 65.93
+      }
+    ],
+    "assumptions": "Assumes current reform momentum persists and the pulse gradually translates into medium-term progress.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "LAO",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "accelerated",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 64.3
+      },
+      {
+        "year": 2026,
+        "value": 64.8
+      },
+      {
+        "year": 2027,
+        "value": 65.3
+      },
+      {
+        "year": 2028,
+        "value": 65.79
+      },
+      {
+        "year": 2029,
+        "value": 66.29
+      },
+      {
+        "year": 2030,
+        "value": 66.79
+      }
+    ],
+    "assumptions": "Assumes accelerators convert weak channels into stronger jobs, fiscal space, and resilience outcomes.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "RWA",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "conservative",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 67.5
+      },
+      {
+        "year": 2026,
+        "value": 67.72
+      },
+      {
+        "year": 2027,
+        "value": 67.93
+      },
+      {
+        "year": 2028,
+        "value": 68.15
+      },
+      {
+        "year": 2029,
+        "value": 68.36
+      },
+      {
+        "year": 2030,
+        "value": 68.58
+      }
+    ],
+    "assumptions": "Assumes implementation bottlenecks, resilience shocks, and weak investment conversion slow gains.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "RWA",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "baseline",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 67.5
+      },
+      {
+        "year": 2026,
+        "value": 67.88
+      },
+      {
+        "year": 2027,
+        "value": 68.27
+      },
+      {
+        "year": 2028,
+        "value": 68.65
+      },
+      {
+        "year": 2029,
+        "value": 69.03
+      },
+      {
+        "year": 2030,
+        "value": 69.41
+      }
+    ],
+    "assumptions": "Assumes current reform momentum persists and the pulse gradually translates into medium-term progress.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "RWA",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "accelerated",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 67.5
+      },
+      {
+        "year": 2026,
+        "value": 68.09
+      },
+      {
+        "year": 2027,
+        "value": 68.67
+      },
+      {
+        "year": 2028,
+        "value": 69.26
+      },
+      {
+        "year": 2029,
+        "value": 69.85
+      },
+      {
+        "year": 2030,
+        "value": 70.43
+      }
+    ],
+    "assumptions": "Assumes accelerators convert weak channels into stronger jobs, fiscal space, and resilience outcomes.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "ETH",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "conservative",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 58.2
+      },
+      {
+        "year": 2026,
+        "value": 58.38
+      },
+      {
+        "year": 2027,
+        "value": 58.56
+      },
+      {
+        "year": 2028,
+        "value": 58.74
+      },
+      {
+        "year": 2029,
+        "value": 58.92
+      },
+      {
+        "year": 2030,
+        "value": 59.1
+      }
+    ],
+    "assumptions": "Assumes implementation bottlenecks, resilience shocks, and weak investment conversion slow gains.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "ETH",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "baseline",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 58.2
+      },
+      {
+        "year": 2026,
+        "value": 58.52
+      },
+      {
+        "year": 2027,
+        "value": 58.84
+      },
+      {
+        "year": 2028,
+        "value": 59.16
+      },
+      {
+        "year": 2029,
+        "value": 59.48
+      },
+      {
+        "year": 2030,
+        "value": 59.79
+      }
+    ],
+    "assumptions": "Assumes current reform momentum persists and the pulse gradually translates into medium-term progress.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "ETH",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "accelerated",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 58.2
+      },
+      {
+        "year": 2026,
+        "value": 58.69
+      },
+      {
+        "year": 2027,
+        "value": 59.18
+      },
+      {
+        "year": 2028,
+        "value": 59.67
+      },
+      {
+        "year": 2029,
+        "value": 60.16
+      },
+      {
+        "year": 2030,
+        "value": 60.64
+      }
+    ],
+    "assumptions": "Assumes accelerators convert weak channels into stronger jobs, fiscal space, and resilience outcomes.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "KEN",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "conservative",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 63.4
+      },
+      {
+        "year": 2026,
+        "value": 63.6
+      },
+      {
+        "year": 2027,
+        "value": 63.8
+      },
+      {
+        "year": 2028,
+        "value": 63.99
+      },
+      {
+        "year": 2029,
+        "value": 64.19
+      },
+      {
+        "year": 2030,
+        "value": 64.39
+      }
+    ],
+    "assumptions": "Assumes implementation bottlenecks, resilience shocks, and weak investment conversion slow gains.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "KEN",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "baseline",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 63.4
+      },
+      {
+        "year": 2026,
+        "value": 63.75
+      },
+      {
+        "year": 2027,
+        "value": 64.1
+      },
+      {
+        "year": 2028,
+        "value": 64.45
+      },
+      {
+        "year": 2029,
+        "value": 64.8
+      },
+      {
+        "year": 2030,
+        "value": 65.16
+      }
+    ],
+    "assumptions": "Assumes current reform momentum persists and the pulse gradually translates into medium-term progress.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "KEN",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "accelerated",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 63.4
+      },
+      {
+        "year": 2026,
+        "value": 63.94
+      },
+      {
+        "year": 2027,
+        "value": 64.48
+      },
+      {
+        "year": 2028,
+        "value": 65.01
+      },
+      {
+        "year": 2029,
+        "value": 65.55
+      },
+      {
+        "year": 2030,
+        "value": 66.09
+      }
+    ],
+    "assumptions": "Assumes accelerators convert weak channels into stronger jobs, fiscal space, and resilience outcomes.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "MAR",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "conservative",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 70.4
+      },
+      {
+        "year": 2026,
+        "value": 70.61
+      },
+      {
+        "year": 2027,
+        "value": 70.83
+      },
+      {
+        "year": 2028,
+        "value": 71.04
+      },
+      {
+        "year": 2029,
+        "value": 71.26
+      },
+      {
+        "year": 2030,
+        "value": 71.47
+      }
+    ],
+    "assumptions": "Assumes implementation bottlenecks, resilience shocks, and weak investment conversion slow gains.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "MAR",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "baseline",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 70.4
+      },
+      {
+        "year": 2026,
+        "value": 70.78
+      },
+      {
+        "year": 2027,
+        "value": 71.16
+      },
+      {
+        "year": 2028,
+        "value": 71.54
+      },
+      {
+        "year": 2029,
+        "value": 71.92
+      },
+      {
+        "year": 2030,
+        "value": 72.3
+      }
+    ],
+    "assumptions": "Assumes current reform momentum persists and the pulse gradually translates into medium-term progress.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "MAR",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "accelerated",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 70.4
+      },
+      {
+        "year": 2026,
+        "value": 70.98
+      },
+      {
+        "year": 2027,
+        "value": 71.57
+      },
+      {
+        "year": 2028,
+        "value": 72.15
+      },
+      {
+        "year": 2029,
+        "value": 72.73
+      },
+      {
+        "year": 2030,
+        "value": 73.32
+      }
+    ],
+    "assumptions": "Assumes accelerators convert weak channels into stronger jobs, fiscal space, and resilience outcomes.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "MNG",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "conservative",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 68.1
+      },
+      {
+        "year": 2026,
+        "value": 68.31
+      },
+      {
+        "year": 2027,
+        "value": 68.53
+      },
+      {
+        "year": 2028,
+        "value": 68.74
+      },
+      {
+        "year": 2029,
+        "value": 68.95
+      },
+      {
+        "year": 2030,
+        "value": 69.17
+      }
+    ],
+    "assumptions": "Assumes implementation bottlenecks, resilience shocks, and weak investment conversion slow gains.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "MNG",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "baseline",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 68.1
+      },
+      {
+        "year": 2026,
+        "value": 68.48
+      },
+      {
+        "year": 2027,
+        "value": 68.86
+      },
+      {
+        "year": 2028,
+        "value": 69.23
+      },
+      {
+        "year": 2029,
+        "value": 69.61
+      },
+      {
+        "year": 2030,
+        "value": 69.99
+      }
+    ],
+    "assumptions": "Assumes current reform momentum persists and the pulse gradually translates into medium-term progress.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "MNG",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "accelerated",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 68.1
+      },
+      {
+        "year": 2026,
+        "value": 68.68
+      },
+      {
+        "year": 2027,
+        "value": 69.26
+      },
+      {
+        "year": 2028,
+        "value": 69.84
+      },
+      {
+        "year": 2029,
+        "value": 70.42
+      },
+      {
+        "year": 2030,
+        "value": 71.0
+      }
+    ],
+    "assumptions": "Assumes accelerators convert weak channels into stronger jobs, fiscal space, and resilience outcomes.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "GEO",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "conservative",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 72.2
+      },
+      {
+        "year": 2026,
+        "value": 72.44
+      },
+      {
+        "year": 2027,
+        "value": 72.67
+      },
+      {
+        "year": 2028,
+        "value": 72.91
+      },
+      {
+        "year": 2029,
+        "value": 73.15
+      },
+      {
+        "year": 2030,
+        "value": 73.39
+      }
+    ],
+    "assumptions": "Assumes implementation bottlenecks, resilience shocks, and weak investment conversion slow gains.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "GEO",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "baseline",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 72.2
+      },
+      {
+        "year": 2026,
+        "value": 72.62
+      },
+      {
+        "year": 2027,
+        "value": 73.04
+      },
+      {
+        "year": 2028,
+        "value": 73.46
+      },
+      {
+        "year": 2029,
+        "value": 73.88
+      },
+      {
+        "year": 2030,
+        "value": 74.3
+      }
+    ],
+    "assumptions": "Assumes current reform momentum persists and the pulse gradually translates into medium-term progress.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  },
+  {
+    "timestamp": "2026-04-01T08:00:00+05:45",
+    "country_code": "GEO",
+    "baseline_anchor_family": "SDSN SDG Index",
+    "scenario": "accelerated",
+    "projected_range": [
+      {
+        "year": 2025,
+        "value": 72.2
+      },
+      {
+        "year": 2026,
+        "value": 72.84
+      },
+      {
+        "year": 2027,
+        "value": 73.49
+      },
+      {
+        "year": 2028,
+        "value": 74.13
+      },
+      {
+        "year": 2029,
+        "value": 74.77
+      },
+      {
+        "year": 2030,
+        "value": 75.42
+      }
+    ],
+    "assumptions": "Assumes accelerators convert weak channels into stronger jobs, fiscal space, and resilience outcomes.",
+    "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
+  }
+]

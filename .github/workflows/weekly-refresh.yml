@@ -2,7 +2,7 @@ name: weekly-refresh
 
 on:
   schedule:
-    - cron: "15 2 * * 1"
+    - cron: "15 2 * * 2,5"
   workflow_dispatch:
 
 permissions:
@@ -41,8 +41,8 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news_signals.json data/site_meta.json
-          git commit -m "Weekly refresh of news signals"
+          git add data/news_signals.json data/site_meta.json data/pulse_history.json data/trajectory_2030.json
+          git commit -m "Twice-weekly refresh of pulse tracker and news signals"
           git push
 
       - uses: actions/configure-pages@v5

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Economic Growth for SDG Acceleration wheel</title>
+  <desc id="desc">A vibrant SDG-inspired wheel with seventeen colored segments and a center mark representing linked growth, finance, and SDG analysis.</desc>
+  <defs>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18" result="blur" />
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.2 0" />
+    </filter>
+    <linearGradient id="centerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b2f45" />
+      <stop offset="100%" stop-color="#1988d1" />
+    </linearGradient>
+  </defs>
+
+  <circle cx="300" cy="300" r="212" fill="none" stroke="#ffffff" stroke-width="58" opacity="0.88" filter="url(#softGlow)" />
+
+  <g transform="translate(300 300)">
+    <g id="segment">
+      <rect x="-21" y="-250" width="42" height="112" rx="18" fill="#E5243B" />
+    </g>
+    <use href="#segment" transform="rotate(21.176)" fill="#DDA63A" />
+    <use href="#segment" transform="rotate(42.352)" fill="#4C9F38" />
+    <use href="#segment" transform="rotate(63.528)" fill="#C5192D" />
+    <use href="#segment" transform="rotate(84.704)" fill="#FF3A21" />
+    <use href="#segment" transform="rotate(105.88)" fill="#26BDE2" />
+    <use href="#segment" transform="rotate(127.056)" fill="#FCC30B" />
+    <use href="#segment" transform="rotate(148.232)" fill="#A21942" />
+    <use href="#segment" transform="rotate(169.408)" fill="#FD6925" />
+    <use href="#segment" transform="rotate(190.584)" fill="#DD1367" />
+    <use href="#segment" transform="rotate(211.76)" fill="#FD9D24" />
+    <use href="#segment" transform="rotate(232.936)" fill="#BF8B2E" />
+    <use href="#segment" transform="rotate(254.112)" fill="#3F7E44" />
+    <use href="#segment" transform="rotate(275.288)" fill="#0A97D9" />
+    <use href="#segment" transform="rotate(296.464)" fill="#56C02B" />
+    <use href="#segment" transform="rotate(317.64)" fill="#00689D" />
+    <use href="#segment" transform="rotate(338.816)" fill="#19486A" />
+  </g>
+
+  <circle cx="300" cy="300" r="128" fill="#fefaf3" stroke="#ffffff" stroke-width="10" />
+  <circle cx="300" cy="300" r="100" fill="url(#centerGrad)" opacity="0.96" />
+  <circle cx="300" cy="300" r="86" fill="#fefaf3" opacity="0.94" />
+
+  <g transform="translate(300 300)">
+    <path d="M-44 24c18-4 33-20 39-38 8-25 27-44 52-52" fill="none" stroke="#0b2f45" stroke-width="10" stroke-linecap="round" />
+    <path d="M-44 26h88" fill="none" stroke="#1988d1" stroke-width="10" stroke-linecap="round" />
+    <circle cx="-44" cy="26" r="8" fill="#E5243B" />
+    <circle cx="0" cy="-14" r="8" fill="#FCC30B" />
+    <circle cx="47" cy="-66" r="8" fill="#4C9F38" />
+    <path d="M-54 -38c14-18 30-28 53-31 27-4 49 4 70 22" fill="none" stroke="#FD6925" stroke-width="8" stroke-linecap="round" opacity="0.88" />
+  </g>
+</svg>
