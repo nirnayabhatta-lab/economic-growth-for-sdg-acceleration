@@ -13,7 +13,6 @@ const DATA_FILES = [
   "../data/news_signals.json",
   "../data/external_scores.json",
   "../data/pulse_history.json",
-  "../data/trajectory_2030.json",
   "../data/toolkit.json"
 ];
 
@@ -98,6 +97,7 @@ const elements = {
   peerSelect: document.getElementById("peerSelect"),
   groupSelect: document.getElementById("groupSelect"),
   lensSelect: document.getElementById("lensSelect"),
+  controlNote: document.getElementById("controlNote"),
   heroPeerNote: document.getElementById("heroPeerNote"),
   peerStrip: document.getElementById("peerStrip"),
   peerExplainGrid: document.getElementById("peerExplainGrid"),
@@ -126,8 +126,6 @@ const elements = {
   scoreExplainer: document.getElementById("scoreExplainer"),
   historyChart: document.getElementById("historyChart"),
   historyChartNote: document.getElementById("historyChartNote"),
-  trajectoryChart: document.getElementById("trajectoryChart"),
-  trajectoryNote: document.getElementById("trajectoryNote"),
   positiveDrivers: document.getElementById("positiveDrivers"),
   negativeDrivers: document.getElementById("negativeDrivers"),
   interventionPriority: document.getElementById("interventionPriority"),
@@ -155,7 +153,7 @@ const elements = {
 init();
 
 async function init() {
-  const [siteMeta, sources, countries, comparators, indicators, lenses, pathways, policies, budgetMap, accelerators, signals, newsSignals, externalScores, pulseHistory, trajectory2030, toolkit] =
+  const [siteMeta, sources, countries, comparators, indicators, lenses, pathways, policies, budgetMap, accelerators, signals, newsSignals, externalScores, pulseHistory, toolkit] =
     await Promise.all(DATA_FILES.map((file) => fetch(file).then((response) => response.json())));
 
   state.data = {
@@ -179,7 +177,6 @@ async function init() {
     newsSignals,
     externalScores,
     pulseHistory,
-    trajectory2030,
     toolkit
   };
 
@@ -190,7 +187,6 @@ async function init() {
   populateControls();
   bindEvents();
   registerSectionObserver();
-  registerScrollState();
   registerInstallHooks();
   registerServiceWorker();
   render();
@@ -226,6 +222,7 @@ function bindEvents() {
   elements.lensSelect.addEventListener("change", (event) => {
     state.selectedLens = event.target.value;
     renderLenses();
+    document.getElementById("lenses")?.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 
   document.addEventListener("click", (event) => {
@@ -280,6 +277,7 @@ function renderHero() {
   elements.gapStatement.textContent = state.data.siteMeta.platform_gap_statement;
   elements.heroDescription.textContent = state.data.siteMeta.hero_description;
   elements.snapshotStamp.textContent = `Static anchors reflect source publication dates. This curated build was assembled on ${state.data.siteMeta.built_on}.`;
+  elements.controlNote.textContent = `Country updates the full atlas. Selected comparator and benchmark group update peer comparisons, bars, and pulse deltas. Lens changes the diagnostic view below.`;
   elements.heroPeerNote.textContent = `${country.country_name} is currently benchmarked against ${group.label}, with ${peer.country_name} as the selected comparator for the live view.`;
   elements.topGithubLink.href = state.data.siteMeta.external_links.github_repo;
   elements.topLinkedinLink.href = state.data.siteMeta.external_links.linkedin;
@@ -369,8 +367,6 @@ function renderPulse() {
   elements.scoreExplainer.innerHTML = scoreExplainerCards().join("");
   elements.historyChart.innerHTML = historyChartSvg(history, externalAnchorValue(country.country_code, "SDSN SDG Index"));
   elements.historyChartNote.textContent = `The annual SDSN anchor is pinned as a dated reference point. The pulse line is a separate internal series built for twice-weekly monitoring.`;
-  elements.trajectoryChart.innerHTML = trajectoryChartSvg(country.country_code);
-  elements.trajectoryNote.textContent = `The 2030 view shows conservative, baseline, and accelerated scenarios from the current anchor baseline. It is a scenario cone, not a promise.`;
   renderList(elements.positiveDrivers, positives.map(driverCard), "No strengthening drivers identified yet.");
   renderList(elements.negativeDrivers, negatives.map(driverCard), "No weakening drivers identified yet.");
   renderList(elements.interventionPriority, interventions.map(simulatorCard), "No intervention ranking available yet.");
@@ -897,47 +893,6 @@ function historyChartSvg(history, anchorValue) {
   `;
 }
 
-function trajectoryChartSvg(countryCode) {
-  const rows = state.data.trajectory2030.filter((item) => item.country_code === countryCode);
-  if (!rows.length) {
-    return `<p class="empty-state">No 2030 trajectory available yet.</p>`;
-  }
-
-  const byScenario = Object.fromEntries(rows.map((item) => [item.scenario, item.projected_range]));
-  const years = byScenario.baseline.map((item) => item.year);
-  const allValues = Object.values(byScenario).flat().map((item) => item.value);
-  const width = 720;
-  const height = 240;
-  const left = 48;
-  const right = 28;
-  const top = 28;
-  const bottom = 40;
-  const xFor = (index) => left + (index / (years.length - 1 || 1)) * (width - left - right);
-  const yMin = Math.max(0, Math.min(...allValues) - 2);
-  const yMax = Math.min(100, Math.max(...allValues) + 3);
-  const yFor = (value) => top + ((yMax - value) / (yMax - yMin || 1)) * (height - top - bottom);
-  const linePath = (points) => points.map((point, index) => `${index === 0 ? "M" : "L"}${xFor(index).toFixed(1)} ${yFor(point.value).toFixed(1)}`).join(" ");
-  const bandUpper = byScenario.accelerated.map((point, index) => `${xFor(index).toFixed(1)} ${yFor(point.value).toFixed(1)}`);
-  const bandLower = byScenario.conservative.slice().reverse().map((point, reverseIndex) => {
-    const index = byScenario.conservative.length - 1 - reverseIndex;
-    return `${xFor(index).toFixed(1)} ${yFor(point.value).toFixed(1)}`;
-  });
-  const bandPath = `M${bandUpper.concat(bandLower).join(" L")} Z`;
-
-  return `
-    <svg viewBox="0 0 ${width} ${height}" class="chart-svg" aria-label="2030 trajectory chart">
-      <path d="${bandPath}" fill="rgba(252,195,11,0.18)"></path>
-      <path d="${linePath(byScenario.conservative)}" fill="none" stroke="#E5243B" stroke-width="3"></path>
-      <path d="${linePath(byScenario.baseline)}" fill="none" stroke="#0A97D9" stroke-width="4"></path>
-      <path d="${linePath(byScenario.accelerated)}" fill="none" stroke="#56C02B" stroke-width="3"></path>
-      ${years.map((year, index) => `<text x="${xFor(index) - 12}" y="${height - 12}" class="chart-label">${year}</text>`).join("")}
-      <text x="${xFor(years.length - 1) - 60}" y="${yFor(byScenario.accelerated.at(-1).value) - 10}" class="chart-label">Accelerated</text>
-      <text x="${xFor(years.length - 1) - 52}" y="${yFor(byScenario.baseline.at(-1).value) - 10}" class="chart-label">Baseline</text>
-      <text x="${xFor(years.length - 1) - 84}" y="${yFor(byScenario.conservative.at(-1).value) + 16}" class="chart-label">Conservative</text>
-    </svg>
-  `;
-}
-
 function topSignals(countryCode) {
   return state.data.signals.filter((item) => item.country_code === countryCode).sort((a, b) => b.severity - a.severity).slice(0, 3);
 }
@@ -1194,7 +1149,6 @@ function exportSnapshot() {
     external_anchors: state.data.externalScores.filter((item) => item.country_code === currentCountry().country_code),
     pulse: pulseForCountry(currentCountry().country_code),
     pulse_history: historyForCountry(currentCountry().country_code),
-    trajectory_2030: state.data.trajectory2030.filter((item) => item.country_code === currentCountry().country_code),
     top_risks: topSignals(currentCountry().country_code),
     top_accelerators: acceleratorsFor(currentCountry().country_code).slice(0, 3),
     weekly_news_signals: state.data.newsSignals.filter((item) => item.country_code === currentCountry().country_code).slice(0, 6)
@@ -1240,13 +1194,4 @@ function registerSectionObserver() {
     { rootMargin: "-20% 0px -55% 0px", threshold: [0.2, 0.5, 0.8] }
   );
   sections.forEach((section) => observer.observe(section));
-}
-
-function registerScrollState() {
-  const syncState = () => {
-    document.body.classList.toggle("body-scrolled", window.scrollY > 56);
-  };
-
-  syncState();
-  window.addEventListener("scroll", syncState, { passive: true });
 }
