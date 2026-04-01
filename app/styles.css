@@ -263,6 +263,12 @@ img {
   color: var(--navy);
 }
 
+.eyebrow {
+  color: var(--red);
+  font-style: italic;
+  font-weight: 800;
+}
+
 .gap-statement,
 .hero-description,
 .snapshot-stamp,
@@ -284,6 +290,13 @@ img {
 .gap-statement {
   font-size: 1rem;
   max-width: 70ch;
+}
+
+.hero-gap {
+  max-width: 54ch;
+  font-size: 1.03rem;
+  line-height: 1.68;
+  color: var(--ink);
 }
 
 .top-actions {
@@ -343,19 +356,20 @@ img {
 
 .hero-copy {
   display: grid;
-  gap: 1rem;
+  gap: 0.82rem;
 }
 
 .hero-copy h1 {
   margin: 0;
-  font-size: clamp(2.45rem, 4vw, 4.35rem);
-  line-height: 0.95;
+  max-width: 11.5ch;
+  font-size: clamp(1.9rem, 3vw, 3.05rem);
+  line-height: 0.98;
   color: var(--ink);
 }
 
 .hero-description {
-  font-size: 1.05rem;
-  max-width: 64ch;
+  font-size: 1rem;
+  max-width: 58ch;
 }
 
 .snapshot-stamp {
@@ -1153,7 +1167,7 @@ select {
   }
 
   .hero-copy h1 {
-    font-size: 2.12rem;
+    font-size: 1.72rem;
     line-height: 1;
   }
 
@@ -1173,6 +1187,11 @@ select {
   .indicator-note {
     font-size: 0.98rem;
     line-height: 1.65;
+  }
+
+  .hero-gap {
+    font-size: 1rem;
+    line-height: 1.62;
   }
 
   .button-secondary,
@@ -1267,13 +1286,17 @@ select {
   }
 
   .hero-copy h1 {
-    font-size: 2rem;
+    font-size: 1.58rem;
   }
 
   .hero-description,
   .gap-statement,
   .control-note {
     font-size: 0.96rem;
+  }
+
+  .hero-gap {
+    font-size: 0.97rem;
   }
 
   .hero-wheel-wrap {
@@ -1332,7 +1355,7 @@ select {
   }
 
   .hero-copy h1 {
-    font-size: 1.82rem;
+    font-size: 1.42rem;
     line-height: 1.03;
   }
 
@@ -1349,6 +1372,11 @@ select {
   .explainer-item p {
     font-size: 0.94rem;
     line-height: 1.58;
+  }
+
+  .hero-gap {
+    font-size: 0.95rem;
+    line-height: 1.55;
   }
 
   label span,
@@ -1444,7 +1472,7 @@ select {
   }
 
   .hero-copy h1 {
-    font-size: 1.68rem;
+    font-size: 1.32rem;
   }
 
   .hero-description,
@@ -1459,6 +1487,10 @@ select {
   .peer-strip-card p,
   .explainer-item p {
     font-size: 0.91rem;
+  }
+
+  .hero-gap {
+    font-size: 0.92rem;
   }
 
   .hero-wheel-wrap {
