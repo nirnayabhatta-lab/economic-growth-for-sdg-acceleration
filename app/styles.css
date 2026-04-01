@@ -1280,3 +1280,193 @@ select {
     font-size: 2.45rem;
   }
 }
+
+@media (max-width: 430px) {
+  .app-layout {
+    width: min(100%, calc(100% - 0.35rem));
+    padding-top: 0.35rem;
+  }
+
+  .left-rail {
+    gap: 0.45rem;
+    padding: 0.5rem;
+  }
+
+  .rail-nav {
+    gap: 0.42rem;
+  }
+
+  .rail-brand {
+    width: 58px;
+    min-width: 58px;
+    font-size: 0.72rem;
+    border-radius: 18px;
+  }
+
+  .rail-link {
+    padding: 0.7rem 0.8rem;
+    font-size: 0.88rem;
+    border-radius: 16px;
+  }
+
+  .hero,
+  .section-card {
+    padding: 0.9rem 0.82rem;
+    border-radius: 20px;
+  }
+
+  .hero-copy {
+    gap: 0.85rem;
+  }
+
+  .hero-copy h1 {
+    font-size: 1.82rem;
+    line-height: 1.03;
+  }
+
+  .hero-description,
+  .gap-statement,
+  .control-note,
+  .section-note,
+  .indicator-note,
+  .peer-explain-card p,
+  .story-card p,
+  .tool-card p,
+  .score-family-card p,
+  .peer-strip-card p,
+  .explainer-item p {
+    font-size: 0.94rem;
+    line-height: 1.58;
+  }
+
+  label span,
+  .metric-label,
+  .mini-caption,
+  .panel-label,
+  .chart-label,
+  .chip-label {
+    font-size: 0.76rem;
+  }
+
+  .control-grid,
+  .peer-guide,
+  .metric-card,
+  .story-card,
+  .subsection-card,
+  .anchor-card,
+  .score-family-card,
+  .indicator-card,
+  .pathway-card,
+  .accelerator-card,
+  .comparison-card,
+  .tool-card,
+  .tracker-panel,
+  .pulse-primary,
+  .score-explainer,
+  .news-card,
+  .overview-card,
+  .explainer-item,
+  .mini-metric,
+  .channel-card,
+  .driver-card {
+    padding: 0.9rem;
+  }
+
+  .top-actions {
+    gap: 0.45rem;
+  }
+
+  .button-secondary,
+  .method-link,
+  .link-row a,
+  .footer-links a,
+  select {
+    min-height: 48px;
+  }
+
+  .hero-wheel-wrap {
+    min-height: 170px;
+  }
+
+  .sdg-wheel-logo {
+    width: min(100%, 176px);
+  }
+
+  .metric-card strong {
+    font-size: 1.4rem;
+  }
+
+  .anchor-card strong,
+  .indicator-card strong {
+    font-size: 1.65rem;
+  }
+
+  .pulse-score-row strong {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .app-layout {
+    width: min(100%, calc(100% - 0.2rem));
+  }
+
+  .left-rail {
+    padding: 0.45rem;
+  }
+
+  .rail-brand {
+    width: 54px;
+    min-width: 54px;
+    font-size: 0.68rem;
+  }
+
+  .rail-link {
+    padding: 0.66rem 0.72rem;
+    font-size: 0.84rem;
+  }
+
+  .hero,
+  .section-card {
+    padding: 0.82rem 0.74rem;
+  }
+
+  .hero-copy h1 {
+    font-size: 1.68rem;
+  }
+
+  .hero-description,
+  .gap-statement,
+  .control-note,
+  .section-note,
+  .indicator-note,
+  .peer-explain-card p,
+  .story-card p,
+  .tool-card p,
+  .score-family-card p,
+  .peer-strip-card p,
+  .explainer-item p {
+    font-size: 0.91rem;
+  }
+
+  .hero-wheel-wrap {
+    min-height: 156px;
+  }
+
+  .sdg-wheel-logo {
+    width: min(100%, 162px);
+  }
+
+  .metric-card strong {
+    font-size: 1.3rem;
+  }
+
+  .anchor-card strong,
+  .indicator-card strong {
+    font-size: 1.52rem;
+  }
+
+  .pulse-score-row strong {
+    font-size: 2.02rem;
+  }
+}
