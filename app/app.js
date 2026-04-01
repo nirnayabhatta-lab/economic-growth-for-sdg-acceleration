@@ -1177,7 +1177,22 @@ function registerInstallHooks() {
 
 function registerServiceWorker() {
   if ("serviceWorker" in navigator) {
-    window.addEventListener("load", () => navigator.serviceWorker.register("./service-worker.js").catch(() => null));
+    window.addEventListener("load", async () => {
+      try {
+        const registrations = await navigator.serviceWorker.getRegistrations();
+        if (!registrations.length) return;
+        await Promise.all(registrations.map((registration) => registration.unregister()));
+        if ("caches" in window) {
+          const keys = await caches.keys();
+          await Promise.all(keys.map((key) => caches.delete(key)));
+        }
+        if (navigator.serviceWorker.controller) {
+          window.location.reload();
+        }
+      } catch {
+        // If the browser blocks this cleanup, the site still works over the network.
+      }
+    });
   }
 }
 
