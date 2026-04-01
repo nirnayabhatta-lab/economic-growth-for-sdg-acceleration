@@ -1,10 +1,11 @@
-const CACHE_NAME = "growth-sdg-atlas-v3";
+const CACHE_NAME = "growth-sdg-atlas-v4";
 const APP_ASSETS = [
   "./",
   "./index.html",
   "./styles.css",
   "./app.js",
   "./manifest.webmanifest",
+  "./sdg-wheel-logo.png",
   "./sdg-wheel.svg",
   "./sdg-wheel.png",
   "./icon.svg",
