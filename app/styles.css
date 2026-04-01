@@ -470,13 +470,13 @@ select {
 
 .hero-wheel-wrap {
   position: relative;
-  min-height: 180px;
+  min-height: 220px;
   display: grid;
   place-items: center;
 }
 
 .sdg-wheel-logo {
-  width: min(100%, 185px);
+  width: min(100%, 235px);
   filter: drop-shadow(0 10px 18px rgba(25, 72, 106, 0.12));
 }
 
@@ -1139,11 +1139,11 @@ select {
   }
 
   .hero-wheel-wrap {
-    min-height: 150px;
+    min-height: 175px;
   }
 
   .sdg-wheel-logo {
-    width: min(100%, 150px);
+    width: min(100%, 185px);
   }
 
   .section-card {
@@ -1235,7 +1235,7 @@ select {
   }
 
   .sdg-wheel-logo {
-    width: min(100%, 122px);
+    width: min(100%, 150px);
   }
 
   .metric-grid {
