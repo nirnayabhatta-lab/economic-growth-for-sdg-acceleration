@@ -1,4 +1,4 @@
-const CACHE_NAME = "growth-sdg-atlas-v4";
+const CACHE_NAME = "growth-sdg-atlas-v5";
 const APP_ASSETS = [
   "./",
   "./index.html",

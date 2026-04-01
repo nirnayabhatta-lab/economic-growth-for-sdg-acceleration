@@ -477,7 +477,7 @@ function renderSources() {
 }
 
 function renderFooter() {
-  elements.footerCredit.textContent = state.data.siteMeta.developer_credit || "Developer - Applied Economist NIRNAYA BHATTA";
+  elements.footerCredit.textContent = state.data.siteMeta.developer_credit || "Developer - Policy Economist NIRNAYA BHATTA";
   elements.footerGithubLink.href = state.data.siteMeta.external_links.github_repo;
   elements.footerLinkedinLink.href = state.data.siteMeta.external_links.linkedin;
 }

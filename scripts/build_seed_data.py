@@ -885,7 +885,7 @@ SITE_META = {
     "version": "0.3.0",
     "built_on": SNAPSHOT_DATE,
     "default_country": "NPL",
-    "developer_credit": "Developer - Applied Economist NIRNAYA BHATTA",
+    "developer_credit": "Developer - Policy Economist NIRNAYA BHATTA",
     "platform_gap_statement": "This platform fills the gap between static SDG scorecards and real-economy monitoring by showing how growth, public finance, implementation, and transition risks shape SDG acceleration.",
     "hero_description": "Economic Growth for SDG Acceleration is a Nepal-centered growth-to-SDG policy atlas that combines structural scorecards, a prototype weekly pulse, linked news-and-signals tracking, driver decomposition, and intervention prioritization across South Asia and comparator economies.",
     "comparison_indicator_ids": ["sdg_index", "gdp_growth", "quality_jobs_index", "tax_gdp", "resilience_readiness", "implementation_capacity"],

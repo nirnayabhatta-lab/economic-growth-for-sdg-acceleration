@@ -998,6 +998,18 @@ select {
 }
 
 @media (max-width: 1380px) {
+  .app-layout {
+    width: min(100%, calc(100% - 1.2rem));
+  }
+
+  .hero-main {
+    grid-template-columns: minmax(0, 1.15fr) minmax(220px, 0.85fr);
+  }
+
+  .control-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .metric-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1008,6 +1020,10 @@ select {
   .peer-explain-grid,
   .peer-strip {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .channel-strip {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
@@ -1080,7 +1096,6 @@ select {
   .channel-strip {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-
 }
 
 @media (max-width: 760px) {
@@ -1115,6 +1130,9 @@ select {
   }
 
   .control-grid,
+  .metric-grid,
+  .peer-strip,
+  .peer-explain-grid,
   .pulse-mini-metrics,
   .channel-strip {
     grid-template-columns: 1fr;
@@ -1148,5 +1166,83 @@ select {
   .top-actions,
   .link-row {
     width: 100%;
+  }
+}
+
+@media (max-width: 920px) {
+  .hero-main {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-visual-card {
+    justify-items: center;
+    text-align: center;
+  }
+
+  .top-actions {
+    justify-content: flex-start;
+  }
+
+  .pulse-hero-grid,
+  .comparison-grid,
+  .tracker-grid,
+  .pulse-detail-grid,
+  .dual-grid,
+  .news-signal-grid,
+  .driver-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .metric-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .app-layout {
+    width: min(100%, calc(100% - 0.55rem));
+  }
+
+  .left-rail {
+    padding: 0.45rem 0.55rem;
+    border-radius: 18px;
+  }
+
+  .rail-brand {
+    width: 54px;
+    min-width: 54px;
+    font-size: 0.82rem;
+  }
+
+  .rail-link {
+    padding: 0.58rem 0.72rem;
+    font-size: 0.86rem;
+  }
+
+  .hero,
+  .section-card {
+    border-radius: 22px;
+  }
+
+  .hero-copy h1 {
+    font-size: 1.95rem;
+  }
+
+  .hero-description,
+  .gap-statement,
+  .control-note {
+    font-size: 0.9rem;
+  }
+
+  .sdg-wheel-logo {
+    width: min(100%, 122px);
+  }
+
+  .metric-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pulse-score-row strong {
+    font-size: 2.45rem;
   }
 }
