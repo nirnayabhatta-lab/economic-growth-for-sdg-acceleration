@@ -17,6 +17,36 @@ This repo is designed as a live policy atlas rather than a static write-up. User
 - identify accelerator interventions with direct and indirect SDG effects
 - trace every narrative back to a source registry and methods note
 
+## Unique analytical aspect
+The distinctive lens in this platform is that it does not stop at a static SDG scorecard.
+
+It combines four layers:
+- `structural anchor`: the slower-moving official development position
+- `weekly pulse`: a prototype near-term acceleration signal built from proxy channels
+- `driver decomposition`: a view of what is pushing momentum up or down relative to a benchmark group
+- `intervention simulator`: an illustrative ranking of which accelerators would most directly target the weakest live channels
+
+This means the platform is designed to answer not just `where is Nepal now?`, but also:
+- `what is moving momentum right now?`
+- `through which economic channels?`
+- `which policy or investment lever is most likely to change the trajectory?`
+
+## Weekly update path
+Yes, this architecture can support weekly auto-updating analysis.
+
+The right model is:
+- keep the structural SDG anchor slow-moving and source-based
+- add a weekly pulse layer that updates from higher-frequency indicators and curated event/news signals
+- link news or shocks to channels such as industries, jobs, gender, trade, resilience, or implementation
+
+In practice, this can be automated through GitHub Actions:
+1. fetch weekly indicator updates or tagged news feeds
+2. classify the update into channels like jobs, industry, gender, fiscal space, or resilience
+3. regenerate JSON files
+4. redeploy the static site through GitHub Pages
+
+That lets the site stay static to host, but dynamic in content.
+
 ## What this repo contains
 - `app/`: static PWA for GitHub Pages
 - `data/`: curated JSON snapshots for countries, indicators, pathways, policies, budgets, accelerators, signals, and toolkit objects

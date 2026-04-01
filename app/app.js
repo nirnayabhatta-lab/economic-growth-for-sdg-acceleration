@@ -23,6 +23,86 @@ const state = {
   deferredInstallPrompt: null
 };
 
+const ANALYSIS_MODES = [
+  {
+    title: "Structural anchor",
+    body: "Keeps the slow-moving official development position visible through the SDG index and the seven core lenses."
+  },
+  {
+    title: "Weekly pulse",
+    body: "Builds a prototype near-term acceleration signal from jobs, financing, resilience, implementation, and transition channels."
+  },
+  {
+    title: "Driver decomposition",
+    body: "Shows which indicators are strengthening or dragging momentum relative to the selected benchmark group."
+  },
+  {
+    title: "Intervention prioritization",
+    body: "Ranks accelerator interventions by how strongly they target the country's weakest live channels."
+  }
+];
+
+const PULSE_CHANNELS = [
+  {
+    id: "jobs",
+    title: "Jobs and inclusion",
+    weight: 1.25,
+    keywords: ["job", "jobs", "employment", "labor", "labour", "skills", "women", "enterprise", "formalization", "inclusion"],
+    indicators: [
+      { id: "quality_jobs_index", positive: true, weight: 1.5 },
+      { id: "youth_unemployment", positive: false, weight: 1.2 },
+      { id: "informality", positive: false, weight: 1.0 },
+      { id: "female_lfp", positive: true, weight: 0.8 }
+    ]
+  },
+  {
+    id: "financing",
+    title: "Fiscal space and finance",
+    weight: 1.15,
+    keywords: ["finance", "fiscal", "capital", "investment", "revenue", "tax", "budget", "procurement"],
+    indicators: [
+      { id: "tax_gdp", positive: true, weight: 1.1 },
+      { id: "private_capital", positive: true, weight: 1.2 },
+      { id: "public_investment", positive: true, weight: 0.9 },
+      { id: "budget_execution", positive: true, weight: 1.0 }
+    ]
+  },
+  {
+    id: "implementation",
+    title: "Implementation and state capability",
+    weight: 1.2,
+    keywords: ["implementation", "delivery", "coordination", "execution", "governance", "local", "data", "digital public finance"],
+    indicators: [
+      { id: "implementation_capacity", positive: true, weight: 1.3 },
+      { id: "budget_execution", positive: true, weight: 1.1 },
+      { id: "data_readiness", positive: true, weight: 0.9 }
+    ]
+  },
+  {
+    id: "resilience",
+    title: "Resilience and continuity",
+    weight: 1.05,
+    keywords: ["resilience", "climate", "disaster", "infrastructure", "energy", "roads", "shock"],
+    indicators: [
+      { id: "resilience_readiness", positive: true, weight: 1.2 },
+      { id: "clean_energy", positive: true, weight: 0.9 },
+      { id: "disaster_risk", positive: false, weight: 1.1 }
+    ]
+  },
+  {
+    id: "transition",
+    title: "Trade and transition readiness",
+    weight: 1.0,
+    keywords: ["export", "trade", "transition", "competitiveness", "diversification", "logistics"],
+    indicators: [
+      { id: "readiness_index", positive: true, weight: 1.2 },
+      { id: "export_readiness", positive: true, weight: 1.0 },
+      { id: "transition_risk", positive: false, weight: 1.0 },
+      { id: "preference_exposure", positive: false, weight: 0.8 }
+    ]
+  }
+];
+
 const elements = {
   heroText: document.getElementById("heroText"),
   heroCountry: document.getElementById("heroCountry"),
@@ -39,6 +119,16 @@ const elements = {
   growthStory: document.getElementById("growthStory"),
   financingStory: document.getElementById("financingStory"),
   transitionStory: document.getElementById("transitionStory"),
+  pulseMethodNote: document.getElementById("pulseMethodNote"),
+  analysisModeGrid: document.getElementById("analysisModeGrid"),
+  pulseStatusBadge: document.getElementById("pulseStatusBadge"),
+  pulseScore: document.getElementById("pulseScore"),
+  pulseDelta: document.getElementById("pulseDelta"),
+  pulseSummaryText: document.getElementById("pulseSummaryText"),
+  pulseChannels: document.getElementById("pulseChannels"),
+  positiveDrivers: document.getElementById("positiveDrivers"),
+  negativeDrivers: document.getElementById("negativeDrivers"),
+  interventionPriority: document.getElementById("interventionPriority"),
   riskList: document.getElementById("riskList"),
   topAccelerators: document.getElementById("topAccelerators"),
   lensChips: document.getElementById("lensChips"),
@@ -138,6 +228,7 @@ function bindEvents() {
 
 function render() {
   renderOverview();
+  renderPulse();
   renderLenses();
   renderPathways();
   renderPolicies();
@@ -172,6 +263,36 @@ function renderOverview() {
   elements.transitionStory.textContent = country.transition_story;
   renderList(elements.riskList, topSignals(country.country_code).map(signalCard));
   renderList(elements.topAccelerators, acceleratorsFor(country.country_code).slice(0, 3).map(acceleratorMiniCard));
+}
+
+function renderPulse() {
+  const country = currentCountry();
+  const pulse = pulseForCountry(country.country_code);
+  const benchmarkLabel = groupById(state.selectedGroup).label;
+  const benchmarkPulse = averagePulseForGroup(state.selectedGroup);
+  const delta = pulse.score - benchmarkPulse;
+  const drivers = pulseDrivers(country.country_code);
+  const positives = drivers.filter((item) => item.effect > 0).slice(0, 4);
+  const negatives = drivers.filter((item) => item.effect < 0).slice(0, 4);
+  const interventions = rankedInterventions(country.country_code).slice(0, 3);
+  const strongest = pulse.channels.slice().sort((a, b) => b.score - a.score)[0];
+  const weakest = pulse.channels.slice().sort((a, b) => a.score - b.score)[0];
+
+  elements.pulseMethodNote.textContent =
+    "This platform combines a structural annual anchor with a prototype weekly pulse, driver decomposition, and intervention ranking. In v1, the pulse is a proxy-based nowcast rather than an official weekly SDG score.";
+  elements.analysisModeGrid.innerHTML = ANALYSIS_MODES.map(analysisModeCard).join("");
+  elements.pulseStatusBadge.textContent = pulse.status.label;
+  elements.pulseStatusBadge.className = `status-badge ${pulse.status.tone}`;
+  elements.pulseScore.textContent = `${formatNumber(pulse.score)} / 100`;
+  elements.pulseDelta.textContent = `${delta >= 0 ? "+" : ""}${formatNumber(delta)} pts`;
+  elements.pulseDelta.className = `pulse-delta ${delta > 1 ? "positive" : delta < -1 ? "negative" : "neutral"}`;
+  elements.pulseSummaryText.textContent =
+    `${country.country_name}'s prototype acceleration pulse is ${pulse.status.label.toLowerCase()} relative to ${benchmarkLabel}. ` +
+    `${strongest.title} is the strongest live channel, while ${weakest.title} is the main drag on near-term momentum.`;
+  elements.pulseChannels.innerHTML = pulse.channels.map(channelCard).join("");
+  renderList(elements.positiveDrivers, positives.map(driverCard), "No strengthening drivers identified yet.");
+  renderList(elements.negativeDrivers, negatives.map(driverCard), "No weakening drivers identified yet.");
+  renderList(elements.interventionPriority, interventions.map(simulatorCard), "No intervention ranking available yet.");
 }
 
 function renderLenses() {
@@ -326,6 +447,51 @@ function renderSources() {
     .join("");
 }
 
+function analysisModeCard(item) {
+  return `
+    <article class="analysis-card">
+      <h3>${escapeHtml(item.title)}</h3>
+      <p>${escapeHtml(item.body)}</p>
+    </article>
+  `;
+}
+
+function channelCard(item) {
+  return `
+    <article class="channel-card">
+      <span class="metric-label">${escapeHtml(item.title)}</span>
+      <strong>${escapeHtml(formatNumber(item.score))}</strong>
+      <p class="indicator-note">${escapeHtml(channelStatus(item.score))}</p>
+    </article>
+  `;
+}
+
+function driverCard(item) {
+  return `
+    <article class="subsection-card driver-card">
+      <div class="subsection-head">
+        <h3>${escapeHtml(item.label)}</h3>
+        <span class="driver-impact ${item.effect >= 0 ? "positive" : "negative"}">${item.effect >= 0 ? "+" : ""}${escapeHtml(formatNumber(item.effect))}</span>
+      </div>
+      <p class="indicator-note">${escapeHtml(item.channelTitle)}</p>
+      <p>${escapeHtml(item.explanation)}</p>
+    </article>
+  `;
+}
+
+function simulatorCard(item) {
+  return `
+    <article class="subsection-card driver-card">
+      <div class="subsection-head">
+        <h3>${escapeHtml(item.title)}</h3>
+        <span class="lift-badge">+${escapeHtml(formatNumber(item.simulatedLift))} pts</span>
+      </div>
+      <p class="indicator-note">${escapeHtml(item.channelSummary)}</p>
+      <p>${escapeHtml(item.reason)}</p>
+    </article>
+  `;
+}
+
 function renderIndicatorCard(indicatorId) {
   const countryCode = currentCountry().country_code;
   const indicator = state.data.indicators.find((item) => item.country_code === countryCode && item.id === indicatorId);
@@ -376,6 +542,141 @@ function topSignals(countryCode) {
 
 function acceleratorsFor(countryCode) {
   return state.data.accelerators.filter((item) => item.country_code === countryCode);
+}
+
+function pulseForCountry(countryCode) {
+  const channels = PULSE_CHANNELS.map((channel) => {
+    const weightedSignals = channel.indicators.map((indicator) => ({
+      score: indicatorSignalScore(countryCode, indicator.id, indicator.positive),
+      weight: indicator.weight
+    }));
+
+    return {
+      id: channel.id,
+      title: channel.title,
+      score: weightedAverage(weightedSignals),
+      weight: channel.weight
+    };
+  });
+
+  const score = weightedAverage(channels.map((channel) => ({ score: channel.score, weight: channel.weight })));
+  return {
+    score,
+    channels,
+    status: pulseStatus(score)
+  };
+}
+
+function pulseDrivers(countryCode) {
+  return PULSE_CHANNELS.flatMap((channel) =>
+    channel.indicators.map((indicator) => {
+      const value = valueFor(countryCode, indicator.id);
+      const benchmark = averageForGroup(indicator.id, state.selectedGroup);
+      const range = indicatorRange(indicator.id);
+      const relativeGap = range === 0 ? 0 : (value - benchmark) / range;
+      const alignedGap = indicator.positive ? relativeGap : -relativeGap;
+      const effect = alignedGap * 12 * indicator.weight * channel.weight;
+      const unit = unitForIndicator(indicator.id);
+      return {
+        id: indicator.id,
+        label: labelForIndicator(indicator.id),
+        channelTitle: channel.title,
+        effect,
+        explanation: driverExplanation(indicator.id, value, benchmark, unit, indicator.positive)
+      };
+    })
+  )
+    .sort((a, b) => Math.abs(b.effect) - Math.abs(a.effect));
+}
+
+function rankedInterventions(countryCode) {
+  const pulse = pulseForCountry(countryCode);
+  const weaknessByChannel = Object.fromEntries(pulse.channels.map((channel) => [channel.id, 100 - channel.score]));
+
+  return acceleratorsFor(countryCode)
+    .map((item) => {
+      const mappedChannels = classifyAcceleratorChannels(item);
+      const selectedChannels = mappedChannels.length ? mappedChannels : ["implementation"];
+      const averageWeakness = selectedChannels.reduce((sum, key) => sum + (weaknessByChannel[key] || 40), 0) / selectedChannels.length;
+      const simulatedLift = Math.min(8.5, 1.5 + averageWeakness / 14);
+      return {
+        ...item,
+        simulatedLift,
+        channelSummary: selectedChannels.map(channelTitleById).join(", "),
+        reason: `${item.title} aligns most directly with the weakest live channels in ${currentCountry().country_name}: ${selectedChannels.map(channelTitleById).join(", ")}.`
+      };
+    })
+    .sort((a, b) => b.simulatedLift - a.simulatedLift);
+}
+
+function classifyAcceleratorChannels(item) {
+  const text = [
+    item.title,
+    item.mechanism,
+    item.why_now,
+    ...(item.expected_channels || [])
+  ]
+    .join(" ")
+    .toLowerCase();
+
+  return PULSE_CHANNELS.filter((channel) => channel.keywords.some((keyword) => text.includes(keyword))).map((channel) => channel.id);
+}
+
+function channelTitleById(id) {
+  const channel = PULSE_CHANNELS.find((item) => item.id === id);
+  return channel ? channel.title : id;
+}
+
+function driverExplanation(indicatorId, value, benchmark, unit, positive) {
+  const difference = value - benchmark;
+  const aboveBelow = difference >= 0 ? "above" : "below";
+  const opposite = difference >= 0 ? "below" : "above";
+  const differenceLabel = `${formatNumber(Math.abs(difference))} pts`;
+
+  if (positive) {
+    return `${labelForIndicator(indicatorId)} is ${aboveBelow} the selected benchmark by ${differenceLabel}.`;
+  }
+
+  return `${labelForIndicator(indicatorId)} risk is ${opposite} the selected benchmark by ${differenceLabel}.`;
+}
+
+function indicatorSignalScore(countryCode, indicatorId, positive) {
+  const value = valueFor(countryCode, indicatorId);
+  const benchmark = averageForGroup(indicatorId, state.selectedGroup);
+  const range = indicatorRange(indicatorId);
+  const gap = range === 0 ? 0 : (value - benchmark) / range;
+  const alignedGap = positive ? gap : -gap;
+  return clamp(50 + alignedGap * 55, 0, 100);
+}
+
+function indicatorRange(indicatorId) {
+  const values = state.data.indicators.filter((item) => item.id === indicatorId).map((item) => Number(item.value));
+  return Math.max(...values) - Math.min(...values);
+}
+
+function averagePulseForGroup(groupId) {
+  const group = groupById(groupId);
+  return group.country_codes.reduce((sum, countryCode) => sum + pulseForCountry(countryCode).score, 0) / group.country_codes.length;
+}
+
+function pulseStatus(score) {
+  if (score >= 58) {
+    return { label: "Strengthening", tone: "steady" };
+  }
+  if (score >= 47) {
+    return { label: "Mixed", tone: "watch" };
+  }
+  return { label: "Under pressure", tone: "warning" };
+}
+
+function channelStatus(score) {
+  if (score >= 58) {
+    return "Above benchmark momentum";
+  }
+  if (score >= 47) {
+    return "Near benchmark momentum";
+  }
+  return "Below benchmark momentum";
 }
 
 function policyCard(item) {
@@ -460,6 +761,11 @@ function averageForGroup(indicatorId, groupId) {
   return values.reduce((sum, value) => sum + value, 0) / values.length;
 }
 
+function unitForIndicator(indicatorId) {
+  const row = state.data.indicators.find((item) => item.id === indicatorId);
+  return row ? row.unit : "";
+}
+
 function groupById(groupId) {
   return state.data.comparators.country_groups.find((group) => group.id === groupId);
 }
@@ -495,6 +801,15 @@ function renderList(target, cards, emptyMessage = "No items available.") {
   target.innerHTML = cards.length ? cards.join("") : `<p class="empty-state">${escapeHtml(emptyMessage)}</p>`;
 }
 
+function weightedAverage(items) {
+  const totalWeight = items.reduce((sum, item) => sum + item.weight, 0);
+  return totalWeight === 0 ? 0 : items.reduce((sum, item) => sum + item.score * item.weight, 0) / totalWeight;
+}
+
+function clamp(value, min, max) {
+  return Math.min(max, Math.max(min, value));
+}
+
 function shortLabel(text) {
   return text.split(",")[0];
 }
@@ -520,12 +835,16 @@ function escapeHtml(value) {
 }
 
 function exportSnapshot() {
+  const pulse = pulseForCountry(currentCountry().country_code);
   const payload = {
     exported_at: new Date().toISOString(),
     country: currentCountry(),
     peer: peerCountry(),
     group: groupById(state.selectedGroup),
     lens: state.data.lensMap[state.selectedLens],
+    pulse,
+    pulse_drivers: pulseDrivers(currentCountry().country_code).slice(0, 8),
+    intervention_priority: rankedInterventions(currentCountry().country_code).slice(0, 3),
     top_risks: topSignals(currentCountry().country_code),
     top_accelerators: acceleratorsFor(currentCountry().country_code).slice(0, 3)
   };

@@ -55,6 +55,7 @@
         </div>
         <nav class="section-nav">
           <a href="#overview">Overview</a>
+          <a href="#pulse">Pulse</a>
           <a href="#lenses">Lenses</a>
           <a href="#pathways">Pathways</a>
           <a href="#policy-budget">Policies & Budget</a>
@@ -103,6 +104,58 @@
                 <span class="mini-badge">Catalytic interventions</span>
               </div>
               <div id="topAccelerators" class="stack-list"></div>
+            </article>
+          </div>
+        </section>
+
+        <section id="pulse" class="card section-card">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">Analytical layer</p>
+              <h2>What this platform does</h2>
+            </div>
+            <p class="section-note" id="pulseMethodNote"></p>
+          </div>
+          <div id="analysisModeGrid" class="card-grid"></div>
+          <div class="pulse-grid">
+            <article class="pulse-summary-card">
+              <div class="subsection-head">
+                <h3>Weekly acceleration pulse</h3>
+                <span class="mini-badge" id="pulseStatusBadge">Prototype</span>
+              </div>
+              <div class="pulse-score-row">
+                <strong id="pulseScore">--</strong>
+                <div class="pulse-delta-block">
+                  <span class="metric-label">vs selected benchmark</span>
+                  <span id="pulseDelta" class="pulse-delta">--</span>
+                </div>
+              </div>
+              <p id="pulseSummaryText" class="indicator-note"></p>
+              <div id="pulseChannels" class="channel-strip"></div>
+            </article>
+            <article class="subsection-card">
+              <div class="subsection-head">
+                <h3>What moved the needle</h3>
+                <span class="mini-badge">Driver decomposition</span>
+              </div>
+              <div class="driver-columns">
+                <div>
+                  <p class="driver-heading positive">Strengthening momentum</p>
+                  <div id="positiveDrivers" class="stack-list compact-list"></div>
+                </div>
+                <div>
+                  <p class="driver-heading negative">Dragging momentum</p>
+                  <div id="negativeDrivers" class="stack-list compact-list"></div>
+                </div>
+              </div>
+            </article>
+            <article class="subsection-card">
+              <div class="subsection-head">
+                <h3>Intervention simulator</h3>
+                <span class="mini-badge">Illustrative policy ranking</span>
+              </div>
+              <p class="indicator-note">Prioritizes accelerators by how strongly they target the weakest live channels in the selected country.</p>
+              <div id="interventionPriority" class="stack-list compact-list"></div>
             </article>
           </div>
         </section>
