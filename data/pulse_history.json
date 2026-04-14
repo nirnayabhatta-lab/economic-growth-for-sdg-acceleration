@@ -7278,5 +7278,460 @@
     ],
     "confidence": "Medium-low",
     "notes": "Automated twice-weekly pulse update based on the platform's internal benchmark-relative nowcast."
+  },
+  {
+    "timestamp": "2026-04-14T08:00:00+05:45",
+    "country_code": "NPL",
+    "benchmark_group": "south_asia_core",
+    "pulse_score": 43.2,
+    "delta_since_last": 0.0,
+    "channel_scores": {
+      "jobs": 37.5,
+      "financing": 52.7,
+      "implementation": 42.8,
+      "resilience": 47.8,
+      "transition": 35.3
+    },
+    "top_positive_drivers": [
+      "Tax to GDP",
+      "Clean energy share"
+    ],
+    "top_negative_drivers": [
+      "Informal employment",
+      "Quality jobs index"
+    ],
+    "confidence": "Medium",
+    "notes": "Automated twice-weekly pulse update based on the platform's internal benchmark-relative nowcast."
+  },
+  {
+    "timestamp": "2026-04-14T08:00:00+05:45",
+    "country_code": "BGD",
+    "benchmark_group": "south_asia_core",
+    "pulse_score": 49.6,
+    "delta_since_last": 0.0,
+    "channel_scores": {
+      "jobs": 52.5,
+      "financing": 47.8,
+      "implementation": 53.7,
+      "resilience": 45.7,
+      "transition": 47.3
+    },
+    "top_positive_drivers": [
+      "Youth unemployment",
+      "Export readiness index"
+    ],
+    "top_negative_drivers": [
+      "Trade preference exposure",
+      "Tax to GDP"
+    ],
+    "confidence": "Medium-low",
+    "notes": "Automated twice-weekly pulse update based on the platform's internal benchmark-relative nowcast."
+  },
+  {
+    "timestamp": "2026-04-14T08:00:00+05:45",
+    "country_code": "BTN",
+    "benchmark_group": "south_asia_core",
+    "pulse_score": 58.5,
+    "delta_since_last": 0.0,
+    "channel_scores": {
+      "jobs": 52.2,
+      "financing": 57.9,
+      "implementation": 57.6,
+      "resilience": 71.9,
+      "transition": 53.8
+    },
+    "top_positive_drivers": [
+      "Clean energy share",
+      "Public investment"
+    ],
+    "top_negative_drivers": [
+      "Private capital mobilization index",
+      "Quality jobs index"
+    ],
+    "confidence": "Medium-low",
+    "notes": "Automated twice-weekly pulse update based on the platform's internal benchmark-relative nowcast."
+  },
+  {
+    "timestamp": "2026-04-14T08:00:00+05:45",
+    "country_code": "IND",
+    "benchmark_group": "south_asia_core",
+    "pulse_score": 55.7,
+    "delta_since_last": 0.0,
+    "channel_scores": {
+      "jobs": 47.8,
+      "financing": 59.0,
+      "implementation": 58.2,
+      "resilience": 51.2,
+      "transition": 63.5
+    },
+    "top_positive_drivers": [
+      "Private capital mobilization index",
+      "LDC transition risk"
+    ],
+    "top_negative_drivers": [
+      "Informal employment",
+      "Clean energy share"
+    ],
+    "confidence": "Medium-low",
+    "notes": "Automated twice-weekly pulse update based on the platform's internal benchmark-relative nowcast."
+  },
+  {
+    "timestamp": "2026-04-14T08:00:00+05:45",
+    "country_code": "MDV",
+    "benchmark_group": "south_asia_core",
+    "pulse_score": 58.6,
+    "delta_since_last": 0.0,
+    "channel_scores": {
+      "jobs": 68.4,
+      "financing": 60.5,
+      "implementation": 58.9,
+      "resilience": 43.3,
+      "transition": 59.8
+    },
+    "top_positive_drivers": [
+      "Informal employment",
+      "Youth unemployment"
+    ],
+    "top_negative_drivers": [
+      "Clean energy share",
+      "Disaster and climate risk"
+    ],
+    "confidence": "Medium-low",
+    "notes": "Automated twice-weekly pulse update based on the platform's internal benchmark-relative nowcast."
+  },
+  {
+    "timestamp": "2026-04-14T08:00:00+05:45",
+    "country_code": "PAK",
+    "benchmark_group": "south_asia_core",
+    "pulse_score": 34.4,
+    "delta_since_last": 0.0,
+    "channel_scores": {
+      "jobs": 41.3,
+      "financing": 31.1,
+      "implementation": 28.0,
+      "resilience": 34.6,
+      "transition": 37.0
+    },
+    "top_positive_drivers": [
+      "Trade preference exposure"
+    ],
+    "top_negative_drivers": [
+      "Implementation capacity",
+      "Resilience readiness"
+    ],
+    "confidence": "Medium-low",
+    "notes": "Automated twice-weekly pulse update based on the platform's internal benchmark-relative nowcast."
+  },
+  {
+    "timestamp": "2026-04-14T08:00:00+05:45",
+    "country_code": "LKA",
+    "benchmark_group": "south_asia_core",
+    "pulse_score": 50.0,
+    "delta_since_last": 0.0,
+    "channel_scores": {
+      "jobs": 50.4,
+      "financing": 41.1,
+      "implementation": 50.7,
+      "resilience": 55.4,
+      "transition": 53.2
+    },
+    "top_positive_drivers": [
+      "Data readiness",
+      "Quality jobs index"
+    ],
+    "top_negative_drivers": [
+      "Youth unemployment",
+      "Public investment"
+    ],
+    "confidence": "Medium-low",
+    "notes": "Automated twice-weekly pulse update based on the platform's internal benchmark-relative nowcast."
+  },
+  {
+    "timestamp": "2026-04-14T08:00:00+05:45",
+    "country_code": "IDN",
+    "benchmark_group": "southeast_asia_benchmark",
+    "pulse_score": 49.6,
+    "delta_since_last": 0.0,
+    "channel_scores": {
+      "jobs": 45.8,
+      "financing": 47.5,
+      "implementation": 55.6,
+      "resilience": 45.8,
+      "transition": 53.5
+    },
+    "top_positive_drivers": [
+      "Capital budget execution",
+      "Trade preference exposure"
+    ],
+    "top_negative_drivers": [
+      "Youth unemployment",
+      "Tax to GDP"
+    ],
+    "confidence": "Medium-low",
+    "notes": "Automated twice-weekly pulse update based on the platform's internal benchmark-relative nowcast."
+  },
+  {
+    "timestamp": "2026-04-14T08:00:00+05:45",
+    "country_code": "VNM",
+    "benchmark_group": "southeast_asia_benchmark",
+    "pulse_score": 61.8,
+    "delta_since_last": 0.0,
+    "channel_scores": {
+      "jobs": 61.7,
+      "financing": 61.1,
+      "implementation": 65.0,
+      "resilience": 56.1,
+      "transition": 65.0
+    },
+    "top_positive_drivers": [
+      "Quality jobs index",
+      "Private capital mobilization index"
+    ],
+    "top_negative_drivers": [
+      "Clean energy share",
+      "Public investment"
+    ],
+    "confidence": "Medium-low",
+    "notes": "Automated twice-weekly pulse update based on the platform's internal benchmark-relative nowcast."
+  },
+  {
+    "timestamp": "2026-04-14T08:00:00+05:45",
+    "country_code": "PHL",
+    "benchmark_group": "southeast_asia_benchmark",
+    "pulse_score": 44.6,
+    "delta_since_last": 0.0,
+    "channel_scores": {
+      "jobs": 43.3,
+      "financing": 45.0,
+      "implementation": 45.2,
+      "resilience": 40.9,
+      "transition": 48.8
+    },
+    "top_positive_drivers": [
+      "Trade preference exposure",
+      "Data readiness"
+    ],
+    "top_negative_drivers": [
+      "Disaster and climate risk",
+      "Female labor force participation"
+    ],
+    "confidence": "Medium-low",
+    "notes": "Automated twice-weekly pulse update based on the platform's internal benchmark-relative nowcast."
+  },
+  {
+    "timestamp": "2026-04-14T08:00:00+05:45",
+    "country_code": "THA",
+    "benchmark_group": "southeast_asia_benchmark",
+    "pulse_score": 64.1,
+    "delta_since_last": 0.0,
+    "channel_scores": {
+      "jobs": 66.0,
+      "financing": 59.0,
+      "implementation": 68.4,
+      "resilience": 60.1,
+      "transition": 66.8
+    },
+    "top_positive_drivers": [
+      "Quality jobs index",
+      "Implementation capacity"
+    ],
+    "top_negative_drivers": [
+      "Clean energy share",
+      "Female labor force participation"
+    ],
+    "confidence": "Medium-low",
+    "notes": "Automated twice-weekly pulse update based on the platform's internal benchmark-relative nowcast."
+  },
+  {
+    "timestamp": "2026-04-14T08:00:00+05:45",
+    "country_code": "KHM",
+    "benchmark_group": "southeast_asia_benchmark",
+    "pulse_score": 45.0,
+    "delta_since_last": 0.0,
+    "channel_scores": {
+      "jobs": 46.3,
+      "financing": 51.6,
+      "implementation": 41.6,
+      "resilience": 46.7,
+      "transition": 38.3
+    },
+    "top_positive_drivers": [
+      "Tax to GDP",
+      "Female labor force participation"
+    ],
+    "top_negative_drivers": [
+      "Quality jobs index",
+      "Transition readiness index"
+    ],
+    "confidence": "Medium-low",
+    "notes": "Automated twice-weekly pulse update based on the platform's internal benchmark-relative nowcast."
+  },
+  {
+    "timestamp": "2026-04-14T08:00:00+05:45",
+    "country_code": "LAO",
+    "benchmark_group": "southeast_asia_benchmark",
+    "pulse_score": 34.9,
+    "delta_since_last": 0.0,
+    "channel_scores": {
+      "jobs": 37.0,
+      "financing": 35.9,
+      "implementation": 24.3,
+      "resilience": 50.4,
+      "transition": 27.5
+    },
+    "top_positive_drivers": [
+      "Clean energy share",
+      "Public investment"
+    ],
+    "top_negative_drivers": [
+      "Quality jobs index",
+      "Implementation capacity"
+    ],
+    "confidence": "Medium-low",
+    "notes": "Automated twice-weekly pulse update based on the platform's internal benchmark-relative nowcast."
+  },
+  {
+    "timestamp": "2026-04-14T08:00:00+05:45",
+    "country_code": "RWA",
+    "benchmark_group": "additional_peers",
+    "pulse_score": 53.5,
+    "delta_since_last": 0.0,
+    "channel_scores": {
+      "jobs": 44.3,
+      "financing": 54.0,
+      "implementation": 65.5,
+      "resilience": 54.7,
+      "transition": 48.9
+    },
+    "top_positive_drivers": [
+      "Implementation capacity",
+      "Capital budget execution"
+    ],
+    "top_negative_drivers": [
+      "Informal employment",
+      "Youth unemployment"
+    ],
+    "confidence": "Medium-low",
+    "notes": "Automated twice-weekly pulse update based on the platform's internal benchmark-relative nowcast."
+  },
+  {
+    "timestamp": "2026-04-14T08:00:00+05:45",
+    "country_code": "ETH",
+    "benchmark_group": "additional_peers",
+    "pulse_score": 32.9,
+    "delta_since_last": 0.0,
+    "channel_scores": {
+      "jobs": 48.0,
+      "financing": 31.4,
+      "implementation": 19.1,
+      "resilience": 39.4,
+      "transition": 25.4
+    },
+    "top_positive_drivers": [
+      "Youth unemployment",
+      "Clean energy share"
+    ],
+    "top_negative_drivers": [
+      "Implementation capacity",
+      "Capital budget execution"
+    ],
+    "confidence": "Medium-low",
+    "notes": "Automated twice-weekly pulse update based on the platform's internal benchmark-relative nowcast."
+  },
+  {
+    "timestamp": "2026-04-14T08:00:00+05:45",
+    "country_code": "KEN",
+    "benchmark_group": "additional_peers",
+    "pulse_score": 43.3,
+    "delta_since_last": 0.0,
+    "channel_scores": {
+      "jobs": 46.1,
+      "financing": 43.3,
+      "implementation": 39.9,
+      "resilience": 46.6,
+      "transition": 40.6
+    },
+    "top_positive_drivers": [
+      "Clean energy share",
+      "Female labor force participation"
+    ],
+    "top_negative_drivers": [
+      "Implementation capacity",
+      "Informal employment"
+    ],
+    "confidence": "Medium-low",
+    "notes": "Automated twice-weekly pulse update based on the platform's internal benchmark-relative nowcast."
+  },
+  {
+    "timestamp": "2026-04-14T08:00:00+05:45",
+    "country_code": "MAR",
+    "benchmark_group": "additional_peers",
+    "pulse_score": 52.8,
+    "delta_since_last": 0.0,
+    "channel_scores": {
+      "jobs": 39.1,
+      "financing": 54.9,
+      "implementation": 54.8,
+      "resilience": 54.4,
+      "transition": 63.3
+    },
+    "top_positive_drivers": [
+      "Export readiness index",
+      "Resilience readiness"
+    ],
+    "top_negative_drivers": [
+      "Youth unemployment",
+      "Female labor force participation"
+    ],
+    "confidence": "Medium-low",
+    "notes": "Automated twice-weekly pulse update based on the platform's internal benchmark-relative nowcast."
+  },
+  {
+    "timestamp": "2026-04-14T08:00:00+05:45",
+    "country_code": "MNG",
+    "benchmark_group": "additional_peers",
+    "pulse_score": 52.0,
+    "delta_since_last": 0.0,
+    "channel_scores": {
+      "jobs": 59.0,
+      "financing": 55.0,
+      "implementation": 47.8,
+      "resilience": 43.9,
+      "transition": 53.4
+    },
+    "top_positive_drivers": [
+      "Tax to GDP",
+      "Informal employment"
+    ],
+    "top_negative_drivers": [
+      "Clean energy share",
+      "Resilience readiness"
+    ],
+    "confidence": "Medium-low",
+    "notes": "Automated twice-weekly pulse update based on the platform's internal benchmark-relative nowcast."
+  },
+  {
+    "timestamp": "2026-04-14T08:00:00+05:45",
+    "country_code": "GEO",
+    "benchmark_group": "additional_peers",
+    "pulse_score": 65.5,
+    "delta_since_last": 0.0,
+    "channel_scores": {
+      "jobs": 63.5,
+      "financing": 61.5,
+      "implementation": 73.0,
+      "resilience": 60.9,
+      "transition": 68.4
+    },
+    "top_positive_drivers": [
+      "Informal employment",
+      "Implementation capacity"
+    ],
+    "top_negative_drivers": [
+      "Clean energy share",
+      "Public investment"
+    ],
+    "confidence": "Medium-low",
+    "notes": "Automated twice-weekly pulse update based on the platform's internal benchmark-relative nowcast."
   }
 ]
