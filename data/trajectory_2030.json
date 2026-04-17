@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "NPL",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "conservative",
@@ -34,7 +34,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "NPL",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "baseline",
@@ -68,7 +68,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "NPL",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "accelerated",
@@ -102,7 +102,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "BGD",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "conservative",
@@ -136,7 +136,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "BGD",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "baseline",
@@ -170,7 +170,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "BGD",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "accelerated",
@@ -204,7 +204,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "BTN",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "conservative",
@@ -238,7 +238,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "BTN",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "baseline",
@@ -272,7 +272,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "BTN",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "accelerated",
@@ -306,7 +306,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "IND",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "conservative",
@@ -340,7 +340,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "IND",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "baseline",
@@ -374,7 +374,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "IND",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "accelerated",
@@ -408,7 +408,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "MDV",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "conservative",
@@ -442,7 +442,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "MDV",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "baseline",
@@ -476,7 +476,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "MDV",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "accelerated",
@@ -510,7 +510,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "PAK",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "conservative",
@@ -544,7 +544,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "PAK",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "baseline",
@@ -578,7 +578,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "PAK",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "accelerated",
@@ -612,7 +612,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "LKA",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "conservative",
@@ -646,7 +646,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "LKA",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "baseline",
@@ -680,7 +680,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "LKA",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "accelerated",
@@ -714,7 +714,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "IDN",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "conservative",
@@ -748,7 +748,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "IDN",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "baseline",
@@ -782,7 +782,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "IDN",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "accelerated",
@@ -816,7 +816,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "VNM",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "conservative",
@@ -850,7 +850,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "VNM",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "baseline",
@@ -884,7 +884,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "VNM",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "accelerated",
@@ -918,7 +918,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "PHL",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "conservative",
@@ -952,7 +952,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "PHL",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "baseline",
@@ -986,7 +986,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "PHL",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "accelerated",
@@ -1020,7 +1020,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "THA",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "conservative",
@@ -1054,7 +1054,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "THA",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "baseline",
@@ -1088,7 +1088,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "THA",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "accelerated",
@@ -1122,7 +1122,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "KHM",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "conservative",
@@ -1156,7 +1156,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "KHM",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "baseline",
@@ -1190,7 +1190,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "KHM",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "accelerated",
@@ -1224,7 +1224,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "LAO",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "conservative",
@@ -1258,7 +1258,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "LAO",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "baseline",
@@ -1292,7 +1292,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "LAO",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "accelerated",
@@ -1326,7 +1326,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "RWA",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "conservative",
@@ -1360,7 +1360,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "RWA",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "baseline",
@@ -1394,7 +1394,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "RWA",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "accelerated",
@@ -1428,7 +1428,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "ETH",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "conservative",
@@ -1462,7 +1462,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "ETH",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "baseline",
@@ -1496,7 +1496,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "ETH",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "accelerated",
@@ -1530,7 +1530,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "KEN",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "conservative",
@@ -1564,7 +1564,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "KEN",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "baseline",
@@ -1598,7 +1598,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "KEN",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "accelerated",
@@ -1632,7 +1632,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "MAR",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "conservative",
@@ -1666,7 +1666,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "MAR",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "baseline",
@@ -1700,7 +1700,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "MAR",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "accelerated",
@@ -1734,7 +1734,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "MNG",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "conservative",
@@ -1768,7 +1768,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "MNG",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "baseline",
@@ -1802,7 +1802,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "MNG",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "accelerated",
@@ -1836,7 +1836,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "GEO",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "conservative",
@@ -1870,7 +1870,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "GEO",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "baseline",
@@ -1904,7 +1904,7 @@
     "distance_to_target_note": "2030 is shown as a scenario-based direction of travel, not a forecast guarantee."
   },
   {
-    "timestamp": "2026-04-14T08:00:00+05:45",
+    "timestamp": "2026-04-17T08:00:00+05:45",
     "country_code": "GEO",
     "baseline_anchor_family": "SDSN SDG Index",
     "scenario": "accelerated",
