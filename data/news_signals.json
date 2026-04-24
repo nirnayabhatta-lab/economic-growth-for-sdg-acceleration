@@ -1,8 +1,8 @@
 [
   {
-    "id": "npl_auto_20260421_1",
+    "id": "npl_auto_20260424_1",
     "country_code": "NPL",
-    "date": "2026-04-21",
+    "date": "2026-04-24",
     "headline": "Budget for the financial year 2082/83 [Live] - Ekantipur",
     "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
     "channels": [
@@ -19,9 +19,9 @@
     "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONEx5MFNldHo2OFJsZWFVejhLSENRR19rN2JvVzV1Mk8wZGR2bUFHdXc0aURia2lsR1BVRDVEWmliT25uQk9naVdCMFk3UWJ4RGlBeUNCNTY0cGs2eEZLalAwVEVIcXhKWXgzdkJPRkJsdDl1R0wwSF8za2k4MGZka203RnNQX3JDX1YzZU5MdEt1Y3dwYnFwdg?oc=5"
   },
   {
-    "id": "bgd_auto_20260421_1",
+    "id": "bgd_auto_20260424_1",
     "country_code": "BGD",
-    "date": "2026-04-21",
+    "date": "2026-04-24",
     "headline": "More and better-paying jobs: A turning point for Bangladesh\u2019s future - World Bank Blogs",
     "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
     "channels": [
@@ -38,28 +38,9 @@
     "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVjdhYkNWcHVVRHU2eXB6djVGNG8zeFRmdHl0VFc1ckJoQlRzeUZlZm5acW9SRUtZTlVqVWpPc2lGMGxDXy1mOFktMnBBWVVrWWJsZ01PTXRUWEd0ajdvNVcxaXE0Szk1dlI0QnJuS0hPYTJYdkExbG9oeU02YXJjUFd3VnRwSjU3OUFrYnV6VWplcFB0Z2w3dEhMYkMzZUR6OFhNcjJLOC1LR2p6TXA5MWh5WjVtWXVi?oc=5"
   },
   {
-    "id": "bgd_auto_20260421_2",
+    "id": "bgd_auto_20260424_2",
     "country_code": "BGD",
-    "date": "2026-04-21",
-    "headline": "Emerging Economies in South Asia - Investopedia",
-    "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
-    "channels": [
-      "industry",
-      "jobs"
-    ],
-    "linked_indicator_ids": [
-      "quality_jobs_index",
-      "export_readiness"
-    ],
-    "direction": "watch",
-    "impact_score": 6.7,
-    "source_label": "Investopedia",
-    "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSjh4UjJ4WjR3NjJOdjZYUS1IVDhacnNpNFFubHNWV0FFX2pyM3NMN01MclNYRUFBNFVyMTRPbUpXa1lkZzJUdXd2MmR0SjlPS1ZqaEYwSjJOY0VpRUNYVUxNWkhSRE5ZOUtXOXdEaFd5djN4VkdUVUhFZ0tOYURpSzkxZnpGa2VaczJhUjBiWUxlYlJwUlNJcF9HYUNvQQ?oc=5"
-  },
-  {
-    "id": "bgd_auto_20260421_3",
-    "country_code": "BGD",
-    "date": "2026-04-21",
+    "date": "2026-04-24",
     "headline": "Garment exports triple in 15 years, but jobs remain stagnant: RAPID - The Daily Star",
     "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
     "channels": [
@@ -80,9 +61,9 @@
     "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTl94a2pma3BBMlFDSEJiYWViakFCUnp4c0ZoTmNSNEdTU18tZHQwbXI5aS1xUTRSSkN4NUROQi1tcUxKTE5kRHJlbnlXMjVYYkItQnVnenpoeWtGc1FLWmtuSi1IcGM0ZjJzdWxGUWMweE1LdkgwaUNoa0toZnRYblNDTVFsUU94akp1eVd2SUdvbmc1SnJHalFwM2tmbFNJTlBLbTlwa0dnQlpoa0E?oc=5"
   },
   {
-    "id": "bgd_auto_20260421_4",
+    "id": "bgd_auto_20260424_3",
     "country_code": "BGD",
-    "date": "2026-04-21",
+    "date": "2026-04-24",
     "headline": "Bangladesh \u2013 Working towards a sustainable export future - World Trade Organization",
     "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
     "channels": [
@@ -99,10 +80,29 @@
     "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5SYl9adkstYkliVFBLZ216Z3lNVTFWaV81Tm1fbThrT3BDY3FtSjJfeUk4UG5wZ0dZQmQtdHRjUG9RbGVoTm5MYUJ3eXNVaXpqWVJVc0VXZnZ4ekh4MzhIalBJMWtuX1RuZmNWUEctNzE3eWpP?oc=5"
   },
   {
-    "id": "ind_auto_20260421_1",
+    "id": "bgd_auto_20260424_4",
+    "country_code": "BGD",
+    "date": "2026-04-24",
+    "headline": "How Bangladesh offers lessons for sustainable industrialization in Africa - The World Economic Forum",
+    "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
+    "channels": [
+      "industry"
+    ],
+    "linked_indicator_ids": [
+      "manufacturing_share",
+      "export_readiness",
+      "quality_jobs_index"
+    ],
+    "direction": "watch",
+    "impact_score": 6.1,
+    "source_label": "The World Economic Forum",
+    "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdmp2MnhSQTlJemNST0sxYUY2T3hzT3VwcGJXRk1TQTBZb19wMVl5MmV0NER1bmROdXd5VHU5MldTUC0xbWZJZ0EzUWtXa25fUlZlNzhLRnpSZkVqdkp0OHNkVy12d192U0RFRm5nM1A4Rzd3MEFnM3l2NnBDY3oxSHBCNEJxMjdzZ3plbmpHcUlXMDBYTFVaSmZibkFPaHZPQzBxc0cwdkh4R2x3V0c0bU5MTF8?oc=5"
+  },
+  {
+    "id": "ind_auto_20260424_1",
     "country_code": "IND",
-    "date": "2026-04-21",
-    "headline": "India's Fuel Crisis Hits Manufacturers, Soaring Costs Force Output Cuts - Whalesbook",
+    "date": "2026-04-24",
+    "headline": "What\u2019s happening this week in economics? - Deloitte",
     "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
     "channels": [
       "industry",
@@ -112,15 +112,15 @@
       "quality_jobs_index",
       "export_readiness"
     ],
-    "direction": "negative",
-    "impact_score": 7.2,
-    "source_label": "Whalesbook",
-    "source_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQRElobC01YzVzSkp2aEN0NjJlY2V1YzlrOGZLVlhqQ1RaWVc2VDhSM3ZQTHk2TURiVlB5dklET2w5VFlRWktHTHNYbjI0dnloMld0bkFhbDF4UW1Gem5qWmFoTU41SXFRODJSaE9jN1IyUjN2WFlYY2lFdUZ6RUNNS3psOFptMWNfLThnbVgtWUF2TFVHQUw0YVhFUW53dTdVbUEtU0xscGtqRzZZVnYwWm1EaU5mcEEzUXp5Zm1mT3NXLWd6YWE1Zkk0RzNramsxc0VrR0lXeEdhbUJHdUNoYTNEbWE4TzkzT2ExYlA5bG8?oc=5"
+    "direction": "watch",
+    "impact_score": 6.7,
+    "source_label": "Deloitte",
+    "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5"
   },
   {
-    "id": "ind_auto_20260421_2",
+    "id": "ind_auto_20260424_2",
     "country_code": "IND",
-    "date": "2026-04-21",
+    "date": "2026-04-24",
     "headline": "Global Economics Intelligence executive summary (February 2026) - McKinsey & Company",
     "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
     "channels": [
@@ -137,10 +137,10 @@
     "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSmgzTkdja3YzVE1LaEtHbGFYak1oUU9Pei1CR1AwOW4wak5uY3hRQk0wb1o1SWhObGhxTUZDaEZqSUZ0TjdqUS1Ed3hwclZJRi1YV0RLQzZIY3paTzR3R2l0dkp5TkhLYVdXbm5NREhjc0lSazNjRmhJNlc4Y0Z5c2d0MWZ0WWNqNVhWRjFIRUdnWHJvaEYzdmp6NnV3cXd3bjdybm9EVTN4TEgwdUJsVA?oc=5"
   },
   {
-    "id": "ind_auto_20260421_3",
+    "id": "ind_auto_20260424_3",
     "country_code": "IND",
-    "date": "2026-04-21",
-    "headline": "India economic outlook, January 2026 - Deloitte",
+    "date": "2026-04-24",
+    "headline": "UN cuts India's FY26 growth forecast to 6.4%, flags external risks - Business Standard",
     "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
     "channels": [
       "industry",
@@ -150,16 +150,16 @@
       "quality_jobs_index",
       "export_readiness"
     ],
-    "direction": "watch",
-    "impact_score": 6.7,
-    "source_label": "Deloitte",
-    "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbVNEUF9teW9VSlNOTVBOOXNjbVkybkFnOTVDNkljbWpGTld4Z1BhS243VUhJcHJqMjh3UWJDRkQwYlhTam9fMzQwTTRuejFnMlJrUjNteUVmZE5LeUc4ODVPRHhFYVlQNGU4S3RwX1dKc01XTTB4VTR0STVNbVVMN0F5WndKRnNiSlpUcUlCV2pIY2ZiVUdBb09XMA?oc=5"
+    "direction": "negative",
+    "impact_score": 7.4,
+    "source_label": "Business Standard",
+    "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQR3Y4WUpRSC1nMldRTW56bDdjVnZjY2VCdTdWd3RUR05iYlI2YTdTd21sY3F5S2JXWGlkdmFFaUxrVnBuWFBieVF0WDRldWtuWncxRUlTc2xlLV9IOFoyLVl5WDBzWVQ2cElGTGUtM1Z4S1VKU0NzWFUxOTZ3RWY1RWZnYXFwZm5EWXhhVnlINGVtTzBpV0huR2ZMS0NPWXBaanJ3dF9wMzUwbHJLbG1naHBQM1pXUHE4ZlMwNzFMUm9IVEc1RkFqOUljRdIB0AFBVV95cUxQVjY3ZWlKdlpVdlh0UHNBaGpMczhGREdCanJJcS1uTHJFZlZOTUNsYVVtb3F5OEhPcUc4YmJOVDF2U1IwYVhpZkZwV0Zxb09OZloxS1lOWkQ3Umc3SmFILUZjYzY4UHJqNDhkaGFMTDUyZ2xSWl95TC1vam9PbFVkdC1zMnJ4Y1AyTnZFYVNsZF81OUpuaDA2Q1Q2QkdkenVVZFV4bmZHZlpiMzIyczNMUUEzOE9aWEZvcG1mbGRUbVA3VXhPTlZoaVZ6Q2I4dE1w?oc=5"
   },
   {
-    "id": "ind_auto_20260421_4",
+    "id": "ind_auto_20260424_4",
     "country_code": "IND",
-    "date": "2026-04-21",
-    "headline": "Economic Survey 2025-26 - Press Information Bureau",
+    "date": "2026-04-24",
+    "headline": "India's Fuel Crisis Hits Manufacturers, Soaring Costs Force Output Cuts - Whalesbook",
     "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
     "channels": [
       "industry",
@@ -169,15 +169,15 @@
       "quality_jobs_index",
       "export_readiness"
     ],
-    "direction": "watch",
-    "impact_score": 6.7,
-    "source_label": "Press Information Bureau",
-    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5zbnVnTnBCZGgtMVNwWlN1X2lZRGFZTzBleWQ4V2pnZzZvc3duZkxHbmpyN2o5TVlrdFJzVDA5WjdnOWJrdHJWNmttVVJtVnBxdXQ0TWtrOTM0U2djcG1ENUxhOFhTWi1FTGR6VlJYSVJQX1BoWENKckFn?oc=5"
+    "direction": "negative",
+    "impact_score": 7.2,
+    "source_label": "Whalesbook",
+    "source_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQRElobC01YzVzSkp2aEN0NjJlY2V1YzlrOGZLVlhqQ1RaWVc2VDhSM3ZQTHk2TURiVlB5dklET2w5VFlRWktHTHNYbjI0dnloMld0bkFhbDF4UW1Gem5qWmFoTU41SXFRODJSaE9jN1IyUjN2WFlYY2lFdUZ6RUNNS3psOFptMWNfLThnbVgtWUF2TFVHQUw0YVhFUW53dTdVbUEtU0xscGtqRzZZVnYwWm1EaU5mcEEzUXp5Zm1mT3NXLWd6YWE1Zkk0RzNramsxc0VrR0lXeEdhbUJHdUNoYTNEbWE4TzkzT2ExYlA5bG8?oc=5"
   },
   {
-    "id": "vnm_auto_20260421_1",
+    "id": "vnm_auto_20260424_1",
     "country_code": "VNM",
-    "date": "2026-04-21",
+    "date": "2026-04-24",
     "headline": "Vietnam Manufacturing Tracker: As of April 2026 - Vietnam Briefing",
     "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
     "channels": [
@@ -194,9 +194,9 @@
     "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9mZ1VCZm1Wd3NkYk5sOHJIYVFUWWR0eGliUks2Wmw5enpaaTR2ZnRsRUhxbEFXWU5FRmdrYk9SVHhfX2dGSWhRZm9yc1B6cHMxZ01OMTlHeGxxR1lCRmwxeEdiVWNRUlVPMXV5ZFRmNThZSkp6VkxhYjhLb3dfdw?oc=5"
   },
   {
-    "id": "vnm_auto_20260421_2",
+    "id": "vnm_auto_20260424_2",
     "country_code": "VNM",
-    "date": "2026-04-21",
+    "date": "2026-04-24",
     "headline": "How Trump's tariffs, and forced labor, led China to new record trillion-dollar trade surplus: Supply chain data - CNBC",
     "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
     "channels": [
@@ -217,9 +217,28 @@
     "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPLWJ6YVg3dDJvVDQ2M0NBS2VFNGJsMUlPVldGUkhpZjJ6V0xrNTljbldwRWk5RHRpMFJzY0dBRWsxN0RYRWJaYjN6dkx3czlUdkt0VmxYbHNsaUdQUjZlM2g2Tm90aXp0dHRqbUVkSjJHc0Q5TXYxZDhLSGo0MFlNS1IzUzQ0WDdqSkF4X0hJbXllNG8yS1U0YtIBngFBVV95cUxOMkZZQ2l6ak9RTC1hUFBfUWNsMWFGc1B6ZVdWN01aeTBQazFtalFtOVZmNHRLcGpHSFVIWm40cXI5RkpXcGI4Wk8tVThjdlZjcFh2UHB5NEVLTUZvSVctVy1rd0FkRXh1Z0xxRktXcEI2WDZ3OG9MN09FWXl4TVlTa0wwc3U2OEFqMm9qRFh1cTZjbkRoWmdsaDB1YXlYdw?oc=5"
   },
   {
-    "id": "vnm_auto_20260421_3",
+    "id": "vnm_auto_20260424_3",
     "country_code": "VNM",
-    "date": "2026-04-21",
+    "date": "2026-04-24",
+    "headline": "SCG positions Vietnam as ASEAN\u2019s manufacturing and export gateway - Nation Thailand",
+    "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
+    "channels": [
+      "industry"
+    ],
+    "linked_indicator_ids": [
+      "manufacturing_share",
+      "export_readiness",
+      "quality_jobs_index"
+    ],
+    "direction": "watch",
+    "impact_score": 6.1,
+    "source_label": "Nation Thailand",
+    "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9iTFFrT21lSmZpa0tIaXNSNHhkclRMbGx6QmNlSmVDUFdrSzMySTJpSk1UZXNBSzJQek9kXzBVTkNLRGQxYjVCQjg0ai14dGYyZnVtZkxPY0V2MEdoaC1POTBsT3FwSEU0OGc?oc=5"
+  },
+  {
+    "id": "vnm_auto_20260424_4",
+    "country_code": "VNM",
+    "date": "2026-04-24",
     "headline": "South Korea\u2019s Important Role in Vietnam\u2019s Rapid Development - Korea Economic Institute of America",
     "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
     "channels": [
@@ -236,28 +255,9 @@
     "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVjBFQjc4aEZ6ZmtSX01jMEJub2ZFOEhqN2tGOVpaZ1BWeHZzNmtMMDJtVWliQ3FlcFJlMWFnb3JfLVdYOGVYa1l0cG52QUhvMGl3YkVLQnV4YTU1TGtUdzEtRHljY1BDWXkyM1lYckhnTjdsblA1TEJwUTN1cTdpUTZBRE4yZGp4dDlHOU00YzJKaEk?oc=5"
   },
   {
-    "id": "vnm_auto_20260421_4",
-    "country_code": "VNM",
-    "date": "2026-04-21",
-    "headline": "National champions \u2013 Vietnam\u2019s solution to the middle-income trap - Lowy Institute",
-    "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
-    "channels": [
-      "industry",
-      "jobs"
-    ],
-    "linked_indicator_ids": [
-      "quality_jobs_index",
-      "export_readiness"
-    ],
-    "direction": "watch",
-    "impact_score": 6.7,
-    "source_label": "Lowy Institute",
-    "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbGk3VVdyS1ktLWtKYWhJSUJTcGpNZzJ5M1U3VTJuTmFwTTFqZkc4R2puTGlEOWNTalduQ0VUUU1abWFmRnhXRUxDVllxX0JheUtNc0VIQW1MdnVib1RWYU1yZjdQc3FLTDFONldXNnFWa2MyR240ZjR0amxTVHlwVTFWekc5MHlUSGdoWUNUeDh3XzdHSF96MGNUeWdfNWFSOVFMYw?oc=5"
-  },
-  {
-    "id": "idn_auto_20260421_1",
+    "id": "idn_auto_20260424_1",
     "country_code": "IDN",
-    "date": "2026-04-21",
+    "date": "2026-04-24",
     "headline": "Cooperative Led Energy Sovereignty: A pathway to Indonesia\u2019s rural resilience and fiscal stability - Independent Observer",
     "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
     "channels": [
@@ -278,28 +278,9 @@
     "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNM2NFazlUWGhHS0Ywa1hUX3l6ZWREa0FuZlFLZzY5MEdvQmpUZ1ZmYW5zV2FyOFhEcFJyVXgxV0pJWjNoN2NVLVBQWHNscUt0YkNxem5hMTRlVEVuU1VsM25XYm10T09mMFdNaGw2Nm9NcXFJXzNQcmhSTjd2N0tZbEpsbEtZaEdIbDR0VFQycUZpa1dFa0VwUUxtMDVjZGhxOGRMWTRIY1pBWVhvNFBWcWVYeTJxUE1kc19oQg?oc=5"
   },
   {
-    "id": "idn_auto_20260421_2",
+    "id": "idn_auto_20260424_2",
     "country_code": "IDN",
-    "date": "2026-04-21",
-    "headline": "Southeast Asia quarterly economic review: A strong year-end rebound - McKinsey & Company",
-    "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
-    "channels": [
-      "industry",
-      "jobs"
-    ],
-    "linked_indicator_ids": [
-      "quality_jobs_index",
-      "export_readiness"
-    ],
-    "direction": "positive",
-    "impact_score": 6.9,
-    "source_label": "McKinsey & Company",
-    "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa2VLay02a3U1UnFDWmZpbUw3TGlYSU5ydGtDWW5kT0NrbVVDVzU0MXVENG9fYlNXaVFMT1lfYjdFbnpZRkhqcS0tTkNkbUFGazktNnpIa0pZa0hxaUZnOTZpWHE5VEJhVnRic0xZU2Rvd2FrS1RoQXd0ckl0U0xieUZyeHlmRWZCcjNsTTNsazZ2QzlRUnNLcmYteC1oMUE?oc=5"
-  },
-  {
-    "id": "idn_auto_20260421_3",
-    "country_code": "IDN",
-    "date": "2026-04-21",
+    "date": "2026-04-24",
     "headline": "Indonesia\u2019s Economy Maintains Resilience Amid Global Uncertainty - World Bank",
     "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
     "channels": [
@@ -316,9 +297,9 @@
     "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbGlTTVVOZWt0dUYybGRKOG15ekRZSHl5WFFBNExXWWFHbk9BdlVRSEdoS2R6b3NMUms4M2ZNYmZiMTBHX3hBZ1Z2blVaYXQ3bDFCc0FZbURMVWdrdTh5UktGTGg1YWdhM0l1VXl0SjlVTklQaFd5aS1aV2s2Y211SzJDUTEtR2F1Xzk5WlVjbi1pQ0xKaW9FOGFrRnlkUzFyLUNIbHduUHhjZldjblV3V0d4OGJaOXdwb3pEWWVveDA?oc=5"
   },
   {
-    "id": "idn_auto_20260421_4",
+    "id": "idn_auto_20260424_3",
     "country_code": "IDN",
-    "date": "2026-04-21",
+    "date": "2026-04-24",
     "headline": "Forging A Robust Middle Class: Lessons Learned From Comparisons Between Indonesia And China \u2013 Analysis - Eurasia Review",
     "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
     "channels": [
@@ -335,28 +316,32 @@
     "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWUhIZm4wOTNsMWlEU3A4bFdBZDhoVE9WNjctN25SWW5xX194aV8wQXFxVVZTRmdfamdNbk1IbGhsTkIyOHlWV05sSnZ4VGtYWERDcGNQazZ2OWZGRktpblhUUXBya3REZnQtbHdsLXlDWjRHSDlpQkRVOGRWWHBzNHM0ZkhEaUR1b2RHSW5vLWRNUEFwcXNSazVMaFp6RkVYOEg0VzdwcC0zVHBtRVhnNFB4Z1RSUzNIbGFEN0RwWHI1c0V4SkY5LW0wMmVObWh1TmZIT19R?oc=5"
   },
   {
-    "id": "tha_auto_20260421_1",
-    "country_code": "THA",
-    "date": "2026-04-21",
-    "headline": "Singapore Joins Indonesia, Vietnam, Thailand, Malaysia, and Philippines as Southeast Asia\u2019s Unstoppable Cruise Tourism Powerhouse, Generating an Astounding Ten Billion Dollar in Economic Output and Unprecedented Passenger Growth - Travel And Tour World",
+    "id": "idn_auto_20260424_4",
+    "country_code": "IDN",
+    "date": "2026-04-24",
+    "headline": "Indonesia needs to better explain the resilience in its state budget - Lowy Institute",
     "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
     "channels": [
+      "fiscal space",
       "resilience"
     ],
     "linked_indicator_ids": [
+      "tax_gdp",
+      "public_investment",
+      "budget_execution",
       "disaster_risk",
       "resilience_readiness",
       "clean_energy"
     ],
-    "direction": "positive",
-    "impact_score": 6.3,
-    "source_label": "Travel And Tour World",
-    "source_url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPNFNkVUliSXZybjA2eTVhZWw5Rl85ckhNcThHdDQ2bW1KcF9oeUFyYWRxNDRyWEdFQjhwVFAyMFc5eGxlNnVlX256YnZMZENzdENQNWZFSGcwbXdFR1dnaWtzM19xa3kxaWc0eFJyN2twSi1NTTFDTVlhdTBBOUs3WkFoSGJ0a3NxZnl1UEQxRG90NEVJN3hGbVhlN2txWU45Q1lINU9KeHpDOF92dHMtYWhGcl9oU2pZQXR5MGJGdFhrMlp4czlnUEZ2MzFIR2IzNXQyQlZFaFVwb3NsNTVVck1rTS13ODdmOXpzUHRCeHZmVzJRdVRTLUtKU1JkRVRPQi1RS09uanV0dHpJTll5WEtMLXMzN3RKTDVKZF9EUzQxZTU4b0ZGdkNOT2VTQlFOWkxIall0MXlTOWFHbkhZbjkxLUYtOC1fMGRGU1JwV1FPWnVZX3c?oc=5"
+    "direction": "watch",
+    "impact_score": 6.7,
+    "source_label": "Lowy Institute",
+    "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQ1VSc1hXdWhCSWNqcnVESkFjbVB2b3BjcmFqMFZTbjVmYXl4Q1c3OHlPZXFhdEhnSkdTVUlWSGp5Nnp5bmlwNEt1NEdERnlTUExabGpidGZBTzZJLXFUWURKTUJUN1NHeUN5T0xsaEttQ2lPN0RNNDdYWW9FbEdXVVNMTWEtZWV5amM1TnZVRXZkLTZTa3RsQzFQT0FyNVFXdndYYklpcw?oc=5"
   },
   {
-    "id": "tha_auto_20260421_2",
+    "id": "tha_auto_20260424_1",
     "country_code": "THA",
-    "date": "2026-04-21",
+    "date": "2026-04-24",
     "headline": "Thailand Economic Monitor February 2026: Advanced Green Manufacturing for Growth - World Bank",
     "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
     "channels": [
@@ -373,28 +358,9 @@
     "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaWhJU3E4eHdhY0hmOXJGY25FVThyWldScmpUbXZ0ZjM4cHBHdHBxSHg5emxFZTVzVFN0RGI5UG5xUnc1U1doWkhweU9TdXQzUFVsZUJuVU9FUjJMbjQxdXk1emxWVmFpMEhXUDlZcExaRnJ1M0trU1R4N0pyeXZnTXBPUmNCeV9kZmp4NE9sWnFVRzRpUnFzaE4tNXUxZHN6RGhkT2Q1a01IcktmQkhoYmpTTEpDcVNnWUQ5QWZHX0dyOXYtaUxUTWVDVlFTbFZYQWdj?oc=5"
   },
   {
-    "id": "tha_auto_20260421_3",
+    "id": "tha_auto_20260424_2",
     "country_code": "THA",
-    "date": "2026-04-21",
-    "headline": "Employment by economic sector in Thailand 2023 - Statista",
-    "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
-    "channels": [
-      "jobs"
-    ],
-    "linked_indicator_ids": [
-      "quality_jobs_index",
-      "youth_unemployment",
-      "informality"
-    ],
-    "direction": "watch",
-    "impact_score": 6.1,
-    "source_label": "Statista",
-    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONDBiOUZZNVMyY2RnMkZzWWNneEI5aC1JTmxmOHIyNDVzM2s3YWJuT05XMEs2bFBoRjZsSnpQTmJrLVIxQW50SUd2QlJaVWpyUjJkanpKaFBsTW1Nb3pBTkl3V001UUJybkdjRjdQN3hBVzlDeDZZU0xDWG8yYy1YYmp6b0hLcjJZeTFzZmNn?oc=5"
-  },
-  {
-    "id": "tha_auto_20260421_4",
-    "country_code": "THA",
-    "date": "2026-04-21",
+    "date": "2026-04-24",
     "headline": "Thailand Joins Singapore, Malaysia, Indonesia, Vietnam, Philippines, and Other Southeast Asian Nations in Spearheading a Phenomenal Growth in Cruise Tourism, Contributing a Groundbreaking Ten Billion US Dollars to the Global Economy and Welcoming - Travel And Tour World",
     "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
     "channels": [
@@ -411,74 +377,49 @@
     "source_url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxORzFCcXBZaEdzMU91MUtGUElsT3lvN21KNFVKNWNESDBMOVhQVDVYMDN1Q1Q3WlAzLWRmTWpGdXdQWEFTWGFnY0pVcXhwb3pJV1cyY282LVRKbFhlQW4tTDJTdVZFdUljZ0o5SVJtakVreF9YYmI0TjAzeEJpbkdQY0lSbEdhUG9DZ2xNaDJhT2hLRGNBdkMwTWNrOG5LblFHck9UQ0s0V05xOEJHRjRpTGxrZUdUSEtfYk9SLVZ5UUhFbHpmQWZleEpTejMwZDZzTnFRVjFSYTU2Yk45R3k5WFVBT0MwV0h6M2MwQzI1NE5rSncwVTBzUTZTX1I1THpZM0JMVmRTX2pSaV9wY3IxQXdfaWVPR3l3WVQ3VDBYTmhLZUdOTkJBU0l6cm4waXFWOTlaN2xqOEZ0MWptYlA1WEx4a3FfZ0QzcWQ0NDhsTmRmUHNQTFhlTjVqNWZwcDg?oc=5"
   },
   {
-    "id": "phl_news_trade",
-    "country_code": "PHL",
-    "date": "2026-04-01",
-    "headline": "Philippines trade and competitiveness signal",
-    "summary": "Philippines's export and competitiveness environment is showing pressure on transition readiness, with implications for jobs, foreign exchange, and fiscal space.",
+    "id": "tha_auto_20260424_3",
+    "country_code": "THA",
+    "date": "2026-04-24",
+    "headline": "Employment by economic sector in Thailand 2023 - Statista",
+    "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
     "channels": [
-      "industry",
-      "trade",
-      "exports"
+      "jobs"
     ],
     "linked_indicator_ids": [
-      "export_readiness",
-      "readiness_index",
-      "quality_jobs_index"
-    ],
-    "direction": "warning",
-    "impact_score": 6.8,
-    "source_label": "Curated weekly signal baseline",
-    "source_url": "https://www.worldbank.org/"
-  },
-  {
-    "id": "phl_news_gender",
-    "country_code": "PHL",
-    "date": "2026-04-01",
-    "headline": "Philippines women and inclusion signal",
-    "summary": "Current labor and inclusion conditions suggest improving translation from growth into women's economic participation and broader left-behind outcomes.",
-    "channels": [
-      "gender",
-      "jobs",
-      "inclusion"
-    ],
-    "linked_indicator_ids": [
-      "female_lfp",
       "quality_jobs_index",
-      "inclusion_readiness"
-    ],
-    "direction": "steady",
-    "impact_score": 6.9,
-    "source_label": "Curated weekly signal baseline",
-    "source_url": "https://ilostat.ilo.org/"
-  },
-  {
-    "id": "phl_news_resilience",
-    "country_code": "PHL",
-    "date": "2026-04-01",
-    "headline": "Philippines resilience and continuity signal",
-    "summary": "Resilience-sensitive infrastructure and delivery systems are still exposing development gains against climate and implementation shocks.",
-    "channels": [
-      "resilience",
-      "infrastructure",
-      "implementation"
-    ],
-    "linked_indicator_ids": [
-      "resilience_readiness",
-      "disaster_risk",
-      "implementation_capacity"
+      "youth_unemployment",
+      "informality"
     ],
     "direction": "watch",
-    "impact_score": 6.2,
-    "source_label": "Curated weekly signal baseline",
-    "source_url": "https://sdgdiagnostics.data.undp.org/"
+    "impact_score": 6.1,
+    "source_label": "Statista",
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONDBiOUZZNVMyY2RnMkZzWWNneEI5aC1JTmxmOHIyNDVzM2s3YWJuT05XMEs2bFBoRjZsSnpQTmJrLVIxQW50SUd2QlJaVWpyUjJkanpKaFBsTW1Nb3pBTkl3V001UUJybkdjRjdQN3hBVzlDeDZZU0xDWG8yYy1YYmp6b0hLcjJZeTFzZmNn?oc=5"
   },
   {
-    "id": "eth_news_trade",
-    "country_code": "ETH",
+    "id": "tha_auto_20260424_4",
+    "country_code": "THA",
+    "date": "2026-04-24",
+    "headline": "Singapore Joins Malaysia, Indonesia, Philippines, South Korea, Thailand, United States, and More Tourism Titans in Fueling Japan\u2019s Explosive Economic Growth - Travel And Tour World",
+    "summary": "Automatically refreshed headline tagged into policy channels and linked indicators for twice-weekly momentum monitoring.",
+    "channels": [
+      "industry",
+      "jobs"
+    ],
+    "linked_indicator_ids": [
+      "quality_jobs_index",
+      "export_readiness"
+    ],
+    "direction": "positive",
+    "impact_score": 6.9,
+    "source_label": "Travel And Tour World",
+    "source_url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPbzhHYnNUekdPbUJqTXdGMnd0ZFIyZ0ZZYUJDS3duQ1VKNU5tT2o5YW5PN1dfWU1XdHNySGRWQlVvTjBqMUIxZEw1RzBXaW8xNkM4SU9LaHozVV9DY3NYN0FGZkQ4bUhZbUVJZk8tSEE5ODBGeVZ5b0taaHdXb2oyRFRlWU5GeUU5ZDFsQmFsREdqWXNHRjA0UVY0cXdBRDVKUkJQVlRqYy1RRnZ5bjVXTnM5OXcxSkpJcUJ6RExKem9kVVoxNUszS3VodS1pMzc1UkVFMWFFUnR6RU5xSklROTZlZm5ReTVIQWF0dmJqTlc1Wm1WSk9ILThzUFZmZUkzdk9UeVl6WVZaV1VpRTNqMmQyWGprX1VlazV6Q2stUTQ2QXA5?oc=5"
+  },
+  {
+    "id": "lka_news_trade",
+    "country_code": "LKA",
     "date": "2026-04-01",
-    "headline": "Ethiopia trade and competitiveness signal",
-    "summary": "Ethiopia's export and competitiveness environment is showing pressure on transition readiness, with implications for jobs, foreign exchange, and fiscal space.",
+    "headline": "Sri Lanka trade and competitiveness signal",
+    "summary": "Sri Lanka's export and competitiveness environment is showing strengthening transition readiness, with implications for jobs, foreign exchange, and fiscal space.",
     "channels": [
       "industry",
       "trade",
@@ -488,143 +429,17 @@
       "export_readiness",
       "readiness_index",
       "quality_jobs_index"
-    ],
-    "direction": "warning",
-    "impact_score": 6.8,
-    "source_label": "Curated weekly signal baseline",
-    "source_url": "https://www.worldbank.org/"
-  },
-  {
-    "id": "eth_news_gender",
-    "country_code": "ETH",
-    "date": "2026-04-01",
-    "headline": "Ethiopia women and inclusion signal",
-    "summary": "Current labor and inclusion conditions suggest improving translation from growth into women's economic participation and broader left-behind outcomes.",
-    "channels": [
-      "gender",
-      "jobs",
-      "inclusion"
-    ],
-    "linked_indicator_ids": [
-      "female_lfp",
-      "quality_jobs_index",
-      "inclusion_readiness"
     ],
     "direction": "steady",
-    "impact_score": 6.9,
-    "source_label": "Curated weekly signal baseline",
-    "source_url": "https://ilostat.ilo.org/"
-  },
-  {
-    "id": "eth_news_resilience",
-    "country_code": "ETH",
-    "date": "2026-04-01",
-    "headline": "Ethiopia resilience and continuity signal",
-    "summary": "Resilience-sensitive infrastructure and delivery systems are still exposing development gains against climate and implementation shocks.",
-    "channels": [
-      "resilience",
-      "infrastructure",
-      "implementation"
-    ],
-    "linked_indicator_ids": [
-      "resilience_readiness",
-      "disaster_risk",
-      "implementation_capacity"
-    ],
-    "direction": "watch",
-    "impact_score": 6.2,
-    "source_label": "Curated weekly signal baseline",
-    "source_url": "https://sdgdiagnostics.data.undp.org/"
-  },
-  {
-    "id": "ken_news_trade",
-    "country_code": "KEN",
-    "date": "2026-04-01",
-    "headline": "Kenya trade and competitiveness signal",
-    "summary": "Kenya's export and competitiveness environment is showing pressure on transition readiness, with implications for jobs, foreign exchange, and fiscal space.",
-    "channels": [
-      "industry",
-      "trade",
-      "exports"
-    ],
-    "linked_indicator_ids": [
-      "export_readiness",
-      "readiness_index",
-      "quality_jobs_index"
-    ],
-    "direction": "warning",
-    "impact_score": 6.8,
+    "impact_score": 7.4,
     "source_label": "Curated weekly signal baseline",
     "source_url": "https://www.worldbank.org/"
   },
   {
-    "id": "ken_news_gender",
-    "country_code": "KEN",
+    "id": "lka_news_gender",
+    "country_code": "LKA",
     "date": "2026-04-01",
-    "headline": "Kenya women and inclusion signal",
-    "summary": "Current labor and inclusion conditions suggest improving translation from growth into women's economic participation and broader left-behind outcomes.",
-    "channels": [
-      "gender",
-      "jobs",
-      "inclusion"
-    ],
-    "linked_indicator_ids": [
-      "female_lfp",
-      "quality_jobs_index",
-      "inclusion_readiness"
-    ],
-    "direction": "steady",
-    "impact_score": 6.9,
-    "source_label": "Curated weekly signal baseline",
-    "source_url": "https://ilostat.ilo.org/"
-  },
-  {
-    "id": "ken_news_resilience",
-    "country_code": "KEN",
-    "date": "2026-04-01",
-    "headline": "Kenya resilience and continuity signal",
-    "summary": "Resilience-sensitive infrastructure and delivery systems are still exposing development gains against climate and implementation shocks.",
-    "channels": [
-      "resilience",
-      "infrastructure",
-      "implementation"
-    ],
-    "linked_indicator_ids": [
-      "resilience_readiness",
-      "disaster_risk",
-      "implementation_capacity"
-    ],
-    "direction": "watch",
-    "impact_score": 6.2,
-    "source_label": "Curated weekly signal baseline",
-    "source_url": "https://sdgdiagnostics.data.undp.org/"
-  },
-  {
-    "id": "mdv_news_trade",
-    "country_code": "MDV",
-    "date": "2026-04-01",
-    "headline": "Maldives trade and competitiveness signal",
-    "summary": "Maldives's export and competitiveness environment is showing pressure on transition readiness, with implications for jobs, foreign exchange, and fiscal space.",
-    "channels": [
-      "industry",
-      "trade",
-      "exports"
-    ],
-    "linked_indicator_ids": [
-      "export_readiness",
-      "readiness_index",
-      "quality_jobs_index"
-    ],
-    "direction": "warning",
-    "impact_score": 6.8,
-    "source_label": "Curated weekly signal baseline",
-    "source_url": "https://www.worldbank.org/"
-  },
-  {
-    "id": "mdv_news_gender",
-    "country_code": "MDV",
-    "date": "2026-04-01",
-    "headline": "Maldives women and inclusion signal",
+    "headline": "Sri Lanka women and inclusion signal",
     "summary": "Current labor and inclusion conditions suggest uneven translation from growth into women's economic participation and broader left-behind outcomes.",
     "channels": [
       "gender",
@@ -642,10 +457,10 @@
     "source_url": "https://ilostat.ilo.org/"
   },
   {
-    "id": "mdv_news_resilience",
-    "country_code": "MDV",
+    "id": "lka_news_resilience",
+    "country_code": "LKA",
     "date": "2026-04-01",
-    "headline": "Maldives resilience and continuity signal",
+    "headline": "Sri Lanka resilience and continuity signal",
     "summary": "Resilience-sensitive infrastructure and delivery systems are still exposing development gains against climate and implementation shocks.",
     "channels": [
       "resilience",
@@ -726,6 +541,132 @@
     "source_url": "https://sdgdiagnostics.data.undp.org/"
   },
   {
+    "id": "mdv_news_trade",
+    "country_code": "MDV",
+    "date": "2026-04-01",
+    "headline": "Maldives trade and competitiveness signal",
+    "summary": "Maldives's export and competitiveness environment is showing pressure on transition readiness, with implications for jobs, foreign exchange, and fiscal space.",
+    "channels": [
+      "industry",
+      "trade",
+      "exports"
+    ],
+    "linked_indicator_ids": [
+      "export_readiness",
+      "readiness_index",
+      "quality_jobs_index"
+    ],
+    "direction": "warning",
+    "impact_score": 6.8,
+    "source_label": "Curated weekly signal baseline",
+    "source_url": "https://www.worldbank.org/"
+  },
+  {
+    "id": "mdv_news_gender",
+    "country_code": "MDV",
+    "date": "2026-04-01",
+    "headline": "Maldives women and inclusion signal",
+    "summary": "Current labor and inclusion conditions suggest uneven translation from growth into women's economic participation and broader left-behind outcomes.",
+    "channels": [
+      "gender",
+      "jobs",
+      "inclusion"
+    ],
+    "linked_indicator_ids": [
+      "female_lfp",
+      "quality_jobs_index",
+      "inclusion_readiness"
+    ],
+    "direction": "warning",
+    "impact_score": 6.5,
+    "source_label": "Curated weekly signal baseline",
+    "source_url": "https://ilostat.ilo.org/"
+  },
+  {
+    "id": "mdv_news_resilience",
+    "country_code": "MDV",
+    "date": "2026-04-01",
+    "headline": "Maldives resilience and continuity signal",
+    "summary": "Resilience-sensitive infrastructure and delivery systems are still exposing development gains against climate and implementation shocks.",
+    "channels": [
+      "resilience",
+      "infrastructure",
+      "implementation"
+    ],
+    "linked_indicator_ids": [
+      "resilience_readiness",
+      "disaster_risk",
+      "implementation_capacity"
+    ],
+    "direction": "watch",
+    "impact_score": 6.2,
+    "source_label": "Curated weekly signal baseline",
+    "source_url": "https://sdgdiagnostics.data.undp.org/"
+  },
+  {
+    "id": "mng_news_trade",
+    "country_code": "MNG",
+    "date": "2026-04-01",
+    "headline": "Mongolia trade and competitiveness signal",
+    "summary": "Mongolia's export and competitiveness environment is showing pressure on transition readiness, with implications for jobs, foreign exchange, and fiscal space.",
+    "channels": [
+      "industry",
+      "trade",
+      "exports"
+    ],
+    "linked_indicator_ids": [
+      "export_readiness",
+      "readiness_index",
+      "quality_jobs_index"
+    ],
+    "direction": "warning",
+    "impact_score": 6.8,
+    "source_label": "Curated weekly signal baseline",
+    "source_url": "https://www.worldbank.org/"
+  },
+  {
+    "id": "mng_news_gender",
+    "country_code": "MNG",
+    "date": "2026-04-01",
+    "headline": "Mongolia women and inclusion signal",
+    "summary": "Current labor and inclusion conditions suggest improving translation from growth into women's economic participation and broader left-behind outcomes.",
+    "channels": [
+      "gender",
+      "jobs",
+      "inclusion"
+    ],
+    "linked_indicator_ids": [
+      "female_lfp",
+      "quality_jobs_index",
+      "inclusion_readiness"
+    ],
+    "direction": "steady",
+    "impact_score": 6.9,
+    "source_label": "Curated weekly signal baseline",
+    "source_url": "https://ilostat.ilo.org/"
+  },
+  {
+    "id": "mng_news_resilience",
+    "country_code": "MNG",
+    "date": "2026-04-01",
+    "headline": "Mongolia resilience and continuity signal",
+    "summary": "Resilience-sensitive infrastructure and delivery systems are still exposing development gains against climate and implementation shocks.",
+    "channels": [
+      "resilience",
+      "infrastructure",
+      "implementation"
+    ],
+    "linked_indicator_ids": [
+      "resilience_readiness",
+      "disaster_risk",
+      "implementation_capacity"
+    ],
+    "direction": "watch",
+    "impact_score": 6.2,
+    "source_label": "Curated weekly signal baseline",
+    "source_url": "https://sdgdiagnostics.data.undp.org/"
+  },
+  {
     "id": "khm_news_trade",
     "country_code": "KHM",
     "date": "2026-04-01",
@@ -772,6 +713,321 @@
     "country_code": "KHM",
     "date": "2026-04-01",
     "headline": "Cambodia resilience and continuity signal",
+    "summary": "Resilience-sensitive infrastructure and delivery systems are still exposing development gains against climate and implementation shocks.",
+    "channels": [
+      "resilience",
+      "infrastructure",
+      "implementation"
+    ],
+    "linked_indicator_ids": [
+      "resilience_readiness",
+      "disaster_risk",
+      "implementation_capacity"
+    ],
+    "direction": "watch",
+    "impact_score": 6.2,
+    "source_label": "Curated weekly signal baseline",
+    "source_url": "https://sdgdiagnostics.data.undp.org/"
+  },
+  {
+    "id": "phl_news_trade",
+    "country_code": "PHL",
+    "date": "2026-04-01",
+    "headline": "Philippines trade and competitiveness signal",
+    "summary": "Philippines's export and competitiveness environment is showing pressure on transition readiness, with implications for jobs, foreign exchange, and fiscal space.",
+    "channels": [
+      "industry",
+      "trade",
+      "exports"
+    ],
+    "linked_indicator_ids": [
+      "export_readiness",
+      "readiness_index",
+      "quality_jobs_index"
+    ],
+    "direction": "warning",
+    "impact_score": 6.8,
+    "source_label": "Curated weekly signal baseline",
+    "source_url": "https://www.worldbank.org/"
+  },
+  {
+    "id": "phl_news_gender",
+    "country_code": "PHL",
+    "date": "2026-04-01",
+    "headline": "Philippines women and inclusion signal",
+    "summary": "Current labor and inclusion conditions suggest improving translation from growth into women's economic participation and broader left-behind outcomes.",
+    "channels": [
+      "gender",
+      "jobs",
+      "inclusion"
+    ],
+    "linked_indicator_ids": [
+      "female_lfp",
+      "quality_jobs_index",
+      "inclusion_readiness"
+    ],
+    "direction": "steady",
+    "impact_score": 6.9,
+    "source_label": "Curated weekly signal baseline",
+    "source_url": "https://ilostat.ilo.org/"
+  },
+  {
+    "id": "phl_news_resilience",
+    "country_code": "PHL",
+    "date": "2026-04-01",
+    "headline": "Philippines resilience and continuity signal",
+    "summary": "Resilience-sensitive infrastructure and delivery systems are still exposing development gains against climate and implementation shocks.",
+    "channels": [
+      "resilience",
+      "infrastructure",
+      "implementation"
+    ],
+    "linked_indicator_ids": [
+      "resilience_readiness",
+      "disaster_risk",
+      "implementation_capacity"
+    ],
+    "direction": "watch",
+    "impact_score": 6.2,
+    "source_label": "Curated weekly signal baseline",
+    "source_url": "https://sdgdiagnostics.data.undp.org/"
+  },
+  {
+    "id": "geo_news_trade",
+    "country_code": "GEO",
+    "date": "2026-04-01",
+    "headline": "Georgia trade and competitiveness signal",
+    "summary": "Georgia's export and competitiveness environment is showing strengthening transition readiness, with implications for jobs, foreign exchange, and fiscal space.",
+    "channels": [
+      "industry",
+      "trade",
+      "exports"
+    ],
+    "linked_indicator_ids": [
+      "export_readiness",
+      "readiness_index",
+      "quality_jobs_index"
+    ],
+    "direction": "steady",
+    "impact_score": 7.4,
+    "source_label": "Curated weekly signal baseline",
+    "source_url": "https://www.worldbank.org/"
+  },
+  {
+    "id": "geo_news_gender",
+    "country_code": "GEO",
+    "date": "2026-04-01",
+    "headline": "Georgia women and inclusion signal",
+    "summary": "Current labor and inclusion conditions suggest improving translation from growth into women's economic participation and broader left-behind outcomes.",
+    "channels": [
+      "gender",
+      "jobs",
+      "inclusion"
+    ],
+    "linked_indicator_ids": [
+      "female_lfp",
+      "quality_jobs_index",
+      "inclusion_readiness"
+    ],
+    "direction": "steady",
+    "impact_score": 6.9,
+    "source_label": "Curated weekly signal baseline",
+    "source_url": "https://ilostat.ilo.org/"
+  },
+  {
+    "id": "geo_news_resilience",
+    "country_code": "GEO",
+    "date": "2026-04-01",
+    "headline": "Georgia resilience and continuity signal",
+    "summary": "Resilience-sensitive infrastructure and delivery systems are helping protect development gains against climate and implementation shocks.",
+    "channels": [
+      "resilience",
+      "infrastructure",
+      "implementation"
+    ],
+    "linked_indicator_ids": [
+      "resilience_readiness",
+      "disaster_risk",
+      "implementation_capacity"
+    ],
+    "direction": "steady",
+    "impact_score": 7.1,
+    "source_label": "Curated weekly signal baseline",
+    "source_url": "https://sdgdiagnostics.data.undp.org/"
+  },
+  {
+    "id": "eth_news_trade",
+    "country_code": "ETH",
+    "date": "2026-04-01",
+    "headline": "Ethiopia trade and competitiveness signal",
+    "summary": "Ethiopia's export and competitiveness environment is showing pressure on transition readiness, with implications for jobs, foreign exchange, and fiscal space.",
+    "channels": [
+      "industry",
+      "trade",
+      "exports"
+    ],
+    "linked_indicator_ids": [
+      "export_readiness",
+      "readiness_index",
+      "quality_jobs_index"
+    ],
+    "direction": "warning",
+    "impact_score": 6.8,
+    "source_label": "Curated weekly signal baseline",
+    "source_url": "https://www.worldbank.org/"
+  },
+  {
+    "id": "eth_news_gender",
+    "country_code": "ETH",
+    "date": "2026-04-01",
+    "headline": "Ethiopia women and inclusion signal",
+    "summary": "Current labor and inclusion conditions suggest improving translation from growth into women's economic participation and broader left-behind outcomes.",
+    "channels": [
+      "gender",
+      "jobs",
+      "inclusion"
+    ],
+    "linked_indicator_ids": [
+      "female_lfp",
+      "quality_jobs_index",
+      "inclusion_readiness"
+    ],
+    "direction": "steady",
+    "impact_score": 6.9,
+    "source_label": "Curated weekly signal baseline",
+    "source_url": "https://ilostat.ilo.org/"
+  },
+  {
+    "id": "eth_news_resilience",
+    "country_code": "ETH",
+    "date": "2026-04-01",
+    "headline": "Ethiopia resilience and continuity signal",
+    "summary": "Resilience-sensitive infrastructure and delivery systems are still exposing development gains against climate and implementation shocks.",
+    "channels": [
+      "resilience",
+      "infrastructure",
+      "implementation"
+    ],
+    "linked_indicator_ids": [
+      "resilience_readiness",
+      "disaster_risk",
+      "implementation_capacity"
+    ],
+    "direction": "watch",
+    "impact_score": 6.2,
+    "source_label": "Curated weekly signal baseline",
+    "source_url": "https://sdgdiagnostics.data.undp.org/"
+  },
+  {
+    "id": "mar_news_trade",
+    "country_code": "MAR",
+    "date": "2026-04-01",
+    "headline": "Morocco trade and competitiveness signal",
+    "summary": "Morocco's export and competitiveness environment is showing strengthening transition readiness, with implications for jobs, foreign exchange, and fiscal space.",
+    "channels": [
+      "industry",
+      "trade",
+      "exports"
+    ],
+    "linked_indicator_ids": [
+      "export_readiness",
+      "readiness_index",
+      "quality_jobs_index"
+    ],
+    "direction": "steady",
+    "impact_score": 7.4,
+    "source_label": "Curated weekly signal baseline",
+    "source_url": "https://www.worldbank.org/"
+  },
+  {
+    "id": "mar_news_gender",
+    "country_code": "MAR",
+    "date": "2026-04-01",
+    "headline": "Morocco women and inclusion signal",
+    "summary": "Current labor and inclusion conditions suggest uneven translation from growth into women's economic participation and broader left-behind outcomes.",
+    "channels": [
+      "gender",
+      "jobs",
+      "inclusion"
+    ],
+    "linked_indicator_ids": [
+      "female_lfp",
+      "quality_jobs_index",
+      "inclusion_readiness"
+    ],
+    "direction": "warning",
+    "impact_score": 6.5,
+    "source_label": "Curated weekly signal baseline",
+    "source_url": "https://ilostat.ilo.org/"
+  },
+  {
+    "id": "mar_news_resilience",
+    "country_code": "MAR",
+    "date": "2026-04-01",
+    "headline": "Morocco resilience and continuity signal",
+    "summary": "Resilience-sensitive infrastructure and delivery systems are helping protect development gains against climate and implementation shocks.",
+    "channels": [
+      "resilience",
+      "infrastructure",
+      "implementation"
+    ],
+    "linked_indicator_ids": [
+      "resilience_readiness",
+      "disaster_risk",
+      "implementation_capacity"
+    ],
+    "direction": "steady",
+    "impact_score": 7.1,
+    "source_label": "Curated weekly signal baseline",
+    "source_url": "https://sdgdiagnostics.data.undp.org/"
+  },
+  {
+    "id": "lao_news_trade",
+    "country_code": "LAO",
+    "date": "2026-04-01",
+    "headline": "Lao PDR trade and competitiveness signal",
+    "summary": "Lao PDR's export and competitiveness environment is showing pressure on transition readiness, with implications for jobs, foreign exchange, and fiscal space.",
+    "channels": [
+      "industry",
+      "trade",
+      "exports"
+    ],
+    "linked_indicator_ids": [
+      "export_readiness",
+      "readiness_index",
+      "quality_jobs_index"
+    ],
+    "direction": "warning",
+    "impact_score": 6.8,
+    "source_label": "Curated weekly signal baseline",
+    "source_url": "https://www.worldbank.org/"
+  },
+  {
+    "id": "lao_news_gender",
+    "country_code": "LAO",
+    "date": "2026-04-01",
+    "headline": "Lao PDR women and inclusion signal",
+    "summary": "Current labor and inclusion conditions suggest improving translation from growth into women's economic participation and broader left-behind outcomes.",
+    "channels": [
+      "gender",
+      "jobs",
+      "inclusion"
+    ],
+    "linked_indicator_ids": [
+      "female_lfp",
+      "quality_jobs_index",
+      "inclusion_readiness"
+    ],
+    "direction": "steady",
+    "impact_score": 6.9,
+    "source_label": "Curated weekly signal baseline",
+    "source_url": "https://ilostat.ilo.org/"
+  },
+  {
+    "id": "lao_news_resilience",
+    "country_code": "LAO",
+    "date": "2026-04-01",
+    "headline": "Lao PDR resilience and continuity signal",
     "summary": "Resilience-sensitive infrastructure and delivery systems are still exposing development gains against climate and implementation shocks.",
     "channels": [
       "resilience",
@@ -852,195 +1108,6 @@
     "source_url": "https://sdgdiagnostics.data.undp.org/"
   },
   {
-    "id": "mar_news_trade",
-    "country_code": "MAR",
-    "date": "2026-04-01",
-    "headline": "Morocco trade and competitiveness signal",
-    "summary": "Morocco's export and competitiveness environment is showing strengthening transition readiness, with implications for jobs, foreign exchange, and fiscal space.",
-    "channels": [
-      "industry",
-      "trade",
-      "exports"
-    ],
-    "linked_indicator_ids": [
-      "export_readiness",
-      "readiness_index",
-      "quality_jobs_index"
-    ],
-    "direction": "steady",
-    "impact_score": 7.4,
-    "source_label": "Curated weekly signal baseline",
-    "source_url": "https://www.worldbank.org/"
-  },
-  {
-    "id": "mar_news_gender",
-    "country_code": "MAR",
-    "date": "2026-04-01",
-    "headline": "Morocco women and inclusion signal",
-    "summary": "Current labor and inclusion conditions suggest uneven translation from growth into women's economic participation and broader left-behind outcomes.",
-    "channels": [
-      "gender",
-      "jobs",
-      "inclusion"
-    ],
-    "linked_indicator_ids": [
-      "female_lfp",
-      "quality_jobs_index",
-      "inclusion_readiness"
-    ],
-    "direction": "warning",
-    "impact_score": 6.5,
-    "source_label": "Curated weekly signal baseline",
-    "source_url": "https://ilostat.ilo.org/"
-  },
-  {
-    "id": "mar_news_resilience",
-    "country_code": "MAR",
-    "date": "2026-04-01",
-    "headline": "Morocco resilience and continuity signal",
-    "summary": "Resilience-sensitive infrastructure and delivery systems are helping protect development gains against climate and implementation shocks.",
-    "channels": [
-      "resilience",
-      "infrastructure",
-      "implementation"
-    ],
-    "linked_indicator_ids": [
-      "resilience_readiness",
-      "disaster_risk",
-      "implementation_capacity"
-    ],
-    "direction": "steady",
-    "impact_score": 7.1,
-    "source_label": "Curated weekly signal baseline",
-    "source_url": "https://sdgdiagnostics.data.undp.org/"
-  },
-  {
-    "id": "geo_news_trade",
-    "country_code": "GEO",
-    "date": "2026-04-01",
-    "headline": "Georgia trade and competitiveness signal",
-    "summary": "Georgia's export and competitiveness environment is showing strengthening transition readiness, with implications for jobs, foreign exchange, and fiscal space.",
-    "channels": [
-      "industry",
-      "trade",
-      "exports"
-    ],
-    "linked_indicator_ids": [
-      "export_readiness",
-      "readiness_index",
-      "quality_jobs_index"
-    ],
-    "direction": "steady",
-    "impact_score": 7.4,
-    "source_label": "Curated weekly signal baseline",
-    "source_url": "https://www.worldbank.org/"
-  },
-  {
-    "id": "geo_news_gender",
-    "country_code": "GEO",
-    "date": "2026-04-01",
-    "headline": "Georgia women and inclusion signal",
-    "summary": "Current labor and inclusion conditions suggest improving translation from growth into women's economic participation and broader left-behind outcomes.",
-    "channels": [
-      "gender",
-      "jobs",
-      "inclusion"
-    ],
-    "linked_indicator_ids": [
-      "female_lfp",
-      "quality_jobs_index",
-      "inclusion_readiness"
-    ],
-    "direction": "steady",
-    "impact_score": 6.9,
-    "source_label": "Curated weekly signal baseline",
-    "source_url": "https://ilostat.ilo.org/"
-  },
-  {
-    "id": "geo_news_resilience",
-    "country_code": "GEO",
-    "date": "2026-04-01",
-    "headline": "Georgia resilience and continuity signal",
-    "summary": "Resilience-sensitive infrastructure and delivery systems are helping protect development gains against climate and implementation shocks.",
-    "channels": [
-      "resilience",
-      "infrastructure",
-      "implementation"
-    ],
-    "linked_indicator_ids": [
-      "resilience_readiness",
-      "disaster_risk",
-      "implementation_capacity"
-    ],
-    "direction": "steady",
-    "impact_score": 7.1,
-    "source_label": "Curated weekly signal baseline",
-    "source_url": "https://sdgdiagnostics.data.undp.org/"
-  },
-  {
-    "id": "mng_news_trade",
-    "country_code": "MNG",
-    "date": "2026-04-01",
-    "headline": "Mongolia trade and competitiveness signal",
-    "summary": "Mongolia's export and competitiveness environment is showing pressure on transition readiness, with implications for jobs, foreign exchange, and fiscal space.",
-    "channels": [
-      "industry",
-      "trade",
-      "exports"
-    ],
-    "linked_indicator_ids": [
-      "export_readiness",
-      "readiness_index",
-      "quality_jobs_index"
-    ],
-    "direction": "warning",
-    "impact_score": 6.8,
-    "source_label": "Curated weekly signal baseline",
-    "source_url": "https://www.worldbank.org/"
-  },
-  {
-    "id": "mng_news_gender",
-    "country_code": "MNG",
-    "date": "2026-04-01",
-    "headline": "Mongolia women and inclusion signal",
-    "summary": "Current labor and inclusion conditions suggest improving translation from growth into women's economic participation and broader left-behind outcomes.",
-    "channels": [
-      "gender",
-      "jobs",
-      "inclusion"
-    ],
-    "linked_indicator_ids": [
-      "female_lfp",
-      "quality_jobs_index",
-      "inclusion_readiness"
-    ],
-    "direction": "steady",
-    "impact_score": 6.9,
-    "source_label": "Curated weekly signal baseline",
-    "source_url": "https://ilostat.ilo.org/"
-  },
-  {
-    "id": "mng_news_resilience",
-    "country_code": "MNG",
-    "date": "2026-04-01",
-    "headline": "Mongolia resilience and continuity signal",
-    "summary": "Resilience-sensitive infrastructure and delivery systems are still exposing development gains against climate and implementation shocks.",
-    "channels": [
-      "resilience",
-      "infrastructure",
-      "implementation"
-    ],
-    "linked_indicator_ids": [
-      "resilience_readiness",
-      "disaster_risk",
-      "implementation_capacity"
-    ],
-    "direction": "watch",
-    "impact_score": 6.2,
-    "source_label": "Curated weekly signal baseline",
-    "source_url": "https://sdgdiagnostics.data.undp.org/"
-  },
-  {
     "id": "btn_news_trade",
     "country_code": "BTN",
     "date": "2026-04-01",
@@ -1104,11 +1171,11 @@
     "source_url": "https://sdgdiagnostics.data.undp.org/"
   },
   {
-    "id": "lao_news_trade",
-    "country_code": "LAO",
+    "id": "ken_news_trade",
+    "country_code": "KEN",
     "date": "2026-04-01",
-    "headline": "Lao PDR trade and competitiveness signal",
-    "summary": "Lao PDR's export and competitiveness environment is showing pressure on transition readiness, with implications for jobs, foreign exchange, and fiscal space.",
+    "headline": "Kenya trade and competitiveness signal",
+    "summary": "Kenya's export and competitiveness environment is showing pressure on transition readiness, with implications for jobs, foreign exchange, and fiscal space.",
     "channels": [
       "industry",
       "trade",
@@ -1125,10 +1192,10 @@
     "source_url": "https://www.worldbank.org/"
   },
   {
-    "id": "lao_news_gender",
-    "country_code": "LAO",
+    "id": "ken_news_gender",
+    "country_code": "KEN",
     "date": "2026-04-01",
-    "headline": "Lao PDR women and inclusion signal",
+    "headline": "Kenya women and inclusion signal",
     "summary": "Current labor and inclusion conditions suggest improving translation from growth into women's economic participation and broader left-behind outcomes.",
     "channels": [
       "gender",
@@ -1146,73 +1213,10 @@
     "source_url": "https://ilostat.ilo.org/"
   },
   {
-    "id": "lao_news_resilience",
-    "country_code": "LAO",
+    "id": "ken_news_resilience",
+    "country_code": "KEN",
     "date": "2026-04-01",
-    "headline": "Lao PDR resilience and continuity signal",
-    "summary": "Resilience-sensitive infrastructure and delivery systems are still exposing development gains against climate and implementation shocks.",
-    "channels": [
-      "resilience",
-      "infrastructure",
-      "implementation"
-    ],
-    "linked_indicator_ids": [
-      "resilience_readiness",
-      "disaster_risk",
-      "implementation_capacity"
-    ],
-    "direction": "watch",
-    "impact_score": 6.2,
-    "source_label": "Curated weekly signal baseline",
-    "source_url": "https://sdgdiagnostics.data.undp.org/"
-  },
-  {
-    "id": "lka_news_trade",
-    "country_code": "LKA",
-    "date": "2026-04-01",
-    "headline": "Sri Lanka trade and competitiveness signal",
-    "summary": "Sri Lanka's export and competitiveness environment is showing strengthening transition readiness, with implications for jobs, foreign exchange, and fiscal space.",
-    "channels": [
-      "industry",
-      "trade",
-      "exports"
-    ],
-    "linked_indicator_ids": [
-      "export_readiness",
-      "readiness_index",
-      "quality_jobs_index"
-    ],
-    "direction": "steady",
-    "impact_score": 7.4,
-    "source_label": "Curated weekly signal baseline",
-    "source_url": "https://www.worldbank.org/"
-  },
-  {
-    "id": "lka_news_gender",
-    "country_code": "LKA",
-    "date": "2026-04-01",
-    "headline": "Sri Lanka women and inclusion signal",
-    "summary": "Current labor and inclusion conditions suggest uneven translation from growth into women's economic participation and broader left-behind outcomes.",
-    "channels": [
-      "gender",
-      "jobs",
-      "inclusion"
-    ],
-    "linked_indicator_ids": [
-      "female_lfp",
-      "quality_jobs_index",
-      "inclusion_readiness"
-    ],
-    "direction": "warning",
-    "impact_score": 6.5,
-    "source_label": "Curated weekly signal baseline",
-    "source_url": "https://ilostat.ilo.org/"
-  },
-  {
-    "id": "lka_news_resilience",
-    "country_code": "LKA",
-    "date": "2026-04-01",
-    "headline": "Sri Lanka resilience and continuity signal",
+    "headline": "Kenya resilience and continuity signal",
     "summary": "Resilience-sensitive infrastructure and delivery systems are still exposing development gains against climate and implementation shocks.",
     "channels": [
       "resilience",
